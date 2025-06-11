@@ -1,15 +1,5 @@
 # card-collection-manager
 
-## DB
-## Migration&Seeds:
-```sh
-npm run migrate:create --name=
-npm run seed:create --name=
-npm run seed:run
-npm run migrate:run
-
-```
-
 ## Desired folder structure
 src/
 ├── app.module.ts           # Root module
@@ -39,16 +29,6 @@ src/
 ├── middleware/             # Middleware functions
 ├── interfaces/             # Interfaces or types
 └── utils/                  # General utility functions
-
-
-
-
-
-
-
-
-
-
 
 =======================================
 |-- README.md
