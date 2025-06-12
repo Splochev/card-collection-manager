@@ -11,6 +11,9 @@ export const typeOrmConfig: DataSourceOptions = {
   username: process.env.DB_USERNAME || 'postgres',
   password: process.env.DB_PASSWORD || 'postgres',
   database: process.env.DB_NAME || 'card-collection-manager',
-  entities: [join(__dirname, '../modules/**/entities/*.entity{.ts,.js}')],
+  entities: [
+    join(__dirname, '../database/entities/*.entity{.ts,.js}'),
+    join(__dirname, '../modules/**/entities/*.entity{.ts,.js}'),
+  ],
   synchronize: process.env.IS_DEVELOPMENT === 'true',
 };
