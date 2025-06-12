@@ -1,3 +1,4 @@
+// src/config/typeorm.config.ts
 import { DataSourceOptions } from 'typeorm';
 import { join } from 'path';
 import * as dotenv from 'dotenv';
@@ -10,6 +11,8 @@ export const typeOrmConfig: DataSourceOptions = {
   username: process.env.DB_USERNAME || 'postgres',
   password: process.env.DB_PASSWORD || 'postgres',
   database: process.env.DB_NAME || 'card-collection-manager',
-  entities: [join(__dirname, '../database/entities/*.entity{.ts,.js}')],
+  entities: [
+    join(__dirname, '../modules/**/entities/*.entity{.ts,.js}'), // 👈 fix path here
+  ],
   synchronize: true,
 };
