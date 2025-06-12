@@ -12,5 +12,5 @@ export class CreateUserDto {
 
   @ApiProperty()
   @IsBoolean()
-  isEmailVerified?: boolean;
+  isVerified?: boolean;
 }

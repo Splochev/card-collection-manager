@@ -13,5 +13,8 @@ export class User {
   password!: string;
 
   @Column({ default: false })
-  isEmailVerified!: boolean;
+  isVerified!: boolean;
+
+  @Column({ nullable: true })
+  firstName!: string;
 }

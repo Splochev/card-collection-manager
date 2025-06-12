@@ -49,7 +49,7 @@ Migrations are used to manage database schema changes.
 
 #### Create a Migration
 ```sh
-npm run migrate:create <migration-name>
+npm run migrate:create --name=<migration-name>
 ```
 
 #### Generate a Migration Connected to Entities
@@ -67,7 +67,7 @@ Seeds are used to populate the database with initial or test data.
 
 #### Create a Seed
 ```sh
-npm run seed:create <seed-name>
+npm run seed:create --name=<seed-name>
 ```
 
 #### Run Seeds
