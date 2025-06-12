@@ -81,6 +81,6 @@ npm run seed:run
 ```
 
 This structure can be generated using the following command:
-```bash
-bash: tree -I 'node_modules|.git'
+```sh
+tree -I 'node_modules|.git|dist'
 ```
