@@ -136,4 +136,4 @@ dist
 .pnp.*
 
 # Ignore extracted data file
-extractedData.txt
+extractedData.md
