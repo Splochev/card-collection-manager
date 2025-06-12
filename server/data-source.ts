@@ -1,10 +1,11 @@
 import 'dotenv/config';
 import { DataSource, DataSourceOptions } from 'typeorm';
 import { typeOrmConfig } from './src/config/typeorm.config';
+import { join } from 'path';
 
 const dsOptions = {
   ...typeOrmConfig,
-  entities: ['src/database/entities/*.entity.ts'],
+  entities: [join(__dirname, '../**/entities/*.entity{.ts,.js}')],
   migrations: ['src/database/migrations/*.ts'],
 } as DataSourceOptions;
 
