@@ -16,28 +16,17 @@ The `card-collection-manager` server is a backend application built using the Ne
 - PostgreSQL database
 
 ### Installation
-1. Clone the repository:
-   ```sh
-   git clone <repository-url>
-   ```
-2. Navigate to the server directory:
+1. Navigate to the server directory:
    ```sh
    cd server
    ```
-3. Install dependencies:
+2. Install dependencies:
    ```sh
    npm install
    ```
 
 ### Configuration
-1. Create a `.env` file in the `server` directory and configure the following environment variables:
-   ```env
-   DATABASE_HOST=<your-database-host>
-   DATABASE_PORT=<your-database-port>
-   DATABASE_USER=<your-database-user>
-   DATABASE_PASSWORD=<your-database-password>
-   DATABASE_NAME=<your-database-name>
-   ```
+1. Create a `.env` file in the `server` directory by copying the `.env.example` file and configure environment variables:
 2. Update the `typeorm.config.ts` file in the `src/config` directory if needed.
 
 ## Running the Server
@@ -59,7 +48,12 @@ Migrations are used to manage database schema changes.
 
 #### Create a Migration
 ```sh
-npm run migrate:create --name=<migration-name>
+npm run migrate:create <migration-name>
+```
+
+#### Generate a Migration Connected to Entities
+```sh
+npm run migrate:generate --name=<migration-name>
 ```
 
 #### Run Migrations
@@ -72,7 +66,7 @@ Seeds are used to populate the database with initial or test data.
 
 #### Create a Seed
 ```sh
-npm run seed:create --name=<seed-name>
+npm run seed:create <seed-name>
 ```
 
 #### Run Seeds
