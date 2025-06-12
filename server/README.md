@@ -7,6 +7,7 @@ The `card-collection-manager` server is a backend application built using the Ne
 - User authentication and management.
 - Database migrations and seeding.
 - Modular architecture for scalability.
+- API documentation using Swagger, accessible at [http://localhost:3000/api](http://localhost:3000/api).
 
 ## Setup
 
