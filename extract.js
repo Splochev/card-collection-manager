@@ -26,6 +26,7 @@ const SUPPORTED_NON_TS_FILES = {
   client: [],
   server: ["tsconfig.json", "package.json"],
 };
+const SKIPS = ["node_modules", "dist", ".git"];
 
 function getAllTsFiles(dir) {
   let results = [];
@@ -34,7 +35,7 @@ function getAllTsFiles(dir) {
     const filePath = path.join(dir, file);
     const stat = fs.statSync(filePath);
     if (stat && stat.isDirectory()) {
-      if (file !== "node_modules" && file !== "dist") {
+      if (!SKIPS.includes(file)) {
         results = results.concat(getAllTsFiles(filePath));
       }
     } else if (
@@ -51,7 +52,7 @@ function logFolderStructure(dir, indent = "") {
   let structure = "";
   const list = fs.readdirSync(dir);
   list.forEach((file, index) => {
-    if (["node_modules", ".git", "dist"].includes(file)) {
+    if (SKIPS.includes(file)) {
       return;
     }
 

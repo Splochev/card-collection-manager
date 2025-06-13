@@ -4,7 +4,6 @@ export class RenameColumnIsEmailVerifiedToIsVerified1749715437974
   implements MigrationInterface
 {
   public async up(queryRunner: QueryRunner): Promise<void> {
-    console.log('3');
     await queryRunner.query(
       `ALTER TABLE "users" RENAME COLUMN "isEmailVerified" TO "isVerified"`,
     );
