@@ -79,3 +79,34 @@ This structure can be generated using the following command:
 ```sh
 tree -I 'node_modules|.git|dist'
 ```
+
+
+### structure goal:
+src/
+├── app.module.ts           # Root module
+├── main.ts                 # Application entry point
+├── common/                 # Shared utilities, guards, interceptors, pipes, filters
+│   ├── filters/
+│   ├── guards/
+│   ├── interceptors/
+│   ├── pipes/
+│   └── decorators/
+├── config/                 # Configuration files and environment setup
+├── modules/                # Feature modules (group by domain)
+│   ├── users/
+│   │   ├── dto/            # Data Transfer Objects
+│   │   ├── entities/       # Database entities / models
+│   │   ├── users.controller.ts
+│   │   ├── users.service.ts
+│   │   └── users.module.ts
+│   ├── auth/
+│   ├── products/
+│   └── ...
+├── database/               # Database connection, migrations, seeds
+│   ├── entities/
+│   ├── migrations/
+│   └── seeds/
+├── shared/                 # Shared domain logic or utilities specific to your business logic
+├── middleware/             # Middleware functions
+├── interfaces/             # Interfaces or types
+└── utils/  

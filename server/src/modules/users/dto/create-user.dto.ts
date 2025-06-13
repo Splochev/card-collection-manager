@@ -4,11 +4,11 @@ import { IsBoolean, IsEmail, IsString } from 'class-validator';
 export class CreateUserDto {
   @ApiProperty()
   @IsEmail()
-  email?: string;
+  email!: string;
 
   @ApiProperty()
   @IsString()
-  password?: string;
+  password!: string;
 
   @ApiProperty()
   @IsBoolean()
