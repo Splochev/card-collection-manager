@@ -1,6 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
-// TODO delete this
 @Entity('users')
 export class User {
   @PrimaryGeneratedColumn()
@@ -16,5 +15,5 @@ export class User {
   isVerified!: boolean;
 
   @Column({ nullable: true })
-  firstName!: string;
+  firstName?: string;
 }

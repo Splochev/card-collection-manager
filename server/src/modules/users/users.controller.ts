@@ -8,10 +8,10 @@ import {
   Body,
 } from '@nestjs/common';
 import { UsersService } from './users.service';
-import { User } from '../../database/entities/user.entity';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { ApiTags } from '@nestjs/swagger';
+import { IUser } from 'src/interfaces/userInterfaces/iuser';
 
 @ApiTags('users')
 @Controller('users')
@@ -19,17 +19,17 @@ export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
   @Get()
-  async findAll(): Promise<User[]> {
+  async findAll(): Promise<IUser[]> {
     return await this.usersService.findAll();
   }
 
   @Get(':id')
-  async findOne(@Param('id') id: number): Promise<User | null> {
+  async findOne(@Param('id') id: number): Promise<IUser | null> {
     return await this.usersService.findOne(id);
   }
 
   @Post()
-  async create(@Body() dto: CreateUserDto): Promise<User> {
+  async create(@Body() dto: CreateUserDto): Promise<IUser> {
     return await this.usersService.create(dto);
   }
 
@@ -37,7 +37,7 @@ export class UsersController {
   async update(
     @Param('id') id: number,
     @Body() dto: UpdateUserDto,
-  ): Promise<User | null> {
+  ): Promise<IUser | null> {
     return await this.usersService.update(id, dto);
   }
 

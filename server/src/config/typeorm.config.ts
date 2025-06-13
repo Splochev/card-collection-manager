@@ -1,4 +1,3 @@
-// src/config/typeorm.config.ts
 import { DataSourceOptions } from 'typeorm';
 import { join } from 'path';
 import * as dotenv from 'dotenv';
