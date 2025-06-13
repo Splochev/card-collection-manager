@@ -16,4 +16,7 @@ export class User {
 
   @Column({ nullable: true })
   firstName?: string;
+
+  @Column({ default: false })
+  isAdmin!: boolean;
 }
