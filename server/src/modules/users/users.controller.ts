@@ -11,19 +11,25 @@ import {
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { ApiTags } from '@nestjs/swagger';
+import { ApiTags, ApiOperation, ApiBearerAuth } from '@nestjs/swagger';
 import { IUser } from 'src/interfaces/user/user.interface';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 import { IsRole } from 'src/decorators/roles.decorator';
 import { RolesGuard } from '../auth/roles.guard';
+import { Public } from 'src/decorators/public.decorator';
 
 @ApiTags('users')
+@ApiBearerAuth('access-token')
 @Controller('users')
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
   @UseGuards(JwtAuthGuard, RolesGuard)
   @IsRole(['admin'])
+  @ApiOperation({
+    summary: 'Get all users',
+    description: 'Retrieve a list of all users. Requires admin role.',
+  })
   @Get()
   async findAll(): Promise<IUser[]> {
     return await this.usersService.findAll();
@@ -31,6 +37,10 @@ export class UsersController {
 
   @UseGuards(JwtAuthGuard, RolesGuard)
   @IsRole(['admin'])
+  @ApiOperation({
+    summary: 'Get a user by ID',
+    description: 'Retrieve a user by their ID. Requires admin role.',
+  })
   @Get(':id')
   async findOne(@Param('id') id: number): Promise<IUser | null> {
     return await this.usersService.findOne(id);
@@ -38,6 +48,10 @@ export class UsersController {
 
   @UseGuards(JwtAuthGuard, RolesGuard)
   @IsRole(['admin'])
+  @ApiOperation({
+    summary: 'Create a new user',
+    description: 'Create a new user. Requires admin role.',
+  })
   @Post()
   async create(@Body() dto: CreateUserDto): Promise<IUser> {
     return await this.usersService.create(dto);
@@ -45,6 +59,10 @@ export class UsersController {
 
   @UseGuards(JwtAuthGuard, RolesGuard)
   @IsRole(['admin'])
+  @ApiOperation({
+    summary: 'Update a user by ID',
+    description: 'Update a user by their ID. Requires admin role.',
+  })
   @Put(':id')
   async update(
     @Param('id') id: number,
@@ -55,6 +73,10 @@ export class UsersController {
 
   @UseGuards(JwtAuthGuard, RolesGuard)
   @IsRole(['admin'])
+  @ApiOperation({
+    summary: 'Delete a user by ID',
+    description: 'Delete a user by their ID. Requires admin role.',
+  })
   @Delete(':id')
   async remove(@Param('id') id: number): Promise<void> {
     return await this.usersService.remove(id);
