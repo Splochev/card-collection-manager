@@ -18,4 +18,9 @@ export class CreateUserDto {
   @IsString()
   @IsOptional()
   firstName?: string;
+
+  @ApiProperty()
+  @IsString()
+  @IsOptional()
+  role?: 'user' | 'admin';
 }

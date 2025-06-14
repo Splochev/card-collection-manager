@@ -86,7 +86,7 @@ function extractAndWriteData() {
   });
 
   fs.writeFileSync(outputFile, outputContent, "utf-8");
-  console.log(`Data extracted and written to ${outputFile}`);
+  console.info(`Data extracted and written to ${outputFile}`);
 }
 
 extractAndWriteData();

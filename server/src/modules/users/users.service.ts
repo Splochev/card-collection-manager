@@ -13,6 +13,7 @@ const COLUMNS_TO_SELECT: (keyof User)[] = [
   'email',
   'isVerified',
   'firstName',
+  'role',
 ];
 
 @Injectable()
@@ -37,7 +38,6 @@ export class UsersService {
   async findByEmail(email: string): Promise<IUser | null> {
     return this.userRepository.findOne({
       where: { email },
-      select: COLUMNS_TO_SELECT,
     });
   }
 

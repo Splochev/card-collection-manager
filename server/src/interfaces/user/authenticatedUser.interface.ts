@@ -3,4 +3,5 @@ export interface IAuthenticatedUser {
   email: string;
   isVerified: boolean;
   firstName?: string;
+  role: 'user' | 'admin';
 }
