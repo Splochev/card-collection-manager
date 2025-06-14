@@ -3,7 +3,7 @@ import { JwtService } from '@nestjs/jwt';
 import { UsersService } from '../users/users.service';
 import * as bcrypt from 'bcrypt';
 import { handleDatabaseError } from 'src/utils/error-handler';
-import { AuthenticatedUser } from 'src/interfaces/userInterfaces/authenticatedUser';
+import { IAuthenticatedUser } from 'src/interfaces/user/authenticatedUser.interface';
 
 @Injectable()
 export class AuthService {
@@ -12,13 +12,13 @@ export class AuthService {
     private readonly jwtService: JwtService,
   ) {}
 
-  async validateUser(email: string, pass: string): Promise<AuthenticatedUser> {
+  async validateUser(email: string, pass: string): Promise<IAuthenticatedUser> {
     try {
       const user = await this.usersService.findByEmail(email);
       if (user && user.password) {
         const isPasswordValid = await bcrypt.compare(pass, user.password);
         const { password, ...userWithoutPassword } = user;
-        if (isPasswordValid) return userWithoutPassword as AuthenticatedUser;
+        if (isPasswordValid) return userWithoutPassword as IAuthenticatedUser;
       }
       throw new UnauthorizedException('Invalid credentials');
     } catch (error) {
@@ -28,14 +28,14 @@ export class AuthService {
     }
   }
 
-  login(user: AuthenticatedUser) {
+  login(user: IAuthenticatedUser) {
     try {
       const payload: { email: string; sub: number } = {
         email: user.email,
         sub: user.id,
       };
 
-      const accessToken: string = this.jwtService.sign(payload) as string;
+      const accessToken: string = this.jwtService.sign(payload);
 
       return { access_token: accessToken };
     } catch (error) {

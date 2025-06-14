@@ -6,7 +6,7 @@ import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { handleDatabaseError } from 'src/utils/error-handler';
 import { hash } from 'bcrypt';
-import { IUser } from 'src/interfaces/userInterfaces/iuser';
+import { IUser } from 'src/interfaces/user/user.interface';
 
 const COLUMNS_TO_SELECT: (keyof User)[] = [
   'id',
@@ -43,7 +43,7 @@ export class UsersService {
 
   async create(dto: CreateUserDto): Promise<IUser> {
     try {
-      dto.password = (await hash(dto.password, 10)) as string;
+      dto.password = await hash(dto.password, 10);
       const user = this.userRepository.create(dto);
       const savedUser = await this.userRepository.save(user);
       return this.userRepository.findOne({
@@ -61,7 +61,7 @@ export class UsersService {
       const user = await this.userRepository.findOneBy({ id });
       if (!user) return null;
 
-      if (dto.password) dto.password = (await hash(dto.password, 10)) as string;
+      if (dto.password) dto.password = await hash(dto.password, 10);
       const updatedUser = { ...user, ...dto };
       await this.userRepository.save(updatedUser);
       return this.userRepository.findOne({
