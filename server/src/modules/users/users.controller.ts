@@ -12,11 +12,10 @@ import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { ApiTags, ApiOperation, ApiBearerAuth } from '@nestjs/swagger';
-import { IUser } from 'src/interfaces/user/user.interface';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 import { IsRole } from 'src/decorators/roles.decorator';
 import { RolesGuard } from '../auth/roles.guard';
-import { Public } from 'src/decorators/public.decorator';
+import { GetUserDto } from './dto/get-user.dto';
 
 @ApiTags('users')
 @ApiBearerAuth('access-token')
@@ -31,7 +30,7 @@ export class UsersController {
     description: 'Retrieve a list of all users. Requires admin role.',
   })
   @Get()
-  async findAll(): Promise<IUser[]> {
+  async findAll(): Promise<GetUserDto[]> {
     return await this.usersService.findAll();
   }
 
@@ -42,7 +41,7 @@ export class UsersController {
     description: 'Retrieve a user by their ID. Requires admin role.',
   })
   @Get(':id')
-  async findOne(@Param('id') id: number): Promise<IUser | null> {
+  async findOne(@Param('id') id: number): Promise<GetUserDto | null> {
     return await this.usersService.findOne(id);
   }
 
@@ -53,7 +52,7 @@ export class UsersController {
     description: 'Create a new user. Requires admin role.',
   })
   @Post()
-  async create(@Body() dto: CreateUserDto): Promise<IUser> {
+  async create(@Body() dto: CreateUserDto): Promise<GetUserDto> {
     return await this.usersService.create(dto);
   }
 
@@ -67,7 +66,7 @@ export class UsersController {
   async update(
     @Param('id') id: number,
     @Body() dto: UpdateUserDto,
-  ): Promise<IUser | null> {
+  ): Promise<GetUserDto | null> {
     return await this.usersService.update(id, dto);
   }
 

@@ -7,15 +7,15 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const reflector = app.get(Reflector);
 
+  app.enableCors({
+    origin: ['http://localhost:3020', 'http://localhost:3000'],
+  });
+
   app.useGlobalPipes(
     new ValidationPipe({ whitelist: true, forbidNonWhitelisted: true }),
   );
 
-  app.useGlobalInterceptors(
-    new ClassSerializerInterceptor(reflector, {
-      excludeExtraneousValues: true,
-    }),
-  );
+  app.useGlobalInterceptors(new ClassSerializerInterceptor(reflector, {}));
 
   const config = new DocumentBuilder()
     .setTitle('Card Collection Manager API')

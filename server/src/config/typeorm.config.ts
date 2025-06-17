@@ -25,4 +25,6 @@ export const typeOrmConfig: DataSourceOptions = {
     join(__dirname, '../modules/**/entities/*.entity{.ts,.js}'),
   ],
   synchronize: process.env.IS_DEVELOPMENT === 'true',
+  // logging: true,
+  // logger: 'advanced-console',
 };

@@ -1,26 +1,4 @@
-import { ApiProperty } from '@nestjs/swagger';
-import { IsBoolean, IsEmail, IsOptional, IsString } from 'class-validator';
+import { UserDto } from './user.dto';
+import { OmitType } from '@nestjs/swagger';
 
-export class CreateUserDto {
-  @ApiProperty()
-  @IsEmail()
-  email!: string;
-
-  @ApiProperty()
-  @IsString()
-  password!: string;
-
-  @ApiProperty()
-  @IsBoolean()
-  isVerified!: boolean;
-
-  @ApiProperty()
-  @IsString()
-  @IsOptional()
-  firstName?: string;
-
-  @ApiProperty()
-  @IsString()
-  @IsOptional()
-  role?: 'user' | 'admin';
-}
+export class CreateUserDto extends OmitType(UserDto, ['id'] as const) {}

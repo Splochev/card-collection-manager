@@ -8,14 +8,6 @@ import { handleDatabaseError } from 'src/utils/error-handler';
 import { hash } from 'bcrypt';
 import { IUser } from 'src/interfaces/user/user.interface';
 
-const COLUMNS_TO_SELECT: (keyof User)[] = [
-  'id',
-  'email',
-  'isVerified',
-  'firstName',
-  'role',
-];
-
 @Injectable()
 export class UsersService {
   constructor(
@@ -24,20 +16,19 @@ export class UsersService {
   ) {}
 
   async findAll(): Promise<IUser[]> {
-    const thisRepository = this.userRepository;
-    return thisRepository.find({ select: COLUMNS_TO_SELECT });
+    return this.userRepository.find();
   }
 
   async findOne(id: number): Promise<IUser | null> {
     return this.userRepository.findOne({
       where: { id },
-      select: COLUMNS_TO_SELECT,
     });
   }
 
   async findByEmail(email: string): Promise<IUser | null> {
     return this.userRepository.findOne({
       where: { email },
+      select: ['id', 'email', 'password'],
     });
   }
 
@@ -48,7 +39,6 @@ export class UsersService {
       const savedUser = await this.userRepository.save(user);
       return this.userRepository.findOne({
         where: { id: savedUser.id },
-        select: COLUMNS_TO_SELECT,
       }) as Promise<IUser>;
     } catch (err: unknown) {
       handleDatabaseError(err);
@@ -66,7 +56,6 @@ export class UsersService {
       await this.userRepository.save(updatedUser);
       return this.userRepository.findOne({
         where: { id },
-        select: COLUMNS_TO_SELECT,
       }) as Promise<IUser>;
     } catch (err) {
       handleDatabaseError(err);
