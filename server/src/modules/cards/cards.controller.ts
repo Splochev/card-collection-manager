@@ -1,5 +1,5 @@
-import { Controller, Get, Post, Body, Param, Query } from '@nestjs/common';
-import { ApiTags, ApiOperation, ApiResponse, ApiParam } from '@nestjs/swagger';
+import { Controller, Post, Body } from '@nestjs/common';
+import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { CardsService } from './cards.service';
 import { Public } from 'src/decorators/public.decorator';
 import { CardQueryDto } from './dto/cardQuery.interface';

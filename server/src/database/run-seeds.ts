@@ -1,15 +1,29 @@
 import { AppDataSource } from '../../data-source';
-import { DefaultUser1749675347730 } from './seeds/1749675347730-default-user';
+import { readdirSync } from 'fs';
+import { join, resolve } from 'path';
 
 async function runSeeds() {
   try {
     await AppDataSource.initialize();
     console.info('Data Source has been initialized!');
 
-    const seed = new DefaultUser1749675347730();
-    await seed.up(AppDataSource.createQueryRunner());
+    const seedsDir = resolve(__dirname, 'seeds');
+    const seedFiles = readdirSync(seedsDir).filter((file) =>
+      file.endsWith('.ts'),
+    );
 
-    console.info('Seed executed successfully!');
+    for (const file of seedFiles) {
+      const filePath = join(seedsDir, file);
+      const module = (await import(filePath)) as Record<string, unknown>;
+      const SeedClass = Object.values(module)[0] as new () => {
+        up: (queryRunner: unknown) => Promise<void>;
+      };
+      const seedInstance = new SeedClass();
+      await seedInstance.up(AppDataSource.createQueryRunner());
+      console.info(`Executed seed: ${file}`);
+    }
+
+    console.info('All seeds executed successfully!');
   } catch (error) {
     console.error('Error during seed execution:', error);
   } finally {

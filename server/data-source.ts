@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import { DataSource, DataSourceOptions } from 'typeorm';
-import { typeOrmConfig } from './src/config/typeorm.config';
+import { typeOrmConfig } from './src/database/typeorm.config';
 import { join } from 'path';
 
 const dsOptions = {

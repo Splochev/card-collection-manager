@@ -17,10 +17,6 @@ interface DatabaseError {
   routine?: string;
 }
 
-/**
- * Handles database errors and throws appropriate exceptions.
- * @param err - The error object to handle.
- */
 export function handleDatabaseError(err: unknown): void {
   if (err instanceof Error && 'code' in err && 'detail' in err) {
     const dbErr = err as DatabaseError;
