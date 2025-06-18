@@ -1,25 +1,29 @@
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, Index } from 'typeorm';
 
 @Entity('cards')
 export class Card {
   @PrimaryGeneratedColumn()
   id!: number;
 
+  @Column({ unique: true })
+  @Index()
+  cardId!: string;
+
   @Column()
   name!: string;
 
   @Column()
-  cardType!: string;
+  type!: string;
+
+  @Column('text')
+  description!: string;
 
   @Column()
-  effect!: string;
+  imageUrl!: string;
 
   @Column()
-  artwork!: string;
+  cardSet!: string;
 
-  @Column({ unique: true })
-  cardSetCode!: string;
-
-  @Column('jsonb', { nullable: true })
-  metadata?: any;
+  @Column('simple-array', { nullable: true })
+  typeline?: string[];
 }

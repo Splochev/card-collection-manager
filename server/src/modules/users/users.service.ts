@@ -40,7 +40,7 @@ export class UsersService {
       return this.userRepository.findOne({
         where: { id: savedUser.id },
       }) as Promise<IUser>;
-    } catch (err: unknown) {
+    } catch (err) {
       handleDatabaseError(err);
       throw err;
     }

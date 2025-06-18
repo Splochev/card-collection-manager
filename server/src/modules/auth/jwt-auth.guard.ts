@@ -28,7 +28,7 @@ export class JwtAuthGuard extends AuthGuard('jwt') {
   handleRequest<TUser = JwtPayload | null>(
     err: Error | null,
     user: TUser,
-    info: string | undefined,
+    info: string,
     context: ExecutionContext,
     status?: string | number,
   ): TUser {

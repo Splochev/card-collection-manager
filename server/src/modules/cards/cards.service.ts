@@ -2,10 +2,15 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Card } from '../../database/entities/card.entity';
-import { CreateCardDto } from './dto/create-card.dto';
 import { HttpException } from '@nestjs/common';
 import { AxiosResponse } from 'axios';
 import { HttpService } from '@nestjs/axios';
+import {
+  CardApiResponse,
+  ICard,
+} from 'src/interfaces/cards/CardApiResponse.interface';
+import { CardQueryDto } from 'src/modules/cards/dto/cardQuery.interface';
+import { CardDto } from './dto/card.dto';
 
 @Injectable()
 export class CardsService {
@@ -15,52 +20,54 @@ export class CardsService {
     private readonly httpService: HttpService,
   ) {}
 
-  async createCard(createCardDto: CreateCardDto): Promise<Card> {
-    const card = this.cardRepository.create(createCardDto);
-    return this.cardRepository.save(card);
-  }
-
-  async getCardByCode(cardSetCode: string): Promise<CreateCardDto> {
+  async getCardById(cardQuery: CardQueryDto): Promise<CardDto> {
     try {
       const response: AxiosResponse<CardApiResponse> =
         await this.httpService.axiosRef.get(
-          `https://yugicrawler.vercel.app/card/${cardSetCode}`,
+          `https://db.ygoprodeck.com/api/v7/cardinfo.php?id=${cardQuery.id}`,
         );
 
-      const { name, cardType, effect, artwork, ...metadata } = response.data;
-      const card = {
-        name,
-        cardType,
-        effect,
-        artwork,
-        cardSetCode,
-        metadata,
-      } as CreateCardDto;
-
-      return card;
+      return this.formatCardData(response.data.data[0], cardQuery);
     } catch (error) {
-      throw new HttpException(
-        `Card with set code "${cardSetCode}" not found`,
-        404,
-      );
+      console.error(error);
+      throw new HttpException(`Card with ID "${cardQuery.id}" not found`, 404);
     }
   }
 
-  async getCardsByCodes(
-    cardSetCodes: string[],
-  ): Promise<Array<CreateCardDto | undefined>> {
-    const failedCodes: { code: string; error: string; index: number }[] = [];
-    const requests = cardSetCodes.map((code, index) =>
-      this.getCardByCode(code).catch((error) => {
+  async getCardsByIds(
+    cardQueries: CardQueryDto[],
+  ): Promise<Array<CardDto | null>> {
+    const failedIds: { id: string; error: string; index: number }[] = [];
+    const requests = cardQueries.map((cardQuery, index) =>
+      this.getCardById(cardQuery).catch((error) => {
         if (error instanceof Error) {
           console.error(error);
-          failedCodes.push({ code, error: error.message, index });
+          failedIds.push({ id: cardQuery.id, error: error.message, index });
         }
       }),
     );
 
     const cards = await Promise.all(requests);
-    // cards = cards.filter((card): card is CreateCardDto => card !== undefined);
-    return cards as CreateCardDto[];
+    return cards as CardDto[];
+  }
+
+  formatCardData(card: ICard, cardQuery: CardQueryDto): CardDto {
+    const {
+      id,
+      humanReadableCardType,
+      archetype,
+      frameType,
+      ygoprodeck_url,
+      card_sets,
+      card_prices,
+      card_images,
+      banlist_info,
+      ...cardData
+    } = card;
+
+    cardData.cardSet = cardQuery.cardSet;
+    cardData.cardId = id.toString();
+    cardData.imageUrl = card_images?.[0]?.image_url || null;
+    return cardData as CardDto;
   }
 }
