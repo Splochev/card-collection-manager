@@ -45,4 +45,22 @@ export class CardsService {
       );
     }
   }
+
+  async getCardsByCodes(
+    cardSetCodes: string[],
+  ): Promise<Array<CreateCardDto | undefined>> {
+    const failedCodes: { code: string; error: string; index: number }[] = [];
+    const requests = cardSetCodes.map((code, index) =>
+      this.getCardByCode(code).catch((error) => {
+        if (error instanceof Error) {
+          console.error(error);
+          failedCodes.push({ code, error: error.message, index });
+        }
+      }),
+    );
+
+    const cards = await Promise.all(requests);
+    // cards = cards.filter((card): card is CreateCardDto => card !== undefined);
+    return cards as CreateCardDto[];
+  }
 }
