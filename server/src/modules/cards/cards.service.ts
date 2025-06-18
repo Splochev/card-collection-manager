@@ -12,6 +12,8 @@ import {
 import { CardQueryDto } from 'src/modules/cards/dto/cardQuery.interface';
 import { CardDto } from './dto/card.dto';
 
+const CHUNK_SIZE = 20;
+
 @Injectable()
 export class CardsService {
   constructor(
@@ -38,17 +40,46 @@ export class CardsService {
     cardQueries: CardQueryDto[],
   ): Promise<Array<CardDto | null>> {
     const failedIds: { id: string; error: string; index: number }[] = [];
-    const requests = cardQueries.map((cardQuery, index) =>
-      this.getCardById(cardQuery).catch((error) => {
-        if (error instanceof Error) {
-          console.error(error);
-          failedIds.push({ id: cardQuery.id, error: error.message, index });
-        }
-      }),
-    );
+    const results = new Array(cardQueries.length).fill(
+      null,
+    ) as (CardDto | null)[];
 
-    const cards = await Promise.all(requests);
-    return cards as CardDto[];
+    for (let start = 0; start < cardQueries.length; start += CHUNK_SIZE) {
+      const end = Math.min(start + CHUNK_SIZE, cardQueries.length);
+      const chunk = cardQueries.slice(start, end);
+
+      const chunkRequests = chunk.map((cardQuery, idx) =>
+        this.getCardById(cardQuery)
+          .then((card) => {
+            results[start + idx] = card;
+          })
+          .catch((error) => {
+            if (error instanceof Error) {
+              console.error(error);
+              failedIds.push({
+                id: cardQuery.id,
+                error: error.message,
+                index: start + idx,
+              });
+            } else {
+              console.error('Unknown error:', error);
+              failedIds.push({
+                id: cardQuery.id,
+                error: String(error),
+                index: start + idx,
+              });
+            }
+          }),
+      );
+
+      await Promise.all(chunkRequests);
+    }
+
+    if (failedIds.length) {
+      console.warn('Some card fetches failed:', failedIds);
+    }
+
+    return results;
   }
 
   formatCardData(card: ICard, cardQuery: CardQueryDto): CardDto {
