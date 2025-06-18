@@ -2,32 +2,35 @@ import { ApiProperty } from '@nestjs/swagger';
 import { IsString, IsOptional, IsNumber } from 'class-validator';
 
 export class CardDto {
-  @ApiProperty()
+  @ApiProperty({ description: 'Unique identifier for the card' })
   @IsNumber()
   id!: number;
 
-  @ApiProperty()
+  @ApiProperty({ description: 'Name of the card' })
   @IsString()
   name!: string;
 
-  @ApiProperty()
+  @ApiProperty({ description: 'Type of the card' })
   @IsString()
   cardType!: string;
 
-  @ApiProperty()
+  @ApiProperty({ description: 'Effect of the card' })
   @IsString()
   effect!: string;
 
-  @ApiProperty()
+  @ApiProperty({ description: 'Artwork URL of the card', required: false })
   @IsString()
   @IsOptional()
   artwork?: string;
 
-  @ApiProperty()
+  @ApiProperty({ description: 'Code of the card set' })
   @IsString()
   cardSetCode!: string;
 
-  @ApiProperty()
+  @ApiProperty({
+    description: 'Additional metadata for the card',
+    required: false,
+  })
   @IsOptional()
   metadata?: any;
 }
