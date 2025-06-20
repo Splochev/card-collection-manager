@@ -23,7 +23,22 @@ if (!folderArg) {
 const targetFolder = path.join(__dirname, folderArg);
 const outputFile = path.join(__dirname, "extractedData.md");
 const SUPPORTED_NON_TS_FILES = {
-  client: [],
+  client: [
+    ".vscode",
+    "src",
+    ".editorconfig",
+    ".prettierrc.json",
+    "env.d.ts",
+    "eslint.config.ts",
+    "index.html",
+    "package.json",
+    "tsconfig.app.json",
+    "tsconfig.json",
+    "tsconfig.node.json",
+    "tsconfig.vitest.json",
+    "vite.config.ts",
+    "vitest.config.ts"
+  ],
   server: ["tsconfig.json", "package.json"],
 };
 const SKIPS = ["node_modules", "dist", ".git"];
