@@ -37,7 +37,7 @@ export class AuthService {
 
       const accessToken: string = this.jwtService.sign(payload);
 
-      return { access_token: accessToken };
+      return { access_token: accessToken, ...user };
     } catch (error) {
       console.error('Error during login:', error);
       handleDatabaseError(error);

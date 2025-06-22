@@ -16,10 +16,10 @@ export class DefaultUser1749675347730 implements MigrationInterface {
     const hashedPassword = await bcrypt.hash(defaultUserPassword, 10);
 
     await queryRunner.query(
-      `INSERT INTO "users" ("id", "email", "password", "isVerified", "firstName", "role")
-      VALUES (1, $1, $2, true, 'Stanislav', 'admin')
+      `INSERT INTO "users" ("id", "email", "password", "isVerified", "firstName", "lastName", "role")
+      VALUES (1, $1, $2, true, 'Stanislav', 'Plochev', 'admin')
       ON CONFLICT ("id") DO UPDATE
-      SET "email" = EXCLUDED."email", "password" = EXCLUDED."password", "isVerified" = true, "firstName" = 'Stanislav', "role" = 'admin'`,
+      SET "email" = EXCLUDED."email", "password" = EXCLUDED."password", "isVerified" = true, "firstName" = 'Stanislav', "lastName" = 'Plochev', "role" = 'admin'`,
       [defaultUserEmail, hashedPassword],
     );
   }

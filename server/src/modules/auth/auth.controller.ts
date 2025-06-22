@@ -25,6 +25,12 @@ export class AuthController {
     schema: {
       example: {
         access_token: 'eyJhbGciOiJIUzI1NiIsInR...',
+        id: 1,
+        email: 'test',
+        isVerified: true,
+        firstName: 'test',
+        lastName: 'test',
+        role: 'admin|user',
       },
     },
   })

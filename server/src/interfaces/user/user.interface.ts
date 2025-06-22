@@ -4,5 +4,6 @@ export interface IUser {
   password?: string;
   isVerified: boolean;
   firstName?: string;
+  lastName?: string;
   role: 'user' | 'admin';
 }

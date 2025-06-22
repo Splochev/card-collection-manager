@@ -31,5 +31,10 @@ export class UserDto {
 
   @ApiProperty()
   @IsString()
+  @IsOptional()
+  lastName?: string;
+
+  @ApiProperty()
+  @IsString()
   role!: 'user' | 'admin';
 }

@@ -26,10 +26,15 @@ export class UsersService {
   }
 
   async findByEmail(email: string): Promise<IUser | null> {
-    return this.userRepository.findOne({
+    const user = await this.userRepository.findOne({
       where: { email },
-      select: ['id', 'email', 'password'],
     });
+    const passwordResult = await this.userRepository.findOne({
+      where: { email },
+      select: ['password'],
+    });
+    if (!user || !passwordResult) return null;
+    return { ...user, password: passwordResult.password } as IUser;
   }
 
   async create(dto: CreateUserDto): Promise<IUser> {
