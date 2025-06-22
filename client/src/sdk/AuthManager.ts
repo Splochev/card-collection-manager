@@ -18,14 +18,15 @@ export default class AuthManager {
     const response = await axios.post(`${this.systemUrl}/auth/login`, { email, password })
     const token = response.data.access_token
     this.sdk.setTokens(token)
+    localStorage.setItem('token', token)
     return response.data
   }
 
   /**
-   * Validates a token.
+   * Gets the current authenticated user's details.
    */
-  async validateToken(token: string): Promise<boolean> {
-    const response = await axios.post(`${this.systemUrl}/auth/validate`, { token })
-    return response.data.isValid
+  async getMe(): Promise<IUser> {
+    const response = await axios.get(`${this.systemUrl}/auth/me`)
+    return response.data
   }
 }

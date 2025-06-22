@@ -35,6 +35,7 @@ export default class SDK {
   private token: string | null = null
 
   constructor(public systemUrl: string) {
+    this.initToken()
     this.userManager = new UserManager(systemUrl)
     this.authManager = new AuthManager(systemUrl, this)
     this.cardsManager = new CardsManager(systemUrl)
@@ -47,6 +48,7 @@ export default class SDK {
     if (!SDK.instance) {
       SDK.instance = new SDK(systemUrl)
     }
+    SDK.instance.initToken()
     return SDK.instance
   }
 
@@ -63,5 +65,14 @@ export default class SDK {
    */
   public getToken(): string | null {
     return this.token
+  }
+
+  private initToken(): void {
+    const token = localStorage.getItem('token')
+    if (token) {
+      this.setTokens(token)
+    } else {
+      this.setTokens('')
+    }
   }
 }

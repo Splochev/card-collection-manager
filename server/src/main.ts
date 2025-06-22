@@ -8,7 +8,11 @@ async function bootstrap() {
   const reflector = app.get(Reflector);
 
   app.enableCors({
-    origin: ['http://localhost:3020', 'http://localhost:3000'],
+    origin: [
+      'http://localhost:3020',
+      'http://localhost:3000',
+      'http://localhost:5173',
+    ],
   });
 
   app.useGlobalPipes(
