@@ -82,6 +82,27 @@ export class CardsService {
     return results;
   }
 
+  async getCardsBySet(cardSetName: string): Promise<CardDto[]> {
+    try {
+      const response: AxiosResponse<CardApiResponse> =
+        await this.httpService.axiosRef.get(
+          `https://db.ygoprodeck.com/api/v7/cardinfo.php?cardset=${encodeURIComponent(
+            cardSetName,
+          )}`,
+        );
+
+      return response.data.data.map((card) =>
+        this.formatCardData(card, {
+          cardSet: cardSetName,
+          id: card.id.toString(),
+        }),
+      );
+    } catch (error) {
+      console.error(error);
+      throw new HttpException(`Cards from set "${cardSetName}" not found`, 404);
+    }
+  }
+
   formatCardData(card: ICard, cardQuery: CardQueryDto): CardDto {
     const {
       id,
