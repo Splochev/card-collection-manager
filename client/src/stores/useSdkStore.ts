@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
-import SDK from '../sdk/SDK'
-import { useUserStore } from './useUserStore'
+import SDK from '@/sdk/SDK'
+import { useUserStore } from '@/stores/useUserStore'
 
 export const useSdkStore = defineStore('sdk', {
   state: () => ({

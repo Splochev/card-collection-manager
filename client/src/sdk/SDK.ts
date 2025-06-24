@@ -1,7 +1,7 @@
 import axios from 'axios'
-import UserManager from './UserManager'
-import AuthManager from './AuthManager'
-import CardsManager from './CardsManager'
+import UserManager from '@/sdk/UserManager'
+import AuthManager from '@/sdk/AuthManager'
+import CardsManager from '@/sdk/CardsManager'
 
 /**
  * SDK - Main class to manage authentication, users, and cards.

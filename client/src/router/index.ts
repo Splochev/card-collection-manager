@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { useUserStore } from '@/stores/useUserStore'
-import SignIn from '../views/SignIn.vue'
-import SignUp from '../views/SignUp.vue'
-import Collection from '../views/Collection.vue'
-import CardSets from '../views/CardSets.vue'
-import Users from '../views/Users.vue'
+import SignIn from '@/views/SignIn.vue'
+import SignUp from '@/views/SignUp.vue'
+import Collection from '@/views/Collection.vue'
+import CardSets from '@/views/CardSets.vue'
+import Users from '@/views/Users.vue'
 import type { RouteLocationNormalized, NavigationGuardNext } from 'vue-router'
 
 function requireAdmin(

@@ -1,6 +1,6 @@
 import type { IUser } from '@/interfaces/user.interface'
 import axios from 'axios'
-import SDK from './SDK'
+import SDK from '@/sdk/SDK'
 
 /**
  * AuthManager - A class to handle authentication.

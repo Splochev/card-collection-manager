@@ -1,4 +1,5 @@
 import type { IGetUser } from '@/interfaces/user.interface'
+import { useSdkStore } from '@/stores/useSdkStore'
 import { defineStore } from 'pinia'
 
 export const useUserStore = defineStore('userStore', {
@@ -11,6 +12,13 @@ export const useUserStore = defineStore('userStore', {
     },
     clearUser() {
       this.user = null
+    },
+    logout() {
+      this.clearUser()
+      localStorage.removeItem('token')
+
+      const sdkStore = useSdkStore()
+      sdkStore.setToken('')
     },
   },
   getters: {
