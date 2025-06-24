@@ -7,10 +7,7 @@
         v-model="innerValue"
         :class="inputClass"
         v-bind="$attrs"
-        :style="{
-          'padding-left': leftIcon ? '2rem' : '',
-          'padding-right': rightIcon ? '2rem' : '',
-        }"
+        :style="iconStyles"
       />
       <span
         v-if="leftIcon"
@@ -31,19 +28,28 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, withDefaults } from 'vue'
 import InputText from 'primevue/inputtext'
+import { mapPropsToClasses } from '@/utils/classUtils'
 
-const props = defineProps<{
-  modelValue: string
-  type?: string
-  placeholder?: string
-  size?: 'xs' | 'sm' | 'md' | 'lg'
-  bordered?: boolean
-  leftIcon?: string
-  rightIcon?: string
-  class?: string
-}>()
+const props = withDefaults(
+  defineProps<{
+    modelValue: string
+    type?: string
+    placeholder?: string
+    size?: 'xs' | 'sm' | 'md' | 'lg'
+    bordered?: boolean
+    leftIcon?: string
+    rightIcon?: string
+    class?: string
+  }>(),
+  {
+    type: 'text',
+    placeholder: '',
+    size: 'sm',
+    bordered: true,
+  },
+)
 
 const emit = defineEmits<{
   (e: 'update:modelValue', value: string): void
@@ -55,20 +61,16 @@ const innerValue = computed<string>({
 })
 
 const inputClass = computed(() => {
-  const classes = [
-    'p-inputtext',
-    `p-inputtext-${props.size || 'sm'}`,
-    '!rounded-full',
-    'focus:outline-none',
-    'focus:shadow-none',
-  ]
+  const baseClasses = mapPropsToClasses(props, {
+    size: 'p-inputtext-',
+    bordered: 'input-bordered',
+  })
 
-  if (props.bordered !== false) {
-    classes.push('input-bordered')
-  }
-  if (props.class) {
-    classes.push(props.class)
-  }
-  return classes.join(' ')
+  return [...baseClasses, '!rounded-full', 'focus:outline-none', 'focus:shadow-none'].join(' ')
 })
+
+const iconStyles = computed(() => ({
+  'padding-left': props.leftIcon ? '2rem' : '',
+  'padding-right': props.rightIcon ? '2rem' : '',
+}))
 </script>

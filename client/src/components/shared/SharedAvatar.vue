@@ -1,31 +1,30 @@
 <template>
-  <div class="dropdown dropdown-end">
-    <span id="avatarLabel" class="sr-only">User menu</span>
-    <label tabindex="0" class="btn btn-circle avatar placeholder" aria-label="User menu">
-      <div
-        class="bg-neutral text-neutral-content rounded-full w-10 h-10 flex items-center justify-center"
-      >
-        <span v-if="label" class="text-lg font-semibold leading-none">
-          {{ label }}
-        </span>
-        <i v-else-if="icon" :class="['text-lg', icon]" aria-hidden="true"></i>
-      </div>
-    </label>
-    <ul
-      tabindex="0"
-      class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 mt-1"
-      aria-label="User menu options"
+  <div>
+    <SharedButton
+      ref="menuButton"
+      aria-haspopup="true"
+      aria-controls="user-menu"
+      aria-expanded="true"
+      @click="toggleMenu"
+      variant="icon"
     >
-      <li v-for="link in links" :key="link.label">
-        <SharedButton variant="link" class="justify-start w-full" @click="link.clickMethod">
-          {{ link.label }}
-        </SharedButton>
-      </li>
-    </ul>
+      <Avatar
+        :label="label"
+        :icon="icon"
+        size="large"
+        shape="circle"
+        class="bg-primary text-primary-content"
+        style="width: 2.5rem; height: 2.5rem; font-weight: 600; font-size: 1.125rem"
+      />
+    </SharedButton>
+    <Menu ref="menu" id="user-menu" :model="menuItems" :popup="true" />
   </div>
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
+import Menu from 'primevue/menu'
+import Avatar from 'primevue/avatar'
 import SharedButton from '@/components/shared/SharedButton.vue'
 
 const props = defineProps<{
@@ -33,4 +32,16 @@ const props = defineProps<{
   icon?: string
   links: Array<{ label: string; clickMethod: () => void }>
 }>()
+
+const menu = ref()
+const menuButton = ref()
+
+const toggleMenu = (event: MouseEvent) => {
+  menu.value?.toggle(event)
+}
+
+const menuItems = props.links.map((link) => ({
+  label: link.label,
+  command: link.clickMethod,
+}))
 </script>

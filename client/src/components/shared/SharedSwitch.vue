@@ -1,61 +1,45 @@
 <template>
-  <label class="label">
-    <span v-if="leftLabel" class="label-text mr-2">{{ leftLabel }}</span>
-    <input
-      type="checkbox"
-      class="toggle"
-      :class="sizeClass"
-      :aria-label="leftLabel || rightLabel || 'Toggle switch'"
-      :checked="modelValue"
-      @change="onChange"
-    />
-    <span v-if="rightLabel" class="label-text ml-2">{{ rightLabel }}</span>
+  <label class="flex items-center cursor-pointer select-none">
+    <span v-if="leftLabel" class="label-text mr-2 self-center">{{ leftLabel }}</span>
+    <ToggleSwitch v-model="innerValue" :class="[sizeClass, props.class]" :aria-label="ariaLabel" />
+    <span v-if="rightLabel" class="label-text ml-2 self-center">{{ rightLabel }}</span>
     <slot></slot>
   </label>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, withDefaults } from 'vue'
+import ToggleSwitch from 'primevue/toggleswitch'
 
-const props = defineProps<{
-  modelValue: boolean
-  size?: 'xs' | 'sm' | 'md' | 'lg'
-  leftLabel?: string
-  rightLabel?: string
-  class?: string
-  variant?:
-    | 'primary'
-    | 'secondary'
-    | 'accent'
-    | 'ghost'
-    | 'link'
-    | 'outline'
-    | 'neutral'
-    | 'info'
-    | 'success'
-    | 'warning'
-    | 'error'
-}>()
+const props = withDefaults(
+  defineProps<{
+    modelValue: boolean
+    size?: 'xs' | 'sm' | 'md' | 'lg'
+    leftLabel?: string
+    rightLabel?: string
+    class?: string
+  }>(),
+  {
+    size: 'md',
+  },
+)
 
 const emit = defineEmits(['update:modelValue'])
 
-const sizeClass = computed(() => {
-  switch (props.size) {
-    case 'xs':
-      return 'toggle-xs'
-    case 'sm':
-      return 'toggle-sm'
-    case 'md':
-      return 'toggle-md'
-    case 'lg':
-      return 'toggle-lg'
-    default:
-      return ''
-  }
+const innerValue = computed({
+  get: () => props.modelValue,
+  set: (val: boolean) => emit('update:modelValue', val),
 })
 
-function onChange(event: Event) {
-  const isChecked = (event.target as HTMLInputElement).checked
-  emit('update:modelValue', isChecked)
-}
+const sizeClass = computed(() => {
+  const sizeMapping = {
+    xs: 'scale-75',
+    sm: 'scale-90',
+    md: 'scale-100',
+    lg: 'scale-110',
+  }
+  return sizeMapping[props.size] || ''
+})
+
+const ariaLabel = computed(() => props.leftLabel || props.rightLabel || 'Toggle switch')
 </script>

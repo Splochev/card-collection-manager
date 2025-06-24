@@ -20,6 +20,32 @@ function requireAdmin(
   }
 }
 
+function requireAuth(
+  to: RouteLocationNormalized,
+  from: RouteLocationNormalized,
+  next: NavigationGuardNext,
+) {
+  const store = useUserStore()
+  if (store.isAuthenticated) {
+    next()
+  } else {
+    next('/signin')
+  }
+}
+
+function requireGuest(
+  to: RouteLocationNormalized,
+  from: RouteLocationNormalized,
+  next: NavigationGuardNext,
+) {
+  const store = useUserStore()
+  if (store.isAuthenticated) {
+    next('/collection')
+  } else {
+    next()
+  }
+}
+
 const routes = [
   {
     path: '/',
@@ -31,17 +57,13 @@ const routes = [
   {
     path: '/',
     children: [
-      { path: 'collection', component: Collection },
-      { path: 'card-sets', component: CardSets },
-      {
-        path: 'users',
-        component: Users,
-        beforeEnter: requireAdmin,
-      },
+      { path: 'collection', component: Collection, beforeEnter: requireAuth },
+      { path: 'card-sets', component: CardSets, beforeEnter: requireAuth },
+      { path: 'users', component: Users, beforeEnter: requireAdmin },
     ],
   },
-  { path: '/signin', component: SignIn },
-  { path: '/signup', component: SignUp },
+  { path: '/signin', component: SignIn, beforeEnter: requireGuest },
+  { path: '/signup', component: SignUp, beforeEnter: requireGuest },
 ]
 
 const router = createRouter({

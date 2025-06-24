@@ -21,6 +21,8 @@
 import { computed, useAttrs, useSlots, defineEmits, defineProps, withDefaults } from 'vue'
 import Button from 'primevue/button'
 import { useRouter } from 'vue-router'
+import { navigateToPath } from '@/utils/navigationUtils'
+import { mapPropsToClasses } from '@/utils/classUtils'
 
 const props = withDefaults(
   defineProps<{
@@ -35,7 +37,7 @@ const props = withDefaults(
       | 'danger'
       | 'contrast'
       | 'default'
-    variant?: 'text' | 'outlined' | 'contained' | 'link' | 'default'
+    variant?: 'text' | 'outlined' | 'contained' | 'link' | 'icon' | 'default'
     size?: 'small' | 'normal' | 'large'
     rounded?: boolean
     loading?: boolean
@@ -62,26 +64,21 @@ const slots = useSlots()
 
 const hasDefaultSlot = computed(() => !!slots.default)
 
-const buttonClass = computed(() => {
-  const baseClasses = [
-    props.class,
-    {
-      [`p-button-${props.variant}`]: props.variant && props.variant !== 'default',
-      [`p-button-${props.severity}`]: props.severity && props.severity !== 'default',
-      [`p-button-${props.size}`]: props.size && props.size !== 'normal',
-      'p-button-rounded': props.rounded,
-    },
-  ]
-  if (props.variant === 'link') {
-    baseClasses.push('filter', 'hover:brightness-75')
-  }
-  return baseClasses
-})
+const buttonClass = computed(() =>
+  mapPropsToClasses(props, {
+    variant: 'p-button-',
+    severity: 'p-button-',
+    size: 'p-button-',
+    rounded: 'p-button-rounded',
+    linkVariant: ['filter', 'hover:brightness-75'],
+    iconVariant: ['p-button-icon-only', 'p-button-rounded'],
+  }),
+)
 
 function handleClick(event: MouseEvent) {
   if (props.path) {
     event.preventDefault()
-    navigateTo(props.path)
+    navigateToPath(props.path, router)
     return
   }
 
@@ -91,7 +88,4 @@ function handleClick(event: MouseEvent) {
 }
 
 const router = useRouter()
-function navigateTo(path: string) {
-  router.push(path)
-}
 </script>

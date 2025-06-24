@@ -1,63 +1,84 @@
 <template>
   <div class="flex h-screen">
-    <aside class="w-64 bg-base-300 p-4 hidden md:block">
-      <ul class="menu text-base">
-        <li v-if="userStore.isAuthenticated">
-          <SharedButton variant="link" path="/collection">Collection</SharedButton>
-        </li>
-        <li>
-          <SharedButton variant="link" path="/card-sets">Card Sets</SharedButton>
-        </li>
-        <li v-if="userStore.isAdmin">
-          <SharedButton variant="link" path="/users">Users</SharedButton>
-        </li>
-      </ul>
+    <Sidebar v-model:visible="sidebarVisible" class="md:hidden" />
+    <aside class="hidden md:flex md:flex-col w-64 border-r shadow-sm p-4">
+      <nav class="flex flex-col gap-4">
+        <SharedButton
+          label="Collection"
+          icon="pi pi-book"
+          class="p-button-text justify-start"
+          @click="goTo('/collection')"
+        />
+        <SharedButton
+          label="Card Sets"
+          icon="pi pi-clone"
+          class="p-button-text justify-start"
+          @click="goTo('/card-sets')"
+        />
+        <SharedButton
+          v-if="userStore.isAdmin"
+          label="Users"
+          icon="pi pi-users"
+          class="p-button-text justify-start"
+          @click="goTo('/users')"
+        />
+      </nav>
     </aside>
     <div class="flex-1 flex flex-col">
-      <div class="navbar bg-base-200 px-4 flex justify-between items-center">
+      <header class="flex items-center justify-between border-b p-4 shadow-sm">
         <div class="flex gap-4 items-center">
           <div class="w-fit">
             <SharedInput v-model="searchQuery" placeholder="Search…" leftIcon="fas fa-search" />
           </div>
-          <SharedSwitch v-model="switchState" leftLabel="Collection" rightLabel="Card Sets" />
+          <SharedSwitch v-model="switchState" leftLabel="Card Sets" rightLabel="Collection" />
         </div>
-        <div class="flex-none">
-          <template v-if="!userStore.isAuthenticated">
-            <SharedButton variant="link" path="/signin"> Sign In </SharedButton>
-            <SharedButton variant="link" path="/signup"> Sign Up </SharedButton>
-          </template>
-          <template v-else>
-            <SharedAvatar
-              :label="`${userStore.user?.firstName?.[0] || ''}${userStore.user?.lastName?.[0] || ''}`"
-              icon="fas fa-user"
-              :links="[{ label: 'Logout', clickMethod: logout }]"
-            />
-          </template>
+        <div class="flex items-center">
+          <SharedAvatar
+            :label="`${userStore.user?.firstName?.[0] || ''}${userStore.user?.lastName?.[0] || ''}`"
+            :links="userMenu"
+          />
         </div>
-      </div>
-      <div class="p-4 flex-1 overflow-auto">
-        <slot></slot>
-      </div>
+      </header>
+      <main class="flex-1 overflow-auto p-4">
+        <slot> </slot>
+      </main>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { useRouter } from 'vue-router'
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
 import { useUserStore } from '@/stores/useUserStore'
-import SharedButton from '@/components/shared/SharedButton.vue'
 import SharedInput from '@/components/shared/SharedInput.vue'
-import SharedSwitch from '@/components/shared/SharedSwitch.vue'
 import SharedAvatar from '@/components/shared/SharedAvatar.vue'
+import SharedButton from '@/components/shared/SharedButton.vue'
+import SharedSwitch from '@/components/shared/SharedSwitch.vue'
+import Sidebar from 'primevue/sidebar'
 
 const router = useRouter()
 const userStore = useUserStore()
 const searchQuery = ref('')
-const switchState = ref(false)
+const switchState = ref(true)
+const sidebarVisible = ref(false)
 
-function logout() {
-  userStore.logout()
-  router.push('/signin')
+const menu = ref()
+const userMenu = [
+  {
+    label: 'Logout',
+    icon: 'pi pi-sign-out',
+    clickMethod: () => {
+      userStore.logout()
+      router.push('/signin')
+    },
+  },
+]
+
+function goTo(path: string) {
+  router.push(path)
+}
+
+function toggleMenu(event: Event) {
+  menu.value.toggle(event)
 }
 </script>
