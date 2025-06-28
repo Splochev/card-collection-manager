@@ -1,0 +1,1016 @@
+// https://yugipedia.com/wiki/TCG_Set_Galleries:_Decks
+[
+    {
+        "name": "Starter Deck: Yugi",
+        "abbreviatures": [
+            "SDY",
+            "SDY-E",
+            "SDY-A",
+            "DDY-F",
+            "DDY-C",
+            "SDY-G",
+            "MIY-I",
+            "DIY-P",
+            "BIY-S"
+        ]
+    },
+    {
+        "name": "Starter Deck: Kaiba",
+        "abbreviatures": [
+            "SDK",
+            "SDK-E",
+            "SDK-A",
+            "DDK-F",
+            "DDK-C",
+            "SDK-G",
+            "MIK-I",
+            "DIK-P",
+            "BIK-S"
+        ]
+    },
+    {
+        "name": "Starter Deck: Joey",
+        "abbreviatures": [
+            "SDJ",
+            "DDJ-F",
+            "SDJ-G",
+            "MIJ-I",
+            "DIJ-P",
+            "BIJ-S"
+        ]
+    },
+    {
+        "name": "Starter Deck: Pegasus",
+        "abbreviatures": [
+            "SDP",
+            "DDP-F",
+            "SDP-G",
+            "MIP-I",
+            "DIP-P",
+            "BIP-S"
+        ]
+    },
+    {
+        "name": "Starter Deck: Yugi Evolution",
+        "abbreviatures": [
+            "SYE",
+            "SYE-FR",
+            "SYE-DE",
+            "SYE-IT",
+            "SYE-PT",
+            "SYE-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Kaiba Evolution",
+        "abbreviatures": [
+            "SKE",
+            "SKE-FR",
+            "SKE-DE",
+            "SKE-IT",
+            "SKE-PT",
+            "SKE-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck 2006",
+        "abbreviatures": [
+            "YSD-EN",
+            "YSD-FR",
+            "YSD-DE",
+            "YSD-IT",
+            "YSD-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Jaden Yuki",
+        "abbreviatures": [
+            "YSDJ-EN",
+            "YSDJ-FR",
+            "YSDJ-DE",
+            "YSDJ-IT",
+            "YSDJ-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Syrus Truesdale",
+        "abbreviatures": [
+            "YSDS-EN",
+            "YSDS-FR",
+            "YSDS-DE",
+            "YSDS-IT",
+            "YSDS-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Yu-Gi-Oh! 5D's",
+        "abbreviatures": [
+            "5DS1-EN",
+            "5DS1-FR",
+            "5DS1-DE",
+            "5DS1-IT",
+            "5DS1-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Yu-Gi-Oh! 5D's 2009",
+        "abbreviatures": [
+            "5DS2-EN",
+            "5DS2-FR",
+            "5DS2-DE",
+            "5DS2-IT",
+            "5DS2-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Duelist Toolbox",
+        "abbreviatures": [
+            "5DS3-EN",
+            "5DS3-FR",
+            "5DS3-DE",
+            "5DS3-IT",
+            "5DS3-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Dawn of the Xyz",
+        "abbreviatures": [
+            "YS11-EN",
+            "YS11-FR",
+            "YS11-DE",
+            "YS11-IT",
+            "YS11-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Xyz Symphony",
+        "abbreviatures": [
+            "YS12-EN",
+            "YS12-FR",
+            "YS12-DE",
+            "YS12-IT",
+            "YS12-SP"
+        ]
+    },
+    {
+        "name": "Super Starter: V for Victory",
+        "abbreviatures": [
+            "YS13-EN",
+            "YS13-FR",
+            "YS13-DE",
+            "YS13-IT",
+            "YS13-PT",
+            "YS13-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Yugi Reloaded",
+        "abbreviatures": [
+            "YSYR-EN",
+            "YSYR-FR",
+            "YSYR-DE",
+            "YSYR-IT",
+            "YSYR-PT",
+            "YSYR-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Kaiba Reloaded",
+        "abbreviatures": [
+            "YSKR-EN",
+            "YSKR-FR",
+            "YSKR-DE",
+            "YSKR-IT",
+            "YSKR-PT",
+            "YSKR-SP"
+        ]
+    },
+    {
+        "name": "Super Starter: Space-Time Showdown",
+        "abbreviatures": [
+            "YS14-EN",
+            "YS14-FR",
+            "YS14-DE",
+            "YS14-IT",
+            "YS14-PT",
+            "YS14-SP"
+        ]
+    },
+    {
+        "name": "2-Player Starter Deck: Yuya & Declan",
+        "abbreviatures": [
+            "YS15-EN",
+            "YS15-FR",
+            "YS15-DE",
+            "YS15-IT",
+            "YS15-PT",
+            "YS15-SP"
+        ]
+    },
+    {
+        "name": "Saber Force Starter Deck",
+        "abbreviatures": [
+            "YS15-ENF"
+        ]
+    },
+    {
+        "name": "Dark Legion Starter Deck",
+        "abbreviatures": [
+            "YS15-ENL"
+        ]
+    },
+    {
+        "name": "Starter Deck: Yuya",
+        "abbreviatures": [
+            "YS16-EN",
+            "YS16-FR",
+            "YS16-DE",
+            "YS16-IT",
+            "YS16-PT",
+            "YS16-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Link Strike",
+        "abbreviatures": [
+            "YS17-EN",
+            "YS17-FR",
+            "YS17-DE",
+            "YS17-IT",
+            "YS17-PT",
+            "YS17-SP"
+        ]
+    },
+    {
+        "name": "Starter Deck: Codebreaker",
+        "abbreviatures": [
+            "YS18-EN",
+            "YS18-FR",
+            "YS18-DE",
+            "YS18-IT",
+            "YS18-PT",
+            "YS18-SP"
+        ]
+    },
+    {
+        "name": "Speed Duel Starter Decks: Destiny Masters",
+        "abbreviatures": [
+            "SS01-EN",
+            "SS01-FR",
+            "SS01-DE",
+            "SS01-IT",
+            "SS01-PT",
+            "SS01-SP"
+        ]
+    },
+    {
+        "name": "Speed Duel Starter Decks: Duelists of Tomorrow",
+        "abbreviatures": [
+            "SS02-EN",
+            "SS02-FR",
+            "SS02-DE",
+            "SS02-IT",
+            "SS02-PT",
+            "SS02-SP"
+        ]
+    },
+    {
+        "name": "Speed Duel Starter Decks: Ultimate Predators",
+        "abbreviatures": [
+            "SS03-EN",
+            "SS03-FR",
+            "SS03-DE",
+            "SS03-IT",
+            "SS03-PT",
+            "SS03-SP"
+        ]
+    },
+    {
+        "name": "Speed Duel Starter Decks: Match of the Millennium",
+        "abbreviatures": [
+            "SS04-EN",
+            "SS04-FR",
+            "SS04-DE",
+            "SS04-IT",
+            "SS04-PT",
+            "SS04-SP"
+        ]
+    },
+    {
+        "name": "Speed Duel Starter Decks: Twisted Nightmares",
+        "abbreviatures": [
+            "SS05-EN",
+            "SS05-FR",
+            "SS05-DE",
+            "SS05-IT",
+            "SS05-PT",
+            "SS05-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Dragon's Roar",
+        "abbreviatures": [
+            "SD1-EN",
+            "SD1-FR",
+            "SD1-DE",
+            "SD1-IT",
+            "SD1-PT",
+            "SD1-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Zombie Madness",
+        "abbreviatures": [
+            "SD2-EN",
+            "SD2-FR",
+            "SD2-DE",
+            "SD2-IT",
+            "SD2-PT",
+            "SD2-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Blaze of Destruction",
+        "abbreviatures": [
+            "SD3-EN",
+            "SD3-FR",
+            "SD3-DE",
+            "SD3-IT",
+            "SD3-PT",
+            "SD3-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Fury from the Deep",
+        "abbreviatures": [
+            "SD4-EN",
+            "SD4-FR",
+            "SD4-DE",
+            "SD4-IT",
+            "SD4-PT",
+            "SD4-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Warrior's Triumph",
+        "abbreviatures": [
+            "SD5-EN",
+            "SD5-FR",
+            "SD5-DE",
+            "SD5-IT",
+            "SD5-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Spellcaster's Judgment",
+        "abbreviatures": [
+            "SD6-EN",
+            "SD6-FR",
+            "SD6-DE",
+            "SD6-IT"
+        ]
+    },
+    {
+        "name": "Structure Deck: Invincible Fortress",
+        "abbreviatures": [
+            "SD7-EN",
+            "SD7-FR",
+            "SD7-DE",
+            "SD7-IT",
+            "SD7-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Lord of the Storm",
+        "abbreviatures": [
+            "SD8-EN",
+            "SD8-FR",
+            "SD8-DE",
+            "SD8-IT",
+            "SD8-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Dinosaur's Rage",
+        "abbreviatures": [
+            "SD09-EN",
+            "SD09-FR",
+            "SD09-DE",
+            "SD09-IT",
+            "SD09-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Machine Re-Volt",
+        "abbreviatures": [
+            "SD10-EN",
+            "SD10-FR",
+            "SD10-DE",
+            "SD10-IT",
+            "SD10-SP"
+        ]
+    },
+    {
+        "name": "Rise of the Dragon Lords Structure Deck",
+        "abbreviatures": [
+            "SDRL-EN",
+            "SDRL-FR",
+            "SDRL-DE",
+            "SDRL-IT",
+            "SDRL-SP"
+        ]
+    },
+    {
+        "name": "The Dark Emperor Structure Deck",
+        "abbreviatures": [
+            "SDDE-EN",
+            "SDDE-FR",
+            "SDDE-DE",
+            "SDDE-IT",
+            "SDDE-SP"
+        ]
+    },
+    {
+        "name": "Zombie World Structure Deck",
+        "abbreviatures": [
+            "SDZW-EN",
+            "SDZW-FR",
+            "SDZW-DE",
+            "SDZW-IT",
+            "SDZW-SP"
+        ]
+    },
+    {
+        "name": "Spellcaster's Command Structure Deck",
+        "abbreviatures": [
+            "SDSC-EN",
+            "SDSC-FR",
+            "SDSC-DE",
+            "SDSC-IT",
+            "SDSC-SP"
+        ]
+    },
+    {
+        "name": "Warriors' Strike Structure Deck",
+        "abbreviatures": [
+            "SDWS-EN",
+            "SDWS-FR",
+            "SDWS-DE",
+            "SDWS-IT",
+            "SDWS-SP"
+        ]
+    },
+    {
+        "name": "Machina Mayhem Structure Deck",
+        "abbreviatures": [
+            "SDMM-EN",
+            "SDMM-FR",
+            "SDMM-DE",
+            "SDMM-IT",
+            "SDMM-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Marik",
+        "abbreviatures": [
+            "SDMA-EN",
+            "SDMA-FR",
+            "SDMA-DE",
+            "SDMA-IT",
+            "SDMA-SP"
+        ]
+    },
+    {
+        "name": "Dragunity Legion Structure Deck",
+        "abbreviatures": [
+            "SDDL-EN",
+            "SDDL-FR",
+            "SDDL-DE",
+            "SDDL-IT",
+            "SDDL-SP"
+        ]
+    },
+    {
+        "name": "Lost Sanctuary Structure Deck",
+        "abbreviatures": [
+            "SDLS-EN",
+            "SDLS-FR",
+            "SDLS-DE",
+            "SDLS-IT",
+            "SDLS-SP"
+        ]
+    },
+    {
+        "name": "Gates of the Underworld Structure Deck",
+        "abbreviatures": [
+            "SDGU-EN",
+            "SDGU-FR",
+            "SDGU-DE",
+            "SDGU-IT",
+            "SDGU-SP"
+        ]
+    },
+    {
+        "name": "Dragons Collide Structure Deck",
+        "abbreviatures": [
+            "SDDC-EN",
+            "SDDC-FR",
+            "SDDC-DE",
+            "SDDC-IT",
+            "SDDC-SP"
+        ]
+    },
+    {
+        "name": "Samurai Warlords Structure Deck",
+        "abbreviatures": [
+            "SDWA-EN",
+            "SDWA-FR",
+            "SDWA-DE",
+            "SDWA-IT",
+            "SDWA-SP"
+        ]
+    },
+    {
+        "name": "Realm of the Sea Emperor Structure Deck",
+        "abbreviatures": [
+            "SDRE-EN",
+            "SDRE-FR",
+            "SDRE-DE",
+            "SDRE-IT",
+            "SDRE-SP"
+        ]
+    },
+    {
+        "name": "Onslaught of the Fire Kings Structure Deck",
+        "abbreviatures": [
+            "SDOK-EN",
+            "SDOK-FR",
+            "SDOK-DE",
+            "SDOK-IT",
+            "SDOK-PT",
+            "SDOK-SP"
+        ]
+    },
+    {
+        "name": "Saga of Blue-Eyes White Dragon Structure Deck",
+        "abbreviatures": [
+            "SDBE-EN",
+            "SDBE-FR",
+            "SDBE-DE",
+            "SDBE-IT",
+            "SDBE-PT",
+            "SDBE-SP"
+        ]
+    },
+    {
+        "name": "Cyber Dragon Revolution Structure Deck",
+        "abbreviatures": [
+            "SDCR-EN",
+            "SDCR-FR",
+            "SDCR-DE",
+            "SDCR-IT",
+            "SDCR-PT",
+            "SDCR-SP"
+        ]
+    },
+    {
+        "name": "Realm of Light Structure Deck",
+        "abbreviatures": [
+            "SDLI-EN",
+            "SDLI-FR",
+            "SDLI-DE",
+            "SDLI-IT",
+            "SDLI-PT",
+            "SDLI-SP"
+        ]
+    },
+    {
+        "name": "Geargia Rampage Structure Deck",
+        "abbreviatures": [
+            "SDGR-EN",
+            "SDGR-FR",
+            "SDGR-DE",
+            "SDGR-IT",
+            "SDGR-PT",
+            "SDGR-SP"
+        ]
+    },
+    {
+        "name": "HERO Strike Structure Deck",
+        "abbreviatures": [
+            "SDHS-EN",
+            "SDHS-FR",
+            "SDHS-DE",
+            "SDHS-IT",
+            "SDHS-PT",
+            "SDHS-SP"
+        ]
+    },
+    {
+        "name": "Synchron Extreme Structure Deck",
+        "abbreviatures": [
+            "SDSE-EN",
+            "SDSE-FR",
+            "SDSE-DE",
+            "SDSE-IT",
+            "SDSE-PT",
+            "SDSE-SP"
+        ]
+    },
+    {
+        "name": "Master of Pendulum Structure Deck",
+        "abbreviatures": [
+            "SDMP-EN",
+            "SDMP-FR",
+            "SDMP-DE",
+            "SDMP-IT",
+            "SDMP-PT",
+            "SDMP-SP"
+        ]
+    },
+    {
+        "name": "Emperor of Darkness Structure Deck",
+        "abbreviatures": [
+            "SR01-EN",
+            "SR01-FR",
+            "SR01-DE",
+            "SR01-IT",
+            "SR01-PT",
+            "SR01-SP"
+        ]
+    },
+    {
+        "name": "Rise of the True Dragons Structure Deck",
+        "abbreviatures": [
+            "SR02-EN",
+            "SR02-FR",
+            "SR02-DE",
+            "SR02-IT",
+            "SR02-PT",
+            "SR02-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Yugi Muto",
+        "abbreviatures": [
+            "SDMY-EN",
+            "SDMY-FR",
+            "SDMY-DE",
+            "SDMY-IT",
+            "SDMY-PT",
+            "SDMY-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Seto Kaiba",
+        "abbreviatures": [
+            "SDKS-EN",
+            "SDKS-FR",
+            "SDKS-DE",
+            "SDKS-IT",
+            "SDKS-PT",
+            "SDKS-SP"
+        ]
+    },
+    {
+        "name": "Pendulum Domination Structure Deck",
+        "abbreviatures": [
+            "SDPD-EN",
+            "SDPD-FR",
+            "SDPD-DE",
+            "SDPD-IT",
+            "SDPD-PT",
+            "SDPD-SP"
+        ]
+    },
+    {
+        "name": "Machine Reactor Structure Deck",
+        "abbreviatures": [
+            "SR03-EN",
+            "SR03-FR",
+            "SR03-DE",
+            "SR03-IT",
+            "SR03-PT",
+            "SR03-SP"
+        ]
+    },
+    {
+        "name": "Dinosmasher's Fury Structure Deck",
+        "abbreviatures": [
+            "SR04-EN",
+            "SR04-FR",
+            "SR04-DE",
+            "SR04-IT",
+            "SR04-PT",
+            "SR04-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Cyberse Link",
+        "abbreviatures": [
+            "SDCL-EN",
+            "SDCL-FR",
+            "SDCL-DE",
+            "SDCL-IT",
+            "SDCL-PT",
+            "SDCL-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Wave of Light",
+        "abbreviatures": [
+            "SR05-EN",
+            "SR05-FR",
+            "SR05-DE",
+            "SR05-IT",
+            "SR05-PT",
+            "SR05-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Lair of Darkness",
+        "abbreviatures": [
+            "SR06-EN",
+            "SR06-FR",
+            "SR06-DE",
+            "SR06-IT",
+            "SR06-PT",
+            "SR06-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Powercode Link",
+        "abbreviatures": [
+            "SDPL-EN",
+            "SDPL-FR",
+            "SDPL-DE",
+            "SDPL-IT",
+            "SDPL-PT",
+            "SDPL-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Zombie Horde",
+        "abbreviatures": [
+            "SR07-EN",
+            "SR07-FR",
+            "SR07-DE",
+            "SR07-IT",
+            "SR07-PT",
+            "SR07-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Soulburner",
+        "abbreviatures": [
+            "SDSB-EN",
+            "SDSB-FR",
+            "SDSB-DE",
+            "SDSB-IT",
+            "SDSB-PT",
+            "SDSB-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Order of the Spellcasters",
+        "abbreviatures": [
+            "SR08-EN",
+            "SR08-FR",
+            "SR08-DE",
+            "SR08-IT",
+            "SR08-PT",
+            "SR08-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Rokket Revolt",
+        "abbreviatures": [
+            "SDRR-EN",
+            "SDRR-FR",
+            "SDRR-DE",
+            "SDRR-IT",
+            "SDRR-PT",
+            "SDRR-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Shaddoll Showdown",
+        "abbreviatures": [
+            "SDSH-EN",
+            "SDSH-FR",
+            "SDSH-DE",
+            "SDSH-IT",
+            "SDSH-PT",
+            "SDSH-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Mechanized Madness",
+        "abbreviatures": [
+            "SR10-EN",
+            "SR10-FR",
+            "SR10-DE",
+            "SR10-IT",
+            "SR10-PT",
+            "SR10-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Sacred Beasts",
+        "abbreviatures": [
+            "SDSA-EN",
+            "SDSA-FR",
+            "SDSA-DE",
+            "SDSA-IT",
+            "SDSA-PT",
+            "SDSA-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Spirit Charmers",
+        "abbreviatures": [
+            "SDCH-EN",
+            "SDCH-FR",
+            "SDCH-DE",
+            "SDCH-IT",
+            "SDCH-PT",
+            "SDCH-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Freezing Chains",
+        "abbreviatures": [
+            "SDFC-EN",
+            "SDFC-FR",
+            "SDFC-DE",
+            "SDCH-IT",
+            "SDFC-PT",
+            "SDFC-SP"
+        ]
+    },
+    {
+        "name": "Egyptian God Deck: Slifer the Sky Dragon",
+        "abbreviatures": [
+            "EGS1-EN",
+            "EGS1-FR",
+            "EGS1-DE",
+            "EGS1-IT",
+            "EGS1-PT",
+            "EGS1-SP"
+        ]
+    },
+    {
+        "name": "Egyptian God Deck: Obelisk the Tormentor",
+        "abbreviatures": [
+            "EGO1-EN",
+            "EGO1-FR",
+            "EGO1-DE",
+            "EGO1-IT",
+            "EGO1-PT",
+            "EGO1-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Cyber Strike",
+        "abbreviatures": [
+            "SDCS-EN",
+            "SDCS-FR",
+            "SDCS-DE",
+            "SDCS-IT",
+            "SDCS-PT",
+            "SDCS-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Albaz Strike",
+        "abbreviatures": [
+            "SDAZ-EN",
+            "SDAZ-FR",
+            "SDAZ-DE",
+            "SDAZ-IT",
+            "SDAZ-PT",
+            "SDAZ-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Legend of the Crystal Beasts",
+        "abbreviatures": [
+            "SDCB-EN",
+            "SDCB-FR",
+            "SDCB-DE",
+            "SDCB-IT",
+            "SDCB-PT",
+            "SDCB-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Dark World",
+        "abbreviatures": [
+            "SR13-EN",
+            "SR13-FR",
+            "SR13-DE",
+            "SR13-IT",
+            "SR13-PT",
+            "SR13-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Beware of Traptrix",
+        "abbreviatures": [
+            "SDBT-EN",
+            "SDBT-FR",
+            "SDBT-DE",
+            "SDBT-IT",
+            "SDBT-PT",
+            "SDBT-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: The Crimson King",
+        "abbreviatures": [
+            "SDCK-EN",
+            "SDCK-FR",
+            "SDCK-DE",
+            "SDCK-IT",
+            "SDCK-PT",
+            "SDCK-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Fire Kings",
+        "abbreviatures": [
+            "SR14-EN",
+            "SR14-FR",
+            "SR14-DE",
+            "SR14-IT",
+            "SR14-PT",
+            "SR14-SP"
+        ]
+    },
+    {
+        "name": "Structure Deck: Blue-Eyes White Destiny",
+        "abbreviatures": [
+            "SDWD-EN",
+            "SDWD-FR",
+            "SDWD-DE",
+            "SDWD-IT",
+            "SDWD-PT",
+            "SDWD-SP"
+        ]
+    },
+    {
+        "name": "Yugi's Legendary Decks",
+        "abbreviatures": [
+            "YGLD-EN",
+            "YGLD-FR",
+            "YGLD-DE",
+            "YGLD-IT",
+            "YGLD-PT",
+            "YGLD-SP"
+        ]
+    },
+    {
+        "name": "Legendary Decks II",
+        "abbreviatures": [
+            "LDK2-EN",
+            "LDK2-FR",
+            "LDK2-DE",
+            "LDK2-IT",
+            "LDK2-PT",
+            "LDK2-SP"
+        ]
+    },
+    {
+        "name": "Legendary Dragon Decks",
+        "abbreviatures": [
+            "LEDD-EN",
+            "LEDD-FR",
+            "LEDD-DE",
+            "LEDD-IT",
+            "LEDD-PT",
+            "LEDD-SP"
+        ]
+    },
+    {
+        "name": "Legendary Hero Decks",
+        "abbreviatures": [
+            "LEHD-EN",
+            "LEHD-FR",
+            "LEHD-DE",
+            "LEHD-IT",
+            "LEHD-PT",
+            "LEHD-SP"
+        ]
+    },
+    {
+        "name": "Noble Knights of the Round Table Box Set",
+        "abbreviatures": [
+            "NKRT-EN-LE",
+            "NKRT-FR-LE",
+            "NKRT-DE-LE",
+            "NKRT-IT-LE",
+            "NKRT-PT-LE",
+            "NKRT-SP-LE"
+        ]
+    }
+]
