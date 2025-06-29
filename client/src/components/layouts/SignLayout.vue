@@ -25,23 +25,9 @@
         <SharedButton
           variant="outlined"
           class="flex items-center justify-center px-8 py-4"
-          @click="loginWithApple"
-        >
-          <AppleIcon />
-        </SharedButton>
-        <SharedButton
-          variant="outlined"
-          class="flex items-center justify-center px-8 py-4"
           @click="loginWithLinkedIn"
         >
           <LinkedInIcon />
-        </SharedButton>
-        <SharedButton
-          variant="outlined"
-          class="flex items-center justify-center px-8 py-4"
-          @click="loginWithX"
-        >
-          <XIcon />
         </SharedButton>
         <SharedButton
           variant="outlined"
@@ -72,9 +58,7 @@ import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 import SharedButton from '@/components/shared/SharedButton.vue'
 import GoogleIcon from '../icons/GoogleIcon.vue';
-import AppleIcon from '../icons/AppleIcon.vue';
 import LinkedInIcon from '../icons/LinkedInIcon.vue';
-import XIcon from '../icons/XIcon.vue';
 import FacebookIcon from '../icons/FacebookIcon.vue';
 
 const route = useRoute();
@@ -90,19 +74,9 @@ const loginWithGoogle = () => {
   // TODO: Implement Google OAuth
 };
 
-const loginWithApple = () => {
-  console.log('Login with Apple');
-  // TODO: Implement Apple OAuth
-};
-
 const loginWithLinkedIn = () => {
   console.log('Login with LinkedIn');
   // TODO: Implement LinkedIn OAuth
-};
-
-const loginWithX = () => {
-  console.log('Login with X');
-  // TODO: Implement X OAuth
 };
 
 const loginWithFacebook = () => {
