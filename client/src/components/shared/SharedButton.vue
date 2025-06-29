@@ -70,7 +70,7 @@ const buttonClass = computed(() =>
     severity: 'p-button-',
     size: 'p-button-',
     rounded: 'p-button-rounded',
-    linkVariant: ['filter', 'hover:brightness-75'],
+    linkVariant: ['filter', 'hover:brightness-75', '!p-0'],
     iconVariant: ['p-button-icon-only', 'p-button-rounded'],
   }),
 )
