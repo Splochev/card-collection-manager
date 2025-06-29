@@ -59,6 +59,11 @@ const routes = [
     children: [
       { path: 'collection', component: Collection, beforeEnter: requireAuth },
       { path: 'card-sets', component: CardSets, beforeEnter: requireAuth },
+    ],
+  },
+  {
+    path: '/',
+    children: [
       { path: 'users', component: Users, beforeEnter: requireAdmin },
     ],
   },
