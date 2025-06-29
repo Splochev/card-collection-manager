@@ -62,8 +62,13 @@ const routes = [
       { path: 'users', component: Users, beforeEnter: requireAdmin },
     ],
   },
-  { path: '/signin', component: SignIn, beforeEnter: requireGuest },
-  { path: '/signup', component: SignUp, beforeEnter: requireGuest },
+  {
+    path: '/',
+    children: [
+      { path: '/signin', component: SignIn, beforeEnter: requireGuest },
+      { path: '/signup', component: SignUp, beforeEnter: requireGuest },
+    ],
+  },
 ]
 
 const router = createRouter({
