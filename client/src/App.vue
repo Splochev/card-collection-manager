@@ -15,9 +15,7 @@ const userStore = useUserStore()
       </Layout>
     </template>
     <template v-else>
-      <AuthLayout>
-        <RouterView />
-      </AuthLayout>
+      <AuthLayout/>
     </template>
   </div>
 </template>
