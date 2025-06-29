@@ -34,12 +34,15 @@
             <SharedInput
               v-model="searchQuery"
               placeholder="Search…"
-              leftIcon="fas fa-search" />
+              leftIcon="fas fa-search" 
+              label="search"
+            />
           </div>
           <SharedSwitch
             v-model="switchState"
             leftLabel="Card Sets"
-            rightLabel="Collection" />
+            rightLabel="Collection" 
+          />
         </div>
         <div class="flex items-center">
           <SharedAvatar

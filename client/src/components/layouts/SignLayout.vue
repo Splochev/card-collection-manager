@@ -2,17 +2,20 @@
   <div class="w-full h-full flex items-center justify-center">
     <div class="w-full max-w-xl bg-white rounded-xl drop-shadow-2xl p-8 flex flex-col gap-2">
       <div class="text-center flex flex-col gap-2">
-        <h1 class="text-2xl font-semibold">
-            {{ pageTitle }}
-        </h1>
-        <p class="text-md">
+        <Typography
+          variant="h6"
+          tag="h6"
+        >
+          {{ pageTitle }}
+        </Typography>
+        <Typography>
           {{ linkText }}
           <SharedButton
             variant="link"
             :label="linkLabel"
             :path="linkPath"
           />
-        </p>
+        </Typography>
       </div>
       <div class="flex flex-row justify-around items-center gap-4">
         <SharedButton
@@ -50,6 +53,7 @@ import GoogleIcon from '../icons/GoogleIcon.vue';
 import LinkedInIcon from '../icons/LinkedInIcon.vue';
 import FacebookIcon from '../icons/FacebookIcon.vue';
 import Divider from '../shared/Divider.vue';
+import Typography from '../shared/Typography.vue';
 
 const route = useRoute();
 

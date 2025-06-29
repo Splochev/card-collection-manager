@@ -1,7 +1,6 @@
 <script lang="ts">
 import { RouterView } from 'vue-router'
-</script>
-<script setup lang="ts">
+import Typography from '../shared/Typography.vue';
 </script>
 <template>
   <div class="flex h-screen">
@@ -20,7 +19,12 @@ import { RouterView } from 'vue-router'
       </Transition>
     </div>
     <div class="w-1/2 flex items-center justify-center">
-      <div>yu gi oh image</div>
+      <Typography
+        variant="h1"
+        tag="h1"
+      >
+        yu gi oh image
+    </Typography>
     </div>
   </div>
 </template>
