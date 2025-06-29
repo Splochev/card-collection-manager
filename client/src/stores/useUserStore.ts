@@ -1,4 +1,5 @@
 import type { IGetUser } from '@/interfaces/user.interface'
+import router from '@/router'
 import { useSdkStore } from '@/stores/useSdkStore'
 import { defineStore } from 'pinia'
 
@@ -9,12 +10,10 @@ export const useUserStore = defineStore('userStore', {
   actions: {
     setUser(user: IGetUser | null) {
       this.user = user
-    },
-    clearUser() {
-      this.user = null
+      router.push('/')
     },
     logout() {
-      this.clearUser()
+      this.setUser(null)
       localStorage.removeItem('token')
 
       const sdkStore = useSdkStore()
