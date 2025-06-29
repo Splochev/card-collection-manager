@@ -6,7 +6,6 @@ import { useUserStore } from '@/stores/useUserStore'
 
 const userStore = useUserStore()
 </script>
-
 <template>
   <div>
     <template v-if="userStore.isAuthenticated">
@@ -19,5 +18,3 @@ const userStore = useUserStore()
     </template>
   </div>
 </template>
-
-<style scoped></style>
