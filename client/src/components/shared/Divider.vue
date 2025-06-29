@@ -1,6 +1,5 @@
 <template>
   <Divider
-    :id="id"
     :layout="layout"
     :type="type"
     :align="alignment"
@@ -18,7 +17,6 @@
 import Divider from 'primevue/divider';
 
 defineProps<{
-  id?: string;
   layout?: 'horizontal' | 'vertical';
   type?: 'solid' | 'dashed' | 'dotted';
   alignment?: 'left' | 'center' | 'right';

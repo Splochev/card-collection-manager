@@ -1,11 +1,11 @@
 <template>
   <div class="w-full h-full flex items-center justify-center">
-    <div class="w-full max-w-xl scoped-bg-white rounded-xl drop-shadow-2xl p-8 flex flex-col gap-2">
+    <div class="w-full max-w-xl bg-white rounded-xl drop-shadow-2xl p-8 flex flex-col gap-2">
       <div class="text-center flex flex-col gap-2">
-        <h1 class="text-2xl font-semibold scoped-text-900">
+        <h1 class="text-2xl font-semibold">
             {{ pageTitle }}
         </h1>
-        <p class="text-md scoped-text-900">
+        <p class="text-md">
           {{ linkText }}
           <SharedButton
             variant="link"
@@ -42,17 +42,6 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-.scoped-text-900 {
-  color: var(--p-text-900);
-}
-
-.scoped-bg-white {
-  background-color: var(--p-primary-0);
-}
-</style>
-
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
