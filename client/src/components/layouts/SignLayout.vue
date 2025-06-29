@@ -37,8 +37,8 @@
           <FacebookIcon />
         </SharedButton>
       </div>
-      <!-- <Divider align="center">OR</Divider> -->
-        <slot />
+      <Divider alignment="center">OR</Divider>
+        <slot></slot>
     </div>
   </div>
 </template>
@@ -60,6 +60,7 @@ import SharedButton from '@/components/shared/SharedButton.vue'
 import GoogleIcon from '../icons/GoogleIcon.vue';
 import LinkedInIcon from '../icons/LinkedInIcon.vue';
 import FacebookIcon from '../icons/FacebookIcon.vue';
+import Divider from '../shared/Divider.vue';
 
 const route = useRoute();
 
