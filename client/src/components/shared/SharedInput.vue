@@ -28,7 +28,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, withDefaults } from 'vue'
+import { computed } from 'vue'
 import InputText from 'primevue/inputtext'
 import { mapPropsToClasses } from '@/utils/classUtils'
 

@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, useAttrs, useSlots, defineEmits, defineProps, withDefaults } from 'vue'
+import { computed, useAttrs, useSlots } from 'vue'
 import Button from 'primevue/button'
 import { useRouter } from 'vue-router'
 import { navigateToPath } from '@/utils/navigationUtils'
