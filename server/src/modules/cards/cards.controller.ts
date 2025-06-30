@@ -4,6 +4,8 @@ import { CardsService } from './cards.service';
 import { Public } from 'src/decorators/public.decorator';
 import { CardQueryDto } from './dto/cardQuery.interface';
 import { CardDto } from './dto/card.dto';
+import { HttpException } from '@nestjs/common';
+
 @ApiTags('cards')
 @Controller('cards')
 export class CardsController {
@@ -34,8 +36,16 @@ export class CardsController {
   @ApiResponse({ status: 404, description: 'Card not found' })
   @Public()
   @Post('single')
-  async getCardByQuery(@Body() cardQuery: CardQueryDto): Promise<CardDto> {
-    return this.cardsService.getCardById(cardQuery);
+  async getCardByQuery(
+    @Body() cardQuery: CardQueryDto,
+  ): Promise<CardDto | undefined> {
+    if (cardQuery.cardSet && cardQuery.id) {
+      return this.cardsService.getCardById(cardQuery);
+    } else if (cardQuery.cardSet && cardQuery.name) {
+      return this.cardsService.getCardByCode(cardQuery.cardSet, cardQuery.name);
+    } else {
+      throw new HttpException('Invalid query parameters', 400);
+    }
   }
 
   @ApiOperation({ summary: 'Get cards by card set name' })

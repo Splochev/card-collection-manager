@@ -2,7 +2,7 @@
 [
     {
         "name": "Legend of Blue Eyes White Dragon",
-        "abbreviatures": [
+        "abbreviations": [
             "LOB",
             "LOB-E",
             "LOB-EN",
@@ -17,7 +17,7 @@
     },
     {
         "name": "Metal Raiders",
-        "abbreviatures": [
+        "abbreviations": [
             "MRD",
             "MRD-E",
             "MRD-EN",
@@ -30,7 +30,7 @@
     },
     {
         "name": "Spell Ruler",
-        "abbreviatures": [
+        "abbreviations": [
             "MRL",
             "MRL-E",
             "SRL",
@@ -43,7 +43,7 @@
     },
     {
         "name": "Pharaoh's Servant",
-        "abbreviatures": [
+        "abbreviations": [
             "PSV",
             "PSV-E",
             "PSV-EN",
@@ -54,7 +54,7 @@
     },
     {
         "name": "Labyrinth of Nightmare",
-        "abbreviatures": [
+        "abbreviations": [
             "LON",
             "LON-E",
             "LON-EN",
@@ -65,26 +65,26 @@
     },
     {
         "name": "Legacy of Darkness",
-        "abbreviatures": [
+        "abbreviations": [
             "LOD",
             "LOD-EN"
         ]
     },
     {
         "name": "Pharaonic Guardian",
-        "abbreviatures": [
+        "abbreviations": [
             "PGD"
         ]
     },
     {
         "name": "Magician's Force",
-        "abbreviatures": [
+        "abbreviations": [
             "MFC"
         ]
     },
     {
         "name": "Dark Crisis",
-        "abbreviatures": [
+        "abbreviations": [
             "DCR",
             "DCR-EN",
             "DCR-FR",
@@ -94,7 +94,7 @@
     },
     {
         "name": "Invasion of Chaos",
-        "abbreviatures": [
+        "abbreviations": [
             "IOC",
             "IOC-EN",
             "IOC-FR",
@@ -105,7 +105,7 @@
     },
     {
         "name": "Ancient Sanctuary",
-        "abbreviatures": [
+        "abbreviations": [
             "AST",
             "AST-FR",
             "AST-DE",
@@ -116,7 +116,7 @@
     },
     {
         "name": "Soul of the Duelist",
-        "abbreviatures": [
+        "abbreviations": [
             "SOD",
             "SOD-EN",
             "SOD-FR",
@@ -128,7 +128,7 @@
     },
     {
         "name": "Rise of Destiny",
-        "abbreviatures": [
+        "abbreviations": [
             "RDS",
             "RDS-EN",
             "RDS-FR",
@@ -140,7 +140,7 @@
     },
     {
         "name": "Flaming Eternity",
-        "abbreviatures": [
+        "abbreviations": [
             "FET",
             "FET-EN",
             "FET-FR",
@@ -152,7 +152,7 @@
     },
     {
         "name": "The Lost Millennium",
-        "abbreviatures": [
+        "abbreviations": [
             "TLM",
             "TLM-EN",
             "TLM-FR",
@@ -164,7 +164,7 @@
     },
     {
         "name": "Cybernetic Revolution",
-        "abbreviatures": [
+        "abbreviations": [
             "CRV",
             "CRV-EN",
             "CRV-FR",
@@ -176,7 +176,7 @@
     },
     {
         "name": "Elemental Energy",
-        "abbreviatures": [
+        "abbreviations": [
             "EEN",
             "EEN-EN",
             "EEN-FR",
@@ -187,7 +187,7 @@
     },
     {
         "name": "Shadow of Infinity",
-        "abbreviatures": [
+        "abbreviations": [
             "SOI",
             "SOI-EN",
             "SOI-FR",
@@ -198,7 +198,7 @@
     },
     {
         "name": "Enemy of Justice",
-        "abbreviatures": [
+        "abbreviations": [
             "EOJ",
             "EOJ-EN",
             "EOJ-FR",
@@ -209,7 +209,7 @@
     },
     {
         "name": "Power of the Duelist",
-        "abbreviatures": [
+        "abbreviations": [
             "POTD",
             "POTD-EN",
             "POTD-FR",
@@ -220,7 +220,7 @@
     },
     {
         "name": "Cyberdark Impact",
-        "abbreviatures": [
+        "abbreviations": [
             "CDIP",
             "CDIP-EN",
             "CDIP-FR",
@@ -231,7 +231,7 @@
     },
     {
         "name": "Strike of Neos",
-        "abbreviatures": [
+        "abbreviations": [
             "STON",
             "STON-EN",
             "STON-FR",
@@ -242,7 +242,7 @@
     },
     {
         "name": "Force of the Breaker",
-        "abbreviatures": [
+        "abbreviations": [
             "FOTB",
             "FOTB-EN",
             "FOTB-FR",
@@ -253,7 +253,7 @@
     },
     {
         "name": "Tactical Evolution",
-        "abbreviatures": [
+        "abbreviations": [
             "TAEV",
             "TAEV-EN",
             "TAEV-FR",
@@ -264,7 +264,7 @@
     },
     {
         "name": "Gladiator's Assault",
-        "abbreviatures": [
+        "abbreviations": [
             "GLAS",
             "GLAS-EN",
             "GLAS-FR",
@@ -275,7 +275,7 @@
     },
     {
         "name": "Phantom Darkness",
-        "abbreviatures": [
+        "abbreviations": [
             "PTDN",
             "PTDN-EN",
             "PTDN-FR",
@@ -286,7 +286,7 @@
     },
     {
         "name": "Light of Destruction",
-        "abbreviatures": [
+        "abbreviations": [
             "LODT",
             "LODT-EN",
             "LODT-FR",
@@ -297,7 +297,7 @@
     },
     {
         "name": "The Duelist Genesis",
-        "abbreviatures": [
+        "abbreviations": [
             "TDGS",
             "TDGS-EN",
             "TDGS-FR",
@@ -308,7 +308,7 @@
     },
     {
         "name": "Crossroads of Chaos",
-        "abbreviatures": [
+        "abbreviations": [
             "CSOC",
             "CSOC-EN",
             "CSOC-FR",
@@ -319,7 +319,7 @@
     },
     {
         "name": "Crimson Crisis",
-        "abbreviatures": [
+        "abbreviations": [
             "CRMS",
             "CRMS-EN",
             "CRMS-FR",
@@ -330,7 +330,7 @@
     },
     {
         "name": "Raging Battle",
-        "abbreviatures": [
+        "abbreviations": [
             "RGBT",
             "RGBT-EN",
             "RGBT-FR",
@@ -341,7 +341,7 @@
     },
     {
         "name": "Ancient Prophecy",
-        "abbreviatures": [
+        "abbreviations": [
             "ANPR",
             "ANPR-EN",
             "ANPR-FR",
@@ -352,7 +352,7 @@
     },
     {
         "name": "Stardust Overdrive",
-        "abbreviatures": [
+        "abbreviations": [
             "SOVR",
             "SOVR-EN",
             "SOVR-FR",
@@ -363,7 +363,7 @@
     },
     {
         "name": "Absolute Powerforce",
-        "abbreviatures": [
+        "abbreviations": [
             "ABPF",
             "ABPF-EN",
             "ABPF-FR",
@@ -374,7 +374,7 @@
     },
     {
         "name": "The Shining Darkness",
-        "abbreviatures": [
+        "abbreviations": [
             "TSHD",
             "TSHD-EN",
             "TSHD-FR",
@@ -385,7 +385,7 @@
     },
     {
         "name": "Duelist Revolution",
-        "abbreviatures": [
+        "abbreviations": [
             "DREV",
             "DREV-EN",
             "DREV-FR",
@@ -396,7 +396,7 @@
     },
     {
         "name": "Starstrike Blast",
-        "abbreviatures": [
+        "abbreviations": [
             "STBL",
             "STBL-EN",
             "STBL-FR",
@@ -407,7 +407,7 @@
     },
     {
         "name": "Storm of Ragnarok",
-        "abbreviatures": [
+        "abbreviations": [
             "STOR",
             "STOR-EN",
             "STOR-FR",
@@ -418,7 +418,7 @@
     },
     {
         "name": "Extreme Victory",
-        "abbreviatures": [
+        "abbreviations": [
             "EXVC",
             "EXVC-EN",
             "EXVC-FR",
@@ -429,7 +429,7 @@
     },
     {
         "name": "Generation Force",
-        "abbreviatures": [
+        "abbreviations": [
             "GENF",
             "GENF-EN",
             "GENF-FR",
@@ -440,7 +440,7 @@
     },
     {
         "name": "Photon Shockwave",
-        "abbreviatures": [
+        "abbreviations": [
             "PHSW",
             "PHSW-EN",
             "PHSW-FR",
@@ -451,7 +451,7 @@
     },
     {
         "name": "Order of Chaos",
-        "abbreviatures": [
+        "abbreviations": [
             "ORCS",
             "ORCS-EN",
             "ORCS-FR",
@@ -462,7 +462,7 @@
     },
     {
         "name": "Galactic Overlord",
-        "abbreviatures": [
+        "abbreviations": [
             "GAOV",
             "GAOV-EN",
             "GAOV-FR",
@@ -473,7 +473,7 @@
     },
     {
         "name": "Return of the Duelist",
-        "abbreviatures": [
+        "abbreviations": [
             "REDU",
             "REDU-EN",
             "REDU-FR",
@@ -484,7 +484,7 @@
     },
     {
         "name": "Abyss Rising",
-        "abbreviatures": [
+        "abbreviations": [
             "ABYR",
             "ABYR-EN",
             "ABYR-FR",
@@ -495,7 +495,7 @@
     },
     {
         "name": "Cosmo Blazer",
-        "abbreviatures": [
+        "abbreviations": [
             "CBLZ",
             "CBLZ-EN",
             "CBLZ-FR",
@@ -507,7 +507,7 @@
     },
     {
         "name": "Lord of the Tachyon Galaxy",
-        "abbreviatures": [
+        "abbreviations": [
             "LTGY",
             "LTGY-EN",
             "LTGY-FR",
@@ -519,7 +519,7 @@
     },
     {
         "name": "Judgment of the Light",
-        "abbreviatures": [
+        "abbreviations": [
             "JOTL",
             "JOTL-EN",
             "JOTL-FR",
@@ -531,7 +531,7 @@
     },
     {
         "name": "Shadow Specters",
-        "abbreviatures": [
+        "abbreviations": [
             "SHSP",
             "SHSP-EN",
             "SHSP-FR",
@@ -543,7 +543,7 @@
     },
     {
         "name": "Legacy of the Valiant",
-        "abbreviatures": [
+        "abbreviations": [
             "LVAL",
             "LVAL-EN",
             "LVAL-FR",
@@ -555,7 +555,7 @@
     },
     {
         "name": "Primal Origin",
-        "abbreviatures": [
+        "abbreviations": [
             "PRIO",
             "PRIO-EN",
             "PRIO-FR",
@@ -567,7 +567,7 @@
     },
     {
         "name": "Duelist Alliance",
-        "abbreviatures": [
+        "abbreviations": [
             "DUEA",
             "DUEA-EN",
             "DUEA-FR",
@@ -579,7 +579,7 @@
     },
     {
         "name": "The New Challengers",
-        "abbreviatures": [
+        "abbreviations": [
             "NECH",
             "NECH-EN",
             "NECH-FR",
@@ -591,7 +591,7 @@
     },
     {
         "name": "Secrets of Eternity",
-        "abbreviatures": [
+        "abbreviations": [
             "SECE",
             "SECE-EN",
             "SECE-FR",
@@ -603,7 +603,7 @@
     },
     {
         "name": "Crossed Souls",
-        "abbreviatures": [
+        "abbreviations": [
             "CROS",
             "CROS-EN",
             "CROS-FR",
@@ -615,7 +615,7 @@
     },
     {
         "name": "Clash of Rebellions",
-        "abbreviatures": [
+        "abbreviations": [
             "CORE",
             "CORE-EN",
             "CORE-FR",
@@ -627,7 +627,7 @@
     },
     {
         "name": "Dimension of Chaos",
-        "abbreviatures": [
+        "abbreviations": [
             "DOCS",
             "DOCS-EN",
             "DOCS-FR",
@@ -639,7 +639,7 @@
     },
     {
         "name": "Breakers of Shadow",
-        "abbreviatures": [
+        "abbreviations": [
             "BOSH",
             "BOSH-EN",
             "BOSH-FR",
@@ -651,7 +651,7 @@
     },
     {
         "name": "Shining Victories",
-        "abbreviatures": [
+        "abbreviations": [
             "SHVI",
             "SHVI-EN",
             "SHVI-FR",
@@ -663,7 +663,7 @@
     },
     {
         "name": "The Dark Illusion",
-        "abbreviatures": [
+        "abbreviations": [
             "TDIL",
             "TDIL-EN",
             "TDIL-FR",
@@ -675,7 +675,7 @@
     },
     {
         "name": "Invasion: Vengeance",
-        "abbreviatures": [
+        "abbreviations": [
             "INOV",
             "INOV-EN",
             "INOV-FR",
@@ -687,7 +687,7 @@
     },
     {
         "name": "Raging Tempest",
-        "abbreviatures": [
+        "abbreviations": [
             "RATE",
             "RATE-EN",
             "RATE-FR",
@@ -699,7 +699,7 @@
     },
     {
         "name": "Maximum Crisis",
-        "abbreviatures": [
+        "abbreviations": [
             "MACR",
             "MACR-EN",
             "MACR-FR",
@@ -711,7 +711,7 @@
     },
     {
         "name": "Code of the Duelist",
-        "abbreviatures": [
+        "abbreviations": [
             "COTD",
             "COTD-EN",
             "COTD-FR",
@@ -723,7 +723,7 @@
     },
     {
         "name": "Circuit Break",
-        "abbreviatures": [
+        "abbreviations": [
             "CIBR",
             "CIBR-EN",
             "CIBR-FR",
@@ -735,7 +735,7 @@
     },
     {
         "name": "Extreme Force",
-        "abbreviatures": [
+        "abbreviations": [
             "EXFO",
             "EXFO-EN",
             "EXFO-FR",
@@ -747,7 +747,7 @@
     },
     {
         "name": "Flames of Destruction",
-        "abbreviatures": [
+        "abbreviations": [
             "FLOD",
             "FLOD-EN",
             "FLOD-FR",
@@ -759,7 +759,7 @@
     },
     {
         "name": "Cybernetic Horizon",
-        "abbreviatures": [
+        "abbreviations": [
             "CYHO",
             "CYHO-EN",
             "CYHO-FR",
@@ -771,7 +771,7 @@
     },
     {
         "name": "Soul Fusion",
-        "abbreviatures": [
+        "abbreviations": [
             "SOFU",
             "SOFU-EN",
             "SOFU-FR",
@@ -783,7 +783,7 @@
     },
     {
         "name": "Savage Strike",
-        "abbreviatures": [
+        "abbreviations": [
             "SAST",
             "SAST-EN",
             "SAST-FR",
@@ -795,7 +795,7 @@
     },
     {
         "name": "Dark Neostorm",
-        "abbreviatures": [
+        "abbreviations": [
             "DANE",
             "DANE-EN",
             "DANE-FR",
@@ -807,7 +807,7 @@
     },
     {
         "name": "Rising Rampage",
-        "abbreviatures": [
+        "abbreviations": [
             "RIRA",
             "RIRA-EN",
             "RIRA-FR",
@@ -819,7 +819,7 @@
     },
     {
         "name": "Chaos Impact",
-        "abbreviatures": [
+        "abbreviations": [
             "CHIM",
             "CHIM-EN",
             "CHIM-FR",
@@ -831,7 +831,7 @@
     },
     {
         "name": "Ignition Assault",
-        "abbreviatures": [
+        "abbreviations": [
             "IGAS",
             "IGAS-EN",
             "IGAS-FR",
@@ -843,7 +843,7 @@
     },
     {
         "name": "Eternity Code",
-        "abbreviatures": [
+        "abbreviations": [
             "ETCO",
             "ETCO-EN",
             "ETCO-FR",
@@ -855,7 +855,7 @@
     },
     {
         "name": "Rise of the Duelist",
-        "abbreviatures": [
+        "abbreviations": [
             "ROTD",
             "ROTD-EN",
             "ROTD-FR",
@@ -867,7 +867,7 @@
     },
     {
         "name": "Phantom Rage",
-        "abbreviatures": [
+        "abbreviations": [
             "PHRA",
             "PHRA-EN",
             "PHRA-FR",
@@ -879,7 +879,7 @@
     },
     {
         "name": "Blazing Vortex",
-        "abbreviatures": [
+        "abbreviations": [
             "BLVO",
             "BLVO-EN",
             "BLVO-FR",
@@ -891,7 +891,7 @@
     },
     {
         "name": "Lightning Overdrive",
-        "abbreviatures": [
+        "abbreviations": [
             "LIOV",
             "LIOV-EN",
             "LIOV-FR",
@@ -903,7 +903,7 @@
     },
     {
         "name": "Dawn of Majesty",
-        "abbreviatures": [
+        "abbreviations": [
             "DAMA",
             "DAMA-EN",
             "DAMA-FR",
@@ -915,7 +915,7 @@
     },
     {
         "name": "Burst of Destiny",
-        "abbreviatures": [
+        "abbreviations": [
             "BODE",
             "BODE-EN",
             "BODE-FR",
@@ -927,7 +927,7 @@
     },
     {
         "name": "Battle of Chaos",
-        "abbreviatures": [
+        "abbreviations": [
             "BACH",
             "BACH-EN",
             "BACH-FR",
@@ -939,7 +939,7 @@
     },
     {
         "name": "Dimension Force",
-        "abbreviatures": [
+        "abbreviations": [
             "DIFO",
             "DIFO-EN",
             "DIFO-FR",
@@ -951,7 +951,7 @@
     },
     {
         "name": "Power of the Elements",
-        "abbreviatures": [
+        "abbreviations": [
             "POTE",
             "POTE-EN",
             "POTE-FR",
@@ -963,7 +963,7 @@
     },
     {
         "name": "Darkwing Blast",
-        "abbreviatures": [
+        "abbreviations": [
             "DABL",
             "DABL-EN",
             "DABL-FR",
@@ -975,7 +975,7 @@
     },
     {
         "name": "Photon Hypernova",
-        "abbreviatures": [
+        "abbreviations": [
             "PHHY",
             "PHHY-EN",
             "PHHY-FR",
@@ -987,7 +987,7 @@
     },
     {
         "name": "Cyberstorm Access",
-        "abbreviatures": [
+        "abbreviations": [
             "CYAC",
             "CYAC-EN",
             "CYAC-FR",
@@ -999,7 +999,7 @@
     },
     {
         "name": "Duelist Nexus",
-        "abbreviatures": [
+        "abbreviations": [
             "DUNE",
             "DUNE-EN",
             "DUNE-FR",
@@ -1011,7 +1011,7 @@
     },
     {
         "name": "Age of Overlord",
-        "abbreviatures": [
+        "abbreviations": [
             "AGOV",
             "AGOV-EN",
             "AGOV-FR",
@@ -1023,7 +1023,7 @@
     },
     {
         "name": "Phantom Nightmare",
-        "abbreviatures": [
+        "abbreviations": [
             "PHNI",
             "PHNI-EN",
             "PHNI-FR",
@@ -1035,7 +1035,7 @@
     },
     {
         "name": "Legacy of Destruction",
-        "abbreviatures": [
+        "abbreviations": [
             "LEDE",
             "LEDE-EN",
             "LEDE-FR",
@@ -1047,7 +1047,7 @@
     },
     {
         "name": "The Infinite Forbidden",
-        "abbreviatures": [
+        "abbreviations": [
             "INFO",
             "INFO-EN",
             "INFO-FR",
@@ -1059,7 +1059,7 @@
     },
     {
         "name": "Rage of the Abyss",
-        "abbreviatures": [
+        "abbreviations": [
             "ROTA",
             "ROTA-EN",
             "ROTA-FR",
@@ -1071,7 +1071,7 @@
     },
     {
         "name": "Supreme Darkness",
-        "abbreviatures": [
+        "abbreviations": [
             "SUDA",
             "SUDA-EN",
             "SUDA-FR",
@@ -1083,7 +1083,7 @@
     },
     {
         "name": "Alliance Insight",
-        "abbreviatures": [
+        "abbreviations": [
             "ALIN",
             "ALIN-EN",
             "ALIN-FR",
@@ -1095,7 +1095,7 @@
     },
     {
         "name": "Duelist's Advance",
-        "abbreviatures": [
+        "abbreviations": [
             "DUAD",
             "DUAD-EN",
             "DUAD-FR",
@@ -1107,7 +1107,7 @@
     },
     {
         "name": "Dark Beginning 1",
-        "abbreviatures": [
+        "abbreviations": [
             "DB1",
             "DB1-EN",
             "DB1-DE",
@@ -1116,7 +1116,7 @@
     },
     {
         "name": "Dark Revelation Volume 1",
-        "abbreviatures": [
+        "abbreviations": [
             "DR1",
             "DR1-EN",
             "DR1-FR",
@@ -1128,7 +1128,7 @@
     },
     {
         "name": "Dark Beginning 2",
-        "abbreviatures": [
+        "abbreviations": [
             "DB2",
             "DB2-EN",
             "DB2-FR",
@@ -1139,7 +1139,7 @@
     },
     {
         "name": "Dark Revelation Volume 2",
-        "abbreviatures": [
+        "abbreviations": [
             "DR2",
             "DR2-EN",
             "DR2-FR",
@@ -1150,7 +1150,7 @@
     },
     {
         "name": "Dark Revelation Volume 3",
-        "abbreviatures": [
+        "abbreviations": [
             "DR3",
             "DR3-EN",
             "DR3-FR",
@@ -1161,21 +1161,21 @@
     },
     {
         "name": "Dark Revelation Volume 4",
-        "abbreviatures": [
+        "abbreviations": [
             "DR04",
             "DR04-EN"
         ]
     },
     {
         "name": "Dark Legends",
-        "abbreviatures": [
+        "abbreviations": [
             "DLG1",
             "DLG1-EN"
         ]
     },
     {
         "name": "Speed Duel: Arena of Lost Souls",
-        "abbreviatures": [
+        "abbreviations": [
             "SBLS",
             "SBLS-EN",
             "SBLS-FR",
@@ -1187,7 +1187,7 @@
     },
     {
         "name": "Speed Duel: Attack from the Deep",
-        "abbreviatures": [
+        "abbreviations": [
             "SBAD",
             "SBAD-EN",
             "SBAD-FR",
@@ -1199,7 +1199,7 @@
     },
     {
         "name": "Speed Duel: Scars of Battle",
-        "abbreviatures": [
+        "abbreviations": [
             "SBSC",
             "SBSC-EN",
             "SBSC-FR",
@@ -1211,7 +1211,7 @@
     },
     {
         "name": "Speed Duel: Trials of the Kingdom",
-        "abbreviatures": [
+        "abbreviations": [
             "SBTK",
             "SBTK-EN",
             "SBTK-FR",

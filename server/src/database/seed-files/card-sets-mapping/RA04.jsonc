@@ -1,0 +1,1528 @@
+// https://yugioh.fandom.com/wiki/Quarter_Century_Stampede
+[
+  {
+    "code": "RA04-EN001",
+    "name": "Dark Magician",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN002",
+    "name": "Blue-Eyes White Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN003",
+    "name": "Red-Eyes Darkness Metal Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN004",
+    "name": "Effect Veiler",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN005",
+    "name": "Mystic Piper",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN006",
+    "name": "Esper Girl",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN007",
+    "name": "Gagaga Magician",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN008",
+    "name": "Galaxy-Eyes Photon Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN009",
+    "name": "Atlantean Marksman",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN010",
+    "name": "Atlantean Heavy Infantry",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN011",
+    "name": "Mermail Abysslinde",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN012",
+    "name": "Mermail Abysspike",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN013",
+    "name": "Cyber Dragon Core",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN014",
+    "name": "Edge Imp Chain",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN015",
+    "name": "Ghost Ogre & Snow Rabbit",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN016",
+    "name": "Black Metal Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN017",
+    "name": "Archfiend Eccentrick",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN018",
+    "name": "Ehther the Heavenly Monarch",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN019",
+    "name": "Erebus the Underworld Monarch",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN020",
+    "name": "Lunalight Tiger",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN021",
+    "name": "Crystron Quan",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN022",
+    "name": "Miscellaneousaurus",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN023",
+    "name": "Apprentice Illusion Magician",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN024",
+    "name": "Aleister the Invoker",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN025",
+    "name": "Ash Blossom & Joyous Spring",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN026",
+    "name": "Sky Striker Ace - Raye",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN027",
+    "name": "Danger!? Tsuchinoko?",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN028",
+    "name": "Utopic Onomatopoeia",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN029",
+    "name": "Evil HERO Adusted Gold",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN030",
+    "name": "Nibiru, the Primal Being",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN031",
+    "name": "Sky Striker Ace - Roze",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN032",
+    "name": "Chamber Dragonmaid",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN033",
+    "name": "Ghost Mourner & Moonlit Chill",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN034",
+    "name": "Fallen of Albaz",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN035",
+    "name": "Live☆Twin Ki-sikil",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN036",
+    "name": "Live☆Twin Lil-la",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN037",
+    "name": "Evil★Twins Ki-sikil & Lil-la",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN038",
+    "name": "Aluber the Jester of Despia",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN039",
+    "name": "Incredible Ecclesia, the Virtuous",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN040",
+    "name": "Astral Kuriboh",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN041",
+    "name": "Blazing Cartesia, the Virtuous",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN042",
+    "name": "Lady Labrynth of the Silver Castle",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN043",
+    "name": "Guiding Quem, the Virtuous",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN044",
+    "name": "Vanquish Soul Pantera",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN045",
+    "name": "Vanquish Soul Dr. Mad Love",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN046",
+    "name": "Vanquish Soul Caesar Valius",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN047",
+    "name": "Diabellstar the Black Witch",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN048",
+    "name": "Mementotlan Angwitch",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN049",
+    "name": "Fiendsmith Engraver",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN050",
+    "name": "Mulcharmy Fuwalos",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN051",
+    "name": "Blue-Eyes Chaos MAX Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN052",
+    "name": "El Shaddoll Winda",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN053",
+    "name": "Lunalight Leo Dancer",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN054",
+    "name": "The Dark Magicians",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN055",
+    "name": "Dragon Master Magia",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN056",
+    "name": "Fiendsmith's Desirae",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN057",
+    "name": "Black Rose Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN058",
+    "name": "Crystron Phoenix",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN059",
+    "name": "Crystal Clear Wing Synchro Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN060",
+    "name": "Ghoti of the Deep Beyond",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN061",
+    "name": "Crimson Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN062",
+    "name": "Number 11: Big Eye",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN063",
+    "name": "Superdreadnought Rail Cannon Gustav Max",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN064",
+    "name": "Gagaga Cowboy",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN065",
+    "name": "Mermail Abyssgaios",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN066",
+    "name": "Number 106: Giant Hand",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN067",
+    "name": "Number 107: Galaxy-Eyes Tachyon Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN068",
+    "name": "Cyber Dragon Infinity",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN069",
+    "name": "Lyrilusc - Assembled Nightingale",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN070",
+    "name": "Divine Arsenal AA-ZEUS - Sky Thunder",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN071",
+    "name": "Epurrely Noir",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN072",
+    "name": "Super Starslayer TY-PHON - Sky Crisis",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN073",
+    "name": "Sky Striker Ace - Hayate",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN074",
+    "name": "Hiita the Fire Charmer, Ablaze",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN075",
+    "name": "Traptrix Sera",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN076",
+    "name": "Xtra HERO Cross Crusader",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN077",
+    "name": "Amphibious Swarmship Amblowhale",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN078",
+    "name": "Aussa the Earth Charmer, Immovable",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN079",
+    "name": "Accesscode Talker",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN080",
+    "name": "Splash Mage",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN081",
+    "name": "Lyna the Light Charmer, Lustrous",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN082",
+    "name": "Worldsea Dragon Zealantis",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN083",
+    "name": "Salamangreat Raging Phoenix",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN084",
+    "name": "Terraforming",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN085",
+    "name": "Lullaby of Obedience",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN086",
+    "name": "Left Arm Offering",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN087",
+    "name": "A Hero Lives",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN088",
+    "name": "Shien's Dojo",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN089",
+    "name": "Onomatopaira",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN090",
+    "name": "Luna Light Perfume",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN091",
+    "name": "Zoodiac Barrage",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN092",
+    "name": "Called by the Grave",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN093",
+    "name": "Pot of Extravagance",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN094",
+    "name": "Lightning Storm",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN095",
+    "name": "Secret Password",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN096",
+    "name": "Meteonis Drytron",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN097",
+    "name": "Drytron Nova",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN098",
+    "name": "Seventh Ascension",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN099",
+    "name": "Mementotlan Bone Party",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN100",
+    "name": "Metaltronus",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN101",
+    "name": "Different Dimension Ground",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN102",
+    "name": "Dragonmaid Tidying",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN103",
+    "name": "Destructive Daruma Karma Cannon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN104",
+    "name": "Big Welcome Labrynth",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN105",
+    "name": "Transaction Rollback",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN106",
+    "name": "Dark Magician",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN106",
+    "name": "Dark Magician",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN106",
+    "name": "Dark Magician",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN106",
+    "name": "Dark Magician",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN106",
+    "name": "Dark Magician",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN107",
+    "name": "Dark Magician Girl",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN107",
+    "name": "Dark Magician Girl",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN108",
+    "name": "Blue-Eyes White Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN108",
+    "name": "Blue-Eyes White Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN109",
+    "name": "Red-Eyes Black Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN109",
+    "name": "Red-Eyes Black Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN109",
+    "name": "Red-Eyes Black Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN110",
+    "name": "Skull Servant",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN111",
+    "name": "Petit Moth",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN112",
+    "name": "Needle Worm",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN113",
+    "name": "Royal Decree",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN114",
+    "name": "Delinquent Duo",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN115",
+    "name": "Buster Blader",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN116",
+    "name": "Obelisk the Tormentor",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN117",
+    "name": "Slifer the Sky Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN118",
+    "name": "The Winged Dragon of Ra",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN119",
+    "name": "Ring of Destruction",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN120",
+    "name": "Royal Oppression",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN121",
+    "name": "Trap Dustshoot",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN122",
+    "name": "Necrovalley",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN123",
+    "name": "Metamorphosis",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN124",
+    "name": "Gren Maju Da Eiza",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN125",
+    "name": "Zaborg the Thunder Monarch",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN126",
+    "name": "Mokey Mokey",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN127",
+    "name": "Dimension Wall",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN128",
+    "name": "Karma Cut",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN129",
+    "name": "Cyber Phoenix",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN130",
+    "name": "Bountiful Artemis",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN131",
+    "name": "Babycerasaurus",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN132",
+    "name": "Dimensional Prison",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN133",
+    "name": "Kuraz the Light Monarch",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN134",
+    "name": "Gozen Match",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN135",
+    "name": "Power Tool Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN136",
+    "name": "Phoenixian Cluster Amaryllis",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN137",
+    "name": "Forbidden Chalice",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN138",
+    "name": "Gottoms' Emergency Call",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN139",
+    "name": "Jurrac Meteor",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN140",
+    "name": "XX-Saber Hyunlei",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN141",
+    "name": "XX-Saber Emmersblade",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN142",
+    "name": "Mask Change",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN143",
+    "name": "Formula Synchron",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN144",
+    "name": "Tuning",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN145",
+    "name": "Blackwing - Zephyros the Elite",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN146",
+    "name": "The Agent of Mystery - Earth",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN147",
+    "name": "Doppelwarrior",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN148",
+    "name": "Terminal World",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN149",
+    "name": "Token Stampede",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN150",
+    "name": "Maxx \"C\"",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN151",
+    "name": "Steelswarm Roach",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN152",
+    "name": "Gogogo Golem",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN153",
+    "name": "Wind-Up Magician",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN154",
+    "name": "Number 17: Leviathan Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN155",
+    "name": "Leviair the Sea Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN156",
+    "name": "Double or Nothing!",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN157",
+    "name": "Tour Guide From the Underworld",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN158",
+    "name": "Shooting Quasar Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN159",
+    "name": "Grapha, Dragon Lord of Dark World",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN160",
+    "name": "Evolzar Laggia",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN161",
+    "name": "Crimson Blader",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN162",
+    "name": "Lavalval Chain",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN163",
+    "name": "Daigusto Emeral",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN164",
+    "name": "Constellar Pleiades",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN165",
+    "name": "Number 30: Acid Golem of Destruction",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN166",
+    "name": "Number 16: Shock Master",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN167",
+    "name": "Evolzar Dolkka",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN168",
+    "name": "Wind-Up Zenmaines",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN169",
+    "name": "M-X-Saber Invoker",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN170",
+    "name": "Photon Thrasher",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN171",
+    "name": "Inzektor Hornet",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN172",
+    "name": "Inzektor Dragonfly",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN173",
+    "name": "Ninja Grandmaster Hanzo",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN174",
+    "name": "Number C39: Utopia Ray",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN175",
+    "name": "Wind-Up Carrier Zenmaity",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN176",
+    "name": "Lightpulsar Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN177",
+    "name": "Eclipse Wyvern",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN178",
+    "name": "Gem-Knight Master Diamond",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN179",
+    "name": "Evilswarm Ophion",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN180",
+    "name": "Wind-Up Shark",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN181",
+    "name": "Cardcar D",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN182",
+    "name": "Night Beam",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN183",
+    "name": "Spellbook Magician of Prophecy",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN184",
+    "name": "High Priestess of Prophecy",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN185",
+    "name": "Madolche Magileine",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN186",
+    "name": "Madolche Puddingcess",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN187",
+    "name": "Geargiarmor",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN188",
+    "name": "Gear Gigant X",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN189",
+    "name": "Spellbook of Secrets",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN190",
+    "name": "Void Trap Hole",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN191",
+    "name": "Mermail Abyssmegalo",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN192",
+    "name": "The Eye of Timaeus",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN193",
+    "name": "Starliege Paladynamo",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN194",
+    "name": "Fire King High Avatar Garunix",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN195",
+    "name": "Circle of the Fire Kings",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN196",
+    "name": "Slushy",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN197",
+    "name": "Orbital 7",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN198",
+    "name": "Brotherhood of the Fire Fist - Bear",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN199",
+    "name": "Star Drawing",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN200",
+    "name": "Diamond Dire Wolf",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN201",
+    "name": "Fire Formation - Tenki",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN202",
+    "name": "Breakthrough Skill",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN203",
+    "name": "White Dragon Wyverburster",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN204",
+    "name": "Black Dragon Collapserpent",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN205",
+    "name": "Noble Knight Medraut",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN206",
+    "name": "Madolche Hootcake",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN207",
+    "name": "Harpie Channeler",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN208",
+    "name": "Azure-Eyes Silver Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN209",
+    "name": "Bujin Yamato",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN210",
+    "name": "Traptrix Myrmeleo",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN211",
+    "name": "Number 101: Silent Honor ARK",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN212",
+    "name": "Evilswarm Exciton Knight",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN213",
+    "name": "Chronomaly Nebra Disk",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN214",
+    "name": "Artifact Moralltach",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN215",
+    "name": "Madolche Anjelly",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN216",
+    "name": "Majesty's Fiend",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN217",
+    "name": "Artifact Sanctum",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN218",
+    "name": "Xyz Universe",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN219",
+    "name": "Galaxy Soldier",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN220",
+    "name": "Tachyon Transmigration",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN221",
+    "name": "Kuribandit",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN222",
+    "name": "Soul Charge",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN223",
+    "name": "Mathematician",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN224",
+    "name": "Fire Hand",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN225",
+    "name": "Ice Hand",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN226",
+    "name": "Elder Entity Norden",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN227",
+    "name": "Satellarknight Deneb",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN228",
+    "name": "Shaddoll Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN229",
+    "name": "El Shaddoll Construct",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN229",
+    "name": "El Shaddoll Construct",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN230",
+    "name": "Castel, the Skyblaster Musketeer",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN231",
+    "name": "Shaddoll Fusion",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN232",
+    "name": "Sinister Shadow Games",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN233",
+    "name": "Scarm, Malebranche of the Burning Abyss",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN234",
+    "name": "Cir, Malebranche of the Burning Abyss",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN235",
+    "name": "Graff, Malebranche of the Burning Abyss",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN236",
+    "name": "Qliphort Scout",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN237",
+    "name": "Dark Rebellion Xyz Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN238",
+    "name": "Saqlifice",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN239",
+    "name": "Hi-Five the Sky",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN240",
+    "name": "The Door of Destiny",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN241",
+    "name": "Stellarknight Constellar Diamond",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN242",
+    "name": "Performapal Pendulum Sorcerer",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN243",
+    "name": "Raidraptor - Force Strix",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN244",
+    "name": "Absolute King Back Jack",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN245",
+    "name": "Dark Burning Attack",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN246",
+    "name": "Dark Burning Magic",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN247",
+    "name": "Eternal Soul",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN248",
+    "name": "Infernoid Devyaty",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN249",
+    "name": "Clear Wing Synchro Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN250",
+    "name": "Galaxy Cyclone",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN251",
+    "name": "Number S39: Utopia the Lightning",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN252",
+    "name": "Luster Pendulum, the Dracoslayer",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN253",
+    "name": "Ignister Prominence, the Blasting Dracoslayer",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN254",
+    "name": "Brilliant Fusion",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN255",
+    "name": "The Fang of Critias",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN256",
+    "name": "The Claw of Hermos",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN257",
+    "name": "Performapal Skullcrobat Joker",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN258",
+    "name": "D/D Swirl Slime",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN259",
+    "name": "Majespecter Raccoon - Bunbuku",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN260",
+    "name": "Majespecter Unicorn - Kirin",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN261",
+    "name": "Pantheism of the Monarchs",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN262",
+    "name": "Draco Face-Off",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN263",
+    "name": "The Phantom Knights of Ancient Cloak",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN264",
+    "name": "Phantom Knights' Fog Blade",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN265",
+    "name": "Dragon Spirit of White",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN266",
+    "name": "Sage with Eyes of Blue",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN267",
+    "name": "The White Stone of Ancients",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN268",
+    "name": "Block Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN269",
+    "name": "Fairy Tail - Snow",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN270",
+    "name": "Union Hangar",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN271",
+    "name": "ABC-Dragon Buster",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN272",
+    "name": "Starving Venom Fusion Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN273",
+    "name": "Windwitch - Ice Bell",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN274",
+    "name": "Zoodiac Ratpier",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN275",
+    "name": "True King Lithosagym, the Disaster",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN276",
+    "name": "SPYRAL Master Plan",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN277",
+    "name": "SPYRAL Resort",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN278",
+    "name": "Aleister the Invoker",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN279",
+    "name": "Invoked Mechaba",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN280",
+    "name": "Magical Meltdown",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN281",
+    "name": "Invocation",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN282",
+    "name": "Astrograph Sorcerer",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN283",
+    "name": "Master Peace, the True Dracoslaying King",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN284",
+    "name": "Supreme King Z-ARC",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN285",
+    "name": "Halfway to Forever",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN286",
+    "name": "Dueltaining",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN287",
+    "name": "Ultimate Conductor Tyranno",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN288",
+    "name": "Souleating Oviraptor",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN289",
+    "name": "Tornado Dragon",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN290",
+    "name": "D/D/D Wave High King Caesar",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN291",
+    "name": "Linkuriboh",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN292",
+    "name": "Heavymetalfoes Electrumite",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN293",
+    "name": "Noh-P.U.N.K. Ze Amin",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN294",
+    "name": "Link into the VRAINS!",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN295",
+    "name": "Lovely Labrynth of the Silver Castle",
+    "cardSetName": "Quarter Century Stampede"
+  },
+  {
+    "code": "RA04-EN296",
+    "name": "Runick Fountain",
+    "cardSetName": "Quarter Century Stampede"
+  }
+]

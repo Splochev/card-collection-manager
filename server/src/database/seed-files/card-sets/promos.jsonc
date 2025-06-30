@@ -1,7 +1,7 @@
 [
     {
         "name": "Duelist League participation cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DL1-EN-UE",
             "DL10-EN-LE",
             "DL1-F-UE",
@@ -16,7 +16,7 @@
     },
     {
         "name": "Hobby League participation cards",
-        "abbreviatures": [
+        "abbreviations": [
             "HL1-EN-UE",
             "HL07-EN-UE",
             "HL06-FR-UE",
@@ -31,13 +31,13 @@
     },
     {
         "name": "Yu-Gi-Oh! Trading Card Game Tour 2004 promotional card",
-        "abbreviatures": [
+        "abbreviations": [
             "EM1-EU-UE"
         ]
     },
     {
         "name": "Pharaoh Tour promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "PT1-EN-LE",
             "PT03-EN-LE",
             "PT1-FR-LE",
@@ -52,14 +52,14 @@
     },
     {
         "name": "Shonen Jump Championship Series Prize Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "SJC-EN-LE",
             "SJCS-EN-LE"
         ]
     },
     {
         "name": "Sneak Peek Participation Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "EN-LE",
             "FR-LE",
             "DE-LE",
@@ -70,25 +70,25 @@
     },
     {
         "name": "San Diego Comic-Con 2006 promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "TKN1-EN-UE"
         ]
     },
     {
         "name": "Toys \"R\" Us Throwdown promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "TKN2-EN-UE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! 5D's National Championship 2009 promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "TKN4-EN-UE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! World Championship prize cards",
-        "abbreviatures": [
+        "abbreviations": [
             "WCS-EN-UE",
             "WCPS-EN-UE",
             "2010 to 2018-EN-UE"
@@ -96,31 +96,31 @@
     },
     {
         "name": "Yu-Gi-Oh! World Championship Qualifier National Championships 2011 prize cards",
-        "abbreviatures": [
+        "abbreviations": [
             "WQ11-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Championship Series Prize Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "YCSW-EN-LE"
         ]
     },
     {
         "name": "KC Grand Tournament 2021 prize card",
-        "abbreviatures": [
+        "abbreviations": [
             "2021-EN-LE"
         ]
     },
     {
         "name": "KC Grand Tournament 2022 prize card",
-        "abbreviatures": [
+        "abbreviations": [
             "2022-EN-LE"
         ]
     },
     {
         "name": "Attack of the Giant Card!!",
-        "abbreviatures": [
+        "abbreviations": [
             "English Image Gallery",
             "French Image Gallery",
             "German Image Gallery",
@@ -130,13 +130,13 @@
     },
     {
         "name": "Custom Token Card",
-        "abbreviatures": [
+        "abbreviations": [
             "English Image Gallery"
         ]
     },
     {
         "name": "Battle Pack Tournament Prize Cards‎",
-        "abbreviatures": [
+        "abbreviations": [
             "BATT-EN-UE",
             "BATT-FR-UE",
             "BATT-DE-UE",
@@ -146,13 +146,13 @@
     },
     {
         "name": "Duelist League Promotional Cards - Konami Series",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Duelist League Demo 2010",
-        "abbreviatures": [
+        "abbreviations": [
             "DLDI-EN-UE",
             "DLDI-FR-UE",
             "DLDI-DE-UE",
@@ -162,7 +162,7 @@
     },
     {
         "name": "Duelist League 2010 participation cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DL09-EN-UE",
             "DL09-FR-UE",
             "DL09-DE-UE",
@@ -172,7 +172,7 @@
     },
     {
         "name": "Duelist League 2 participation cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DL11-EN-UE",
             "DL11-FR-UE",
             "DL11-DE-UE",
@@ -182,7 +182,7 @@
     },
     {
         "name": "Duelist League 3 participation cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DL12-EN-UE",
             "DL12-FR-UE",
             "DL12-DE-UE",
@@ -192,7 +192,7 @@
     },
     {
         "name": "Duelist League 13 participation cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DL13-EN-UE",
             "DL13-FR-UE",
             "DL13-DE-UE",
@@ -202,7 +202,7 @@
     },
     {
         "name": "Duelist League 14 participation cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DL14-EN-UE",
             "DL14-FR-UE",
             "DL14-DE-UE",
@@ -212,7 +212,7 @@
     },
     {
         "name": "Duelist League 15 participation cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DL15-EN-UE",
             "DL15-FR-UE",
             "DL15-DE-UE",
@@ -223,7 +223,7 @@
     },
     {
         "name": "Duelist League 16 participation cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DL16-EN-UE",
             "DL16-FR-UE",
             "DL16-DE-UE",
@@ -234,7 +234,7 @@
     },
     {
         "name": "Duelist League 17 participation cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DL17-EN-UE",
             "DL17-FR-UE",
             "DL17-DE-UE",
@@ -245,7 +245,7 @@
     },
     {
         "name": "Duelist League 18 participation cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DL18-EN-UE",
             "DL18-FR-UE",
             "DL18-DE-UE",
@@ -256,49 +256,49 @@
     },
     {
         "name": "Special Promotional Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Kids' WB! Duel of Destiny promotional card",
-        "abbreviatures": [
+        "abbreviations": [
             "EP1-EN-UE"
         ]
     },
     {
         "name": "Make-A-Wish Foundation promotional card",
-        "abbreviatures": [
+        "abbreviations": [
             "TYL-EN-UE"
         ]
     },
     {
         "name": "Summoned Skull Sample promotional card",
-        "abbreviatures": [
+        "abbreviations": [
             "SDY-UE"
         ]
     },
     {
         "name": "Tin Promotional Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Booster Pack Collectors Tins 2002",
-        "abbreviatures": [
+        "abbreviations": [
             "BPT-LE"
         ]
     },
     {
         "name": "Collectible Tins 2003",
-        "abbreviatures": [
+        "abbreviations": [
             "BPT-UE"
         ]
     },
     {
         "name": "Collectible Tins 2004",
-        "abbreviatures": [
+        "abbreviations": [
             "CT1-EN-LE",
             "CT1-FR-LE",
             "CT1-DE-LE",
@@ -308,7 +308,7 @@
     },
     {
         "name": "Collectible Tins 2005",
-        "abbreviatures": [
+        "abbreviations": [
             "CT2-EN-LE",
             "CT2-FR-LE",
             "CT2-DE-LE",
@@ -318,7 +318,7 @@
     },
     {
         "name": "Collectible Tins 2006",
-        "abbreviatures": [
+        "abbreviations": [
             "CT03-EN-LE",
             "CT03-FR-LE",
             "CT03-DE-LE",
@@ -327,7 +327,7 @@
     },
     {
         "name": "Collectible Tins 2007",
-        "abbreviatures": [
+        "abbreviations": [
             "CT04-EN-LE",
             "CT04-FR-LE",
             "CT04-DE-LE",
@@ -336,12 +336,12 @@
     },
     {
         "name": "Duelist Pack Collection Tin 2007",
-        "abbreviatures": [
+        "abbreviations": [
         ]
     },
     {
         "name": "Collectible Tins 2008",
-        "abbreviatures": [
+        "abbreviations": [
             "CT05-EN-LE",
             "CT05-FR-LE",
             "CT05-DE-LE",
@@ -351,7 +351,7 @@
     },
     {
         "name": "Collectible Tins Exclusive 2008",
-        "abbreviatures": [
+        "abbreviations": [
             "CT05-ENS-LE",
             "CT05-FRS-LE",
             "CT05-DES-LE",
@@ -361,7 +361,7 @@
     },
     {
         "name": "Duelist Pack Collection Tin 2008",
-        "abbreviatures": [
+        "abbreviations": [
             "DPCT-EN-LE",
             "DPCT-FR-LE",
             "DPCT-DE-LE",
@@ -371,7 +371,7 @@
     },
     {
         "name": "Collectible Tins 2009",
-        "abbreviatures": [
+        "abbreviations": [
             "CT06-EN-LE",
             "CT06-FR-LE",
             "CT06-DE-LE",
@@ -381,7 +381,7 @@
     },
     {
         "name": "Collectible Tins Exclusive 2009",
-        "abbreviatures": [
+        "abbreviations": [
             "CT06-ENS-LE",
             "CT06-FRS-LE",
             "CT06-DES-LE",
@@ -391,7 +391,7 @@
     },
     {
         "name": "Duelist Pack Collection Tin 2009",
-        "abbreviatures": [
+        "abbreviations": [
             "DPCT-EN to RGBT-ENPP",
             "DPCT-FR to RGBT-FRPP",
             "DPCT-DE to RGBT-DEPP",
@@ -401,7 +401,7 @@
     },
     {
         "name": "Collectible Tins 2010",
-        "abbreviatures": [
+        "abbreviations": [
             "CT07-EN-LE",
             "CT07-FR-LE",
             "CT07-DE-LE",
@@ -411,7 +411,7 @@
     },
     {
         "name": "Duelist Pack Collection Tin 2010",
-        "abbreviatures": [
+        "abbreviations": [
             "DPCT-ENY-LE",
             "DPCT-FRY-LE",
             "DPCT-DEY-LE",
@@ -421,7 +421,7 @@
     },
     {
         "name": "Collectible Tins 2011",
-        "abbreviatures": [
+        "abbreviations": [
             "CT08-EN-LE",
             "CT08-FR-LE",
             "CT08-DE-LE",
@@ -431,7 +431,7 @@
     },
     {
         "name": "Duelist Pack Collection Tin 2011",
-        "abbreviatures": [
+        "abbreviations": [
             "DPC5-EN-LE",
             "DPC5-FR-LE",
             "DPC5-DE-LE",
@@ -441,7 +441,7 @@
     },
     {
         "name": "Premium Collection Tin",
-        "abbreviatures": [
+        "abbreviations": [
             "PRC1-EN-LE/1E",
             "PRC1-FR-LE/1E",
             "PRC1-DE-LE/1E",
@@ -451,7 +451,7 @@
     },
     {
         "name": "Collectible Tins 2012",
-        "abbreviatures": [
+        "abbreviations": [
             "CT09-EN-LE",
             "CT09-FR-LE",
             "CT09-DE-LE",
@@ -461,7 +461,7 @@
     },
     {
         "name": "Zexal Collection Tin",
-        "abbreviatures": [
+        "abbreviations": [
             "ZTIN-EN-LE/1E",
             "ZTIN-FR-LE/1E",
             "ZTIN-DE-LE/1E",
@@ -472,7 +472,7 @@
     },
     {
         "name": "2013 Collectible Tins",
-        "abbreviatures": [
+        "abbreviations": [
             "CT10-EN-LE",
             "CT10-FR-LE",
             "CT10-DE-LE",
@@ -483,7 +483,7 @@
     },
     {
         "name": "2014 Mega-Tins",
-        "abbreviatures": [
+        "abbreviations": [
             "CT11-EN-LE",
             "CT11-FR-LE",
             "CT11-DE-LE",
@@ -494,7 +494,7 @@
     },
     {
         "name": "2015 Mega-Tins",
-        "abbreviatures": [
+        "abbreviations": [
             "CT12-EN-LE",
             "CT12-FR-LE",
             "CT12-DE-LE",
@@ -505,7 +505,7 @@
     },
     {
         "name": "2016 Mega-Tins",
-        "abbreviatures": [
+        "abbreviations": [
             "CT13-EN-LE",
             "CT13-FR-LE",
             "CT13-DE-LE",
@@ -516,7 +516,7 @@
     },
     {
         "name": "2017 Mega-Tins",
-        "abbreviatures": [
+        "abbreviations": [
             "CT14-EN-LE",
             "CT14-FR-LE",
             "CT14-DE-LE",
@@ -527,7 +527,7 @@
     },
     {
         "name": "2018 Mega-Tins",
-        "abbreviatures": [
+        "abbreviations": [
             "CT15-EN-LE",
             "CT15-FR-LE",
             "CT15-DE-LE",
@@ -538,7 +538,7 @@
     },
     {
         "name": "2019 Gold Sarcophagus Tin",
-        "abbreviatures": [
+        "abbreviations": [
             "TN19-EN-LE",
             "TN19-FR-LE",
             "TN19-DE-LE",
@@ -549,7 +549,7 @@
     },
     {
         "name": "2020 Tin of Lost Memories",
-        "abbreviatures": [
+        "abbreviations": [
             "MP20-EN-1E",
             "MP20-FR-1E",
             "MP20-DE-1E",
@@ -560,7 +560,7 @@
     },
     {
         "name": "2021 Tin of Ancient Battles",
-        "abbreviatures": [
+        "abbreviations": [
             "MP21-EN-1E",
             "MP21-FR-1E",
             "MP21-DE-1E",
@@ -571,7 +571,7 @@
     },
     {
         "name": "2022 Tin of the Pharaoh's Gods",
-        "abbreviatures": [
+        "abbreviations": [
             "MP22-EN-1E",
             "MP22-FR-1E",
             "MP22-DE-1E",
@@ -582,7 +582,7 @@
     },
     {
         "name": "25th Anniversary Tin: Dueling Heroes",
-        "abbreviatures": [
+        "abbreviations": [
             "TN23-EN-1E",
             "TN23-FR-1E",
             "TN23-DE-1E",
@@ -593,7 +593,7 @@
     },
     {
         "name": "25th Anniversary Tin: Dueling Mirrors",
-        "abbreviatures": [
+        "abbreviations": [
             "MP24-EN-1E",
             "MP24-FR-1E",
             "MP24-DE-1E",
@@ -604,63 +604,63 @@
     },
     {
         "name": "Non-Video Game Product Promotional Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Elemental Hero Collections",
-        "abbreviatures": [
+        "abbreviations": [
             "EHC1-EN-LE",
             "EHC2-EN-LE"
         ]
     },
     {
         "name": "Master Collection Volume 1",
-        "abbreviatures": [
+        "abbreviations": [
             "MC1-EN-LE"
         ]
     },
     {
         "name": "Master Collection Volume 2",
-        "abbreviatures": [
+        "abbreviations": [
             "MC2-EN-LE"
         ]
     },
     {
         "name": "Duel Master's Guide promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DMG-LE"
         ]
     },
     {
         "name": "Structure Deck: Deluxe Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "SD1",
             "SD2-ENDE-LE"
         ]
     },
     {
         "name": "Forbidden Legacy",
-        "abbreviatures": [
+        "abbreviations": [
             "FL1-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "GSE-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Ultimate Beginner's Pack",
-        "abbreviatures": [
+        "abbreviations": [
             "UBP1-EN-UE"
         ]
     },
     {
         "name": "Mattel Action Figure promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "MF01-EN-LE",
             "MF02-EN-LE",
             "MF03-EN-LE"
@@ -668,32 +668,32 @@
     },
     {
         "name": "McDonald's Promotional Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "MP1-LE",
             "MDP2-EN-LE"
         ]
     },
     {
         "name": "Ultimate Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "JMP-EN-LE"
         ]
     },
     {
         "name": "Ultimate Edition 2",
-        "abbreviatures": [
+        "abbreviations": [
             "UE02-EN-LE"
         ]
     },
     {
         "name": "GX Next Generation",
-        "abbreviatures": [
+        "abbreviations": [
             "GXNG-EN-LE"
         ]
     },
     {
         "name": "Movie Pack",
-        "abbreviatures": [
+        "abbreviations": [
             "MOV-EN-LE",
             "MOV-FR-LE",
             "MOV-DE-LE",
@@ -703,13 +703,13 @@
     },
     {
         "name": "Duel Disk - Yusei Version",
-        "abbreviatures": [
+        "abbreviations": [
             "DDY1-EN-LE"
         ]
     },
     {
         "name": "Token Pack",
-        "abbreviatures": [
+        "abbreviations": [
             "TKN3-EN-UE",
             "TKN3-FR-UE",
             "TKN3-DE-UE",
@@ -719,7 +719,7 @@
     },
     {
         "name": "Legendary Collection",
-        "abbreviatures": [
+        "abbreviations": [
             "LC01-EN-LE",
             "LC01-DE-LE",
             "LC01-IT-LE"
@@ -727,13 +727,13 @@
     },
     {
         "name": "Light and Darkness Power Pack",
-        "abbreviatures": [
+        "abbreviations": [
             "LDPP-EN-LE"
         ]
     },
     {
         "name": "Twilight Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "TWED-EN-LE",
             "TWED-FR-LE",
             "TWED-DE-LE",
@@ -743,13 +743,13 @@
     },
     {
         "name": "X-Saber Power-Up",
-        "abbreviatures": [
+        "abbreviations": [
             "XSPU-EN-LE"
         ]
     },
     {
         "name": "Legendary Collection 2: The Duel Academy Years Mega Pack",
-        "abbreviatures": [
+        "abbreviations": [
             "LC02-EN-LE",
             "LC02-DE-LE",
             "LC02-IT-LE"
@@ -757,26 +757,26 @@
     },
     {
         "name": "Yu-Gi-Oh! Adventskalender",
-        "abbreviatures": [
+        "abbreviations": [
             "AC11-DE-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Advent Calendar ZEXAL Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "AC14-DE-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Advent Calendar (2018)",
-        "abbreviatures": [
+        "abbreviations": [
             "AC18-EN-1E",
             "AC18-DE-1E"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Advent Calendar (2019)",
-        "abbreviatures": [
+        "abbreviations": [
             "AC19-EN-1E",
             "AC19-FR-1E",
             "AC19-DE-1E"
@@ -784,37 +784,37 @@
     },
     {
         "name": "Samurai Assault",
-        "abbreviatures": [
+        "abbreviations": [
             "SAAS-EN-LE"
         ]
     },
     {
         "name": "Ancient Prophecy Plus",
-        "abbreviatures": [
+        "abbreviations": [
             "ANPR-ENTK-UE"
         ]
     },
     {
         "name": "Stardust Overdrive Plus",
-        "abbreviatures": [
+        "abbreviations": [
             "SOVR-ENTK-UE"
         ]
     },
     {
         "name": "Absolute Powerforce Plus",
-        "abbreviatures": [
+        "abbreviations": [
             "ABPF-ENTK-UE"
         ]
     },
     {
         "name": "Primal Origin Plus",
-        "abbreviatures": [
+        "abbreviations": [
             "PRIO-EN-LE"
         ]
     },
     {
         "name": "Legendary Collection 3: Yugi's World",
-        "abbreviatures": [
+        "abbreviations": [
             "LC03-EN-LE",
             "LC03-FR-LE",
             "LC03-DE-LE",
@@ -824,7 +824,7 @@
     },
     {
         "name": "Legendary Collection 4: Joey's World",
-        "abbreviatures": [
+        "abbreviations": [
             "LC04-EN-LE",
             "LC04-FR-LE",
             "LC04-DE-LE",
@@ -834,7 +834,7 @@
     },
     {
         "name": "Legendary Collection 5D's",
-        "abbreviatures": [
+        "abbreviations": [
             "LC05-EN-LE",
             "LC05-FR-LE",
             "LC05-DE-LE",
@@ -844,21 +844,21 @@
     },
     {
         "name": "Yugi's Collector Box",
-        "abbreviatures": [
+        "abbreviations": [
             "YUCB-EN-LE",
             "YUCB-EN-UE"
         ]
     },
     {
         "name": "Kaiba's Collector Box",
-        "abbreviatures": [
+        "abbreviations": [
             "KACB-EN-LE",
             "KACB-EN-UE"
         ]
     },
     {
         "name": "Yugi & Kaiba Collector Box",
-        "abbreviatures": [
+        "abbreviations": [
             "YUCB & KACB-EN-LE",
             "YUCB & KACB-FR-LE",
             "YUCB & KACB-DE-LE",
@@ -867,13 +867,13 @@
     },
     {
         "name": "Oversized Promotional Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Case Topper promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "STBL-EN-UE to ABYR-EN-UE",
             "STBL-FR-UE to ABYR-FR-UE",
             "STBL-DE-UE to ABYR-DE-UE",
@@ -883,74 +883,74 @@
     },
     {
         "name": "Dragunity Blast",
-        "abbreviatures": [
+        "abbreviations": [
             "SDDL-EN-UE"
         ]
     },
     {
         "name": "Next-Gen Dueling Kit",
-        "abbreviatures": [
+        "abbreviations": [
             "YS11-EN-UE"
         ]
     },
     {
         "name": "Utopia Value Box",
-        "abbreviatures": [
+        "abbreviations": [
             "YS11-EN-UE"
         ]
     },
     {
         "name": "Master Hyperion Value Box",
-        "abbreviatures": [
+        "abbreviations": [
             "SDLS-EN-UE"
         ]
     },
     {
         "name": "Shadow Samurai Value Box",
-        "abbreviatures": [
+        "abbreviations": [
             "SDWA-EN-UE"
         ]
     },
     {
         "name": "Poseidra Value Box",
-        "abbreviatures": [
+        "abbreviations": [
             "SDRE-EN-UE"
         ]
     },
     {
         "name": "Silver Dragon Value Box",
-        "abbreviatures": [
+        "abbreviations": [
             "SDBE-EN-UE"
         ]
     },
     {
         "name": "Magazine and Manga Promotional Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Shonen Jump",
-        "abbreviatures": [
+        "abbreviations": [
             "JMP",
             "JUMP-EN-LE"
         ]
     },
     {
         "name": "Banzai",
-        "abbreviatures": [
+        "abbreviations": [
             "BNZ-DE-UE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! The Official Magazine",
-        "abbreviatures": [
+        "abbreviations": [
             "YGMU-IT-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! The Movie Ani-Manga",
-        "abbreviatures": [
+        "abbreviations": [
             "YMA-EN-LE",
             "YMM-FR-LE",
             "MOV-IT-LE"
@@ -958,260 +958,260 @@
     },
     {
         "name": "Yu-Gi-Oh! Duelist Volume 16",
-        "abbreviatures": [
+        "abbreviations": [
             "JUMP-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Millennium World Volume 4",
-        "abbreviatures": [
+        "abbreviations": [
             "JUMP-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! R Volume 1",
-        "abbreviatures": [
+        "abbreviations": [
             "YR01-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! R Volume 3",
-        "abbreviatures": [
+        "abbreviations": [
             "YR03-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! R Volume 4",
-        "abbreviatures": [
+        "abbreviations": [
             "YR04-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! R Volume 5",
-        "abbreviatures": [
+        "abbreviations": [
             "YR05-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Volume 1",
-        "abbreviatures": [
+        "abbreviations": [
             "YG01-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Volume 2",
-        "abbreviatures": [
+        "abbreviations": [
             "YG02-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Volume 3",
-        "abbreviatures": [
+        "abbreviations": [
             "YG03-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Volume 4",
-        "abbreviatures": [
+        "abbreviations": [
             "YG04-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Volume 5",
-        "abbreviatures": [
+        "abbreviations": [
             "YG05-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Volume 6",
-        "abbreviatures": [
+        "abbreviations": [
             "YG06-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Volume 7",
-        "abbreviatures": [
+        "abbreviations": [
             "YG07-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Volume 8",
-        "abbreviatures": [
+        "abbreviations": [
             "YG08-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Volume 9",
-        "abbreviatures": [
+        "abbreviations": [
             "YG09-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! 5D's Volume 1",
-        "abbreviatures": [
+        "abbreviations": [
             "YF01-EN-LE",
             "YF01-FR-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! 5D's Volume 2",
-        "abbreviatures": [
+        "abbreviations": [
             "YF02-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! 5D's Volume 3",
-        "abbreviatures": [
+        "abbreviations": [
             "YF03-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! 5D's Volume 4",
-        "abbreviatures": [
+        "abbreviations": [
             "YF04-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! 5D's Volume 5",
-        "abbreviatures": [
+        "abbreviations": [
             "YF05-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! 5D's Volume 6",
-        "abbreviatures": [
+        "abbreviations": [
             "YF06-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! 5D's Volume 7",
-        "abbreviatures": [
+        "abbreviations": [
             "YF07-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! 5D's Volume 8",
-        "abbreviatures": [
+        "abbreviations": [
             "YF08-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! 5D's Volume 9",
-        "abbreviatures": [
+        "abbreviations": [
             "YF09-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ZEXAL Volume 1",
-        "abbreviatures": [
+        "abbreviations": [
             "YZ01-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ZEXAL Volume 2",
-        "abbreviatures": [
+        "abbreviations": [
             "YZ02-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ZEXAL Volume 3",
-        "abbreviatures": [
+        "abbreviations": [
             "YZ03-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ZEXAL Volume 4",
-        "abbreviatures": [
+        "abbreviations": [
             "YZ04-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ZEXAL Volume 5",
-        "abbreviatures": [
+        "abbreviations": [
             "YZ05-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ZEXAL Volume 6",
-        "abbreviatures": [
+        "abbreviations": [
             "YZ06-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ZEXAL Volume 7",
-        "abbreviatures": [
+        "abbreviations": [
             "YZ07-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ZEXAL Volume 8",
-        "abbreviatures": [
+        "abbreviations": [
             "YZ08-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ZEXAL Volume 9",
-        "abbreviatures": [
+        "abbreviations": [
             "YZ09-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ARC-V Volume 1",
-        "abbreviatures": [
+        "abbreviations": [
             "YA01-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ARC-V Volume 2",
-        "abbreviatures": [
+        "abbreviations": [
             "YA02-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ARC-V Volume 3",
-        "abbreviatures": [
+        "abbreviations": [
             "YA03-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ARC-V Volume 4",
-        "abbreviatures": [
+        "abbreviations": [
             "YA04-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ARC-V Volume 5",
-        "abbreviatures": [
+        "abbreviations": [
             "YA05-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ARC-V Volume 6",
-        "abbreviatures": [
+        "abbreviations": [
             "YA06-EN-LE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! ARC-V Volume 7",
-        "abbreviatures": [
+        "abbreviations": [
             "YA07-EN-LE"
         ]
     },
     {
         "name": "Special Edition Promotional Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Invasion of Chaos: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "IOC-LE"
         ]
     },
     {
         "name": "Rise of Destiny: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "RDS-EN-LE",
             "RDS-FR-LE",
             "RDS-DE-LE",
@@ -1222,7 +1222,7 @@
     },
     {
         "name": "The Lost Millennium: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "TLM-EN-LE",
             "TLM-FR-LE",
             "TLM-DE-LE",
@@ -1233,7 +1233,7 @@
     },
     {
         "name": "Elemental Energy: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "EEN-EN-LE",
             "EEN-FR-LE",
             "EEN-DE-LE",
@@ -1243,7 +1243,7 @@
     },
     {
         "name": "Shadow of Infinity: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "SOI-EN-LE",
             "SOI-EU-LE",
             "SOI-FR-LE",
@@ -1254,7 +1254,7 @@
     },
     {
         "name": "Strike of Neos: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "STON-EN-LE",
             "STON-FR-LE",
             "STON-DE-LE",
@@ -1264,7 +1264,7 @@
     },
     {
         "name": "Force of the Breaker: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "FOTB-EN-LE",
             "FOTB-FR-LE",
             "FOTB-DE-LE",
@@ -1274,7 +1274,7 @@
     },
     {
         "name": "Tactical Evolution: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "TAEV-EN-LE",
             "TAEV-FR-LE",
             "TAEV-DE-LE",
@@ -1284,7 +1284,7 @@
     },
     {
         "name": "Gladiator's Assault: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "GLAS-EN-LE",
             "GLAS-FR-LE",
             "GLAS-DE-LE",
@@ -1294,7 +1294,7 @@
     },
     {
         "name": "Phantom Darkness: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "PTDN-EN-LE",
             "PTDN-FR-LE",
             "PTDN-DE-LE",
@@ -1304,7 +1304,7 @@
     },
     {
         "name": "Light of Destruction: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "LODT-EN-LE",
             "LODT-FR-LE",
             "LODT-DE-LE",
@@ -1314,7 +1314,7 @@
     },
     {
         "name": "The Duelist Genesis: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "TDGS-EN-LE",
             "TDGS-FR-LE",
             "TDGS-DE-LE",
@@ -1324,7 +1324,7 @@
     },
     {
         "name": "Crossroads of Chaos: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "CSOC-EN-LE",
             "CSOC-FR-LE",
             "CSOC-DE-LE",
@@ -1334,7 +1334,7 @@
     },
     {
         "name": "Crimson Crisis: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "CRMS-EN-LE",
             "CRMS-FR-LE",
             "CRMS-DE-LE",
@@ -1344,7 +1344,7 @@
     },
     {
         "name": "Raging Battle: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "RGBT-EN-LE",
             "RGBT-FR-LE",
             "RGBT-DE-LE",
@@ -1354,7 +1354,7 @@
     },
     {
         "name": "Ancient Prophecy: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "ANPR-EN-LE",
             "ANPR-FR-LE",
             "ANPR-DE-LE",
@@ -1364,7 +1364,7 @@
     },
     {
         "name": "Stardust Overdrive: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "SOVR-EN-LE",
             "SOVR-FR-LE",
             "SOVR-DE-LE",
@@ -1374,7 +1374,7 @@
     },
     {
         "name": "Absolute Powerforce: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "ABPF-EN-LE",
             "ABPF-FR-LE",
             "ABPF-DE-LE",
@@ -1384,7 +1384,7 @@
     },
     {
         "name": "Duelist Revolution: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "DREV-EN-LE",
             "DREV-FR-LE",
             "DREV-DE-LE",
@@ -1394,7 +1394,7 @@
     },
     {
         "name": "Storm of Ragnarok: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "STOR-EN-LE",
             "STOR-FR-LE",
             "STOR-DE-LE",
@@ -1404,7 +1404,7 @@
     },
     {
         "name": "Hidden Arsenal: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "HASE-EN-LE",
             "HASE-FR-LE",
             "HASE-DE-LE",
@@ -1414,7 +1414,7 @@
     },
     {
         "name": "Generation Force: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "GENF-EN-LE",
             "GENF-FR-LE",
             "GENF-DE-LE",
@@ -1424,7 +1424,7 @@
     },
     {
         "name": "Duelist Pack: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "DPK-EN-LE",
             "DPK-FR-LE",
             "DPK-DE-LE",
@@ -1433,19 +1433,19 @@
     },
     {
         "name": "Structure Deck: Dinosaur's Rage Special Set",
-        "abbreviatures": [
+        "abbreviations": [
             "SD09-EN-LE"
         ]
     },
     {
         "name": "Spellcaster's Command Structure Deck: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "SDSC-EN-LE"
         ]
     },
     {
         "name": "Order of Chaos: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "ORCS-EN-LE",
             "ORCS-FR-LE",
             "ORCS-DE-LE",
@@ -1455,7 +1455,7 @@
     },
     {
         "name": "Hidden Arsenal 5: Steelswarm Invasion: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "H5SE-EN-LE",
             "H5SE-FR-LE",
             "H5SE-DE-LE",
@@ -1465,13 +1465,13 @@
     },
     {
         "name": "Ra Yellow Mega Pack: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "RYMP-EN-LE"
         ]
     },
     {
         "name": "Return of the Duelist: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "REDU-EN-LE",
             "REDU-FR-LE",
             "REDU-DE-LE",
@@ -1481,7 +1481,7 @@
     },
     {
         "name": "Abyss Rising: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "ABYR-EN-LE",
             "ABYR-FR-LE",
             "ABYR-DE-LE",
@@ -1491,7 +1491,7 @@
     },
     {
         "name": "Cosmo Blazer: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "CBLZ-EN-LE",
             "CBLZ-FR-LE",
             "CBLZ-DE-LE",
@@ -1501,7 +1501,7 @@
     },
     {
         "name": "Shadow Specters: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "SHSP-EN-LE",
             "SHSP-FR-LE",
             "SHSP-DE-LE",
@@ -1511,7 +1511,7 @@
     },
     {
         "name": "Judgment of the Light: Deluxe Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "JOTL-EN-LE",
             "JOTL-FR-LE",
             "JOTL-DE-LE",
@@ -1522,7 +1522,7 @@
     },
     {
         "name": "Legacy of the Valiant: Deluxe Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "LVAL-EN-LE",
             "LVAL-FR-LE",
             "LVAL-DE-LE",
@@ -1533,7 +1533,7 @@
     },
     {
         "name": "Primal Origin: Deluxe Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "PRIO-EN-LE",
             "PRIO-FR-LE",
             "PRIO-DE-LE",
@@ -1544,7 +1544,7 @@
     },
     {
         "name": "Duelist Alliance: Deluxe Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "DUEA-EN-LE",
             "DUEA-FR-LE",
             "DUEA-DE-LE",
@@ -1555,14 +1555,14 @@
     },
     {
         "name": "The New Challengers: Super Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "NECH-EN-LE",
             "NECH-DE-LE"
         ]
     },
     {
         "name": "Secrets of Eternity: Super Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "SECE-EN-LE",
             "SECE-FR-LE",
             "SECE-DE-LE",
@@ -1573,7 +1573,7 @@
     },
     {
         "name": "Crossed Souls: Advance Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "CROS-EN-LE",
             "CROS-FR-LE",
             "CROS-DE-LE",
@@ -1584,7 +1584,7 @@
     },
     {
         "name": "Dimension of Chaos: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "DOCS-EU-LE",
             "DOCS-FR-LE",
             "DOCS-DE-LE",
@@ -1595,13 +1595,13 @@
     },
     {
         "name": "Clash of Rebellions: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "CORE-NA-LE"
         ]
     },
     {
         "name": "Breakers of Shadow: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "BOSH-EN-LE",
             "BOSH-FR-LE",
             "BOSH-DE-LE",
@@ -1612,7 +1612,7 @@
     },
     {
         "name": "Shining Victories: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "SHVI-EN-LE",
             "SHVI-FR-LE",
             "SHVI-DE-LE",
@@ -1623,7 +1623,7 @@
     },
     {
         "name": "The Dark Illusion Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "TDIL-EU-LE",
             "TDIL-FR-LE",
             "TDIL-DE-LE",
@@ -1634,7 +1634,7 @@
     },
     {
         "name": "Invasion: Vengeance: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "INOV-EN-LE",
             "INOV-FR-LE",
             "INOV-DE-LE",
@@ -1645,7 +1645,7 @@
     },
     {
         "name": "Raging Tempest: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "RATE-EN-LE",
             "RATE-FR-LE",
             "RATE-DE-LE",
@@ -1656,7 +1656,7 @@
     },
     {
         "name": "Maximum Crisis: Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "MACR-EN-LE",
             "MACR-FR-LE",
             "MACR-DE-LE",
@@ -1667,7 +1667,7 @@
     },
     {
         "name": "Code of the Duelist Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "COTD-EN-LE",
             "COTD-FR-LE",
             "COTD-DE-LE",
@@ -1678,7 +1678,7 @@
     },
     {
         "name": "Circuit Break Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "CIBR-EN-LE",
             "CIBR-FR-LE",
             "CIBR-DE-LE",
@@ -1689,7 +1689,7 @@
     },
     {
         "name": "Extreme Force Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "EXFO-EN-LE",
             "EXFO-FR-LE",
             "EXFO-DE-LE",
@@ -1700,7 +1700,7 @@
     },
     {
         "name": "Flames of Destruction Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "FLOD-EN-LE",
             "FLOD-FR-LE",
             "FLOD-DE-LE",
@@ -1711,7 +1711,7 @@
     },
     {
         "name": "Cybernetic Horizon Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "CYHO-EN-LE",
             "CYHO-FR-LE",
             "CYHO-DE-LE",
@@ -1722,7 +1722,7 @@
     },
     {
         "name": "Soul Fusion Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "SOFU-EN-LE",
             "SOFU-FR-LE",
             "SOFU-DE-LE",
@@ -1733,7 +1733,7 @@
     },
     {
         "name": "Savage Strike Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "SAST-EN-LE",
             "SAST-FR-LE",
             "SAST-DE-LE",
@@ -1744,7 +1744,7 @@
     },
     {
         "name": "Dark Neostorm Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "DANE-EN-LE",
             "DANE-FR-LE",
             "DANE-DE-LE",
@@ -1755,7 +1755,7 @@
     },
     {
         "name": "Rising Rampage Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "RIRA-EN-LE",
             "RIRA-FR-LE",
             "RIRA-DE-LE",
@@ -1766,7 +1766,7 @@
     },
     {
         "name": "Ignition Assault Special Edition",
-        "abbreviatures": [
+        "abbreviations": [
             "IGAS-EN-LE",
             "IGAS-FR-LE",
             "IGAS-DE-LE",
@@ -1777,13 +1777,13 @@
     },
     {
         "name": "The Lost Art Promotional Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "The Lost Art Promotion",
-        "abbreviatures": [
+        "abbreviations": [
             "LART-EN-LE",
             "LART-FR-LE",
             "LART-DE-LE",
@@ -1794,7 +1794,7 @@
     },
     {
         "name": "The Lost Art Promotion 2019",
-        "abbreviatures": [
+        "abbreviations": [
             "LART-EN-LE",
             "LART-FR-LE",
             "LART-DE-LE",
@@ -1805,7 +1805,7 @@
     },
     {
         "name": "The Lost Art Promotion 2020",
-        "abbreviatures": [
+        "abbreviations": [
             "LART-EN-LE",
             "LART-FR-LE",
             "LART-DE-LE",
@@ -1816,7 +1816,7 @@
     },
     {
         "name": "The Lost Art Promotion 2021",
-        "abbreviatures": [
+        "abbreviations": [
             "LART-EN-LE",
             "LART-FR-LE",
             "LART-DE-LE",
@@ -1827,13 +1827,13 @@
     },
     {
         "name": "Video Game Promotional Cards - Xbox",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! The Dawn of Destiny promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DOD-NA-UE",
             "DOD-EU-UE",
             "DOD-FR-UE",
@@ -1844,13 +1844,13 @@
     },
     {
         "name": "Video Game Promotional Cards - Nintendo DS",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Spirit Caller promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "GX03-EN-UE",
             "GX03-FR-UE",
             "GX03-DE-UE",
@@ -1860,7 +1860,7 @@
     },
     {
         "name": "Nightmare Troubadour Promotional Cards",
-        "abbreviatures": [
+        "abbreviations": [
             "NTR-EN-UE",
             "NTR-FR-UE",
             "NTR-DE-UE",
@@ -1870,7 +1870,7 @@
     },
     {
         "name": "Yu-Gi-Oh! World Championship 2007 promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "WC07-EN-UE",
             "WC07-FR-UE",
             "WC07-DE-UE",
@@ -1880,7 +1880,7 @@
     },
     {
         "name": "Yu-Gi-Oh! GX Card Almanac promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "YDB1-EN-UE",
             "YDB1-FR-UE",
             "YDB1-DE-UE",
@@ -1890,7 +1890,7 @@
     },
     {
         "name": "Yu-Gi-Oh! World Championship 2008 promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "WC08-EN-UE",
             "WC08-FR-UE",
             "WC08-DE-UE",
@@ -1900,7 +1900,7 @@
     },
     {
         "name": "Stardust Accelerator promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "WC09-NA-UE",
             "WC09-EU-UE",
             "WC09-FR-UE",
@@ -1911,7 +1911,7 @@
     },
     {
         "name": "Yu-Gi-Oh! 5D's World Championship 2010: Reverse of Arcadia promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "WC10-NA-UE",
             "WC10-EU-UE",
             "WC10-FR-UE",
@@ -1922,7 +1922,7 @@
     },
     {
         "name": "Yu-Gi-Oh! 5D's World Championship 2011: Over the Nexus promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "WC11-NA-UE",
             "WC11-EU-UE",
             "WC11-FR-UE",
@@ -1933,26 +1933,26 @@
     },
     {
         "name": "Video Game Promotional Cards - Game Boy Advance",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! The Eternal Duelist Soul promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "EDS-UE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "SDD-UE",
             "SDD-E-UE"
         ]
     },
     {
         "name": "Yu-Gi-Oh! The Sacred Cards promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "TSC-UE",
             "TSC-E-UE",
             "TSC-F-UE",
@@ -1963,7 +1963,7 @@
     },
     {
         "name": "Yu-Gi-Oh! World Championship Tournament 2004 promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "WC4-UE",
             "WC4-E-UE",
             "WC4-F-UE",
@@ -1974,7 +1974,7 @@
     },
     {
         "name": "Yu-Gi-Oh! Reshef of Destruction promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "ROD-EN-UE",
             "ROD-FR-UE",
             "ROD-DE-UE",
@@ -1984,7 +1984,7 @@
     },
     {
         "name": "Yu-Gi-Oh! Destiny Board Traveler promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DBT-EN-UE",
             "DBT-FR-UE",
             "DBT-DE-UE",
@@ -1994,7 +1994,7 @@
     },
     {
         "name": "Yu-Gi-Oh! 7 Trials to Glory: World Championship Tournament 2005 promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "WC5-EN-UE",
             "WC5-FR-UE",
             "WC5-DE-UE",
@@ -2004,7 +2004,7 @@
     },
     {
         "name": "Yu-Gi-Oh! GX Duel Academy promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "GX1-EN-UE",
             "GX1-FR-UE",
             "GX1-DE-UE",
@@ -2014,7 +2014,7 @@
     },
     {
         "name": "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006 promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "WC6-EN-UE",
             "WC6-FR-UE",
             "WC6-DE-UE",
@@ -2024,31 +2024,31 @@
     },
     {
         "name": "Yu-Gi-Oh! Double Pack promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "ROD-EN-UE"
         ]
     },
     {
         "name": "Video Game Promotional Cards - Nintendo Game Boy Color",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Dark Duel Stories promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DDS-UE"
         ]
     },
     {
         "name": "Video Game Promotional Cards - Nintendo GameCube",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! The Falsebound Kingdom promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "TFK-NA-UE",
             "TFK-EU-UE",
             "TFK-FR-UE",
@@ -2059,13 +2059,13 @@
     },
     {
         "name": "Video Game Promotional Cards - Nintendo Wii",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! 5D's Wheelie Breakers promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "WB01-NA-UE",
             "WB01-EU-UE",
             "WB01-FR-UE",
@@ -2076,7 +2076,7 @@
     },
     {
         "name": "Yu-Gi-Oh! 5D's Duel Transer promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "YDT1-EN-UE",
             "YDT1-FR-UE",
             "YDT1-DE-UE",
@@ -2086,13 +2086,13 @@
     },
     {
         "name": "Video Game Promotional Cards - Nintendo Switch (NS)",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Legacy of the Duelist: Link Evolution promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "LOD2-EN-UE",
             "LOD2-DE-UE",
             "LOD2-FR-UE",
@@ -2102,13 +2102,13 @@
     },
     {
         "name": "Video Game Promotional Cards - Personal Computer (PC)",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Power of Chaos: Joey the Passion promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "PCJ-EN-UE",
             "PCJ-FR-UE",
             "PCJ-DE-UE",
@@ -2118,7 +2118,7 @@
     },
     {
         "name": "Yu-Gi-Oh! Power of Chaos: Kaiba the Revenge",
-        "abbreviatures": [
+        "abbreviations": [
             "PCK-UE",
             "PCK-E-UE",
             "PCK-F-UE",
@@ -2129,7 +2129,7 @@
     },
     {
         "name": "Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "PCY-UE",
             "PCY-E-UE",
             "PCY-F-UE",
@@ -2140,25 +2140,25 @@
     },
     {
         "name": "Video Game Promotional Cards - Sony Playstation (PS)",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Forbidden Memories Premium Edition promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "FMR-UE"
         ]
     },
     {
         "name": "Video Game Promotional Cards - Sony Playstation 2 (PS2)",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! Capsule Monster Coliseum promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "CMC-EN-UE",
             "CMC-FR-UE",
             "CMC-DE-UE",
@@ -2168,7 +2168,7 @@
     },
     {
         "name": "Yu-Gi-Oh! The Duelists of the Roses promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "DOR-UE",
             "DOR-E-UE",
             "DOR-F-UE",
@@ -2179,13 +2179,13 @@
     },
     {
         "name": "Video Game Promotional Cards - Sony Playstation Portable (PSP)",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Yu-Gi-Oh! GX Tag Force promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "GX02-EN-UE",
             "GX02-FR-UE",
             "GX02-DE-UE",
@@ -2195,7 +2195,7 @@
     },
     {
         "name": "Yu-Gi-Oh! GX Tag Force 2 promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "GX04-EN-UE",
             "GX04-FR-UE",
             "GX04-DE-UE",
@@ -2205,7 +2205,7 @@
     },
     {
         "name": "Yu-Gi-Oh! GX Tag Force 3 promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "GX06-EU-UE",
             "GX06-FR-UE",
             "GX06-DE-UE",
@@ -2215,7 +2215,7 @@
     },
     {
         "name": "Yu-Gi-Oh! 5D's Tag Force 4 promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "TF04-NA-UE",
             "TF04-FR-UE",
             "TF04-DE-UE",
@@ -2225,7 +2225,7 @@
     },
     {
         "name": "Yu-Gi-Oh! 5D's Tag Force 5 promotional cards",
-        "abbreviatures": [
+        "abbreviations": [
             "TF05-NA-UE",
             "TF05-EU-UE",
             "TF05-FR-UE",
@@ -2236,61 +2236,61 @@
     },
     {
         "name": "Duel Terminal",
-        "abbreviatures": [
+        "abbreviations": [
             "(TCG)"
         ]
     },
     {
         "name": "Duel Terminal - Preview Wave 1",
-        "abbreviatures": [
+        "abbreviations": [
             "DTP1-EN-DT"
         ]
     },
     {
         "name": "Duel Terminal - Preview Wave 2",
-        "abbreviatures": [
+        "abbreviations": [
             "DTP1-EN-DT"
         ]
     },
     {
         "name": "Duel Terminal 1",
-        "abbreviatures": [
+        "abbreviations": [
             "DT01-EN-DT"
         ]
     },
     {
         "name": "Duel Terminal 2",
-        "abbreviatures": [
+        "abbreviations": [
             "DT02-EN-DT"
         ]
     },
     {
         "name": "Duel Terminal 3",
-        "abbreviatures": [
+        "abbreviations": [
             "DT03-EN-DT"
         ]
     },
     {
         "name": "Duel Terminal 4",
-        "abbreviatures": [
+        "abbreviations": [
             "DT04-EN-DT"
         ]
     },
     {
         "name": "Duel Terminal 5",
-        "abbreviatures": [
+        "abbreviations": [
             "DT05-EN-DT"
         ]
     },
     {
         "name": "Duel Terminal 6",
-        "abbreviatures": [
+        "abbreviations": [
             "DT06-EN-DT"
         ]
     },
     {
         "name": "Duel Terminal 7",
-        "abbreviatures": [
+        "abbreviations": [
             "DT07-EN-DT"
         ]
     }

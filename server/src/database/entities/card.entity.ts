@@ -24,6 +24,6 @@ export class Card {
   @Column()
   cardSet!: string;
 
-  @Column('simple-array', { nullable: true })
+  @Column('jsonb', { nullable: true })
   typeline?: string[];
 }

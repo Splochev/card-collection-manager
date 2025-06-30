@@ -8,5 +8,6 @@ export class CardDto {
   cardSet!: string;
   cardId!: string;
   imageUrl!: string | null;
+  name?: string;
   [key: string]: unknown;
 }
