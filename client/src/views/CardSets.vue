@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Card Sets</h1>
+    <Typography tag="h1" variant="h1">Card Sets</Typography>
     <SharedButton variant="link" @click="login">Sign In</SharedButton>
     <SharedButton variant="link" @click="getUsers">Get Users</SharedButton>
     <SharedButton variant="link" @click="logout">Logout</SharedButton>
@@ -11,6 +11,7 @@
 import { useUserStore } from '@/stores/useUserStore'
 import { useSdkStore } from '@/stores/useSdkStore'
 import SharedButton from '@/components/shared/SharedButton.vue'
+import Typography from '@/components/shared/Typography.vue'
 
 const userStore = useUserStore()
 const sdkStore = useSdkStore()

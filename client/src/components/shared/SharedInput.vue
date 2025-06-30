@@ -1,7 +1,11 @@
 <template>
   <div class="form-control w-full">
+    <label v-if="props.label" :for="computedId" class="text-sm font-medium">
+      {{ props.label }}
+    </label>
     <div class="relative">
       <InputText
+        :id="computedId"
         :type="type"
         :placeholder="placeholder"
         v-model="innerValue"
@@ -28,7 +32,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, withDefaults } from 'vue'
+import { computed } from 'vue'
 import InputText from 'primevue/inputtext'
 import { mapPropsToClasses } from '@/utils/classUtils'
 
@@ -42,6 +46,8 @@ const props = withDefaults(
     leftIcon?: string
     rightIcon?: string
     class?: string
+    label?: string
+    id?: string // Added id property
   }>(),
   {
     type: 'text',
@@ -73,4 +79,8 @@ const iconStyles = computed(() => ({
   'padding-left': props.leftIcon ? '2rem' : '',
   'padding-right': props.rightIcon ? '2rem' : '',
 }))
+
+const uniqueId = `input-${Math.random().toString(36).substr(2, 9)}`;
+
+const computedId = computed(() => props.id || uniqueId);
 </script>

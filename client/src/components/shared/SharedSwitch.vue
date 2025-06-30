@@ -1,14 +1,28 @@
 <template>
   <label class="flex items-center cursor-pointer select-none">
-    <span v-if="leftLabel" class="label-text mr-2 self-center">{{ leftLabel }}</span>
-    <ToggleSwitch v-model="innerValue" :class="[sizeClass, props.class]" :aria-label="ariaLabel" />
-    <span v-if="rightLabel" class="label-text ml-2 self-center">{{ rightLabel }}</span>
+    <span 
+      v-if="leftLabel" 
+      class="label-text mr-2 self-center"
+    >
+      {{ leftLabel }}
+    </span>
+    <ToggleSwitch
+      v-model="innerValue"
+      :class="[sizeClass, props.class]"
+      :aria-label="ariaLabel"
+    />
+    <span
+      v-if="rightLabel"
+      class="label-text ml-2 self-center"
+    >
+      {{ rightLabel }}
+    </span>
     <slot></slot>
   </label>
 </template>
 
 <script setup lang="ts">
-import { computed, withDefaults } from 'vue'
+import { computed } from 'vue'
 import ToggleSwitch from 'primevue/toggleswitch'
 
 const props = withDefaults(

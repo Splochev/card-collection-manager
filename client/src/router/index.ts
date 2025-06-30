@@ -59,11 +59,21 @@ const routes = [
     children: [
       { path: 'collection', component: Collection, beforeEnter: requireAuth },
       { path: 'card-sets', component: CardSets, beforeEnter: requireAuth },
+    ],
+  },
+  {
+    path: '/',
+    children: [
       { path: 'users', component: Users, beforeEnter: requireAdmin },
     ],
   },
-  { path: '/signin', component: SignIn, beforeEnter: requireGuest },
-  { path: '/signup', component: SignUp, beforeEnter: requireGuest },
+  {
+    path: '/',
+    children: [
+      { path: '/signin', component: SignIn, beforeEnter: requireGuest },
+      { path: '/signup', component: SignUp, beforeEnter: requireGuest },
+    ],
+  },
 ]
 
 const router = createRouter({

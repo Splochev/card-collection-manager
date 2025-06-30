@@ -1,16 +1,20 @@
 <template>
-  <div>
-    <h1>Sign In</h1>
-    <SharedButton variant="link" @click="login">Sign In</SharedButton>
-    <SharedButton variant="link" @click="getUsers">Get Users</SharedButton>
-    <SharedButton variant="link" @click="logout">Logout</SharedButton>
-  </div>
+  <SignLayout>
+    <div>
+      <Typography tag="h1" variant="h5">Sign In</Typography>
+      <SharedButton variant="link" @click="login">Sign In</SharedButton>
+      <SharedButton variant="link" @click="getUsers">Get Users</SharedButton>
+      <SharedButton variant="link" @click="logout">Logout</SharedButton>
+    </div>
+  </SignLayout>
 </template>
 
 <script setup lang="ts">
 import { useUserStore } from '@/stores/useUserStore'
 import { useSdkStore } from '@/stores/useSdkStore'
 import SharedButton from '@/components/shared/SharedButton.vue'
+import SignLayout from '@/components/layouts/SignLayout.vue'
+import Typography from '@/components/shared/Typography.vue'
 
 const userStore = useUserStore()
 const sdkStore = useSdkStore()

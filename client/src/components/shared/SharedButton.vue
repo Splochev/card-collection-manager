@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, useAttrs, useSlots, defineEmits, defineProps, withDefaults } from 'vue'
+import { computed, useAttrs, useSlots } from 'vue'
 import Button from 'primevue/button'
 import { useRouter } from 'vue-router'
 import { navigateToPath } from '@/utils/navigationUtils'
@@ -70,7 +70,7 @@ const buttonClass = computed(() =>
     severity: 'p-button-',
     size: 'p-button-',
     rounded: 'p-button-rounded',
-    linkVariant: ['filter', 'hover:brightness-75'],
+    linkVariant: ['filter', 'hover:brightness-75', '!p-0'],
     iconVariant: ['p-button-icon-only', 'p-button-rounded'],
   }),
 )
