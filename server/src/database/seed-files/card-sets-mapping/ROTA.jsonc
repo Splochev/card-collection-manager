@@ -1,0 +1,810 @@
+[
+  {
+    "card_number": "ROTA-EN000",
+    "name": "Ultimate Dragon of Pride and Soul",
+    "rarity": "Quarter Century Secret Rare",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN001",
+    "name": "Surfacing Big Jaws",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN002",
+    "name": "Drake Shark",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN003",
+    "name": "Armored Shark",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN004",
+    "name": "Heart of the Blue-Eyes",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN005",
+    "name": "Red-Eyes Black Fullmetal Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN006",
+    "name": "Metalzoa X",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN007",
+    "name": "Zoa the Fiendish Beast",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN008",
+    "name": "Metal Illusionist",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN009",
+    "name": "Battlewasp - Rapier the Onslaught",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN010",
+    "name": "Performage Ball Balancer",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN011",
+    "name": "Chaos Allure Queen",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN012",
+    "name": "Goblin Bikers Gone Wild",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN013",
+    "name": "Primite Imperial Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN014",
+    "name": "Lacrima the Crimson Tears",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN015",
+    "name": "Mementotlan Akihiron",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN016",
+    "name": "Centur-Ion Chimerea",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN017",
+    "name": "Abyssrhine, the Atlantean Spirit",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN018",
+    "name": "Mermail Shadow Squad",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN019",
+    "name": "Anarchist Monk of the Six Samurai",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN020",
+    "name": "Tactical Trainer of the Six Samurai",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN021",
+    "name": "Wandering Titan of Tartarus",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN022",
+    "name": "Union Pilot",
+    "rarity": "Common",
+    "category": "Union monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN023",
+    "name": "Eria the Water Channeler",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN024",
+    "name": "Mulcharmy Fuwalos",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN025",
+    "name": "Tsuru-Puru-Purun",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN026",
+    "name": "Flipping Feline",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN027",
+    "name": "L Magi Mergy",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN028",
+    "name": "Neverending Nightmare Absorber",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN029",
+    "name": "Newbee!",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN030",
+    "name": "Azamina Ilia Silvia",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN031",
+    "name": "Azamina Mu Rcielago",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Fusion Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN032",
+    "name": "Azamina Sol Erysichthon",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN033",
+    "name": "Azamina Moa Regina",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Fusion Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN034",
+    "name": "Khaos Starsource Dragon",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN035",
+    "name": "Heosvarog the Mechanical Dawn",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN036",
+    "name": "Battlewasp - Grand Partisan the Revolution",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN037",
+    "name": "Battlewasp - Sachi the Ceremonial Bow",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN038",
+    "name": "Centur-Ion Primera Primus",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner Synchro Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN039",
+    "name": "Legendary Lord Six Samurai - Shi En",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Synchro Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN040",
+    "name": "Legendary Lord Six Samurai - Enishi",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN041",
+    "name": "Number C32: Shark Drake LeVeiss",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN042",
+    "name": "LeVirtue Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN043",
+    "name": "Poseidra Abyss, the Atlantean Dragon Lord",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Xyz Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN044",
+    "name": "Rubysapphirus, the Adamant Jewel",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN045",
+    "name": "Fiendsmith's Agnumday",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN046",
+    "name": "Mermail King - Neptabyss",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Link Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN047",
+    "name": "Flying Mary, the Wandering Ghost Ship",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Link Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN048",
+    "name": "Aqua Jet Surface",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN049",
+    "name": "Reincarnation Unveiling Mail",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN050",
+    "name": "Incoming Machine!",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN051",
+    "name": "Armed Rebeellion",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN052",
+    "name": "Battlewasp Wind",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN053",
+    "name": "The Hallowed Azamina",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN054",
+    "name": "Azamina Debtors",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN055",
+    "name": "Deception of the Sinful Spoils",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Continuous Spell Card",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN056",
+    "name": "Scourge of the White Forest",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN057",
+    "name": "Goblin Biker Grand Breakout",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN058",
+    "name": "Primite Lordly Lode",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Continuous Spell Card",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN059",
+    "name": "Primite Roar",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN060",
+    "name": "Primite Drillbeam",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Quick-Play Spell Card",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN061",
+    "name": "Sangen Furo",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN062",
+    "name": "Abyss-sting Triaina",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN063",
+    "name": "Six Strike - Double Assault",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN064",
+    "name": "Final Bringer of the End Times",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN065",
+    "name": "Succumbing-Song Morganite",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN066",
+    "name": "Firestorms Over Atlantis",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN067",
+    "name": "Token Support",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN068",
+    "name": "Virtue Stream",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN069",
+    "name": "Xyz Poseidon Splash",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN070",
+    "name": "Puppet Shark",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN071",
+    "name": "Max Metalmorph",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN072",
+    "name": "Time Engine",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN073",
+    "name": "Azamina Determination",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN074",
+    "name": "Guilt of the Sinful Spoils",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN075",
+    "name": "Goblin Biker Grand Crisis",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN076",
+    "name": "Primite Howl",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN077",
+    "name": "Ragnaraika Wisteria of Woe",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN078",
+    "name": "Vaalmonica Ereditare",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN079",
+    "name": "Dominus Impulse",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Normal Trap Card",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN080",
+    "name": "Summer Schoolwork Successful!",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN081",
+    "name": "Supply Soldier of the Indestructible Insects",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN082",
+    "name": "Heavy Cavalry of the Indestructible Insects",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN083",
+    "name": "Insect Invitation",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN084",
+    "name": "Mantman the Ultrahuman",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN085",
+    "name": "Phalaenop Sisters",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN086",
+    "name": "Release Brainwashing",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN087",
+    "name": "Denial Deity Dotan",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN088",
+    "name": "Butterfly Fish",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN089",
+    "name": "QQ Enneagon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN090",
+    "name": "Mimighoul Armor",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN091",
+    "name": "Mimighoul Fairy",
+    "rarity": "Super Rare",
+    "category": "Flip monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN092",
+    "name": "Mimighoul Slime",
+    "rarity": "Super Rare",
+    "category": "Flip monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN093",
+    "name": "Giant Mimighoul",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Xyz Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN094",
+    "name": "Mimighoul Throne",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Xyz Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN095",
+    "name": "Mimighoul Fork",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New (world premiere)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN096",
+    "name": "Mimighoul Charm",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Continuous Spell Card",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN097",
+    "name": "Rescue Hedgehog",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New (OCG import)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN098",
+    "name": "Fire King Courtier Ulcanix",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN099",
+    "name": "Cursed Fire King Doom Burst",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New (OCG import)",
+    "cardSetName": "Rage of the Abyss"
+  },
+  {
+    "card_number": "ROTA-EN100",
+    "name": "Splitting Planarian",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New (OCG import)",
+    "cardSetName": "Rage of the Abyss"
+  }
+]

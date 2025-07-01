@@ -1,0 +1,810 @@
+[
+  {
+    "card_number": "SUDA-EN000",
+    "name": "Paladins of Bonds and Unity",
+    "rarity": "Quarter Century Secret Rare",
+    "category": "Effect Synchro Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN001",
+    "name": "Evil HERO Toxic Bubble",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN002",
+    "name": "Evil HERO Dead-End Prison",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN003",
+    "name": "Evil HERO Infernal Rider",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN004",
+    "name": "Arcana Force V - The Hierophant",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN005",
+    "name": "Arcana Force XIX - The Sun",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN006",
+    "name": "Speedroid Colonel Clackers",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN007",
+    "name": "Speedroid Wing Synchron",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner Pendulum Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN008",
+    "name": "Elzette, Azamina of the White Forest",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN009",
+    "name": "Queen Azamina",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN010",
+    "name": "Argostars - Glorious Adra",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN011",
+    "name": "Materiactor Exareptor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN012",
+    "name": "Materiactor Zeptwing",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN013",
+    "name": "Hydrojet Shark",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN014",
+    "name": "Metalflame Swordsman",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN015",
+    "name": "Primite Dragon Ether Beryl",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN016",
+    "name": "Poseidra, the Storming Atlantean",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN017",
+    "name": "Gladiator Beast Gistel",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN018",
+    "name": "Test Bear",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN019",
+    "name": "Crystron Tristaros",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN020",
+    "name": "Crystron Sulfador",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN021",
+    "name": "Tenyi Spirit - Suruya",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Tuner monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN022",
+    "name": "Driangle, Dragon of the Dark Deep",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN023",
+    "name": "Liberator Eto",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN024",
+    "name": "Grand Knight of the Red Lotus",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN025",
+    "name": "Mulcharmy Meowls",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN026",
+    "name": "Hallo, the Spirit of Tricks",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN027",
+    "name": "Ween, the Spirit of Treats",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN028",
+    "name": "Template Skipper",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN029",
+    "name": "Goddess of the Two Sides",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN030",
+    "name": "Tempura of Fortune - EBI",
+    "rarity": "Common",
+    "category": "Normal Pendulum Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN031",
+    "name": "Evil HERO Neos Lord",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Fusion Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN032",
+    "name": "Evil HERO Inferno Wing - Backfire",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN033",
+    "name": "Evil HERO Darkest Knight",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN034",
+    "name": "Arcana Force EX - The Chaos Ruler",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN035",
+    "name": "Snake-Eyes Doomed Dragon",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Fusion Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN036",
+    "name": "Saint Azamina",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Fusion Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN037",
+    "name": "Fiendsmith's Rextremende",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Fusion Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN038",
+    "name": "Gladiator Beast Claudius",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN039",
+    "name": "Crystal Clear Wing Over Synchro Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Synchro Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN040",
+    "name": "Hi-Speedroid Glider #2",
+    "rarity": "Common",
+    "category": "Effect Tuner Synchro Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN041",
+    "name": "Crystron Eleskeletus",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN042",
+    "name": "Tenyi Spirit - Mula Adhara",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Synchro Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN043",
+    "name": "Lightstorm Dragon",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN044",
+    "name": "Goblin Bikers Gone Bonkers",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Xyz Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN045",
+    "name": "Materiactor Exagard",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN046",
+    "name": "Abysstrite, the Atlantean Spirit",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN047",
+    "name": "Eclipse Twins",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN048",
+    "name": "Gladiator Beast Dareios",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN049",
+    "name": "A Bao A Qu, the Lightless Shadow",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Link Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN050",
+    "name": "Clockwork Knight",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Link Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN051",
+    "name": "Dark Contact",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN052",
+    "name": "Evil Assault",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN053",
+    "name": "Light Force",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN054",
+    "name": "Arcana Spread",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN055",
+    "name": "Sinful Spoils of the White Forest",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN056",
+    "name": "Play the Diabell",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN057",
+    "name": "Like the Diabell",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN058",
+    "name": "Argostars - Home Stadium",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN059",
+    "name": "Materiactor Meltdown",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN060",
+    "name": "Flavian - Colosseum of the Gladiator Beasts",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN061",
+    "name": "Crystron Inclusion",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN062",
+    "name": "Tenyinfinity",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN063",
+    "name": "Hallo-Ween!",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN064",
+    "name": "Hydor, the Base of All Things",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN065",
+    "name": "Double Wild",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN066",
+    "name": "Delta of Invitation",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN067",
+    "name": "Dark Supremacy",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN068",
+    "name": "Speedroid Clear Wing Wonder",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN069",
+    "name": "Sinful Spoils Awakening",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN070",
+    "name": "Azamina Aphes",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN071",
+    "name": "Argostars - Lightning Tydeu",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Continuous Trap Card",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN072",
+    "name": "Argostars - Swift Capane",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN073",
+    "name": "Argostars - Slayer Eteo",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN074",
+    "name": "Materiactor Critical",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN075",
+    "name": "Flame Coating Metalmorph",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN076",
+    "name": "Primite Scream",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN077",
+    "name": "Abyss-steam",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN078",
+    "name": "Six Strike - Sextuple Barrage",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN079",
+    "name": "Fiendsmith Kyrie",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN080",
+    "name": "Crystron Cluster",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN081",
+    "name": "Dark Necromancer",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN082",
+    "name": "Vulcarrion the Rotting Phoenix",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN083",
+    "name": "Curse of the Ancient Turtle",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN084",
+    "name": "Minimalian",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN085",
+    "name": "Shadow Severing Strike",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN086",
+    "name": "D.D. Post",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN087",
+    "name": "Beast of Talwar - The Sword Summit",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN088",
+    "name": "Ripple Bird",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN089",
+    "name": "The Toil of the Normal",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN090",
+    "name": "Mitsurugi no Mikoto, Kusanagi",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN091",
+    "name": "Mitsurugi no Mikoto, Saji",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN092",
+    "name": "Ame no Murakumo no Mitsurugi",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Ritual Monster",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN093",
+    "name": "Futsu no Mitama no Mitsurugi",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN094",
+    "name": "Mitsurugi Prayers",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN095",
+    "name": "Mitsurugi Ritual",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Ritual Spell Card",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN096",
+    "name": "Mitsurugi Great Purification",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New (world premiere)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN097",
+    "name": "Detonating Kuriboh",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New (OCG import)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN098",
+    "name": "Otonari Thunder",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New (OCG import)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN099",
+    "name": "Performapal Sky Magician Girl",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New (OCG import)",
+    "cardSetName": "Supreme Darkness"
+  },
+  {
+    "card_number": "SUDA-EN100",
+    "name": "Magistus Chorozo",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner Fusion Monster",
+    "print": "New (OCG import)",
+    "cardSetName": "Supreme Darkness"
+  }
+]

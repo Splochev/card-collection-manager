@@ -1,0 +1,359 @@
+[
+  {
+    "card_number": "SBTK-ENS01",
+    "name": "Zombie Master",
+    "rarity": "Super Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-ENS02",
+    "name": "Terror from the Deep!",
+    "rarity": "Super Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-ENS03",
+    "name": "Dino Destruction",
+    "rarity": "Super Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-ENS04",
+    "name": "Cocoon of Ultra Evolution",
+    "rarity": "Ultra Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-ENS05",
+    "name": "Switcheroo",
+    "rarity": "Ultra Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN001",
+    "name": "Magician of Black Chaos",
+    "rarity": "Ultra Rare",
+    "category": "Ritual Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN002",
+    "name": "Black Magic Ritual",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN003",
+    "name": "Kairyu-Shin",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN004",
+    "name": "Ancient Brain",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN005",
+    "name": "Wetha",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN006",
+    "name": "Change Slime",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN007",
+    "name": "Giant Mech-Soldier",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN008",
+    "name": "Crazy Fish",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN009",
+    "name": "Girochin Kuwagata",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN010",
+    "name": "Metal Armored Bug",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN011",
+    "name": "Tainted Wisdom",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN012",
+    "name": "Cyber Raider",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN013",
+    "name": "Patrician of Darkness",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN014",
+    "name": "Maryokutai",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN015",
+    "name": "Sasuke Samurai",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN016",
+    "name": "Don Zaloog",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN017",
+    "name": "Helping Robo for Combat",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN018",
+    "name": "Despair from the Dark",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN019",
+    "name": "Blood Sucker",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN020",
+    "name": "Black Ptera",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN021",
+    "name": "Flint Lock",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN022",
+    "name": "Golden Ladybug",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN023",
+    "name": "Jurrac Spinos",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN024",
+    "name": "Jurrac Stauriko",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN025",
+    "name": "Jurrac Herra",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN026",
+    "name": "Shore Knight",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN027",
+    "name": "The Legendary Fisherman II",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN028",
+    "name": "Parasite Paranoid",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN029",
+    "name": "Skull Knight",
+    "rarity": "Common",
+    "category": "Fusion Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN030",
+    "name": "Super War-Lion",
+    "rarity": "Common",
+    "category": "Ritual Monster",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN031",
+    "name": "War-Lion Ritual",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN032",
+    "name": "Share the Pain",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN033",
+    "name": "Flint",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN034",
+    "name": "Tail Swipe",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN035",
+    "name": "Double Cyclone",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN036",
+    "name": "Surface",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN037",
+    "name": "Bashing Shield",
+    "rarity": "Super Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN038",
+    "name": "Iron Draw",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN039",
+    "name": "Time Machine",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN040",
+    "name": "Tutan Mask",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN041",
+    "name": "Energy Drain",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN042",
+    "name": "Assault on GHQ",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN043",
+    "name": "Haunted Shrine",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN044",
+    "name": "Sealing Ceremony of Suiton",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN045",
+    "name": "Waking the Dragon",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  },
+  {
+    "card_number": "SBTK-EN046",
+    "name": "Floodgate Trap Hole",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Trials of the Kingdom"
+  }
+]
