@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "COTD-EN000",
+    "name": "Vendread Houndhorde",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN001",
+    "name": "Cyberse Wizard",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN002",
+    "name": "Backup Secretary",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN003",
+    "name": "Stack Reviver",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN004",
+    "name": "Launcher Commander",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN005",
+    "name": "Salvagent Driver",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN006",
+    "name": "Trickstar Lilybell",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN007",
+    "name": "Trickstar Lycoris",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN008",
+    "name": "Trickstar Candina",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN009",
+    "name": "Gouki Twistcobra",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN010",
+    "name": "Gouki Suprex",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN011",
+    "name": "Gouki Riscorpio",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN012",
+    "name": "Hack Worm",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN013",
+    "name": "Jack Wyvern",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN014",
+    "name": "Cracking Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN015",
+    "name": "Supreme King Dragon Odd-Eyes",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN016",
+    "name": "Predaplant Banksiogre",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN017",
+    "name": "D/D Vice Typhon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN018",
+    "name": "Crowned by the World Chalice",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN019",
+    "name": "Chosen by the World Chalice",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN020",
+    "name": "Beckoned by the World Chalice",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN021",
+    "name": "World Chalice Guardragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN022",
+    "name": "Lee the World Chalice Fairy",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN023",
+    "name": "World Legacy - World Chalice",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN024",
+    "name": "Jain, Twilightsworn General",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN025",
+    "name": "Lyla, Twilightsworn Enchantress",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN026",
+    "name": "Lumina, Twilightsworn Shaman",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN027",
+    "name": "Ryko, Twilightsworn Fighter",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN028",
+    "name": "Punishment Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN029",
+    "name": "Rescue Ferret",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN030",
+    "name": "Traptrix Mantis",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN031",
+    "name": "Motivating Captain",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN032",
+    "name": "Treasure Panda",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN033",
+    "name": "Zombina",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN034",
+    "name": "Re: EX",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN035",
+    "name": "Orbital Hydralander",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN036",
+    "name": "The Ascended of Thunder",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN037",
+    "name": "Parry Knights",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN038",
+    "name": "Supreme King Dragon Starving Venom",
+    "rarity": "Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN039",
+    "name": "Supreme King Dragon Clear Wing",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN040",
+    "name": "D/D/D Gust High King Alexander",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN041",
+    "name": "Supreme King Dragon Dark Rebellion",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN042",
+    "name": "D/D/D Wave High King Caesar",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN043",
+    "name": "Firewall Dragon",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN044",
+    "name": "Trickstar Holly Angel",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN045",
+    "name": "Gouki The Great Ogre",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN046",
+    "name": "Topologic Bomber Dragon",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN047",
+    "name": "Imduk the World Chalice Dragon",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN048",
+    "name": "Ib the World Chalice Priestess",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN049",
+    "name": "Auram the World Chalice Blademaster",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN050",
+    "name": "Ningirsu the World Chalice Warrior",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN051",
+    "name": "Gaia Saber, the Lightning Shadow",
+    "rarity": "Secret Rare",
+    "category": "Link Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN052",
+    "name": "Missus Radiant",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN053",
+    "name": "Trickstar Light Stage",
+    "rarity": "Ultra Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN054",
+    "name": "Gouki Re-Match",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN055",
+    "name": "Air Cracking Storm",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN056",
+    "name": "Smile Universe",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN057",
+    "name": "World Legacy Discovery",
+    "rarity": "Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN058",
+    "name": "World Legacy's Heart",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN059",
+    "name": "March of the Dark Brigade",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN060",
+    "name": "Twilight Twin Dragons",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN061",
+    "name": "Emerging Emergency Rescute Rescue",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN062",
+    "name": "Spellbook of Knowledge",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN063",
+    "name": "Gravity Lash",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN064",
+    "name": "Boogie Trap",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN065",
+    "name": "Castle Link",
+    "rarity": "Ultra Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN066",
+    "name": "Defense Zone",
+    "rarity": "Short Print",
+    "category": "Field Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN067",
+    "name": "Three Strikes Barrier",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN068",
+    "name": "Trickstar Reincarnation",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN069",
+    "name": "Pulse Mines",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN070",
+    "name": "Supreme Rage",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN071",
+    "name": "World Legacy Landmark",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN072",
+    "name": "Twilight Eraser",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN073",
+    "name": "Twilight Cloth",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN074",
+    "name": "Dark World Brainwashing",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN075",
+    "name": "Break Off Trap Hole",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN076",
+    "name": "Heavy Storm Duster",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN077",
+    "name": "Back to the Front",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN078",
+    "name": "Recall",
+    "rarity": "Rare",
+    "category": "Counter Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN079",
+    "name": "Blind Obliteration",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN080",
+    "name": "Transmission Gear",
+    "rarity": "Short Print",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN081",
+    "name": "Samurai Skull",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN082",
+    "name": "Revendread Slayer",
+    "rarity": "Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN083",
+    "name": "Vendread Revenants",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN084",
+    "name": "Revendread Origin",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN085",
+    "name": "Vendread Reorigin",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN086",
+    "name": "F.A. Sonic Meister",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN087",
+    "name": "F.A. Hang On Mach",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN088",
+    "name": "F.A. Circuit Grand Prix",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN089",
+    "name": "F.A. Downforce",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN090",
+    "name": "Junk Breaker",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN091",
+    "name": "Infernity Patriarch",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN092",
+    "name": "Gogogo Aristera & Dexia",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN093",
+    "name": "Wicked Acolyte Chilam Sabak",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN094",
+    "name": "Galaxy Worm",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN095",
+    "name": "Performapal Trumpanda",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN096",
+    "name": "Destiny HERO - Dangerous",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN097",
+    "name": "Abyss Actor - Trendy Understudy",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN098",
+    "name": "Speedroid Passinglider",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Code of the Duelist"
+  },
+  {
+    "card_number": "COTD-EN099",
+    "name": "Ancient Gear Golem - Ultimate Pound",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Code of the Duelist"
+  }
+]

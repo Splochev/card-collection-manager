@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "RATE-EN000",
+    "name": "Fusion Recycling Plant",
+    "rarity": "Rare",
+    "category": "Field Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN001",
+    "name": "Dragoncaller Magician",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN002",
+    "name": "Performapal Handstandaccoon",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN003",
+    "name": "Performapal Dag Daggerman",
+    "rarity": "Ultra Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN004",
+    "name": "Performapal Laugh Maker",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN005",
+    "name": "Speedroid Gum Prize",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN006",
+    "name": "Speedroid Horse Stilts",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN007",
+    "name": "Windwitch - Ice Bell",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN008",
+    "name": "Windwitch - Snow Bell",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN009",
+    "name": "Fusion Parasite",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN010",
+    "name": "Cyber Tutubon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN011",
+    "name": "Cipher Etranger",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN012",
+    "name": "Flower Cardian Cherry Blossom with Curtain",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN013",
+    "name": "Ancient Gear Hunting Hound",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN014",
+    "name": "Zoodiac Ratpier",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN015",
+    "name": "Zoodiac Bunnyblast",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN016",
+    "name": "Zoodiac Whiptail",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN017",
+    "name": "Zoodiac Thoroughblade",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN018",
+    "name": "Zoodiac Ramram",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN019",
+    "name": "True King Lithosagym, the Disaster",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN020",
+    "name": "Crystron Rion",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN021",
+    "name": "Crystron Sulfefnir",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN022",
+    "name": "Shinobird Crow",
+    "rarity": "Common",
+    "category": "Spirit monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN023",
+    "name": "Shinobird Crane",
+    "rarity": "Common",
+    "category": "Spirit monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN024",
+    "name": "Shinobird Pigeon",
+    "rarity": "Common",
+    "category": "Spirit monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN025",
+    "name": "Envoy of Chaos",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN026",
+    "name": "Spiritual Beast Tamer Winda",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN027",
+    "name": "Tierra, Source of Destruction",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN028",
+    "name": "Miscellaneousaurus",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN029",
+    "name": "Apprentice Piper",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN030",
+    "name": "Hebo, Lord of the River",
+    "rarity": "Common",
+    "category": "Spirit monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN031",
+    "name": "Yokotuner",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN032",
+    "name": "Eater of Millions",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN033",
+    "name": "Wightprincess",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN034",
+    "name": "Metrognome",
+    "rarity": "Short Print",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN035",
+    "name": "Fairy Tail - Rella",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN036",
+    "name": "Cyber Angel Natasha",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN037",
+    "name": "Shinobaroness Peacock",
+    "rarity": "Rare",
+    "category": "Spirit Ritual Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN038",
+    "name": "Shinobaron Peacock",
+    "rarity": "Rare",
+    "category": "Spirit Ritual Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN039",
+    "name": "Brave-Eyes Pendulum Dragon",
+    "rarity": "Secret Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN040",
+    "name": "Windwitch - Crystal Bell",
+    "rarity": "Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN041",
+    "name": "Chaos Ancient Gear Giant",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN042",
+    "name": "Ancient Gear Howitzer",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN043",
+    "name": "Windwitch - Winter Bell",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN044",
+    "name": "Superheavy Samurai Stealth Ninja",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN045",
+    "name": "Flower Cardian Lightflare",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN046",
+    "name": "Crystron Quariongandrax",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN047",
+    "name": "Shiranui Sunsaga",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN048",
+    "name": "Odd-Eyes Raging Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Pendulum Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN049",
+    "name": "Neo Galaxy-Eyes Cipher Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN050",
+    "name": "Heavy Armored Train Ironwolf",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN051",
+    "name": "Zoodiac Broadbull",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN052",
+    "name": "Zoodiac Tigermortar",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN053",
+    "name": "Zoodiac Drident",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN054",
+    "name": "Zoodiac Boarbow",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN055",
+    "name": "Machine Angel Absolute Ritual",
+    "rarity": "Common",
+    "category": "Ritual Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN056",
+    "name": "Rank-Up-Magic Cipher Ascension",
+    "rarity": "Common",
+    "category": "Quick-Play Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN057",
+    "name": "Recardination",
+    "rarity": "Common",
+    "category": "Normal Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN058",
+    "name": "Zodiac Sign",
+    "rarity": "Common",
+    "category": "Field Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN059",
+    "name": "Zoodiac Barrage",
+    "rarity": "Secret Rare",
+    "category": "Continuous Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN060",
+    "name": "Shinobird's Calling",
+    "rarity": "Common",
+    "category": "Ritual Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN061",
+    "name": "Shinobird Power Spot",
+    "rarity": "Common",
+    "category": "Continuous Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN062",
+    "name": "Super Soldier Synthesis",
+    "rarity": "Common",
+    "category": "Ritual Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN063",
+    "name": "Super Quantal Alphan Spike",
+    "rarity": "Common",
+    "category": "Normal Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN064",
+    "name": "Ritual Beast Return",
+    "rarity": "Common",
+    "category": "Quick-Play Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN065",
+    "name": "Foolish Burial Goods",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN066",
+    "name": "That Grass Looks Greener",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN067",
+    "name": "Terminal World NEXT",
+    "rarity": "Short Print",
+    "category": "Continuous Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN068",
+    "name": "Lost Wind",
+    "rarity": "Rare",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN069",
+    "name": "Cipher Spectrum",
+    "rarity": "Common",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN070",
+    "name": "Ancient Gear Reborn",
+    "rarity": "Rare",
+    "category": "Continuous Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN071",
+    "name": "Zoodiac Combo",
+    "rarity": "Common",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN072",
+    "name": "Shinobird Salvation",
+    "rarity": "Common",
+    "category": "Continuous Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN073",
+    "name": "Beginning of Heaven and Earth",
+    "rarity": "Common",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN074",
+    "name": "Shiranui Style Samsara",
+    "rarity": "Common",
+    "category": "Continuous Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN075",
+    "name": "Majespecter Gust",
+    "rarity": "Common",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN076",
+    "name": "Void Feast",
+    "rarity": "Common",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN077",
+    "name": "Purushaddoll Aeon",
+    "rarity": "Common",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN078",
+    "name": "Full Force Virus",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN079",
+    "name": "Switcheroroo",
+    "rarity": "Rare",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN080",
+    "name": "Massivemorph",
+    "rarity": "Short Print",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN081",
+    "name": "Sea Monster of Theseus",
+    "rarity": "Secret Rare",
+    "category": "Tuner Fusion Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN082",
+    "name": "Subterror Nemesis Defender",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN083",
+    "name": "Subterror Behemoth Dragossuary",
+    "rarity": "Super Rare",
+    "category": "Flip monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN084",
+    "name": "Subterror Behemoth Voltelluric",
+    "rarity": "Rare",
+    "category": "Flip monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN085",
+    "name": "Subterror Cave Clash",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN086",
+    "name": "SPYGAL Misty",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN087",
+    "name": "SPYRAL Tough",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN088",
+    "name": "SPYRAL GEAR - Utility Wire",
+    "rarity": "Super Rare",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN089",
+    "name": "SPYRAL MISSION - Recapture",
+    "rarity": "Rare",
+    "category": "Continuous Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN090",
+    "name": "Symphonic Warrior Guitaar",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN091",
+    "name": "Symphonic Warrior Synthess",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN092",
+    "name": "Symph Amplifire",
+    "rarity": "Common",
+    "category": "Field Spell",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN093",
+    "name": "Rocket Hand",
+    "rarity": "Common",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN094",
+    "name": "Mekanikal Arkfiend",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN095",
+    "name": "Lightsworn Judgment",
+    "rarity": "Common",
+    "category": "Normal Trap",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN096",
+    "name": "Symphonic Warrior Miccs",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN097",
+    "name": "Delta The Magnet Warrior",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN098",
+    "name": "Windwitch - Glass Bell",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Raging Tempest"
+  },
+  {
+    "card_number": "RATE-EN099",
+    "name": "Dark Contract with the Entities",
+    "rarity": "Ultra Rare",
+    "category": "Continuous Spell",
+    "cardSetName": "Raging Tempest"
+  }
+]

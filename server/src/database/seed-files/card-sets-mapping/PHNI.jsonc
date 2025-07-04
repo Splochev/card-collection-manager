@@ -1,0 +1,810 @@
+[
+  {
+    "card_number": "PHNI-EN000",
+    "name": "Magicians of Bonds and Unity",
+    "rarity": "Quarter Century Secret Rare",
+    "category": "Effect Monster",
+    "print": "New background",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN001",
+    "name": "Spirit of Yubel",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN002",
+    "name": "Geistgrinder Golem",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN003",
+    "name": "Samsara D Lotus",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN004",
+    "name": "Raidraptor - Noir Lanius",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN005",
+    "name": "Raidraptor - Bloom Vulture",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN006",
+    "name": "White Sunfish",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN007",
+    "name": "White Sardine",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN008",
+    "name": "Goblin Biker Dugg Charger",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN009",
+    "name": "Goblin Biker Clatter Sploder",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN010",
+    "name": "Goblin Biker Boom Mach",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN011",
+    "name": "Goblin Biker Mean Merciless",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN012",
+    "name": "Snake-Eyes Poplar",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN013",
+    "name": "Dark Guardian",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN014",
+    "name": "Phantasmal Summoning Beast",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN015",
+    "name": "Keaf, Murk of the Ghoti",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN016",
+    "name": "Psiics, Moonlight of the Ghoti",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN017",
+    "name": "Mementotlan Ghattic",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN018",
+    "name": "Horus the Black Flame Deity",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN019",
+    "name": "Lo, the Prayers of the Voiceless Voice",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN020",
+    "name": "Saffira, Dragon Queen of the Voiceless Voice",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN021",
+    "name": "Sauravis, Dragon Sage of the Voiceless Voice",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN022",
+    "name": "Aromalilith Rosalina",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN023",
+    "name": "Majespecter Porcupine - Yamarashi",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN024",
+    "name": "Carnot the Eternal Machine",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN025",
+    "name": "Magmacho Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN026",
+    "name": "Time Reloader",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN027",
+    "name": "Berserk Archfiend",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN028",
+    "name": "E Stranger Big Bang",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN029",
+    "name": "Goblin Freefall Squad",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN030",
+    "name": "Emissary from the House of Wax",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN031",
+    "name": "Procession of the Tea Jar",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN032",
+    "name": "EM:P Meowmine",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN033",
+    "name": "Mokomoko",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN034",
+    "name": "Principug",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN035",
+    "name": "Jongleur-Ghoul Illusionist",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN036",
+    "name": "Royal Rhino with Deceitful Dice",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN037",
+    "name": "Skull Guardian, Protector of the Voiceless Voice",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Ritual Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN038",
+    "name": "Yubel - The Loving Defender Forever",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Fusion Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN039",
+    "name": "Aromalilith Magnolia",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN040",
+    "name": "Master of Ham",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN041",
+    "name": "White Aura Porpoise",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN042",
+    "name": "Enigmaster Packbit",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Synchro Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN043",
+    "name": "Vagnawa the Moon-Eating Dragon",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN044",
+    "name": "Fish Lamp",
+    "rarity": "Common",
+    "category": "Effect Tuner Synchro Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN045",
+    "name": "Raidraptor - Rising Rebellion Falcon",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Xyz Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN046",
+    "name": "Raidraptor - Brave Strix",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN047",
+    "name": "Goblin Biker Big Gabonga",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Xyz Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN048",
+    "name": "Goblin's Crazy Beast",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN049",
+    "name": "Majespecter Draco - Ryu",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Xyz Pendulum Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN050",
+    "name": "Aromalilith Rosemary",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN051",
+    "name": "Majespecter Orthrus - Nue",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Link Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN052",
+    "name": "Promethean Princess, Bestower of Flames",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Link Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN053",
+    "name": "Sorcerer of Sebek",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN054",
+    "name": "Nightmare Pain",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN055",
+    "name": "Mature Chronicle",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN056",
+    "name": "Rise Rank-Up-Magic Raidraptor's Force",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN057",
+    "name": "Raidraptor - Roost",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN058",
+    "name": "White Reincarnation",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN059",
+    "name": "Ages of Stars and Frost",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN060",
+    "name": "Goblin Biker Grand Bash",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Continuous Spell Card",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN061",
+    "name": "Goblin Biker Grand Entrance",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Normal Spell Card",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN062",
+    "name": "Dramatic Snake-Eye Chase",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN063",
+    "name": "Dark Element",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN064",
+    "name": "Earthbound Fusion",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN065",
+    "name": "Walls of the Imperial Tomb",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN066",
+    "name": "Prayers of the Voiceless Voice",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN067",
+    "name": "Barrier of the Voiceless Voice",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN068",
+    "name": "Aroma Blend",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN069",
+    "name": "Majespecter Wind",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN070",
+    "name": "Mutamorphosis",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Normal Spell Card",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN071",
+    "name": "Materialization",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN072",
+    "name": "Flock Together",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN073",
+    "name": "Eternal Favorite",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN074",
+    "name": "Raidraptor - Glorious Bright",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN075",
+    "name": "Goblin Biker Grand Stampede",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN076",
+    "name": "Radiance of the Voiceless Voice",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN077",
+    "name": "Aroma Healing",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN078",
+    "name": "The Black Goat Laughs",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Normal Trap Card",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN079",
+    "name": "Terrors of the Afterroot",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN080",
+    "name": "Iron Thunder",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Counter Trap Card",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN081",
+    "name": "Psychic Processor",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN082",
+    "name": "Psychic Arsenal",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN083",
+    "name": "Emergency Apport",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN084",
+    "name": "Conbirdable",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN085",
+    "name": "Swarm of Centipedes",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN086",
+    "name": "Sunset Beat",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN087",
+    "name": "Tricorn the Cacophonous Concert",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN088",
+    "name": "Swallow's Cowrie",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN089",
+    "name": "Xyz Force",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN090",
+    "name": "Veidos the Eruption Dragon of Extinction",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN091",
+    "name": "King of the Ashened City",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN092",
+    "name": "Hero of the Ashened City",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN093",
+    "name": "Priestess of the Ashened City",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN094",
+    "name": "Obsidim, the Ashened City",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN095",
+    "name": "Awakening of Veidos",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Quick-Play Spell Card",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN096",
+    "name": "Ashened for Eternity",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "World Premiere",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN097",
+    "name": "Three-Eyed Ghost",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "OCG import",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN098",
+    "name": "Mystic Potato",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "OCG import",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN099",
+    "name": "Junk Dragonlet",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "OCG import",
+    "cardSetName": "Phantom Nightmare"
+  },
+  {
+    "card_number": "PHNI-EN100",
+    "name": "Ultimeat Offering",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "OCG import",
+    "cardSetName": "Phantom Nightmare"
+  }
+]

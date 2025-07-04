@@ -1,0 +1,709 @@
+[
+  {
+    "card_number": "LIOV-EN000",
+    "name": "Diviner of the Herald",
+    "rarity": "Secret Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN001",
+    "name": "ZW - Pegasus Twin Saber",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN002",
+    "name": "ZS - Armed Sage",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN003",
+    "name": "ZS - Ascended Sage",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN004",
+    "name": "Supreme Sovereign Serpent of Golgonda",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN005",
+    "name": "Springans Brothers",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN006",
+    "name": "Amazement Administrator Arlekino",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN007",
+    "name": "Amazement Ambassador Bufo",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN008",
+    "name": "Amazement Attendant Comica",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN009",
+    "name": "Roxrose Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN010",
+    "name": "Ruddy Rose Witch",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN011",
+    "name": "Danmari @Ignister",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN012",
+    "name": "Bujin Mahitotsu",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN013",
+    "name": "Bujin Torifune",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN014",
+    "name": "S-Force Dog Tag",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN015",
+    "name": "S-Force Edge Razor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN016",
+    "name": "Traptrix Vesiculo",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN017",
+    "name": "Live☆Twin Ki-sikil Frost",
+    "rarity": "Ultra Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN018",
+    "name": "Blackeyes, the Plunder Patroll Seaguide",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN019",
+    "name": "Starry Knight Ciel",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN020",
+    "name": "Judge of the Ice Barrier",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN021",
+    "name": "Scrap Raptor",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN022",
+    "name": "Dark Honest",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN023",
+    "name": "Bahalutiya, the Grand Radiance",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN024",
+    "name": "Pharaonic Guardian Sphinx",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN025",
+    "name": "Sky Scourge Cidhels",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN026",
+    "name": "Anchamoufrite",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN027",
+    "name": "Dark Eye Nightmare",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN028",
+    "name": "World Soul - Carbon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN029",
+    "name": "Yamorimori",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN030",
+    "name": "Clock Arc",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN031",
+    "name": "Otoshidamashi",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN032",
+    "name": "White Knight of Dogmatika",
+    "rarity": "Ultra Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN033",
+    "name": "Albion the Branded Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN034",
+    "name": "Mysterion the Dragon Crown",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN035",
+    "name": "Ruddy Rose Dragon",
+    "rarity": "Secret Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN036",
+    "name": "Garden Rose Flora",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner Synchro Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN037",
+    "name": "Lavalval Exlord",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN038",
+    "name": "Star Mine",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN039",
+    "name": "Ultimate Dragonic Utopia Ray",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN040",
+    "name": "ZW - Dragonic Halberd",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN041",
+    "name": "Springans Merrymaker",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN042",
+    "name": "Rilliona, the Wondrous Magistus Witch Wardrobe",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN043",
+    "name": "Drytron Mu Beta Fafnir",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN044",
+    "name": "Tri-Brigade Bearbrumm the Rampant Rampager",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN045",
+    "name": "Dark Infant @Ignister",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN046",
+    "name": "Traptrix Cularia",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN047",
+    "name": "Paleozoic Cambroraster",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN048",
+    "name": "Benghalancer the Resurgent",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN049",
+    "name": "Lyna the Light Charmer, Lustrous",
+    "rarity": "Super Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN050",
+    "name": "Rank-Up-Magic Zexal Force",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN051",
+    "name": "Zexal Construction",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN052",
+    "name": "Zexal Entrust",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN053",
+    "name": "Dogmatikalamity",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN054",
+    "name": "Springans Booty",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN055",
+    "name": "Branded in White",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN056",
+    "name": "Amazing Time Ticket",
+    "rarity": "Secret Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN057",
+    "name": "Amazement Special Show",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN058",
+    "name": "Amazement Precious Park",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN059",
+    "name": "Basal Rose Shoot",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN060",
+    "name": "A.I. Meet You",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN061",
+    "name": "You and A.I.",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN062",
+    "name": "Bujincandescence",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN063",
+    "name": "Birth of the Prominence Flame",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN064",
+    "name": "Book of Lunar Eclipse",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN065",
+    "name": "One-Kuri-Way",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN066",
+    "name": "Hidden Springs of the Far East",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN067",
+    "name": "Zexal Alliance",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN068",
+    "name": "Screams of the Branded",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN069",
+    "name": "Judgment of the Branded",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN070",
+    "name": "Amazement Family Faces",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN071",
+    "name": "Amaze Attraction Cyclo-Coaster",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN072",
+    "name": "Amaze Attraction Wonder Wheel",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN073",
+    "name": "Amaze Attraction Majestic Merry-Go-Round",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN074",
+    "name": "Amaze Attraction Rapid Racing",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN075",
+    "name": "Amaze Attraction Horror House",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN076",
+    "name": "A.I. Challenge You",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN077",
+    "name": "S-Force Chase",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN078",
+    "name": "One by One",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN079",
+    "name": "Boo-Boo Game",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN080",
+    "name": "Fukubiki",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN081",
+    "name": "Proof of Pruflas",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN082",
+    "name": "Thron the Disciplined Angel",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN083",
+    "name": "Pendransaction",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN084",
+    "name": "Expendable Dai",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN085",
+    "name": "Terrors of the Underroot",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN086",
+    "name": "War Rock Wento",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN087",
+    "name": "War Rock Mammud",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN088",
+    "name": "War Rock Meteoragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN089",
+    "name": "War Rock Dignity",
+    "rarity": "Ultra Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN090",
+    "name": "War Rock Spirit",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN091",
+    "name": "War Rock Generations",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN092",
+    "name": "War Rock Big Blow",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN093",
+    "name": "Eda the Sun Magician",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN094",
+    "name": "Staysailor Romarin",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN095",
+    "name": "D/D/D Supersight King Zero Maxwell",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN096",
+    "name": "Binary Blader",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN097",
+    "name": "Sunavalon Daphne",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN098",
+    "name": "Sunavalon Melias",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN099",
+    "name": "Sunvine Cross Breed",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Lightning Overdrive"
+  },
+  {
+    "card_number": "LIOV-EN100",
+    "name": "Black Rose Dragon",
+    "rarity": "Starlight Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Lightning Overdrive"
+  }
+]

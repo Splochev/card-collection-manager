@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "RIRA-EN000",
+    "name": "Capshell",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN001",
+    "name": "Rescue Interlacer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN002",
+    "name": "Cross Debug",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN003",
+    "name": "Marincess Sea Horse",
+    "rarity": "Ultra Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN004",
+    "name": "Marincess Sea Star",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN005",
+    "name": "DMZ Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN006",
+    "name": "Dinowrestler Martial Ankylo",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN007",
+    "name": "Dinowrestler Rambrachio",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN008",
+    "name": "Fortune Lady Past",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN009",
+    "name": "Yosenju Sabu",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN010",
+    "name": "Yosenju Izna",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN011",
+    "name": "Mayosenju Hitot",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN012",
+    "name": "Tenyi Spirit - Adhara",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN013",
+    "name": "Tenyi Spirit - Shthana",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN014",
+    "name": "Tenyi Spirit - Mapura",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN015",
+    "name": "Tenyi Spirit - Nahata",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN016",
+    "name": "Tenyi Spirit - Vishuda",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN017",
+    "name": "Simorgh, Bird of Beginning",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN018",
+    "name": "Simorgh, Bird of Bringing",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN019",
+    "name": "Simorgh, Bird of Calamity",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN020",
+    "name": "Simorgh, Bird of Protection",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN021",
+    "name": "Simorgh, Lord of the Storm",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN022",
+    "name": "Simorgh of Darkness",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN023",
+    "name": "B.E.S. Blaster Cannon Core",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN024",
+    "name": "Vic Viper T301",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN025",
+    "name": "Reptilianne Lamia",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN026",
+    "name": "Ranryu",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN027",
+    "name": "Avida, Rebuilder of Worlds",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN028",
+    "name": "Witchcrafter Golem Aruru",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN029",
+    "name": "Gizmek Orochi, the Serpentron Sky Slasher",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN030",
+    "name": "Cataclysmic Cryonic Coldo",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN031",
+    "name": "Voltester",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN032",
+    "name": "Tlakalel, His Malevolent Majesty",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN033",
+    "name": "Beatraptor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN034",
+    "name": "Spirit Sculptor",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN035",
+    "name": "Reversible Beetle",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN036",
+    "name": "Megistric Maginician",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN037",
+    "name": "Magicalibra",
+    "rarity": "Common",
+    "category": "Normal Tuner Pendulum Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN038",
+    "name": "Fortune Lady Every",
+    "rarity": "Secret Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN039",
+    "name": "Borreload eXcharge Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN040",
+    "name": "Marincess Blue Slug",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN041",
+    "name": "Marincess Coral Anemone",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN042",
+    "name": "Marincess Marbled Rock",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN043",
+    "name": "Monk of the Tenyi",
+    "rarity": "Rare",
+    "category": "Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN044",
+    "name": "Shaman of the Tenyi",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN045",
+    "name": "Berserker of the Tenyi",
+    "rarity": "Rare",
+    "category": "Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN046",
+    "name": "Wynn the Wind Charmer, Verdant",
+    "rarity": "Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN047",
+    "name": "Linkmail Archfiend",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN048",
+    "name": "Apollousa, Bow of the Goddess",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN049",
+    "name": "Defender of the Labyrinth",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN050",
+    "name": "Baba Barber",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN051",
+    "name": "Link Back",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN052",
+    "name": "Grid Rod",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN053",
+    "name": "Rising Fire",
+    "rarity": "Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN054",
+    "name": "Fury of Fire",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN055",
+    "name": "Fortune Vision",
+    "rarity": "Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN056",
+    "name": "Fortune Lady Calling",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN057",
+    "name": "Yosenju Wind Worship",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN058",
+    "name": "Flawless Perfection of the Tenyi",
+    "rarity": "Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN059",
+    "name": "Vessel for the Dragon Cycle",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN060",
+    "name": "Elborz, the Sacred Lands of Simorgh",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN061",
+    "name": "Simorgh Onslaught",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN062",
+    "name": "Simorgh Repulsion",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN063",
+    "name": "Hypernova Burst",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN064",
+    "name": "Psychic Fervor",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN065",
+    "name": "Blockout Curtain",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN066",
+    "name": "Sextet Summon",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN067",
+    "name": "Draw Discharge",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN068",
+    "name": "Marincess Wave",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN069",
+    "name": "Marincess Current",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN070",
+    "name": "Fortune Lady Rewind",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN071",
+    "name": "Yosenjus' Sword Sting",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN072",
+    "name": "Fists of the Unrivaled Tenyi",
+    "rarity": "Rare",
+    "category": "Counter Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN073",
+    "name": "Simorgh Sky Battle",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN074",
+    "name": "World Legacy Bestowal",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN075",
+    "name": "The Return to the Normal",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN076",
+    "name": "Get Out!",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN077",
+    "name": "Storm Dragon's Return",
+    "rarity": "Super Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN078",
+    "name": "Setuppercut",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN079",
+    "name": "Dwimmered Glimmer",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN080",
+    "name": "Fighting Dirty",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN081",
+    "name": "Barricadeborg Blocker",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN082",
+    "name": "Hraesvelgr, the Desperate Doom Eagle",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN083",
+    "name": "Star Power!!",
+    "rarity": "Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN084",
+    "name": "Fuhma Wave",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN085",
+    "name": "Ikelos, the Dream Mirror Sprite",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN086",
+    "name": "Ikelos, the Dream Mirror Mara",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN087",
+    "name": "Morpheus, the Dream Mirror White Knight",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN088",
+    "name": "Morpheus, the Dream Mirror Black Knight",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN089",
+    "name": "Dream Mirror of Joy",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN090",
+    "name": "Dream Mirror of Terror",
+    "rarity": "Ultra Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN091",
+    "name": "Dream Mirror Fantasy",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN092",
+    "name": "Yosenju Oroshi Channeling",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN093",
+    "name": "Number 29: Mannequin Cat",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN094",
+    "name": "Kikinagashi Fucho",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN095",
+    "name": "White Aura Monoceros",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN096",
+    "name": "White Howling",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN097",
+    "name": "F.A. Shining Star GT",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN098",
+    "name": "Dragunity Knight - Romulus",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Rising Rampage"
+  },
+  {
+    "card_number": "RIRA-EN099",
+    "name": "Rogue of Endymion",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Rising Rampage"
+  }
+]

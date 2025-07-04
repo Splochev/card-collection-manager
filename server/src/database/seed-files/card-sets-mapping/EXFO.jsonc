@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "EXFO-EN000",
+    "name": "Yoko-Zuna Sumo Spirit",
+    "rarity": "Common",
+    "category": "Spirit Pendulum Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN001",
+    "name": "Zombino",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN002",
+    "name": "Lockout Gardna",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN003",
+    "name": "Striping Partner",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN004",
+    "name": "Flick Clown",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN005",
+    "name": "Bitrooper",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN006",
+    "name": "Linkbelt Wall Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN007",
+    "name": "Shelrokket Dragon",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN008",
+    "name": "Metalrokket Dragon",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN009",
+    "name": "Tindangle Angel",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN010",
+    "name": "Tindangle Base Gardna",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN011",
+    "name": "Tindangle Hound",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN012",
+    "name": "Tindangle Protector",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN013",
+    "name": "Tindangle Intruder",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN014",
+    "name": "Mekk-Knight Blue Sky",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN015",
+    "name": "Mekk-Knight Green Horizon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN016",
+    "name": "Mekk-Knight Orange Sunset",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN017",
+    "name": "Mekk-Knight Yellow Star",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN018",
+    "name": "Mekk-Knight Red Moon",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN019",
+    "name": "Mekk-Knight Indigo Eclipse",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN020",
+    "name": "Mekk-Knight Purple Nightfall",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN021",
+    "name": "World Legacy - World Shield",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN022",
+    "name": "Mythical Beast Jackal",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN023",
+    "name": "Mythical Beast Garuda",
+    "rarity": "Ultra Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN024",
+    "name": "Mythical Beast Medusa",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN025",
+    "name": "Mythical Beast Bashilisk",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN026",
+    "name": "Mythical Beast Jackal King",
+    "rarity": "Ultra Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN027",
+    "name": "Mythical Beast Master Cerberus",
+    "rarity": "Secret Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN028",
+    "name": "Artifact Mjollnir",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN029",
+    "name": "Grappler Angler",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN030",
+    "name": "Mahjong Munia Maidens",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN031",
+    "name": "D.D. Seeker",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN032",
+    "name": "Ghost Bird of Bewitchment",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN033",
+    "name": "Desmanian Devil",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN034",
+    "name": "Wattkinetic Puppeteer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN035",
+    "name": "Inspector Boarder",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN036",
+    "name": "Overtex Qoatlus",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN037",
+    "name": "Contact C",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN038",
+    "name": "Excode Talker",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN039",
+    "name": "Underclock Taker",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN040",
+    "name": "Vector Scare Archfiend",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN041",
+    "name": "Flame Administrator",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN042",
+    "name": "Recovery Sorcerer",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN043",
+    "name": "Secure Gardna",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN044",
+    "name": "Triple Burst Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN045",
+    "name": "Tindangle Acute Cerberus",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN046",
+    "name": "Altergeist Hexstia",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN047",
+    "name": "Mekk-Knight Spectrum Supreme",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN048",
+    "name": "Saryuja Skull Dread",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN049",
+    "name": "Clara & Rushka, the Ventriloduo",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN050",
+    "name": "Duelittle Chimera",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN051",
+    "name": "Link Hole",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN052",
+    "name": "Fire Prison",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN053",
+    "name": "Boot Sector Launch",
+    "rarity": "Ultra Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN054",
+    "name": "Nagel's Protection",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN055",
+    "name": "Euler's Circuit",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN056",
+    "name": "World Legacy Scars",
+    "rarity": "Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN057",
+    "name": "World Legacy Key",
+    "rarity": "Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN058",
+    "name": "Mythical Bestiary",
+    "rarity": "Ultra Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN059",
+    "name": "Glory of the Noble Knights",
+    "rarity": "Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN060",
+    "name": "Power of the Guardians",
+    "rarity": "Super Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN061",
+    "name": "Pendulum Paradox",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN062",
+    "name": "Hey, Trunade!",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN063",
+    "name": "Downbeat",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN064",
+    "name": "Column Switch",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN065",
+    "name": "Trading Places",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN066",
+    "name": "Parallel Port Armor",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN067",
+    "name": "Cynet Refresh",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN068",
+    "name": "Borrel Cooling",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN069",
+    "name": "Tindangle Delaunay",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN070",
+    "name": "Altergeist Manifestation",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN071",
+    "name": "World Legacy Whispers",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN072",
+    "name": "World Legacy's Secret",
+    "rarity": "Ultra Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN073",
+    "name": "Mythical Bestiamorph",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN074",
+    "name": "Ghostrick Renovation",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN075",
+    "name": "Call of the Archfiend",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN076",
+    "name": "There Can Be Only One",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN077",
+    "name": "Dai Dance",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN078",
+    "name": "Showdown of the Secret Sense Scroll Techniques",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN079",
+    "name": "Parthian Shot",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN080",
+    "name": "Oops!",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN081",
+    "name": "Kuro-Obi Karate Spirit",
+    "rarity": "Common",
+    "category": "Spirit Pendulum Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN082",
+    "name": "Vendread Battlelord",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN083",
+    "name": "Vendread Core",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN084",
+    "name": "Vendread Charge",
+    "rarity": "Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN085",
+    "name": "Vendread Revolution",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN086",
+    "name": "F.A. Auto Navigator",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN087",
+    "name": "F.A. Motorhome Transport",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN088",
+    "name": "F.A. City Grand Prix",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN089",
+    "name": "F.A. Test Run",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN090",
+    "name": "Masterking Archfiend",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN091",
+    "name": "Curious, the Lightsworn Dominion",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN092",
+    "name": "Gem-Knight Phantom Quartz",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN093",
+    "name": "Steelswarm Origin",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN094",
+    "name": "Isolde, Two Tales of the Noble Knights",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN095",
+    "name": "Qliphort Genius",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN096",
+    "name": "Ritual Beast Ulti-Kimunfalcos",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN097",
+    "name": "Zefra Metaltron",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN098",
+    "name": "Heavymetalfoes Electrumite",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Extreme Force"
+  },
+  {
+    "card_number": "EXFO-EN099",
+    "name": "Scramble Egg",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Extreme Force"
+  }
+]

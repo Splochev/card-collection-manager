@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "CIBR-EN000",
+    "name": "Hallohallo",
+    "rarity": "Rare",
+    "category": "Normal Tuner Pendulum Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN001",
+    "name": "Defect Compiler",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN002",
+    "name": "Capacitor Stalker",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN003",
+    "name": "Link Infra-Flier",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN004",
+    "name": "Trickstar Narkissus",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN005",
+    "name": "Dark Angel",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN006",
+    "name": "Gouki Headbatt",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN007",
+    "name": "Gateway Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN008",
+    "name": "Sniffer Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN009",
+    "name": "Anesthrokket Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN010",
+    "name": "Autorokket Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN011",
+    "name": "Magnarokket Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN012",
+    "name": "Altergeist Marionetter",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN013",
+    "name": "Altergeist Silquitous",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN014",
+    "name": "Altergeist Meluseek",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN015",
+    "name": "Altergeist Kunquery",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN016",
+    "name": "Krawler Spine",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN017",
+    "name": "Krawler Axon",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN018",
+    "name": "Krawler Glial",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN019",
+    "name": "Krawler Receptor",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN020",
+    "name": "Krawler Ranvier",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN021",
+    "name": "Krawler Dendrite",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN022",
+    "name": "World Legacy - World Armor",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN023",
+    "name": "Metaphys Ragnarok",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN024",
+    "name": "Metaphys Daedalus",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN025",
+    "name": "Metaphys Nephthys",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN026",
+    "name": "Metaphys Tyrant Dragon",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN027",
+    "name": "Metaphys Executor",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN028",
+    "name": "Mermail Abyssnerei",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN029",
+    "name": "Fire King Avatar Arvata",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN030",
+    "name": "Mecha Phantom Beast Raiten",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN031",
+    "name": "The Accumulator",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN032",
+    "name": "Soldier Dragons",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN033",
+    "name": "Duck Dummy",
+    "rarity": "Common",
+    "category": "Gemini monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN034",
+    "name": "Leng Ling",
+    "rarity": "Common",
+    "category": "Union monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN035",
+    "name": "Self-Destruct Ant",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN036",
+    "name": "Amano-Iwato",
+    "rarity": "Common",
+    "category": "Spirit monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN037",
+    "name": "Fantastic Striborg",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN038",
+    "name": "Destrudo the Lost Dragon's Frisson",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN039",
+    "name": "Elemental Grace Doriado",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN040",
+    "name": "Nimble Beaver",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN041",
+    "name": "Muscle Medic",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN042",
+    "name": "Borreload Dragon",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN043",
+    "name": "Link Bumper",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN044",
+    "name": "Trickstar Black Catbat",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN045",
+    "name": "Gouki Thunder Ogre",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN046",
+    "name": "Twin Triangle Dragon",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN047",
+    "name": "Altergeist Primebanshee",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN048",
+    "name": "X-Krawler Synaphysis",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN049",
+    "name": "X-Krawler Neurogos",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN050",
+    "name": "X-Krawler Qualiark",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN051",
+    "name": "Akashic Magician",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN052",
+    "name": "Mistar Boy",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN053",
+    "name": "Security Block",
+    "rarity": "Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN054",
+    "name": "Dragonoid Generator",
+    "rarity": "Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN055",
+    "name": "Squib Draw",
+    "rarity": "Secret Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN056",
+    "name": "Quick Launch",
+    "rarity": "Secret Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN057",
+    "name": "World Legacy in Shadow",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN058",
+    "name": "World Legacy Clash",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN059",
+    "name": "Metaphys Factor",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN060",
+    "name": "Asymmetaphys",
+    "rarity": "Ultra Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN061",
+    "name": "One-Time Passcode",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN062",
+    "name": "Arrivalrivals",
+    "rarity": "Ultra Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN063",
+    "name": "Overdone Burial",
+    "rarity": "Secret Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN064",
+    "name": "Temple of the Mind's Eye",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN065",
+    "name": "Backup Squad",
+    "rarity": "Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN066",
+    "name": "Burning Bamboo Sword",
+    "rarity": "Short Print",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN067",
+    "name": "Cyberse Beacon",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN068",
+    "name": "Link Restart",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN069",
+    "name": "Remote Rebirth",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN070",
+    "name": "Altergeist Camouflage",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN071",
+    "name": "Altergeist Protocol",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN072",
+    "name": "Personal Spoofing",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN073",
+    "name": "World Legacy Pawns",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN074",
+    "name": "World Legacy Trap Globe",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN075",
+    "name": "Metaphys Dimension",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN076",
+    "name": "Metaverse",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN077",
+    "name": "Evenly Matched",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN078",
+    "name": "Fuse Line",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN079",
+    "name": "Broken Line",
+    "rarity": "Ultra Rare",
+    "category": "Counter Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN080",
+    "name": "Ojama Duo",
+    "rarity": "Short Print",
+    "category": "Normal Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN081",
+    "name": "Samurai Destroyer",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN082",
+    "name": "Vendread Chimera",
+    "rarity": "Secret Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN083",
+    "name": "Vendread Striges",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN084",
+    "name": "Vendread Nights",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN085",
+    "name": "Vendread Reunion",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN086",
+    "name": "F.A. Whip Crosser",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN087",
+    "name": "F.A. Turbo Charger",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN088",
+    "name": "F.A. Off-Road Grand Prix",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN089",
+    "name": "F.A. Pit Stop",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN090",
+    "name": "Lunalight Crimson Fox",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN091",
+    "name": "Lunalight Kaleido Chick",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN092",
+    "name": "Lyrilusc - Recital Starling",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN093",
+    "name": "Amazoness Spy",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN094",
+    "name": "Amazoness Pet Liger",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN095",
+    "name": "Amazoness Empress",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN096",
+    "name": "Quiet Life",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN097",
+    "name": "Number 41: Bagooska the Terribly Tired Tapir",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN098",
+    "name": "Subterror Behemoth Fiendess",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  },
+  {
+    "card_number": "CIBR-EN099",
+    "name": "SPYRAL Double Helix",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Circuit Break"
+  }
+]

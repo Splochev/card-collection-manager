@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "SHVI-EN000",
+    "name": "Magical Cavalry of Cxulub",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN001",
+    "name": "Angel Trumpeter",
+    "rarity": "Short Print",
+    "category": "Normal Tuner monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN002",
+    "name": "Performapal Sellshell Crab",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN003",
+    "name": "Performapal Odd-Eyes Light Phoenix",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN004",
+    "name": "Performapal Odd-Eyes Unicorn",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN005",
+    "name": "Performapal Fireflux",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN006",
+    "name": "Speedroid Den-Den Daiko Duke",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN007",
+    "name": "Speedroid Pachingo-Kart",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN008",
+    "name": "Lunalight Blue Cat",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN009",
+    "name": "Lunalight Purple Butterfly",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN010",
+    "name": "Lunalight White Rabbit",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN011",
+    "name": "Lunalight Black Sheep",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN012",
+    "name": "Lunalight Wolf",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN013",
+    "name": "Lunalight Tiger",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN014",
+    "name": "Raidraptor - Avenge Vulture",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN015",
+    "name": "Raidraptor - Pain Lanius",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN016",
+    "name": "Raidraptor - Booster Strix",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN017",
+    "name": "Blackwing - Decay the Ill Wind",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN018",
+    "name": "Dragon Spirit of White",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN019",
+    "name": "Protector with Eyes of Blue",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN020",
+    "name": "Sage with Eyes of Blue",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN021",
+    "name": "Master with Eyes of Blue",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN022",
+    "name": "The White Stone of Ancients",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN023",
+    "name": "Lector Pendulum, the Dracoverlord",
+    "rarity": "Ultra Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN024",
+    "name": "Amorphage Gluttony",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN025",
+    "name": "Amorphage Lechery",
+    "rarity": "Ultra Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN026",
+    "name": "Amorphage Greed",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN027",
+    "name": "Amorphage Envy",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN028",
+    "name": "Amorphage Wrath",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN029",
+    "name": "Amorphage Pride",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN030",
+    "name": "Amorphage Sloth",
+    "rarity": "Secret Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN031",
+    "name": "Amorphage Goliath",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN032",
+    "name": "Dinomist Spinos",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN033",
+    "name": "Digital Bug Cocoondenser",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN034",
+    "name": "Digital Bug Centibit",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN035",
+    "name": "Digital Bug Websolder",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN036",
+    "name": "Red-Eyes Toon Dragon",
+    "rarity": "Super Rare",
+    "category": "Toon monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN037",
+    "name": "Ryu Okami",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN038",
+    "name": "Tenmataitei",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN039",
+    "name": "Spirit of the Fall Wind",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN040",
+    "name": "Ghost Reaper & Winter Cherries",
+    "rarity": "Secret Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN041",
+    "name": "Gendo the Ascetic Monk",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN042",
+    "name": "Deskbot 009",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN043",
+    "name": "Dicelops",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN044",
+    "name": "Amorphactor Pain, the Imagination Dracoverlord",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN045",
+    "name": "Bloom Prima the Melodious Choir",
+    "rarity": "Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN046",
+    "name": "Lunalight Cat Dancer",
+    "rarity": "Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN047",
+    "name": "Lunalight Panther Dancer",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN048",
+    "name": "Lunalight Leo Dancer",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN049",
+    "name": "Crystal Wing Synchro Dragon",
+    "rarity": "Secret Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN050",
+    "name": "Hi-Speedroid Puzzle",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN051",
+    "name": "Assault Blackwing - Chidori the Rain Sprinkling",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN052",
+    "name": "Blue-Eyes Spirit Dragon",
+    "rarity": "Secret Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN053",
+    "name": "Raidraptor - Ultimate Falcon",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN054",
+    "name": "Digital Bug Scaradiator",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN055",
+    "name": "Digital Bug Corebage",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN056",
+    "name": "Digital Bug Rhinosebus",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN057",
+    "name": "Fortissimo",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN058",
+    "name": "Rank-Up-Magic Skip Force",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN059",
+    "name": "Mausoleum of White",
+    "rarity": "Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN060",
+    "name": "Beacon of White",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN061",
+    "name": "Forge of the True Dracos",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN062",
+    "name": "Amorphous Persona",
+    "rarity": "Ultra Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN063",
+    "name": "Amorphage Infection",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN064",
+    "name": "Bug Matrix",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN065",
+    "name": "Pre-Preparation of Rites",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN066",
+    "name": "Fusion Tag",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN067",
+    "name": "Tuner's High",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN068",
+    "name": "Deskbot Base",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN069",
+    "name": "Finite Cards",
+    "rarity": "Short Print",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN070",
+    "name": "Re-dyce-cle",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN071",
+    "name": "Lunalight Reincarnation Dance",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN072",
+    "name": "Amorphage Lysis",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN073",
+    "name": "Dinomist Eruption",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN074",
+    "name": "Bug Emergency",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN075",
+    "name": "Drowning Mirror Force",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN076",
+    "name": "Wonder Xyz",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN077",
+    "name": "Rise to Full Height",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN078",
+    "name": "Bad Aim",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN079",
+    "name": "Unwavering Bond",
+    "rarity": "Ultra Rare",
+    "category": "Counter Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN080",
+    "name": "Graceful Tear",
+    "rarity": "Short Print",
+    "category": "Normal Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN081",
+    "name": "Cattle Call",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN082",
+    "name": "Kozmo Scaredy Lion",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN083",
+    "name": "Kozmoll Dark Lady",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN084",
+    "name": "Kozmo Landwalker",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN085",
+    "name": "Kozmo Dark Planet",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN086",
+    "name": "Kozmourning",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN087",
+    "name": "Thunder King, the Lightningstrike Kaiju",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN088",
+    "name": "Super Anti-Kaiju War Machine Mecha-Dogoran",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN089",
+    "name": "The Kaiju Files",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN090",
+    "name": "Cuben",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN091",
+    "name": "World Carrotweight Champion",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN092",
+    "name": "Fire King Island",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN093",
+    "name": "Dwarf Star Dragon Planeter",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN094",
+    "name": "Geargianchor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN095",
+    "name": "Geargia Change",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN096",
+    "name": "Stardust Sifr Divine Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN097",
+    "name": "Hot Red Dragon Archfiend King Calamity",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN098",
+    "name": "Priestess with Eyes of Blue",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Shining Victories"
+  },
+  {
+    "card_number": "SHVI-EN099",
+    "name": "Blue-Eyes Twin Burst Dragon",
+    "rarity": "Secret Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Shining Victories"
+  }
+]

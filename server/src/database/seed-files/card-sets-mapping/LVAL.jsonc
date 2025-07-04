@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "LVAL-EN000",
+    "name": "Sylvan Bladefender",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN001",
+    "name": "White Duston",
+    "rarity": "Short Print",
+    "category": "Normal Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN002",
+    "name": "ZW - Asura Strike",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN003",
+    "name": "Gillagillancer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN004",
+    "name": "Rainbow Kuriboh",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN005",
+    "name": "Overlay Sentinel",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN006",
+    "name": "Overlay Booster",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN007",
+    "name": "Photon Chargeman",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN008",
+    "name": "Chronomaly Moai Carrier",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN009",
+    "name": "Chronomaly Winged Sphinx",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN010",
+    "name": "Deep-Space Cruiser IX",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN011",
+    "name": "Gorgonic Golem",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN012",
+    "name": "Gorgonic Gargoyle",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN013",
+    "name": "Gorgonic Ghoul",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN014",
+    "name": "Gorgonic Cerberus",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN015",
+    "name": "Sylvan Peaskeeper",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN016",
+    "name": "Sylvan Komushroomo",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN017",
+    "name": "Sylvan Marshalleaf",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN018",
+    "name": "Sylvan Flowerknight",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN019",
+    "name": "Sylvan Guardioak",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN020",
+    "name": "Sylvan Hermitree",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN021",
+    "name": "Ghostrick Jackfrost",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN022",
+    "name": "Ghostrick Mary",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN023",
+    "name": "Ghostrick Nekomusume",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN024",
+    "name": "Ghostrick Skeleton",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN025",
+    "name": "Ghostrick Mummy",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN026",
+    "name": "Bujin Arasuda",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN027",
+    "name": "Bujingi Peacock",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN028",
+    "name": "Bujingi Swallow",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN029",
+    "name": "Bujingi Fox",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN030",
+    "name": "Bujingi Hare",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN031",
+    "name": "Gravekeeper's Nobleman",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN032",
+    "name": "Gravekeeper's Ambusher",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN033",
+    "name": "Gravekeeper's Shaman",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN034",
+    "name": "Gravekeeper's Oracle",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN035",
+    "name": "Mystic Macrocarpa Seed",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN036",
+    "name": "Kalantosa, Mystical Beast of the Forest",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN037",
+    "name": "Nikitama",
+    "rarity": "Rare",
+    "category": "Spirit monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN038",
+    "name": "Black Brachios",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN039",
+    "name": "Chirubimé, Princess of Autumn Leaves",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN040",
+    "name": "Mobius the Mega Monarch",
+    "rarity": "Secret RareGhost Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN041",
+    "name": "Sirenorca",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN042",
+    "name": "Xyz Avenger",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN043",
+    "name": "Tackle Crusader",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN044",
+    "name": "Majiosheldon",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN045",
+    "name": "Paladin of Photon Dragon",
+    "rarity": "Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN046",
+    "name": "Number C101: Silent Honor DARK",
+    "rarity": "Ultra Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN047",
+    "name": "Number 101: Silent Honor ARK",
+    "rarity": "Ultra Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN048",
+    "name": "Number 39: Utopia Roots",
+    "rarity": "Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN049",
+    "name": "Number C69: Heraldry Crest of Horror",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN050",
+    "name": "Number C92: Heart-eartH Chaos Dragon",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN051",
+    "name": "Gorgonic Guardian",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN052",
+    "name": "Alsei, the Sylvan High Protector",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN053",
+    "name": "Ghostrick Dullahan",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN054",
+    "name": "Bujintei Tsukuyomi",
+    "rarity": "Ultra Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN055",
+    "name": "Fairy Knight Ingunar",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN056",
+    "name": "Evilswarm Exciton Knight",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN057",
+    "name": "Downerd Magician",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN058",
+    "name": "Leo, the Keeper of the Sacred Tree",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN059",
+    "name": "Rank-Up-Magic Astral Force",
+    "rarity": "Ultra Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN060",
+    "name": "Rank-Down-Magic Numeron Fall",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN061",
+    "name": "Xyz Shift",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN062",
+    "name": "Luminous Dragon Ritual",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN063",
+    "name": "Mount Sylvania",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN064",
+    "name": "Ghostrick Museum",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN065",
+    "name": "Bujinunity",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN066",
+    "name": "Hidden Temples of Necrovalley",
+    "rarity": "Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN067",
+    "name": "Onomatopaira",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN068",
+    "name": "Xyz Override",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN069",
+    "name": "Stand-Off",
+    "rarity": "Short Print",
+    "category": "Normal Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN070",
+    "name": "Shared Ride",
+    "rarity": "Secret Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN071",
+    "name": "Release, Reverse, Burst",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN072",
+    "name": "Purge Ray",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN073",
+    "name": "Sylvan Blessing",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN074",
+    "name": "Ghostrick-Go-Round",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN075",
+    "name": "Bujin Regalia - The Jewel",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN076",
+    "name": "Imperial Tombs of Necrovalley",
+    "rarity": "Secret Rare",
+    "category": "Counter Trap Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN077",
+    "name": "The Monarchs Awaken",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN078",
+    "name": "Skill Prisoner",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN079",
+    "name": "Oath of Companionship",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN080",
+    "name": "Duston Roller",
+    "rarity": "Short Print",
+    "category": "Normal Trap Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN081",
+    "name": "Sylvan Mikorange",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN082",
+    "name": "Ghostrick Yeti",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN083",
+    "name": "Bujingi Pavo",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN084",
+    "name": "Gravekeeper's Heretic",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN085",
+    "name": "Noble Knight Peredur",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN086",
+    "name": "Gwenhwyfar, Queen of Noble Arms",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN087",
+    "name": "Powered Inzektron",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN088",
+    "name": "Obedience Schooled",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN089",
+    "name": "The First Monarch",
+    "rarity": "Secret Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN090",
+    "name": "Dark Artist",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN091",
+    "name": "Swordsman from a Distant Land",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN092",
+    "name": "Queen Angel of Roses",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN093",
+    "name": "Rose Witch",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN094",
+    "name": "Snapdragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN095",
+    "name": "Alpacaribou, Mystical Beast of the Forest",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN096",
+    "name": "Mighty Warrior",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN097",
+    "name": "Dododo Buster",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN098",
+    "name": "Interplanetarypurplythorny Beast",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  },
+  {
+    "card_number": "LVAL-EN099",
+    "name": "Starship Spy Plane",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Legacy of the Valiant"
+  }
+]

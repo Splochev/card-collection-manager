@@ -1,0 +1,352 @@
+[
+  {
+    "card_number": "SBSC-ENS01",
+    "name": "Heavy Metal Raiders",
+    "rarity": "Ultra Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-ENS02",
+    "name": "Spell Proof Armor",
+    "rarity": "Super Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-ENS03",
+    "name": "Bandit",
+    "rarity": "Super Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-ENS04",
+    "name": "Servants of the Fallen King",
+    "rarity": "Super Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-ENS05",
+    "name": "Double Evolution Pill",
+    "rarity": "Ultra Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN001",
+    "name": "Magical Plant Mandragola",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN002",
+    "name": "Dark Red Enchanter",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN003",
+    "name": "Crystal Seer",
+    "rarity": "Super Rare",
+    "category": "Flip monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN004",
+    "name": "Spell Power Grasp",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN005",
+    "name": "Spellbinding Circle",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN006",
+    "name": "Troop Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN007",
+    "name": "Vampire Lord",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN008",
+    "name": "Command Knight",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN009",
+    "name": "Gearfried the Swordmaster",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN010",
+    "name": "Release Restraint",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN011",
+    "name": "Blue-Eyed Silver Zombie",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN012",
+    "name": "Fire Reaper",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN013",
+    "name": "Book of Life",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN014",
+    "name": "Skreech",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN015",
+    "name": "Fortress Whale",
+    "rarity": "Common",
+    "category": "Ritual Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN016",
+    "name": "Fortress Whale's Oath",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN017",
+    "name": "Kabazauls",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN018",
+    "name": "Jurrac Tyrannus",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN019",
+    "name": "Empress Mantis",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN020",
+    "name": "Danipon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN021",
+    "name": "Insect Armor with Laser Cannon",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN022",
+    "name": "Gatekeeper",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN023",
+    "name": "Pendulum Machine",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN024",
+    "name": "Launcher Spider",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN025",
+    "name": "Slot Machine",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN026",
+    "name": "Barrel Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN027",
+    "name": "Blast Sphere",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN028",
+    "name": "Machine Conversion Factory",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN029",
+    "name": "7 Completed",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN030",
+    "name": "Metalmorph",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN031",
+    "name": "Bokoichi the Freightening Car",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN032",
+    "name": "Dekoichi the Battlechanted Locomotive",
+    "rarity": "Super Rare",
+    "category": "Flip monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN033",
+    "name": "Mask of Darkness",
+    "rarity": "Ultra Rare",
+    "category": "Flip monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN034",
+    "name": "Iron Blacksmith Kotetsu",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN035",
+    "name": "Infernity Dwarf",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN036",
+    "name": "Ally of Justice Core Destroyer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN037",
+    "name": "Master Craftsman Gamil",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN038",
+    "name": "Eternal Rest",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN039",
+    "name": "Gravity Axe - Grarl",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN040",
+    "name": "The Beginning of the End",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN041",
+    "name": "Fighting Spirit",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN042",
+    "name": "Break! Draw!",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN043",
+    "name": "Night Beam",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN044",
+    "name": "Security Orb",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  },
+  {
+    "card_number": "SBSC-EN045",
+    "name": "A Major Upset",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Scars of Battle"
+  }
+]

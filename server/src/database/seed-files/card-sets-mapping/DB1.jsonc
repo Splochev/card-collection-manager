@@ -1,0 +1,1752 @@
+[
+  {
+    "card_number": "DB1-EN001",
+    "name": "Penguin Knight",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN002",
+    "name": "Axe of Despair",
+    "rarity": "Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN003",
+    "name": "Black Pendant",
+    "rarity": "Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN004",
+    "name": "Horn of Light",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN005",
+    "name": "Malevolent Nuzzler",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN006",
+    "name": "Spellbinding Circle",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN007",
+    "name": "Electric Snake",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN008",
+    "name": "Ameba",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN009",
+    "name": "Maha Vailo",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN010",
+    "name": "Minar",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN011",
+    "name": "Griggle",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN012",
+    "name": "Hiro's Shadow Scout",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN013",
+    "name": "Invader of the Throne",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN014",
+    "name": "Slot Machine",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN015",
+    "name": "Relinquished",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN016",
+    "name": "Red Archery Girl",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN017",
+    "name": "Gravekeeper's Servant",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN018",
+    "name": "Upstart Goblin",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN019",
+    "name": "Toll",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN020",
+    "name": "Final Destiny",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN021",
+    "name": "Snatch Steal",
+    "rarity": "Ultra Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN022",
+    "name": "Chorus of Sanctuary",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN023",
+    "name": "Confiscation",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN024",
+    "name": "Delinquent Duo",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN025",
+    "name": "Fairy's Hand Mirror",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN026",
+    "name": "Tailor of the Fickle",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN027",
+    "name": "Rush Recklessly",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN028",
+    "name": "The Reliable Guardian",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN029",
+    "name": "The Forceful Sentry",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN030",
+    "name": "Chain Energy",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN031",
+    "name": "Mystical Space Typhoon",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN032",
+    "name": "Giant Trunade",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN033",
+    "name": "Painful Choice",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN034",
+    "name": "Horn of the Unicorn",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN035",
+    "name": "Labyrinth Wall",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN036",
+    "name": "Eternal Rest",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN037",
+    "name": "Megamorph",
+    "rarity": "Super Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN038",
+    "name": "Manga Ryu-Ran",
+    "rarity": "Common",
+    "category": "Toon monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN039",
+    "name": "Toon Mermaid",
+    "rarity": "Common",
+    "category": "Toon monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN040",
+    "name": "Toon Summoned Skull",
+    "rarity": "Rare",
+    "category": "Toon monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN041",
+    "name": "Hyozanryu",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN042",
+    "name": "Toon World",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN043",
+    "name": "Cyber Jar",
+    "rarity": "Rare",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN044",
+    "name": "Banisher of the Light",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN045",
+    "name": "Giant Rat",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN046",
+    "name": "Senju of the Thousand Hands",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN047",
+    "name": "UFO Turtle",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN048",
+    "name": "Flash Assailant",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN049",
+    "name": "Karate Man",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN050",
+    "name": "Giant Germ",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN051",
+    "name": "Nimble Momonga",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN052",
+    "name": "Shining Angel",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN053",
+    "name": "Mother Grizzly",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN054",
+    "name": "Flying Kamakiri 1",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN055",
+    "name": "Ceremonial Bell",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN056",
+    "name": "Sonic Bird",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN057",
+    "name": "Mystic Tomato",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN058",
+    "name": "Kotodama",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN059",
+    "name": "Gaia Power",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN060",
+    "name": "Umiiruka",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN061",
+    "name": "Molten Destruction",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN062",
+    "name": "Rising Air Current",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN063",
+    "name": "Luminous Spark",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN064",
+    "name": "Mystic Plasma Zone",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN065",
+    "name": "Messenger of Peace",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN066",
+    "name": "Blue-Eyes Toon Dragon",
+    "rarity": "Super Rare",
+    "category": "Toon monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN067",
+    "name": "Jinzo",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN068",
+    "name": "Parasite Paracide",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN069",
+    "name": "Lightforce Sword",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN070",
+    "name": "Chain Destruction",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN071",
+    "name": "Time Seal",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN072",
+    "name": "Graverobber",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN073",
+    "name": "Gift of The Mystical Elf (as Gift of the Mystical Elf)",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN074",
+    "name": "The Eye of Truth",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN075",
+    "name": "Dust Tornado",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN076",
+    "name": "Call of the Haunted",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN077",
+    "name": "Enchanted Javelin",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN078",
+    "name": "Mirror Wall",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN079",
+    "name": "Numinous Healer",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN080",
+    "name": "Forced Requisition",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN081",
+    "name": "DNA Surgery",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN082",
+    "name": "Backup Soldier",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN083",
+    "name": "Ceasefire",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN084",
+    "name": "Light of Intervention",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN085",
+    "name": "Respect Play",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN086",
+    "name": "Imperial Order",
+    "rarity": "Ultra Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN087",
+    "name": "Magical Hats",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN088",
+    "name": "Nobleman of Crossout",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN089",
+    "name": "Nobleman of Extermination",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN090",
+    "name": "The Shallow Grave",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN091",
+    "name": "Premature Burial",
+    "rarity": "Super Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN092",
+    "name": "Morphing Jar 2",
+    "rarity": "Rare",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN093",
+    "name": "Kiseitai",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN094",
+    "name": "Sky Scout",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN095",
+    "name": "Buster Blader",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN096",
+    "name": "Dark Sage",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN097",
+    "name": "Big Shield Gardna (as Big Shield Guardna)",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN098",
+    "name": "Blue-Eyes White Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN099",
+    "name": "Hitotsu-Me Giant",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN100",
+    "name": "Flame Swordsman",
+    "rarity": "Rare",
+    "category": "Fusion Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN101",
+    "name": "Skull Servant",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN102",
+    "name": "Dark Magician",
+    "rarity": "Ultra Rare",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN103",
+    "name": "Gaia The Fierce Knight",
+    "rarity": "Rare",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN104",
+    "name": "Celtic Guardian",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN105",
+    "name": "Mammoth Graveyard",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN106",
+    "name": "Silver Fang",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN107",
+    "name": "Flame Manipulator",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN108",
+    "name": "Dark King of the Abyss",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN109",
+    "name": "Aqua Madoor",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN110",
+    "name": "Masaki the Legendary Swordsman",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN111",
+    "name": "Dragon Capture Jar",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN112",
+    "name": "Umi",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN113",
+    "name": "Dark Hole",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN114",
+    "name": "Raigeki",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN115",
+    "name": "Red Medicine",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN116",
+    "name": "Hinotama",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN117",
+    "name": "Fissure",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN118",
+    "name": "Trap Hole",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN119",
+    "name": "Polymerization",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN120",
+    "name": "Mystical Elf",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN121",
+    "name": "Beaver Warrior",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN122",
+    "name": "Gaia the Dragon Champion",
+    "rarity": "Rare",
+    "category": "Fusion Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN123",
+    "name": "Curse of Dragon",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN124",
+    "name": "Giant Soldier of Stone",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN125",
+    "name": "Uraby",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN126",
+    "name": "Red-Eyes Black Dragon (as Red-Eyes B. Dragon)",
+    "rarity": "Super Rare",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN127",
+    "name": "Reaper of the Cards",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN128",
+    "name": "Stop Defense",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN129",
+    "name": "Swords of Revealing Light",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN130",
+    "name": "Armed Ninja",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN131",
+    "name": "Man-Eater Bug",
+    "rarity": "Rare",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN132",
+    "name": "Hane-Hane",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN133",
+    "name": "Monster Reborn",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN134",
+    "name": "Pot of Greed",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN135",
+    "name": "Right Leg of the Forbidden One",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN136",
+    "name": "Left Leg of the Forbidden One",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN137",
+    "name": "Right Arm of the Forbidden One",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN138",
+    "name": "Left Arm of the Forbidden One",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN139",
+    "name": "Exodia the Forbidden One",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN140",
+    "name": "Feral Imp",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN141",
+    "name": "Winged Dragon, Guardian of the Fortress 1",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN142",
+    "name": "Summoned Skull",
+    "rarity": "Super Rare",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN143",
+    "name": "Armored Lizard",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN144",
+    "name": "Larvae Moth",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN145",
+    "name": "Harpie Lady",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN146",
+    "name": "Harpie Lady Sisters",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN147",
+    "name": "Kojikocy",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN148",
+    "name": "Cocoon of Evolution",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN149",
+    "name": "Armored Zombie",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN150",
+    "name": "Mask of Darkness",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN151",
+    "name": "White Magical Hat",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN152",
+    "name": "Big Eye",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN153",
+    "name": "Black Skull Dragon (as B. Skull Dragon)",
+    "rarity": "Super Rare",
+    "category": "Fusion Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN154",
+    "name": "Masked Sorcerer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN155",
+    "name": "Petit Moth",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN156",
+    "name": "Elegant Egotist",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN157",
+    "name": "Sanga of the Thunder",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN158",
+    "name": "Kazejin",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN159",
+    "name": "Suijin",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN160",
+    "name": "Mystic Lamp",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN161",
+    "name": "Blast Juggler",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN162",
+    "name": "Jinzo 7",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN163",
+    "name": "Magician of Faith",
+    "rarity": "Rare",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN164",
+    "name": "Fake Trap",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN165",
+    "name": "Tribute to The Doomed",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN166",
+    "name": "Soul Release",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN167",
+    "name": "The Cheerful Coffin",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN168",
+    "name": "Change of Heart",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN169",
+    "name": "Makyura the Destructor",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN170",
+    "name": "Exchange",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN171",
+    "name": "Minor Goblin Official",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN172",
+    "name": "Gamble",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN173",
+    "name": "Attack and Receive",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN174",
+    "name": "Solemn Wishes",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN175",
+    "name": "Skull Invitation",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN176",
+    "name": "Bubonic Vermin",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN177",
+    "name": "Burning Land",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN178",
+    "name": "Fairy Meteor Crush",
+    "rarity": "Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN179",
+    "name": "Limiter Removal",
+    "rarity": "Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN180",
+    "name": "Rain of Mercy",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN181",
+    "name": "Monster Recovery",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN182",
+    "name": "Shift",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN183",
+    "name": "Dimensionhole",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN184",
+    "name": "Ground Collapse",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN185",
+    "name": "Magic Drain",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN186",
+    "name": "Infinite Dismissal",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN187",
+    "name": "Gravity Bind",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN188",
+    "name": "Type Zero Magic Crusher",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN189",
+    "name": "Shadow of Eyes",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN190",
+    "name": "The Legendary Fisherman",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN191",
+    "name": "Sword Hunter",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN192",
+    "name": "Drill Bug",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN193",
+    "name": "Deepsea Warrior",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN194",
+    "name": "Thousand-Eyes Idol",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN195",
+    "name": "Thousand-Eyes Restrict",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN196",
+    "name": "Hayabusa Knight",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN197",
+    "name": "Bombardment Beetle",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN198",
+    "name": "4-Starred Ladybug of Doom",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN199",
+    "name": "Gradius",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN200",
+    "name": "Vampire Baby (as Red-Moon Baby)",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN201",
+    "name": "Mad Sword Beast",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN202",
+    "name": "Goblin Attack Force",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN203",
+    "name": "The Fiend Megacyber",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN204",
+    "name": "Gearfried the Iron Knight",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN205",
+    "name": "Insect Barrier",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN206",
+    "name": "Swordsman of Landstar",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN207",
+    "name": "Humanoid Slime",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN208",
+    "name": "Worm Drake",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN209",
+    "name": "Humanoid Worm Drake",
+    "rarity": "Common",
+    "category": "Fusion Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN210",
+    "name": "Revival Jam",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN211",
+    "name": "Amphibian Beast",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN212",
+    "name": "Shining Abyss",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN213",
+    "name": "Grand Tiki Elder",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN214",
+    "name": "The Masked Beast",
+    "rarity": "Super Rare",
+    "category": "Ritual Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN215",
+    "name": "Melchid the Four-Face Beast",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN216",
+    "name": "Nuvia the Wicked",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN217",
+    "name": "Chosen One",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN218",
+    "name": "Mask of Weakness",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN219",
+    "name": "Curse of the Masked Beast",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN220",
+    "name": "Mask of Dispel",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN221",
+    "name": "Mask of Restrict",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN222",
+    "name": "Mask of the Accursed",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN223",
+    "name": "Mask of Brutality",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN224",
+    "name": "Return of the Doomed",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN225",
+    "name": "Lightning Blade",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN226",
+    "name": "Tornado Wall",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN227",
+    "name": "Fairy Box",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN228",
+    "name": "Torrential Tribute",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN229",
+    "name": "Jam Breeding Machine",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN230",
+    "name": "Infinite Cards",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN231",
+    "name": "Jam Defender",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN232",
+    "name": "Card of Safe Return",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN233",
+    "name": "Amazoness Archer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN234",
+    "name": "Fire Princess",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN235",
+    "name": "Spirit of the Breeze",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN236",
+    "name": "Dancing Fairy",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN237",
+    "name": "Cure Mermaid",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN238",
+    "name": "Hysteric Fairy",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN239",
+    "name": "The Forgiving Maiden",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN240",
+    "name": "St. Joan",
+    "rarity": "Common",
+    "category": "Fusion Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN241",
+    "name": "Darklord Marie (as Marie the Fallen One)",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN242",
+    "name": "Jar of Greed",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN243",
+    "name": "Scroll of Bewitchment",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN244",
+    "name": "United We Stand",
+    "rarity": "Ultra Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN245",
+    "name": "Mage Power",
+    "rarity": "Ultra Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN246",
+    "name": "The Portrait's Secret",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN247",
+    "name": "The Gross Ghost of Fled Dreams",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN248",
+    "name": "Headless Knight",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN249",
+    "name": "Earthbound Spirit",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  },
+  {
+    "card_number": "DB1-EN250",
+    "name": "The Earl of Demise",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dark Beginning 1"
+  }
+]

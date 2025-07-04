@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "JOTL-EN000",
+    "name": "Galaxy Serpent",
+    "rarity": "Super Rare",
+    "category": "Normal Tuner monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN001",
+    "name": "DZW - Chimera Clad",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN002",
+    "name": "V Salamander",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN003",
+    "name": "Interceptomato",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN004",
+    "name": "Spell Recycler",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN005",
+    "name": "Xyz Agent",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN006",
+    "name": "Super Defense Robot Lio",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN007",
+    "name": "Super Defense Robot Elephan",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN008",
+    "name": "Super Defense Robot Monki",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN009",
+    "name": "Star Seraph Scout",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN010",
+    "name": "Star Seraph Sage",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN011",
+    "name": "Star Seraph Sword",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN012",
+    "name": "Umbral Horror Ghoul",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN013",
+    "name": "Umbral Horror Unform",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN014",
+    "name": "Umbral Horror Will o' the Wisp",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN015",
+    "name": "Schwarzschild Limit Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN016",
+    "name": "Bujin Yamato",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN017",
+    "name": "Bujingi Quilin",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN018",
+    "name": "Bujingi Turtle",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN019",
+    "name": "Bujingi Wolf",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN020",
+    "name": "Bujingi Crane",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN021",
+    "name": "Bujingi Ophidian",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN022",
+    "name": "Mecha Phantom Beast Warbluran",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN023",
+    "name": "Mecha Phantom Beast Blue Impala",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN024",
+    "name": "Mecha Phantom Beast Coltwing",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN025",
+    "name": "Mecha Phantom Beast Harrliard",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN026",
+    "name": "Brotherhood of the Fire Fist - Boar",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN027",
+    "name": "Brotherhood of the Fire Fist - Caribou",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN028",
+    "name": "World of Prophecy",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN029",
+    "name": "Archfiend Heiress",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN030",
+    "name": "Archfiend Cavalry",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN031",
+    "name": "Archfiend Emperor, the First Lord of Horror",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN032",
+    "name": "Traptrix Atrax",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN033",
+    "name": "Traptrix Myrmeleo",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN034",
+    "name": "Traptrix Nepenthes",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN035",
+    "name": "The Calibrator",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN036",
+    "name": "Talaya, Princess of Cherry Blossoms",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN037",
+    "name": "Cheepcheepcheep",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN038",
+    "name": "Masked Chameleon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN039",
+    "name": "Flying \"C\"",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN040",
+    "name": "Yellow Duston",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN041",
+    "name": "Mecha Phantom Beast Concoruda",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN042",
+    "name": "Brotherhood of the Fire Fist - Kirin",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN043",
+    "name": "Mist Bird Clausolas",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN044",
+    "name": "Underworld Fighter Balmung",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN045",
+    "name": "Armades, Keeper of Boundaries",
+    "rarity": "Secret Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN046",
+    "name": "HTS Psyhemuth",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN047",
+    "name": "Star Eater",
+    "rarity": "Secret Rare Ultimate Rare Ghost Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN048",
+    "name": "Number C39: Utopia Ray Victory",
+    "rarity": "Super Rare Ultimate Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN049",
+    "name": "Shark Caesar",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN050",
+    "name": "Starliege Lord Galaxion",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN051",
+    "name": "Googly-Eyes Drum Dragon",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN052",
+    "name": "Ice Princess Zereort",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN053",
+    "name": "Number 102: Star Seraph Sentry",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN054",
+    "name": "Number 66: Master Key Beetle",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN055",
+    "name": "Number 104: Masquerade",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN056",
+    "name": "Number C104: Umbral Horror Masquerade",
+    "rarity": "Super Rare Ultimate Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN057",
+    "name": "Bujintei Susanowo",
+    "rarity": "Ultra Rare Ultimate Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN058",
+    "name": "Herald of Pure Light",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN059",
+    "name": "Rank-Up-Magic Numeron Force",
+    "rarity": "Ultra Rare Ultimate Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN060",
+    "name": "Xyz Reception",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN061",
+    "name": "Sargasso the D.D. Battlefield",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN062",
+    "name": "Sargasso Lighthouse",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN063",
+    "name": "Bujincarnation",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN064",
+    "name": "Vertical Landing",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN065",
+    "name": "Fire Formation - Yoko",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN066",
+    "name": "Archfiend Palabyrinth",
+    "rarity": "Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN067",
+    "name": "Transmodify",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN068",
+    "name": "Black and White Wave",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN069",
+    "name": "Single Purchase",
+    "rarity": "Short Print",
+    "category": "Normal Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN070",
+    "name": "Reverse Glasses",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN071",
+    "name": "Xyz Revenge Shuffle",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN072",
+    "name": "Corrupted Keys",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN073",
+    "name": "Vain Betrayer",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN074",
+    "name": "Bujin Regalia - The Sword",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN075",
+    "name": "Bujinfidel",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN076",
+    "name": "Sonic Boom",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN077",
+    "name": "Traptrix Trap Hole Nightmare",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN078",
+    "name": "Xyz Reversal",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN079",
+    "name": "Shapesister",
+    "rarity": "Ultra Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN080",
+    "name": "Armageddon Designator",
+    "rarity": "Short Print",
+    "category": "Normal Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN081",
+    "name": "Bujingi Warg",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN082",
+    "name": "Mecha Phantom Beast Aerosguin",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN083",
+    "name": "Cockadoodledoo",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN084",
+    "name": "Noble Knight Drystan",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN085",
+    "name": "Tour Bus To Forbidden Realms",
+    "rarity": "Rare",
+    "category": "Flip monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN086",
+    "name": "Confronting the \"C\"",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN087",
+    "name": "Angel of Zera",
+    "rarity": "Secret Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN088",
+    "name": "Xyz Encore",
+    "rarity": "Ultra Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN089",
+    "name": "Moon Dance Ritual",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN090",
+    "name": "The Atmosphere",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN091",
+    "name": "Junk Blader",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN092",
+    "name": "Coach Captain Bearman",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN093",
+    "name": "Coach Soldier Wolfbark",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN094",
+    "name": "Brotherhood of the Fire Fist - Rooster",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN095",
+    "name": "Fire King Avatar Yaksha",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN096",
+    "name": "Fishborg Archer",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN097",
+    "name": "Fencing Fire Ferret",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN098",
+    "name": "Kujakujaku",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  },
+  {
+    "card_number": "JOTL-EN099",
+    "name": "Madolche Chickolates",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Judgment of the Light"
+  }
+]

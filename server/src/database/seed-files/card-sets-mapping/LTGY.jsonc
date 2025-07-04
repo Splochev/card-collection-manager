@@ -1,0 +1,802 @@
+[
+  {
+    "card_number": "LTGY-EN000",
+    "name": "Mecha Phantom Beast Turtletracer",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN001",
+    "name": "Bachibachibachi",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN002",
+    "name": "Gogogo Gigas",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN003",
+    "name": "Mimimic",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN004",
+    "name": "Dotedotengu",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN005",
+    "name": "Tatakawa Knight",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN006",
+    "name": "Little Fairy",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN007",
+    "name": "Sharkraken",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN008",
+    "name": "Big Whale",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN009",
+    "name": "Starfish",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN010",
+    "name": "Panther Shark",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN011",
+    "name": "Eagle Shark",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN012",
+    "name": "Blizzard Falcon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN013",
+    "name": "Aurora Wing",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN014",
+    "name": "Radius, the Half-Moon Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN015",
+    "name": "Parsec, the Interstellar Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN016",
+    "name": "Battlin' Boxer Headgeared",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN017",
+    "name": "Battlin' Boxer Glassjaw",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN018",
+    "name": "Battlin' Boxer Sparrer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN019",
+    "name": "Battlin' Boxer Switchitter",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN020",
+    "name": "Battlin' Boxer Counterpunch",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN021",
+    "name": "Mecha Phantom Beast Megaraptor",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN022",
+    "name": "Mecha Phantom Beast Tetherwolf",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN023",
+    "name": "Mecha Phantom Beast Blackfalcon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN024",
+    "name": "Mecha Phantom Beast Stealthray",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN025",
+    "name": "Mecha Phantom Beast Hamstrat",
+    "rarity": "Ultra Rare Ultimate Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN026",
+    "name": "Brotherhood of the Fire Fist - Wolf",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN027",
+    "name": "Brotherhood of the Fire Fist - Leopard",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN028",
+    "name": "Brotherhood of the Fire Fist - Rhino",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN029",
+    "name": "Brotherhood of the Fire Fist - Buffalo",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN030",
+    "name": "Mermail Abyssocea",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN031",
+    "name": "Wheel of Prophecy",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN032",
+    "name": "Madolche Hootcake",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN033",
+    "name": "Legendary Atlantean Tridon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN034",
+    "name": "Fire King Avatar Garunix",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN035",
+    "name": "Harpie Channeler",
+    "rarity": "Ultra Rare Ultimate Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN036",
+    "name": "Altitude Knight",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN037",
+    "name": "Windrose the Elemental Lord",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN038",
+    "name": "Redox, Dragon Ruler of Boulders",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN039",
+    "name": "Tidal, Dragon Ruler of Waterfalls",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN040",
+    "name": "Blaster, Dragon Ruler of Infernos",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN041",
+    "name": "Tempest, Dragon Ruler of Storms",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN042",
+    "name": "Risebell the Star Adjuster",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN043",
+    "name": "Green Duston",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN044",
+    "name": "Number 107: Galaxy-Eyes Tachyon Dragon",
+    "rarity": "Ultra Rare Ultimate Rare Ghost Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN045",
+    "name": "Gauntlet Launcher",
+    "rarity": "Ultra Rare Ultimate Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN046",
+    "name": "Fairy Cheer Girl",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN047",
+    "name": "CXyz Dark Fairy Cheer Girl",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN048",
+    "name": "Shark Fortress",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN049",
+    "name": "Ice Beast Zerofyne",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN050",
+    "name": "Battlin' Boxer Lead Yoke",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN051",
+    "name": "Number 105: Battlin' Boxer Star Cestus",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN052",
+    "name": "Number C105: Battlin' Boxer Comet Cestus",
+    "rarity": "Ultra Rare Ultimate Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN053",
+    "name": "Mecha Phantom Beast Dracossack",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN054",
+    "name": "Brotherhood of the Fire Fist - Cardinal",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN055",
+    "name": "Harpie's Pet Phantasmal Dragon",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN056",
+    "name": "King of the Feral Imps",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN057",
+    "name": "Gagagawind",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN058",
+    "name": "Magnum Shield",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN059",
+    "name": "Xyz Revenge",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN060",
+    "name": "Rank-Up-Magic Barian's Force",
+    "rarity": "Ultra Rare Ultimate Rare",
+    "category": "Normal Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN061",
+    "name": "Scramble!! Scramble!!",
+    "rarity": "Ultra Rare Ultimate Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN062",
+    "name": "Fire Formation - Gyokkou",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN063",
+    "name": "Spellbook of Judgment",
+    "rarity": "Secret Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN064",
+    "name": "Abyss-scale of the Mizuchi",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN065",
+    "name": "Hysteric Sign",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN066",
+    "name": "Sacred Sword of Seven Stars",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN067",
+    "name": "Jewels of the Valiant",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN068",
+    "name": "Summon Breaker",
+    "rarity": "Short Print",
+    "category": "Field Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN069",
+    "name": "Pinpoint Guard",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN070",
+    "name": "Memory Loss",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN071",
+    "name": "Torrential Reborn",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN072",
+    "name": "Xyz Block",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN073",
+    "name": "Aerial Recharge",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN074",
+    "name": "Do a Barrel Roll",
+    "rarity": "Rare",
+    "category": "Counter Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN075",
+    "name": "Fire Formation - Kaiyo",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN076",
+    "name": "Madolche Nights",
+    "rarity": "Super Rare",
+    "category": "Counter Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN077",
+    "name": "Geargiagear",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN078",
+    "name": "High Tide on Fire Island",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN079",
+    "name": "Mind Drain",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN080",
+    "name": "Dragoncarnation",
+    "rarity": "Short Print",
+    "category": "Normal Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN081",
+    "name": "Noble Knight Gwalchavad",
+    "rarity": "Ultra Rare Ultimate Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN082",
+    "name": "Brotherhood of the Fire Fist - Coyote",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN083",
+    "name": "Mermail Abyssbalaen",
+    "rarity": "Ultra Rare Ultimate Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN084",
+    "name": "Trifortressops",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN085",
+    "name": "Ghost Fairy Elfobia",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN086",
+    "name": "Totem Bird",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN087",
+    "name": "Noble Arms of Destiny",
+    "rarity": "Super Rare",
+    "category": "Equip Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN088",
+    "name": "Spellbook of Miracles",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN089",
+    "name": "Five Brothers Explosion",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN090",
+    "name": "Sonic Warrior",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN091",
+    "name": "Constellar Omega",
+    "rarity": "Ultra Rare Ultimate Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN092",
+    "name": "Number 69: Heraldry Crest",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN093",
+    "name": "Constellar Sombre",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN094",
+    "name": "Evilswarm Kerykeion",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN095",
+    "name": "Reactan, Dragon Ruler of Pebbles",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN096",
+    "name": "Stream, Dragon Ruler of Droplets",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN097",
+    "name": "Burner, Dragon Ruler of Sparks",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN098",
+    "name": "Lightning, Dragon Ruler of Drafts",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  },
+  {
+    "card_number": "LTGY-EN099",
+    "name": "Duck Fighter",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "",
+    "cardSetName": "Lord of the Tachyon Galaxy"
+  }
+]

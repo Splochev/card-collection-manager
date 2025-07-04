@@ -1,0 +1,709 @@
+[
+  {
+    "card_number": "BLVO-EN000",
+    "name": "War Rock Mountain",
+    "rarity": "Secret Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN001",
+    "name": "Armed Dragon Thunder LV10",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN002",
+    "name": "Armed Dragon Thunder LV7",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN003",
+    "name": "Armed Dragon Thunder LV5",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN004",
+    "name": "Armed Dragon Thunder LV3",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN005",
+    "name": "Armed Dragon LV10 White",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN006",
+    "name": "Springans Rockey",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN007",
+    "name": "Springans Pedor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN008",
+    "name": "Springans Branga",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN009",
+    "name": "Springans Captain Sargas",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN010",
+    "name": "Tri-Brigade Kitt",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN011",
+    "name": "S-Force Rappa Chiyomaru",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN012",
+    "name": "S-Force Professor DiGamma",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN013",
+    "name": "S-Force Orrafist",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN014",
+    "name": "S-Force Gravitino",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN015",
+    "name": "S-Force Pla-Tina",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN016",
+    "name": "Windwitch - Blizzard Bell",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN017",
+    "name": "Windwitch - Freeze Bell",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN018",
+    "name": "Fabled Marcosia",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN019",
+    "name": "The Fabled Abanc",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN020",
+    "name": "Parametalfoes Melcaster",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN021",
+    "name": "Metalfoes Vanisher",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN022",
+    "name": "Constellar Caduceus",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN023",
+    "name": "Digital Bug Registrider",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN024",
+    "name": "Maha Vailo, Light of the Heavens",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN025",
+    "name": "Ancient Warriors - Rebellious Lu Feng",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN026",
+    "name": "Neiroy, the Dream Mirror Disciple",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN027",
+    "name": "Machina Unclaspare",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN028",
+    "name": "Live☆Twin Lil-la Treat",
+    "rarity": "Ultra Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN029",
+    "name": "Heavenly Zephyr - Miradora",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN030",
+    "name": "Fairy Archer Ingunar",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN031",
+    "name": "Radiant Vouirescence",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN032",
+    "name": "Gigathunder Giclops",
+    "rarity": "Common",
+    "category": "Effect Tuner Pendulum Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN033",
+    "name": "Amanokujaki",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN034",
+    "name": "Guitar Gurnards Duonigis",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN035",
+    "name": "Wightbaking",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN036",
+    "name": "Ojama Pink",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN037",
+    "name": "Knight of Armor Dragon",
+    "rarity": "Common",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN038",
+    "name": "Sprind the Irondash Dragon",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN039",
+    "name": "Parametalfoes Azortless",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Pendulum Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN040",
+    "name": "Eldlich the Mad Golden Lord",
+    "rarity": "Secret Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN041",
+    "name": "Dual Avatar - Empowered Mitsu-Jaku",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN042",
+    "name": "Oneiros, the Dream Mirror Tormentor",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN043",
+    "name": "Windwitch - Diamond Bell",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN044",
+    "name": "Fabled Andwraith",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN045",
+    "name": "Dragunity Knight - Gormfaobhar",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN046",
+    "name": "Springans Ship - Exblowrer",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN047",
+    "name": "Sacred Tree Beast, Hyperyton",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN048",
+    "name": "S-Force Justify",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN049",
+    "name": "Heavymetalfoes Amalgam",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN050",
+    "name": "Underworld Goddess of the Closed World",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN051",
+    "name": "Armed Dragon Flash",
+    "rarity": "Secret Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN052",
+    "name": "Armed Dragon Blitz",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN053",
+    "name": "Armed Dragon Lightning",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN054",
+    "name": "Springans Watch",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN055",
+    "name": "Great Sand Sea - Gold Golgonda",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN056",
+    "name": "Tri-Brigade Rendezvous",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN057",
+    "name": "S-Force Bridgehead",
+    "rarity": "Secret Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN058",
+    "name": "S-Force Showdown",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN059",
+    "name": "Windwitch Chimes",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN060",
+    "name": "Stairway to a Fabled Realm",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN061",
+    "name": "Parametalfoes Fusion",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN062",
+    "name": "Seven Cities of the Golden Land",
+    "rarity": "Ultra Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN063",
+    "name": "Archfiend's Staff of Despair",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN064",
+    "name": "Armor Dragon Ritual",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN065",
+    "name": "Pot of Prosperity",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN066",
+    "name": "Tilted Try",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN067",
+    "name": "Armed Dragon Thunderbolt",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN068",
+    "name": "Springans Call!",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN069",
+    "name": "Springans Blast!",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN070",
+    "name": "Dogmatika Genesis",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN071",
+    "name": "S-Force Specimen",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN072",
+    "name": "Icy Breeze Refrain",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN073",
+    "name": "Fabled Treason",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN074",
+    "name": "Ancient Warriors Saga - Chivalrous Path",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN075",
+    "name": "Virtual World Gate - Xuanwu",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN076",
+    "name": "Dual Avatar Ascendance",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN077",
+    "name": "Dream Mirror Recap",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN078",
+    "name": "E.M.R.",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN079",
+    "name": "Angel Statue - Azurune",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN080",
+    "name": "Linear Equation Cannon",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN081",
+    "name": "Materiactor Gigadra",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN082",
+    "name": "Raging Storm Dragon - Beaufort IX",
+    "rarity": "Common",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN083",
+    "name": "Coordius the Triphasic Dealmon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN084",
+    "name": "Materiactor Gigaboros",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN085",
+    "name": "Steel Star Regulator",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN086",
+    "name": "Breath of Acclamation",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN087",
+    "name": "Greater Polymerization",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN088",
+    "name": "Reinforcement of the Army's Troops",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN089",
+    "name": "Psychic Eraser Laser",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN090",
+    "name": "Synchro Transmission",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN091",
+    "name": "Pendulum Encore",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN092",
+    "name": "Underdog",
+    "rarity": "Secret Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN093",
+    "name": "War Rock Fortia",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN094",
+    "name": "War Rock Gactos",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN095",
+    "name": "War Rock Orpis",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN096",
+    "name": "War Rock Skyler",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN097",
+    "name": "War Rock Bashileos",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN098",
+    "name": "War Rock Ordeal",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN099",
+    "name": "Virtual World Oto-Hime - Toutou",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Blazing Vortex"
+  },
+  {
+    "card_number": "BLVO-EN100",
+    "name": "Trishula, Dragon of the Ice Barrier",
+    "rarity": "Starlight Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Blazing Vortex"
+  }
+]

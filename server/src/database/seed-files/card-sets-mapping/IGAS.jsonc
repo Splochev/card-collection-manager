@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "IGAS-EN000",
+    "name": "Annihilator Archfiend",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN001",
+    "name": "Pikari @Ignister",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN002",
+    "name": "Bururu @Ignister",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN003",
+    "name": "Doyon @Ignister",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN004",
+    "name": "Achichi @Ignister",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN005",
+    "name": "Hiyari @Ignister",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN006",
+    "name": "Doshin @Ignister",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN007",
+    "name": "Donyoribo @Ignister",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN008",
+    "name": "Ancient Warriors - Masterful Sun Mou",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN009",
+    "name": "Ancient Warriors - Graceful Zhou Gong",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN010",
+    "name": "Ancient Warriors - Eccentric Lu Jing",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN011",
+    "name": "Ancient Warriors - Virtuous Liu Xuan",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN012",
+    "name": "Ancient Warriors - Loyal Guan Yun",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN013",
+    "name": "Ancient Warriors - Valiant Zhang De",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN014",
+    "name": "Karakuri Bonze mdl 9763 \"Kunamzan\"",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN015",
+    "name": "Karakuri Gama mdl 4624 \"Shirokunishi\"",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN016",
+    "name": "Chronomaly Tuspa Rocket",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN017",
+    "name": "Arcjet Lightcraft",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN018",
+    "name": "Time Thief Chronocorder",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN019",
+    "name": "Abominable Unchained Soul",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN020",
+    "name": "Sky Striker Ace - Roze",
+    "rarity": "Ultra Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN021",
+    "name": "Witchcrafter Genni",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN022",
+    "name": "Utgarda, Generaider Boss of Delusion",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN023",
+    "name": "Ghostrick Fairy",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN024",
+    "name": "Gizmek Kaku, the Supreme Shining Sky Stag",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN025",
+    "name": "Cataclysmic Crusted Calcifida",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN026",
+    "name": "Jack-o-Bolan",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN027",
+    "name": "Ibicella Lutea",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN028",
+    "name": "Obsessive Uvualoop",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN029",
+    "name": "Daruma Dropper",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN030",
+    "name": "Transcicada",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN031",
+    "name": "Squeaknight",
+    "rarity": "Common",
+    "category": "Union monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN032",
+    "name": "Battle Survivor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN033",
+    "name": "Cupid Serve",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN034",
+    "name": "Water Leviathan @Ignister",
+    "rarity": "Common",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN035",
+    "name": "Megalith Ophiel",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN036",
+    "name": "Megalith Hagith",
+    "rarity": "Common",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN037",
+    "name": "Megalith Och",
+    "rarity": "Common",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN038",
+    "name": "Megalith Phaleg",
+    "rarity": "Common",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN039",
+    "name": "Megalith Bethor",
+    "rarity": "Common",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN040",
+    "name": "Megalith Aratron",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN041",
+    "name": "Earth Golem @Ignister",
+    "rarity": "Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN042",
+    "name": "Wind Pegasus @Ignister",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN043",
+    "name": "Karakuri Super Shogun mdl 00N \"Bureibu\"",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN044",
+    "name": "Light Dragon @Ignister",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN045",
+    "name": "Dark Templar @Ignister",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN046",
+    "name": "Fire Phoenix @Ignister",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN047",
+    "name": "Cross-Sheep",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN048",
+    "name": "Aussa the Earth Charmer, Immovable",
+    "rarity": "Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN049",
+    "name": "Gravity Controller",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN050",
+    "name": "Ignister A.I.Land",
+    "rarity": "Secret Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN051",
+    "name": "TA.I. Strike",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN052",
+    "name": "A.I.dle Reborn",
+    "rarity": "Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN053",
+    "name": "A.I. Love Fusion",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN054",
+    "name": "A.I.'s Ritual",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN055",
+    "name": "Ancient Warriors Saga - Three Visits",
+    "rarity": "Ultra Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN056",
+    "name": "Ancient Warriors Saga - Sun-Liu Alliance",
+    "rarity": "Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN057",
+    "name": "Megalith Portal",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN058",
+    "name": "Karakuri Gama Oil",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN059",
+    "name": "Condolence Puppet",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN060",
+    "name": "Charged-Up Heraldry",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN061",
+    "name": "Time Thief Startup",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN062",
+    "name": "Sky Striker Maneuver - Scissors Cross",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN063",
+    "name": "Ghost Meets Girl - A Mayakashi's Manuscript",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN064",
+    "name": "Dragonmaid Send-Off",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN065",
+    "name": "Disposable Learner Device",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN066",
+    "name": "Kuji-Kiri Curse",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN067",
+    "name": "Lightning Storm",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN068",
+    "name": "Double-Edged Sword",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN069",
+    "name": "A.I. Shadow",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN070",
+    "name": "Ancient Warriors Saga - Defense of Changban",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN071",
+    "name": "Megalith Promotion",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN072",
+    "name": "Megalith Emergence",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN073",
+    "name": "Karakuri Cash Inn",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN074",
+    "name": "Resurgam Xyz",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN075",
+    "name": "Time Thief Retrograde",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN076",
+    "name": "Sales Pitch",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN077",
+    "name": "Armory Call",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN078",
+    "name": "Mutually Affured Destruction",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN079",
+    "name": "Fiendish Portrait",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN080",
+    "name": "Head Judging",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN081",
+    "name": "Guard Ghost",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN082",
+    "name": "Feedran, the Winds of Mischief",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN083",
+    "name": "Nine-Lives Cat",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN084",
+    "name": "Execution of the Contract",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN085",
+    "name": "Whitebeard, the Plunder Patroll Helm",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN086",
+    "name": "Redbeard, the Plunder Patroll Matey",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN087",
+    "name": "Plunder Patrollship Brann",
+    "rarity": "Secret Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN088",
+    "name": "Plunder Patrollship Moerk",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN089",
+    "name": "Blackbeard, the Plunder Patroll Captain",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN090",
+    "name": "Plunder Patroll Shipyarrrd",
+    "rarity": "Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN091",
+    "name": "Plunder Patroll Booty",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN092",
+    "name": "Shiny Black \"C\" Squadder",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN093",
+    "name": "Marincess Pascalus",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN094",
+    "name": "Time Thief Perpetua",
+    "rarity": "Super Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN095",
+    "name": "Bellcat Fighter",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN096",
+    "name": "Code Talker Inverted",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN097",
+    "name": "Linguriboh",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN098",
+    "name": "Link Party",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Ignition Assault"
+  },
+  {
+    "card_number": "IGAS-EN099",
+    "name": "Matching Outfits",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Ignition Assault"
+  }
+]

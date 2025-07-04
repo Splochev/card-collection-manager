@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "SAST-EN000",
+    "name": "Danger! Ogopogo!",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN001",
+    "name": "Catche Eve L2",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN002",
+    "name": "Cyberse Synchron",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN003",
+    "name": "Salamangreat Wolvie",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN004",
+    "name": "Salamangreat Parro",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN005",
+    "name": "Salamangreat Foxer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN006",
+    "name": "Speedburst Dragon",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN007",
+    "name": "Rokket Synchron",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN008",
+    "name": "Neo Space Connector",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN009",
+    "name": "T.G. Screw Serpent",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN010",
+    "name": "T.G. Booster Raptor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN011",
+    "name": "T.G. Tank Grub",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN012",
+    "name": "Guardragon Justicia",
+    "rarity": "Common",
+    "category": "Normal Tuner monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN013",
+    "name": "Guardragon Garmides",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN014",
+    "name": "Guardragon Promineses",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN015",
+    "name": "Guardragon Andrake",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN016",
+    "name": "World Legacy - World Ark",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN017",
+    "name": "Shiranui Spectralsword Shade",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN018",
+    "name": "Shiranui Swordmaster",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN019",
+    "name": "Shiranui Squire",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN020",
+    "name": "Fantastical Dragon Phantazmay",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN021",
+    "name": "Orcust Knightmare",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN022",
+    "name": "Prank-Kids Rocksies",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN023",
+    "name": "Madolche Petingcessoeur",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN024",
+    "name": "Psychic Wheeleder",
+    "rarity": "Secret Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN025",
+    "name": "Psychic Tracker",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN026",
+    "name": "Thunderclap Monk",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN027",
+    "name": "Lappis Dragon",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN028",
+    "name": "Cataclysmic Scorching Sunburner",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN029",
+    "name": "Squirt Squid",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN030",
+    "name": "Aloof Lupine",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN031",
+    "name": "Extraceratops",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN032",
+    "name": "Impcantation Chalislime",
+    "rarity": "Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN033",
+    "name": "Trickstar Band Sweet Guitar",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN034",
+    "name": "Salamangreat Violet Chimera",
+    "rarity": "Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN035",
+    "name": "Elemental HERO Brave Neos",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN036",
+    "name": "Elemental HERO Cosmo Neos",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN037",
+    "name": "Borreload Savage Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN038",
+    "name": "Cyberse Quantum Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN039",
+    "name": "T.G. Star Guardian",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner Synchro Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN040",
+    "name": "Shiranui Swordsaga",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN041",
+    "name": "Shiranui Squiresaga",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN042",
+    "name": "Hyper Psychic Riser",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN043",
+    "name": "Cyberse Integrator",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN044",
+    "name": "Cyberse Wicckid",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN045",
+    "name": "Update Jammer",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN046",
+    "name": "Detonate Deleter",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN047",
+    "name": "Clock Lizard",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN048",
+    "name": "Salamangreat Sunlight Wolf",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN049",
+    "name": "Trickstar Divaridis",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN050",
+    "name": "T.G. Trident Launcher",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN051",
+    "name": "Guardragon Elpy",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN052",
+    "name": "Guardragon Pisty",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN053",
+    "name": "Guardragon Agarpain",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN054",
+    "name": "Shiranui Skillsaga Supremacy",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN055",
+    "name": "Sky Striker Ace - Kaina",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN056",
+    "name": "Hiita the Fire Charmer, Ablaze",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN057",
+    "name": "Fusion of Fire",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN058",
+    "name": "Trickstar Live Stage",
+    "rarity": "Secret Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN059",
+    "name": "Trickstar Fusion",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN060",
+    "name": "Neos Fusion",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN061",
+    "name": "Guardragon Shield",
+    "rarity": "Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN062",
+    "name": "World Legacy Guardragon",
+    "rarity": "Ultra Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN063",
+    "name": "Ghost Meets Girl - A Shiranui's Story",
+    "rarity": "Ultra Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN064",
+    "name": "Shiranui Style Solemnity",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN065",
+    "name": "Impcantation Inception",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN066",
+    "name": "Uni-Song Tuning",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN067",
+    "name": "Pot of Extravagance",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN068",
+    "name": "Edge of the Ring",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN069",
+    "name": "Child's Play",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN070",
+    "name": "Summon Over",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN071",
+    "name": "NEXT",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN072",
+    "name": "Guardragon Corewakening",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN073",
+    "name": "Guardragon Cataclysm",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN074",
+    "name": "Shiranui Style Success",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN075",
+    "name": "Fateful Hour",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN076",
+    "name": "Orcustrated Release",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN077",
+    "name": "Subterror Succession",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN078",
+    "name": "Dark Factory of More Production",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN079",
+    "name": "Witch's Strike",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN080",
+    "name": "Loss Time",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN081",
+    "name": "Super Anti-Kaiju War Machine Mecha-Thunder-King",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN082",
+    "name": "Time Thief Winder",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN083",
+    "name": "Time Thief Bezel Ship",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN084",
+    "name": "Time Thief Regulator",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN085",
+    "name": "Time Thief Redoer",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN086",
+    "name": "Time Thief Hack",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN087",
+    "name": "Time Thief Flyback",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN088",
+    "name": "Valkyrie Sechste",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN089",
+    "name": "Valkyrie Vierte",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN090",
+    "name": "Final Light",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN091",
+    "name": "Apple of Enlightenment",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN092",
+    "name": "Cyberse Converter",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN093",
+    "name": "Legendary Secret of the Six Samurai",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN094",
+    "name": "Subterror Guru",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN095",
+    "name": "Trickstar Corobane",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN096",
+    "name": "Performapal Clay Breaker",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN097",
+    "name": "Super Armored Robot Armed Black Iron C",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN098",
+    "name": "Shinobi Necro",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Savage Strike"
+  },
+  {
+    "card_number": "SAST-EN099",
+    "name": "Red Rising Dragon",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Savage Strike"
+  }
+]

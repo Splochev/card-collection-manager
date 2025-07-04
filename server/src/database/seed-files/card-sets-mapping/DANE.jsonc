@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "DANE-EN000",
+    "name": "Gnomaterial",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN001",
+    "name": "Firewall Guardian",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN002",
+    "name": "Grid Sweeper",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN003",
+    "name": "Salamangreat Fennec",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN004",
+    "name": "Overflow Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN005",
+    "name": "Altergeist Fifinellag",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN006",
+    "name": "Dinowrestler Eskrimamenchi",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN007",
+    "name": "Dinowrestler Coelasilat",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN008",
+    "name": "Dinowrestler Martial Anga",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN009",
+    "name": "Destiny HERO - Drawhand",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN010",
+    "name": "Psi-Reflector",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN011",
+    "name": "Assault Sentinel",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN012",
+    "name": "T.G. Halberd Cannon/Assault Mode",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN013",
+    "name": "Super Quantum White Layer",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN014",
+    "name": "Neo Flamvell Lady",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN015",
+    "name": "Filo, Messenger Fur Hire",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN016",
+    "name": "Yuki-Musume, the Ice Mayakashi",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN017",
+    "name": "Knightmare Incarnation Idlee",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN018",
+    "name": "World Legacy Guardragon Mardark",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN019",
+    "name": "Deus X-Krawler",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN020",
+    "name": "Omni Dragon Brotaur",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN021",
+    "name": "Chaos Betrayer",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN022",
+    "name": "Loud Cloud the Storm Serpent",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN023",
+    "name": "Xyz Slidolphin",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN024",
+    "name": "Star Staring Starling",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN025",
+    "name": "Ghost Sister & Spooky Dogwood",
+    "rarity": "Secret Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN026",
+    "name": "Handigallop",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN027",
+    "name": "Emperor Maju Garzett",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN028",
+    "name": "Cupid Dunk",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN029",
+    "name": "Crealtar, the Impcantation Originator",
+    "rarity": "Common",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN030",
+    "name": "Dinowrestler Chimera T Wrextle",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN031",
+    "name": "Destiny HERO - Dominance",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN032",
+    "name": "World Chalice Guardragon Almarduke",
+    "rarity": "Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN033",
+    "name": "Altergeist Dragvirion",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN034",
+    "name": "Dinowrestler Giga Spinosavate",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN035",
+    "name": "Ib the World Chalice Justiciar",
+    "rarity": "Secret Rare",
+    "category": "Effect Tuner Synchro Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN036",
+    "name": "Firewall eXceed Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN037",
+    "name": "Super Quantal Mech Beast Lusterrex",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN038",
+    "name": "Dingirsu, the Orcust of the Evening Star",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN039",
+    "name": "Madolche Teacher Glassouffle",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN040",
+    "name": "Cyberse Reminder",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN041",
+    "name": "Dillingerous Dragon",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN042",
+    "name": "Dinowrestler Terra Parkourio",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN043",
+    "name": "Gouki The Blade Ogre",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN044",
+    "name": "Gouki The Solid Ogre",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN045",
+    "name": "Xtra HERO Cross Crusader",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN046",
+    "name": "Neo Super Quantal Mech King Blaster Magna",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN047",
+    "name": "Mekk-Knight Crusadia Avramax",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN048",
+    "name": "World Gears of Theurlogical Demiurgy",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN049",
+    "name": "Puzzlomino, the Drop-n-Deleter",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN050",
+    "name": "Amphibious Swarmship Amblowhale",
+    "rarity": "Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN051",
+    "name": "Cynet Mining",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN052",
+    "name": "Salamangreat Recureance",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN053",
+    "name": "Tyrant Dino Fusion",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN054",
+    "name": "Fusion Destiny",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN055",
+    "name": "Assault Mode Zero",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN056",
+    "name": "Super Quantal Alphancall Appeal",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN057",
+    "name": "Mayakashi Winter",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN058",
+    "name": "Cloudian Aerosol",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN059",
+    "name": "World Legacy Monstrosity",
+    "rarity": "Ultra Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN060",
+    "name": "Guardragon Reincarnation",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN061",
+    "name": "Crusadia Testament",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN062",
+    "name": "Impcantation Thanatosis",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN063",
+    "name": "Dirge of the Lost Dragon",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN064",
+    "name": "Mystic Mine",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN065",
+    "name": "Mordschlag",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN066",
+    "name": "Stand In",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN067",
+    "name": "Packet Swap",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN068",
+    "name": "Altergeist Haunted Rock",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN069",
+    "name": "D - Tactics",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN070",
+    "name": "Assault Reboot",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN071",
+    "name": "Super Quantal Union - Magnaformation",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN072",
+    "name": "Magical Musket - Crooked Crown",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN073",
+    "name": "The Weather Rainbowed Canvas",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN074",
+    "name": "Orcust Crescendo",
+    "rarity": "Super Rare",
+    "category": "Counter Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN075",
+    "name": "World Legacy Collapse",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN076",
+    "name": "World Legacy Cliffhanger",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN077",
+    "name": "Chain Hole",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN078",
+    "name": "Crackdown",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN079",
+    "name": "Snowman Effect",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN080",
+    "name": "Dice It",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN081",
+    "name": "Muddy Mudragon",
+    "rarity": "Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN082",
+    "name": "Saryuja's Shackles",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN083",
+    "name": "Danger! Excitement! Mystery!",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN084",
+    "name": "Danger! Feets of Strength!",
+    "rarity": "Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN085",
+    "name": "You're in Danger!",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN086",
+    "name": "Valkyrie Funfte",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN087",
+    "name": "Valkyrie Erda",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN088",
+    "name": "Valkyrie Chariot",
+    "rarity": "Common",
+    "category": "Union monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN089",
+    "name": "Valkyrie's Embrace",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN090",
+    "name": "Pegasus Wing",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN091",
+    "name": "Loge's Flame",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN092",
+    "name": "Number 5: Doom Chimera Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN093",
+    "name": "Number XX: Utopic Dark Infinity",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN094",
+    "name": "Mermail Abyssalacia",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN095",
+    "name": "Cherubini, Ebon Angel of the Burning Abyss",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN096",
+    "name": "Speedlift",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN097",
+    "name": "Pendulum Halt",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN098",
+    "name": "Whitefish Salvage",
+    "rarity": "Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dark Neostorm"
+  },
+  {
+    "card_number": "DANE-EN099",
+    "name": "Memories of Hope",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dark Neostorm"
+  }
+]

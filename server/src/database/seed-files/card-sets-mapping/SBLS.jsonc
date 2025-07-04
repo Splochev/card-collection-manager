@@ -1,0 +1,352 @@
+[
+  {
+    "card_number": "SBLS-ENS01",
+    "name": "Ectoplasmic Fortification!",
+    "rarity": "Super Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-ENS02",
+    "name": "Straight to the Grave",
+    "rarity": "Super Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-ENS03",
+    "name": "Call of the Haunted",
+    "rarity": "Ultra Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-ENS04",
+    "name": "Royal Flush",
+    "rarity": "Super Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-ENS05",
+    "name": "Tomb of the Pharaoh",
+    "rarity": "Ultra Rare",
+    "category": "Unknown",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN001",
+    "name": "Buster Blader",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN002",
+    "name": "Whiptail Crow",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN003",
+    "name": "Possessed Dark Soul",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN004",
+    "name": "Queen's Knight",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN005",
+    "name": "King's Knight",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN006",
+    "name": "Jack's Knight",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN007",
+    "name": "Arcana Knight Joker",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN008",
+    "name": "Diffusion Wave-Motion",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN009",
+    "name": "Magicians Unite",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN010",
+    "name": "Mystic Horseman",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN011",
+    "name": "Rabid Horseman",
+    "rarity": "Common",
+    "category": "Fusion Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN012",
+    "name": "Blue-Eyes Ultimate Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Fusion Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN013",
+    "name": "Meteor Black Dragon (as Meteor B. Dragon)",
+    "rarity": "Super Rare",
+    "category": "Fusion Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN014",
+    "name": "Shield & Sword",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN015",
+    "name": "Sword of Dragon's Soul",
+    "rarity": "Super Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN016",
+    "name": "Common Charity",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN017",
+    "name": "Senju of the Thousand Hands",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN018",
+    "name": "Sphere Kuriboh",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN019",
+    "name": "Desert Twister",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN020",
+    "name": "Harpie's Pet Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN021",
+    "name": "Amazoness Spy",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN022",
+    "name": "Gravekeeper's Ambusher",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN023",
+    "name": "Veil of Darkness",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN024",
+    "name": "Conscription",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN025",
+    "name": "Skull Servant",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN026",
+    "name": "The Snake Hair",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN027",
+    "name": "Armored Zombie",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN028",
+    "name": "Dragon Zombie",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN029",
+    "name": "Clown Zombie",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN030",
+    "name": "Magical Ghost",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN031",
+    "name": "King of the Skull Servants",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN032",
+    "name": "Decayed Commander",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN033",
+    "name": "Zombie Tiger",
+    "rarity": "Common",
+    "category": "Union monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN034",
+    "name": "Great Mammoth of Goldfine",
+    "rarity": "Common",
+    "category": "Fusion Monster",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN035",
+    "name": "Violet Crystal",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN036",
+    "name": "Wasteland",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN037",
+    "name": "De-Spell",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN038",
+    "name": "Block Attack",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN039",
+    "name": "The Shallow Grave",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN040",
+    "name": "White Elephant's Gift",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN041",
+    "name": "Wicked-Breaking Flamberge - Baou",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN042",
+    "name": "Twister",
+    "rarity": "Ultra Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN043",
+    "name": "Half Shut",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN044",
+    "name": "Michizure",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  },
+  {
+    "card_number": "SBLS-EN045",
+    "name": "Limit Impulse",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Speed Duel: Arena of Lost Souls"
+  }
+]

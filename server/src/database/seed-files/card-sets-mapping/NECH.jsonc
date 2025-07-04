@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "NECH-EN000",
+    "name": "Lancephorhynchus",
+    "rarity": "Super Rare",
+    "category": "Normal Pendulum Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN001",
+    "name": "Performapal Cheermole",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN002",
+    "name": "Performapal Trampolynx",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN003",
+    "name": "Block Spider",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN004",
+    "name": "Canon the Melodious Diva",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN005",
+    "name": "Serenade the Melodious Diva",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN006",
+    "name": "Elegy the Melodious Diva",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN007",
+    "name": "Shopina the Melodious Maestra",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN008",
+    "name": "Superheavy Samurai Kabuto",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN009",
+    "name": "Superheavy Samurai Scales",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN010",
+    "name": "Superheavy Samurai Soulfire Suit",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN011",
+    "name": "Superheavy Samurai Soulshield Wall",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN012",
+    "name": "Superheavy Samurai Soulbreaker Armor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN013",
+    "name": "Superheavy Samurai Soulbang Cannon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN014",
+    "name": "Edge Imp Sabres",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN015",
+    "name": "Fluffal Leo",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN016",
+    "name": "Fluffal Bear",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN017",
+    "name": "Fluffal Dog",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN018",
+    "name": "Fluffal Owl",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN019",
+    "name": "Fluffal Cat",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN020",
+    "name": "Fluffal Rabbit",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN021",
+    "name": "Qliphort Scout",
+    "rarity": "Ultra Rare",
+    "category": "Normal Pendulum Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN022",
+    "name": "Qliphort Carrier",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN023",
+    "name": "Qliphort Helix",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN024",
+    "name": "Qliphort Disk",
+    "rarity": "Secret Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN025",
+    "name": "Qliphort Shell",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN026",
+    "name": "Apoqliphort Towers",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN027",
+    "name": "Satellarknight Sirius",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN028",
+    "name": "Satellarknight Procyon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN029",
+    "name": "Satellarknight Betelgeuse",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN030",
+    "name": "Shaddoll Hound",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN031",
+    "name": "Taotie, Shadow of the Yang Zing",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN032",
+    "name": "Jiaotu, Darkness of the Yang Zing",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN033",
+    "name": "Lindbloom",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN034",
+    "name": "Night Dragolich",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN035",
+    "name": "Unmasked Dragon",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN036",
+    "name": "Machina Megaform",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN037",
+    "name": "Zaborg the Mega Monarch",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN038",
+    "name": "Valerifawn, Mystical Beast of the Forest",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN039",
+    "name": "Rescue Hamster",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN040",
+    "name": "Watch Dog",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN041",
+    "name": "Denko Sekka",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN042",
+    "name": "Deskbot 002",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN043",
+    "name": "Ms. Judge",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN044",
+    "name": "Scrounging Goblin",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN045",
+    "name": "Herald of Ultimateness",
+    "rarity": "Ultra Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN046",
+    "name": "Frightfur Bear",
+    "rarity": "Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN047",
+    "name": "Frightfur Wolf",
+    "rarity": "Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN048",
+    "name": "El Shaddoll Grysta",
+    "rarity": "Secret Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN049",
+    "name": "El Shaddoll Shekhinaga",
+    "rarity": "Secret Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN050",
+    "name": "First of the Dragons",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN051",
+    "name": "Yazi, Evil of the Yang Zing",
+    "rarity": "Secret Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN052",
+    "name": "Herald of the Arc Light",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN053",
+    "name": "Dark Rebellion Xyz Dragon",
+    "rarity": "Secret Rare",
+    "category": "Ultimate Rare Ghost Rare",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN054",
+    "name": "Stellarknight Triverr",
+    "rarity": "Ultra Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN055",
+    "name": "Wonder Balloons",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN056",
+    "name": "Mimiclay",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN057",
+    "name": "Draw Muscle",
+    "rarity": "Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN058",
+    "name": "Magical Star Illusion",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN059",
+    "name": "1st Movement Solo",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN060",
+    "name": "Toy Vendor",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN061",
+    "name": "Saqlifice",
+    "rarity": "Ultra Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN062",
+    "name": "Laser Qlip",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN063",
+    "name": "Hexatellarknight",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN064",
+    "name": "El Shaddoll Fusion",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN065",
+    "name": "Celestia",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN066",
+    "name": "Oracle of the Herald",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN067",
+    "name": "Strike of the Monarchs",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN068",
+    "name": "Cursed Bamboo Sword",
+    "rarity": "Short Print",
+    "category": "Equip Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN069",
+    "name": "Command Performance",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN070",
+    "name": "Performapal Revival",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN071",
+    "name": "Punch-in-the-Box",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN072",
+    "name": "The Phantom Knights of Shadow Veil",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN073",
+    "name": "Qlimate Change",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN074",
+    "name": "Qlipper Launch",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN075",
+    "name": "Yang Zing Brutality",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN076",
+    "name": "Naturia Sacred Tree",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN077",
+    "name": "Oasis of Dragon Souls",
+    "rarity": "Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN078",
+    "name": "Fusion Reserve",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN079",
+    "name": "Solemn Scolding",
+    "rarity": "Secret Rare",
+    "category": "Counter Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN080",
+    "name": "Different Dimension Encounter",
+    "rarity": "Short Print",
+    "category": "Normal Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN081",
+    "name": "Fusion Substitute",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN082",
+    "name": "Rubic, Malebranche of the Burning Abyss",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN083",
+    "name": "Alich, Malebranche of the Burning Abyss",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN084",
+    "name": "Calcab, Malebranche of the Burning Abyss",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN085",
+    "name": "Virgil, Rock Star of the Burning Abyss",
+    "rarity": "Secret Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN086",
+    "name": "Fire Lake of the Burning Abyss",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN087",
+    "name": "U.A. Midfielder",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN088",
+    "name": "U.A. Goalkeeper",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN089",
+    "name": "U.A. Powered Jersey",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN090",
+    "name": "Ruffian Railcar",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN091",
+    "name": "SZW - Fenrir Sword",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN092",
+    "name": "Gogogo Goram",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN093",
+    "name": "Dododo Driver",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN094",
+    "name": "Xyz Change Tactics",
+    "rarity": "Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN095",
+    "name": "Number 39: Utopia Beyond",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN096",
+    "name": "CXyz Barian Hope",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN097",
+    "name": "Shogi Lance",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN098",
+    "name": "Guiding Light",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "The New Challengers"
+  },
+  {
+    "card_number": "NECH-EN099",
+    "name": "Number 99: Utopic Dragon",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "The New Challengers"
+  }
+]

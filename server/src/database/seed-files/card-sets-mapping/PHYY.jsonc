@@ -1,0 +1,709 @@
+[
+  {
+    "card_number": "PHHY-EN000",
+    "name": "Gravekeeper's Inscription",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN001",
+    "name": "Photon Emperor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN002",
+    "name": "Galaxy Summoner",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN003",
+    "name": "Galactikuriboh",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN004",
+    "name": "Bystial Baldrake",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN005",
+    "name": "The Abyss Dragon Swordsoul",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN006",
+    "name": "Kashtira Riseheart",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN007",
+    "name": "Scareclaw Kashtira",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN008",
+    "name": "Tearlaments Kashtira",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN009",
+    "name": "Chaos Witch",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN010",
+    "name": "Shell of Chaos",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN011",
+    "name": "Core of Chaos",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN012",
+    "name": "Mental Tuner",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN013",
+    "name": "Chaos Mirage Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN014",
+    "name": "Bio-Insect Armor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN015",
+    "name": "Infinite Antlion",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN016",
+    "name": "Abyss Actor - Liberty Dramatist",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN017",
+    "name": "Jioh the Gravity Ninja",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN018",
+    "name": "Gishki Grimness",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN019",
+    "name": "Basiltrice, Familiar of the Evil Eye",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN020",
+    "name": "Vala, Seidhr of the Generaider Bosses",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN021",
+    "name": "Beargram, Shelled Emperor of the Forest Crown",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN022",
+    "name": "Manticore of Smashing",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN023",
+    "name": "Choju of the Trillion Hands",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN024",
+    "name": "Fierce Tiger Monghu",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN025",
+    "name": "Fairyant the Circular Sorcerer",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN026",
+    "name": "Sari of the Silverwing Axe",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN027",
+    "name": "Couple of Aces",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN028",
+    "name": "Dimensional Allotrope Varis",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN029",
+    "name": "Meteor Rush - Monochroid",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN030",
+    "name": "Sneaky \"C\"",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN031",
+    "name": "Dogmatika Alba Zoa",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN032",
+    "name": "Evigishki Neremanas",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN033",
+    "name": "Granguignol the Dusk Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN034",
+    "name": "Rindbrumm the Striking Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN035",
+    "name": "Ultimate Great Insect",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN036",
+    "name": "Yaguramaru the Armor Ninja",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN037",
+    "name": "Arktos XII - Chronochasm Vaylantz",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Pendulum Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN038",
+    "name": "Icejade Gymir Aegirine",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN039",
+    "name": "Chaos Archfiend",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN040",
+    "name": "Chaos Beast",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN041",
+    "name": "Plunder Patrollship Jord",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Pendulum Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN042",
+    "name": "Circle of the Fairies",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN043",
+    "name": "Number C62: Neo Galaxy-Eyes Prime Photon Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN044",
+    "name": "Galaxy Photon Dragon",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN045",
+    "name": "Gigantic \"Champion\" Sargas",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN046",
+    "name": "Kashtira Arise-Heart",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN047",
+    "name": "Laevatein, Generaider Boss of Shadows",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN048",
+    "name": "Tri-Brigade Arms Bucephalus II",
+    "rarity": "Super Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN049",
+    "name": "Abyss Actor - Super Producer",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN050",
+    "name": "Dyna Mondo",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN051",
+    "name": "Galaxy Hundred",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN052",
+    "name": "Numeron Creation",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN053",
+    "name": "Icejade Manifestation",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN054",
+    "name": "Tally-ho! Springans",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN055",
+    "name": "Dogmatikamatrix",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN056",
+    "name": "Light of the Branded",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN057",
+    "name": "Kashtira Overlap",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN058",
+    "name": "Kashtiratheosis",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN059",
+    "name": "Pressured Planet Wraitsoth",
+    "rarity": "Secret Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN060",
+    "name": "Scareclaw Defanging",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN061",
+    "name": "Tearlaments Perlegia",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN062",
+    "name": "Giant Ballgame",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN063",
+    "name": "Abyss Actors' Dress Rehearsal",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN064",
+    "name": "Abyss Script - Dramatic Story",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN065",
+    "name": "Tenchi Kaimei",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN066",
+    "name": "Gishki Nekromirror",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN067",
+    "name": "Focused Aquamirror",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN068",
+    "name": "Evil Eyes Unleashed",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN069",
+    "name": "Triple Tactics Thrust",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN070",
+    "name": "Land Flipping",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN071",
+    "name": "Photon Timestop",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN072",
+    "name": "Gigantic Thundercross",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN073",
+    "name": "Branded Befallen",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN074",
+    "name": "Trivikarma",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN075",
+    "name": "Kashtira Big Bang",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN076",
+    "name": "Chaos Phantasm",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN077",
+    "name": "Big Welcome Labrynth",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN078",
+    "name": "Weighbridge",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN079",
+    "name": "Sour Scheduling - Red Vinegar Vamoose",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN080",
+    "name": "Intimidating Ore - Summonite",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN081",
+    "name": "Minairuka",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN082",
+    "name": "Orphebull the Harmonious Bullfighter Bard",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN083",
+    "name": "Diabolantis the Menacing Mantis",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN084",
+    "name": "Xyz Align",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN085",
+    "name": "Made to Order Mermaid Outfit Outfitter",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN086",
+    "name": "Gold Pride - Leon",
+    "rarity": "Secret Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN087",
+    "name": "Gold Pride - Nytro Head",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN088",
+    "name": "Gold Pride - Captain Carrie",
+    "rarity": "Ultra Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN089",
+    "name": "Gold Pride - Star Leon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN090",
+    "name": "Gold Pride - Nytro Blaster",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN091",
+    "name": "Gold Pride - The Crowd Goes Wild!",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN092",
+    "name": "Gold Pride - Start Your Engines!",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN093",
+    "name": "Cassimolar",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN094",
+    "name": "Queen Butterfly Danaus",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN095",
+    "name": "Qardan the Clear-Sighted",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN096",
+    "name": "Pharaonic Advent",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN097",
+    "name": "Apophis the Swamp Deity",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN098",
+    "name": "Green Ninja",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN099",
+    "name": "Humongous Hive Hegemon - Zexstagger",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Photon Hypernova"
+  },
+  {
+    "card_number": "PHHY-EN100",
+    "name": "Mirrorjade the Iceblade Dragon",
+    "rarity": "Starlight Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Photon Hypernova"
+  }
+]

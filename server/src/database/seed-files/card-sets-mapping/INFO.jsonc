@@ -1,0 +1,810 @@
+[
+  {
+    "card_number": "INFO-EN000",
+    "name": "Dragon of Pride and Soul",
+    "rarity": "Quarter Century Secret Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN001",
+    "name": "Sengenjin Wakes from a Millennium",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN002",
+    "name": "Golem that Guards the Millennium Treasures",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN003",
+    "name": "Shield of the Millennium Dynasty",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN004",
+    "name": "Maiden of the Millennium Moon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN005",
+    "name": "Fiend Reflection of the Millennium",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN006",
+    "name": "Dark Magician the Magician of Black Magic",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN007",
+    "name": "Gimmick Puppet Little Soldiers",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN008",
+    "name": "Gimmick Puppet Rouge Doll",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN009",
+    "name": "Gimmick Puppet Cattle Scream",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN010",
+    "name": "Light End Sublimation Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN011",
+    "name": "Dark End Evaporation Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN012",
+    "name": "Knight Armed Dragon, the Armored Knight Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN013",
+    "name": "Astellar of the White Forest",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN014",
+    "name": "Elzette of the White Forest",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN015",
+    "name": "Silvy of the White Forest",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN016",
+    "name": "Rucia of the White Forest",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN017",
+    "name": "Fiendsmith Engraver",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN018",
+    "name": "Ragnaraika Wicked Butterfly",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN019",
+    "name": "Tenpai Dragon Genroku",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN020",
+    "name": "Mementotlan Shleepy",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN021",
+    "name": "Centur-Ion Atrii",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN022",
+    "name": "Drytron Nu II",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN023",
+    "name": "Lord of the Missing Barrows",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN024",
+    "name": "Cosmo Queen the Queen of Prayers",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN025",
+    "name": "Paralyzing Mushroom",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN026",
+    "name": "Disablaster the Negation Fortress",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Pendulum Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN027",
+    "name": "Mulcharmy Purulia",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN028",
+    "name": "Dora Dora",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN029",
+    "name": "Broomy",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN030",
+    "name": "Bettan Bat",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN031",
+    "name": "Depresspard",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN032",
+    "name": "Drytron Meteonis DA Draconids",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN033",
+    "name": "The Unstoppable Exodia Incarnate",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Fusion Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN034",
+    "name": "Light and Darkness Dragonlord",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Fusion Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN035",
+    "name": "Fiendsmith's Lacrima",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN036",
+    "name": "Fiendsmith's Desirae",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN037",
+    "name": "Mementomictlan Tecuhtlica - Creation King",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN038",
+    "name": "Silvera, Wolf Tamer of the White Forest",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Tuner Synchro Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN039",
+    "name": "Rciela, Sinister Soul of the White Forest",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Tuner Synchro Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN040",
+    "name": "Diabell, Queen of the White Forest",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Synchro Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN041",
+    "name": "DPH Gendamoore",
+    "rarity": "Common",
+    "category": "Effect Tuner Synchro Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN042",
+    "name": "Gimmick Puppet Fantasix Machinix",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN043",
+    "name": "CXyz Gimmick Puppet Fanatix Machinix",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN044",
+    "name": "Madolche Queen Tiarafraise",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN045",
+    "name": "Heretical Phobos Covos",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN046",
+    "name": "Fiendsmith's Requiem",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Link Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN047",
+    "name": "Fiendsmith's Sequence",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN048",
+    "name": "Ragnaraika Selene Snapper",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN049",
+    "name": "Varar, Vaalmonican Concord",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN050",
+    "name": "Madolche Mini Meowcaroons",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN051",
+    "name": "Cosmic Tree Irmistil",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN052",
+    "name": "Silhouhatte Rabbit",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Link Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN053",
+    "name": "Millennium Ankh",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Normal Spell Card",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN054",
+    "name": "Wedju Temple",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Field Spell Card",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN055",
+    "name": "Obliterate!!! Blaze",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN056",
+    "name": "Mansion of the Dreadful Dolls",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN057",
+    "name": "Dragon's Light and Darkness",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN058",
+    "name": "Tales of the White Forest",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Normal Spell Card",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN059",
+    "name": "Beware the White Forest",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN060",
+    "name": "Susurrus of the Sinful Spoils",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN061",
+    "name": "Fiendsmith's Tract",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Normal Spell Card",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN062",
+    "name": "Fiendsmith's Sanct",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN063",
+    "name": "Emblema Salvation",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN064",
+    "name": "Vesper Girsu",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN065",
+    "name": "Trap Gatherer",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN066",
+    "name": "Interdimensional Matter Forwarder",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN067",
+    "name": "That's 10!",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN068",
+    "name": "Exxod Fires of Rage",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN069",
+    "name": "Dark Magic Mirror Force",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN070",
+    "name": "Service Puppet Play",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN071",
+    "name": "Woes of the White Forest",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN072",
+    "name": "Fiendsmith in Paradise",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN073",
+    "name": "Sangen Kaiho",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN074",
+    "name": "Guardian of the Voiceless Voice",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN075",
+    "name": "Vaalmonica Creation",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN076",
+    "name": "Meteoroa Drytron",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN077",
+    "name": "Madolche Dessert",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN078",
+    "name": "Dominus Purge",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Normal Trap Card",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN079",
+    "name": "Silhouhatte Trick",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Continuous Trap Card",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN080",
+    "name": "Three in One",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN081",
+    "name": "Magicolloidal Sol",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN082",
+    "name": "Vulmina, Statue of the Sacred Dragon",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN083",
+    "name": "Kuebiko",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN084",
+    "name": "Dipsea Fiend",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN085",
+    "name": "Necroquip Princess",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN086",
+    "name": "The League of Uniform Nomenclature Strikes",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN087",
+    "name": "Kochobo's Hinamatsuri",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN088",
+    "name": "Zapper Shrimp",
+    "rarity": "Common",
+    "category": "Effect Tuner Synchro Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN089",
+    "name": "Aerial Eater",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN090",
+    "name": "Mimighoul Master",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN091",
+    "name": "Mimighoul Dragon",
+    "rarity": "Super Rare",
+    "category": "Flip monster",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN092",
+    "name": "Mimighoul Cerberus",
+    "rarity": "Super Rare",
+    "category": "Flip monster",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN093",
+    "name": "Mimighoul Archfiend",
+    "rarity": "Super Rare",
+    "category": "Flip monster",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN094",
+    "name": "Mimighoul Dungeon",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Field Spell Card",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN095",
+    "name": "Mimighoul Maker",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN096",
+    "name": "Mimighoul Room",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "New (world premiere)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN097",
+    "name": "Blazing Bombardment Beast",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New (OCG import)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN098",
+    "name": "Moon of the Closed Heaven",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "print": "New (OCG import)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN099",
+    "name": "Spell Card \"Monster Reborn\"",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "New (OCG import)",
+    "cardSetName": "The Infinite Forbidden"
+  },
+  {
+    "card_number": "INFO-EN100",
+    "name": "Spell Card \"Soul Exchange\"",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New (OCG import)",
+    "cardSetName": "The Infinite Forbidden"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "PRIO-EN000",
+    "name": "Artifact Scythe",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN001",
+    "name": "ZS - Vanish Sage",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN002",
+    "name": "Galaxy Mirror Sage",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN003",
+    "name": "Galaxy Tyranno",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN004",
+    "name": "Heliosphere Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN005",
+    "name": "Mermaid Shark",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN006",
+    "name": "Gazer Shark",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN007",
+    "name": "Blizzard Thunderbird",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN008",
+    "name": "Battlin' Boxer Big Bandage",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN009",
+    "name": "Battlin' Boxer Veil",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN010",
+    "name": "Umbral Horror Ghost",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN011",
+    "name": "Artifact Moralltach",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN012",
+    "name": "Artifact Beagalltach",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN013",
+    "name": "Artifact Failnaught",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN014",
+    "name": "Artifact Aegis",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN015",
+    "name": "Artifact Achilleshield",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN016",
+    "name": "Artifact Labrys",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN017",
+    "name": "Artifact Caduceus",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN018",
+    "name": "Sylvan Cherubsprout",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN019",
+    "name": "Sylvan Snapdrassinagon",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN020",
+    "name": "Sylvan Lotuswain",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN021",
+    "name": "Sylvan Sagequoia",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN022",
+    "name": "Ghostrick Doll",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN023",
+    "name": "Ghostrick Warwolf",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN024",
+    "name": "Bujin Hirume",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN025",
+    "name": "Traptrix Dionaea",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN026",
+    "name": "Mecha Phantom Beast O-Lion",
+    "rarity": "Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN027",
+    "name": "Hazy Flame Hydra",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN028",
+    "name": "Madolche Anjelly",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN029",
+    "name": "Pilica, Descendant of Gusto",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN030",
+    "name": "Gladiator Beast Augustus",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN031",
+    "name": "Lucent, Netherlord of Dark World",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN032",
+    "name": "Ancient Gear Box",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN033",
+    "name": "Dawn Knight",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN034",
+    "name": "Majesty's Fiend",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN035",
+    "name": "Thestalos the Mega Monarch",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN036",
+    "name": "Beautunaful Princess",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN037",
+    "name": "Nopenguin",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN038",
+    "name": "Condemned Maiden",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN039",
+    "name": "Starduston",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN040",
+    "name": "Number 62: Galaxy-Eyes Prime Photon Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN041",
+    "name": "Number C107: Neo Galaxy-Eyes Tachyon Dragon",
+    "rarity": "Super Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN042",
+    "name": "Number 103: Ragnazero",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN043",
+    "name": "Number C103: Ragnafinity",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN044",
+    "name": "Number C102: Archfiend Seraph",
+    "rarity": "Super Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN045",
+    "name": "Number 80: Rhapsody in Berserk",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN046",
+    "name": "Number C80: Requiem in Berserk",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN047",
+    "name": "Number 43: Manipulator of Souls",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN048",
+    "name": "Number C43: High Manipulator of Chaos",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN049",
+    "name": "Artifact Durendal",
+    "rarity": "Ultra Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN050",
+    "name": "Orea, the Sylvan High Arbiter",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN051",
+    "name": "Ghostrick Socuteboss",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN052",
+    "name": "Bujinki Amaterasu",
+    "rarity": "Secret Rare",
+    "category": "Ultimate Rare Ghost Rare",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN053",
+    "name": "Phantom Fortress Enterblathnir",
+    "rarity": "Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN054",
+    "name": "Cairngorgon, Antiluminescent Knight",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN055",
+    "name": "Phonon Pulse Dragon",
+    "rarity": "Rare",
+    "category": "Effect Tuner Synchro Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN056",
+    "name": "Reverse Breaker",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN057",
+    "name": "Galactic Charity",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN058",
+    "name": "Rank-Up-Magic - The Seventh One",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN059",
+    "name": "Don Thousand's Throne",
+    "rarity": "Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN060",
+    "name": "Artifact Ignition",
+    "rarity": "Ultra Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN061",
+    "name": "Artifacts Unleashed",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN062",
+    "name": "Sylvan Charity",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN063",
+    "name": "Ghostrick Parade",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN064",
+    "name": "Bujintervention",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN065",
+    "name": "Diamond Core of Koa'ki Meiru",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN066",
+    "name": "Scrap Factory",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN067",
+    "name": "Forbidden Scripture",
+    "rarity": "Secret Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN068",
+    "name": "Jackpot 7",
+    "rarity": "Short Print",
+    "category": "Normal Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN069",
+    "name": "Double Dragon Descent",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN070",
+    "name": "Tachyon Chaos Hole",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN071",
+    "name": "Last Counter",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN072",
+    "name": "Artifact Sanctum",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN073",
+    "name": "Sylvan Waterslide",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN074",
+    "name": "Ghostrick Night",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN075",
+    "name": "Bujincident",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN076",
+    "name": "The Monarchs Erupt",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN077",
+    "name": "Evo-Singularity",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN078",
+    "name": "Xyz Universe",
+    "rarity": "Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN079",
+    "name": "And the Band Played On",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN080",
+    "name": "Tri-and-Guess",
+    "rarity": "Short Print",
+    "category": "Normal Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN081",
+    "name": "Noble Knight Brothers",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN082",
+    "name": "Noble Knight Eachtar",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN083",
+    "name": "Sylvan Princessprout",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN084",
+    "name": "Bujingi Sinyou",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN085",
+    "name": "Vampire Vamp",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN086",
+    "name": "Gladiator Beast Nerokius",
+    "rarity": "Secret Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN087",
+    "name": "Noble Knights of the Round Table",
+    "rarity": "Ultra Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN088",
+    "name": "Avalon",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN089",
+    "name": "Escalation of the Monarchs",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN090",
+    "name": "Bolt Penguin",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN091",
+    "name": "Phantom King Hydride",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN092",
+    "name": "Number 42: Galaxy Tomahawk",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN093",
+    "name": "Rose Archer",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN094",
+    "name": "Shogi Knight",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN095",
+    "name": "Gimmick Puppet Des Troy",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN096",
+    "name": "ZW - Sleipnir Mail",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN097",
+    "name": "Number 48: Shadow Lich",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN098",
+    "name": "Galaxy Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  },
+  {
+    "card_number": "PRIO-EN099",
+    "name": "Hundred-Footed Horror",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Primal Origin"
+  }
+]

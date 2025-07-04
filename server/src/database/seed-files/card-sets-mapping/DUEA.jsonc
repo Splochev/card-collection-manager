@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "DUEA-EN000",
+    "name": "Dragon Horn Hunter",
+    "rarity": "Super Rare",
+    "category": "Normal Pendulum Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN001",
+    "name": "Flash Knight",
+    "rarity": "Rare",
+    "category": "Normal Pendulum Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN002",
+    "name": "Foucault's Cannon",
+    "rarity": "Super Rare",
+    "category": "Normal Pendulum Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN003",
+    "name": "Metaphys Armed Dragon",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN004",
+    "name": "Odd-Eyes Pendulum Dragon",
+    "rarity": "Secret Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN005",
+    "name": "Performapal Skeeter Skimmer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN006",
+    "name": "Performapal Whip Snake",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN007",
+    "name": "Performapal Sword Fish",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN008",
+    "name": "Performapal Hip Hippo",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN009",
+    "name": "Performapal Kaleidoscorp",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN010",
+    "name": "Performapal Turn Toad",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN011",
+    "name": "Superheavy Samurai Blue Brawler",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN012",
+    "name": "Superheavy Samurai Swordsman",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN013",
+    "name": "Superheavy Samurai Big Benkei",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN014",
+    "name": "Aria the Melodious Diva",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN015",
+    "name": "Sonata the Melodious Diva",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN016",
+    "name": "Mozarta the Melodious Maestra",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN017",
+    "name": "Battleguard King",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN018",
+    "name": "Satellarknight Deneb",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN019",
+    "name": "Satellarknight Altair",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN020",
+    "name": "Satellarknight Vega",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN021",
+    "name": "Satellarknight Alsahm",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN022",
+    "name": "Satellarknight Unukalhai",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN023",
+    "name": "Shaddoll Falco",
+    "rarity": "Rare",
+    "category": "Flip Tuner monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN024",
+    "name": "Shaddoll Hedgehog",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN025",
+    "name": "Shaddoll Squamata",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN026",
+    "name": "Shaddoll Dragon",
+    "rarity": "Rare",
+    "category": "Flip monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN027",
+    "name": "Shaddoll Beast",
+    "rarity": "Rare",
+    "category": "Flip monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN028",
+    "name": "Suanni, Fire of the Yang Zing",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN029",
+    "name": "Bi'an, Earth of the Yang Zing",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN030",
+    "name": "Bixi, Water of the Yang Zing",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN031",
+    "name": "Pulao, Wind of the Yang Zing",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN032",
+    "name": "Chiwen, Light of the Yang Zing",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN033",
+    "name": "Artifact Chakram",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN034",
+    "name": "Artifact Lancea",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN035",
+    "name": "Nefarious Archfiend Eater of Nefariousness",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN036",
+    "name": "The Agent of Entropy - Uranus",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN037",
+    "name": "Djinn Demolisher of Rituals",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN038",
+    "name": "Batteryman 9-Volt",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN039",
+    "name": "Resonance Insect",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN040",
+    "name": "Breaker the Dark Magical Warrior",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN041",
+    "name": "Raiza the Mega Monarch",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN042",
+    "name": "Dogu",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN043",
+    "name": "Hypnosister",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN044",
+    "name": "Re-Cover",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN045",
+    "name": "Deskbot 001",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN046",
+    "name": "Spy-C-Spy",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN047",
+    "name": "Wightprince",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN048",
+    "name": "El Shaddoll Winda",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN049",
+    "name": "El Shaddoll Construct",
+    "rarity": "Ultra Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN050",
+    "name": "Saffira, Queen of Dragons",
+    "rarity": "Ultra Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN051",
+    "name": "Baxia, Brightness of the Yang Zing",
+    "rarity": "Secret Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN052",
+    "name": "Samsara, Dragon of Rebirth",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN053",
+    "name": "Stellarknight Delteros",
+    "rarity": "Secret Rare",
+    "category": "Ultimate Rare Ghost Rare",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN054",
+    "name": "Castel, the Skyblaster Musketeer",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN055",
+    "name": "Hippo Carnival",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN056",
+    "name": "Feast of the Wild LV5",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN057",
+    "name": "Stellarknight Alpha",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN058",
+    "name": "Satellarknight Skybridge",
+    "rarity": "Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN059",
+    "name": "Shaddoll Fusion",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN060",
+    "name": "Curse of the Shadow Prison",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN061",
+    "name": "Yang Zing Path",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN062",
+    "name": "Yang Zing Prana",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN063",
+    "name": "Hymn of Light",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN064",
+    "name": "Dracocension",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN065",
+    "name": "Magical Spring",
+    "rarity": "Secret Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN066",
+    "name": "The Monarchs Stormforth",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN067",
+    "name": "Pop-Up",
+    "rarity": "Short Print",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN068",
+    "name": "Battleguard Rage",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN069",
+    "name": "Battleguard Howling",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN070",
+    "name": "Stellarnova Wave",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN071",
+    "name": "Stellarnova Alpha",
+    "rarity": "Ultra Rare",
+    "category": "Counter Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN072",
+    "name": "Sinister Shadow Games",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN073",
+    "name": "Shaddoll Core",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN074",
+    "name": "Yang Zing Creation",
+    "rarity": "Ultra Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN075",
+    "name": "Yang Zing Unleashed",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN076",
+    "name": "Chain Dispel",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN077",
+    "name": "Face-Off",
+    "rarity": "Rare",
+    "category": "Counter Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN078",
+    "name": "Pendulum Back",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN079",
+    "name": "Time-Space Trap Hole",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN080",
+    "name": "That Six",
+    "rarity": "Short Print",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN081",
+    "name": "Doomstar Magician",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN082",
+    "name": "Scarm, Malebranche of the Burning Abyss",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN083",
+    "name": "Graff, Malebranche of the Burning Abyss",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN084",
+    "name": "Cir, Malebranche of the Burning Abyss",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN085",
+    "name": "Dante, Traveler of the Burning Abyss",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN086",
+    "name": "The Traveler and the Burning Abyss",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN087",
+    "name": "U.A. Mighty Slugger",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN088",
+    "name": "U.A. Perfect Ace",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN089",
+    "name": "U.A. Stadium",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN090",
+    "name": "Gaia, the Polar Knight",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN091",
+    "name": "Gaia, the Mid-Knight Sun",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN092",
+    "name": "Chaos Seed",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN093",
+    "name": "Exchange of Night and Day",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN094",
+    "name": "Number 58: Burner Visor",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN095",
+    "name": "Felis, Lightsworn Archer",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN096",
+    "name": "Fishborg Doctor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN097",
+    "name": "Panzer Dragon",
+    "rarity": "Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN098",
+    "name": "Cloudcastle",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Duelist Alliance"
+  },
+  {
+    "card_number": "DUEA-EN099",
+    "name": "Pilgrim Reaper",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Duelist Alliance"
+  }
+]

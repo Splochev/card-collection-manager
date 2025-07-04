@@ -1,0 +1,810 @@
+[
+  {
+    "card_number": "AGOV-EN000",
+    "name": "Magicians of Bonds and Unity",
+    "rarity": "Quarter Century Secret Rare",
+    "category": "Effect Monster",
+    "print": "yellow background",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN001",
+    "name": "Supreme King Gate Magician",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN002",
+    "name": "Supreme King Dragon Lightwurm",
+    "rarity": "Common",
+    "category": "Effect Tuner Pendulum Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN003",
+    "name": "T.G. Rocket Salamander",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN004",
+    "name": "Visas Samsara",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Tuner monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN005",
+    "name": "Veda Kalarcanum",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN006",
+    "name": "Diabellstar the Black Witch",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN007",
+    "name": "Snake-Eye Ash",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN008",
+    "name": "Snake-Eye Oak",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN009",
+    "name": "Snake-Eye Birch",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN010",
+    "name": "Snake-Eyes Flamberge Dragon",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN011",
+    "name": "Imsety, Glory of Horus",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN012",
+    "name": "Duamutef, Blessing of Horus",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN013",
+    "name": "Hapi, Guidance of Horus",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN014",
+    "name": "Qebehsenuef, Protection of Horus",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN015",
+    "name": "Wattuna",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN016",
+    "name": "Nephilabyss, the Ogdoadic Overlord",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN017",
+    "name": "Arias the Labrynth Butler",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN018",
+    "name": "Vanquish Soul Jiaolong",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN019",
+    "name": "Poissonniere de Nouvelles",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN020",
+    "name": "Dark Hole Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN021",
+    "name": "UFOLight",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN022",
+    "name": "Seed-Spitting Saplings",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN023",
+    "name": "I.A.S. -Invasive Alien Species-",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN024",
+    "name": "Tarai",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN025",
+    "name": "Master Tao the Chanter",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN026",
+    "name": "Cursed Bride Doll",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN027",
+    "name": "Origami Goddess",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN028",
+    "name": "Shinobaroness Shade Peacock",
+    "rarity": "Common",
+    "category": "Spirit Ritual Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN029",
+    "name": "Shinobaron Shade Peacock",
+    "rarity": "Common",
+    "category": "Spirit Ritual Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN030",
+    "name": "Odd-Eyes Arcray Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Fusion Pendulum Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN031",
+    "name": "Earthbound Servant Geo Gremlina",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN032",
+    "name": "Berfomet the Mythical King of Phantom Beasts",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN033",
+    "name": "Gaia Prominence, the Fierce Force",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN034",
+    "name": "T.G. Mighty Striker",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner Synchro Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN035",
+    "name": "T.G. Over Dragonar",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Synchro Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN036",
+    "name": "T.G. Glaive Blaster",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Synchro Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN037",
+    "name": "Mannadium Trisukta",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Tuner Synchro Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN038",
+    "name": "Wattkyuki",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN039",
+    "name": "Xyz Armor Torpedo",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN040",
+    "name": "Xyz Armor Fortress",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN041",
+    "name": "Full Armored Dark Knight Lancer",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Xyz Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN042",
+    "name": "Super Starslayer TY-PHON - Sky Crisis",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Xyz Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN043",
+    "name": "Infernal Flame Banshee",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Xyz Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN044",
+    "name": "Transcendosaurus Exaraptor",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN045",
+    "name": "Exceed the Pendulum",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN046",
+    "name": "S:P Little Knight",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Link Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN047",
+    "name": "Pendulum Evolution",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN048",
+    "name": "Wings of Light",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN049",
+    "name": "T.G. Limiter Removal",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Normal Spell Card",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN050",
+    "name": "T.G. All Clear",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN051",
+    "name": "Xyz Entrust",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN052",
+    "name": "Realm Elegy",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN053",
+    "name": "Realm Eulogy",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN054",
+    "name": "WANTED: Seeker of Sinful Spoils",
+    "rarity": "Secret Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Quick-Play Spell Card",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN055",
+    "name": "Sinful Spoils of Doom - Rciela",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN056",
+    "name": "Divine Temple of the Snake-Eye",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Field Spell Card",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN057",
+    "name": "Original Sinful Spoils - Snake-Eye",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Normal Spell Card",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN058",
+    "name": "King's Sarcophagus",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Continuous Spell Card",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN059",
+    "name": "Fire Recovery",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN060",
+    "name": "Synchro Rumble",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN061",
+    "name": "Stars Align Above the Shrine",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN062",
+    "name": "Wattkingdom",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN063",
+    "name": "Ogdoadic Daybreak",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN064",
+    "name": "Concours de Cuisine",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN065",
+    "name": "Angelica's Angelic Ring",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN066",
+    "name": "Card Scanner",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN067",
+    "name": "The Immortal Bushi Mourns the Mortal Body",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN068",
+    "name": "Miracle of the Supreme King",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN069",
+    "name": "Soul of the Supreme Celestial King",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN070",
+    "name": "T.G. Close",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN071",
+    "name": "Full-Armored Xyz",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN072",
+    "name": "Sharv Sarga",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN073",
+    "name": "Loka Samsara",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN074",
+    "name": "Sinful Spoils of Betrayal - Silvera",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN075",
+    "name": "Startling Stare of the Snake-Eyes",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN076",
+    "name": "Canopic Protector",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN077",
+    "name": "Nemleria Repeter",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN078",
+    "name": "Vanquish Soul Snow Devil",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN079",
+    "name": "Starry Dragon's Cycle",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN080",
+    "name": "Escapegoat",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "print": "New",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN081",
+    "name": "Ken the Warrior Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "World premiere",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN082",
+    "name": "Gen the Diamond Tiger",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "World premiere",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN083",
+    "name": "Asset Mountis",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "World premiere",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN084",
+    "name": "Pitknight Filly",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "print": "World premiere",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN085",
+    "name": "Wattsychic Fighting Porter",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "World premiere",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN086",
+    "name": "Fallen of the Tistina",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "World premiere",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN087",
+    "name": "Returned of the Tistina",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "World premiere",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN088",
+    "name": "Tainted of the Tistina",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN089",
+    "name": "Tistina, the Divinity that Defies Darkness",
+    "rarity": "Ultra Rare",
+    "category": "Quarter Century Secret Rare",
+    "print": "Effect Xyz Monster",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN090",
+    "name": "Play of the Tistina",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "World premiere",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN091",
+    "name": "Embrace of the Tistina",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "print": "World premiere",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN092",
+    "name": "Discordance of the Tistina",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "World premiere",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN093",
+    "name": "Rose Papillon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "print": "OCG import",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN094",
+    "name": "Burning Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "print": "OCG import",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN095",
+    "name": "Starring Knight",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "print": "OCG import",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN096",
+    "name": "Red Arrows",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "print": "OCG import",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN097",
+    "name": "Sweet Roommaid",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "print": "OCG import",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN098",
+    "name": "Lil-la Rap",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "print": "OCG import",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN099",
+    "name": "Switch Point",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "print": "OCG import",
+    "cardSetName": "Age of Overlord"
+  },
+  {
+    "card_number": "AGOV-EN100",
+    "name": "Alpha Summon",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "print": "OCG import",
+    "cardSetName": "Age of Overlord"
+  }
+]

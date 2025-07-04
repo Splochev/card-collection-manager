@@ -836,7 +836,7 @@
     "name": "Transaction Rollback",
     "rarity": "Super Rare Ultra Rare Ultimate Rare Secret Rare Collector's Rare Platinum Secret Rare Quarter Century Secret Rare",
     "category": "Normal Trap Card",
-    "print": "Reprint Nostalgia pool card_number",
+    "print": "Reprint",
     "cardSetName": "Quarter Century Stampede"
   },
   {
@@ -848,51 +848,11 @@
     "cardSetName": "Quarter Century Stampede"
   },
   {
-    "card_number": "RA04-EN106",
-    "name": "Dark Magician",
-    "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
-    "category": "Normal Monster",
-    "print": "Reprint (7th artwork)",
-    "cardSetName": "Quarter Century Stampede"
-  },
-  {
-    "card_number": "RA04-EN106",
-    "name": "Dark Magician",
-    "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
-    "category": "Normal Monster",
-    "print": "Reprint (8th artwork)",
-    "cardSetName": "Quarter Century Stampede"
-  },
-  {
-    "card_number": "RA04-EN106",
-    "name": "Dark Magician",
-    "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
-    "category": "Normal Monster",
-    "print": "Reprint (DSOD artwork)",
-    "cardSetName": "Quarter Century Stampede"
-  },
-  {
-    "card_number": "RA04-EN106",
-    "name": "Dark Magician",
-    "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
-    "category": "Normal Monster",
-    "print": "Reprint (9th artwork)",
-    "cardSetName": "Quarter Century Stampede"
-  },
-  {
     "card_number": "RA04-EN107",
     "name": "Dark Magician Girl",
     "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
     "category": "Effect Monster",
-    "print": "Reprint (3rd artwork)",
-    "cardSetName": "Quarter Century Stampede"
-  },
-  {
-    "card_number": "RA04-EN107",
-    "name": "Dark Magician Girl",
-    "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
-    "category": "Effect Monster",
-    "print": "Reprint (25th Anniversary artwork)",
+    "print": "Reprint",
     "cardSetName": "Quarter Century Stampede"
   },
   {
@@ -900,15 +860,7 @@
     "name": "Blue-Eyes White Dragon",
     "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
     "category": "Unknown",
-    "print": "Reprint (DSOD artwork)",
-    "cardSetName": "Quarter Century Stampede"
-  },
-  {
-    "card_number": "RA04-EN108",
-    "name": "Blue-Eyes White Dragon",
-    "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
-    "category": "Unknown",
-    "print": "Reprint (9th artwork)",
+    "print": "Reprint",
     "cardSetName": "Quarter Century Stampede"
   },
   {
@@ -916,23 +868,7 @@
     "name": "Red-Eyes Black Dragon",
     "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
     "category": "Normal Monster",
-    "print": "Reprint (3rd OCG artwork)",
-    "cardSetName": "Quarter Century Stampede"
-  },
-  {
-    "card_number": "RA04-EN109",
-    "name": "Red-Eyes Black Dragon",
-    "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
-    "category": "Normal Monster",
-    "print": "Reprint (6th TCG artwork)",
-    "cardSetName": "Quarter Century Stampede"
-  },
-  {
-    "card_number": "RA04-EN109",
-    "name": "Red-Eyes Black Dragon",
-    "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
-    "category": "Normal Monster",
-    "print": "Reprint (8th OCG artwork)",
+    "print": "Reprint",
     "cardSetName": "Quarter Century Stampede"
   },
   {
@@ -1893,14 +1829,6 @@
     "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
     "category": "Effect Fusion Monster",
     "print": "Reprint",
-    "cardSetName": "Quarter Century Stampede"
-  },
-  {
-    "card_number": "RA04-EN229",
-    "name": "El Shaddoll Construct",
-    "rarity": "Platinum Secret Rare Quarter Century Secret Rare",
-    "category": "Effect Fusion Monster",
-    "print": "Reprint (alternate artwork)",
     "cardSetName": "Quarter Century Stampede"
   },
   {

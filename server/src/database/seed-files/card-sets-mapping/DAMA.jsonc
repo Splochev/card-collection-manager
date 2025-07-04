@@ -1,0 +1,709 @@
+[
+  {
+    "card_number": "DAMA-EN000",
+    "name": "Beetrooper Scout Buggy",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN001",
+    "name": "Converging Wills Dragon",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN002",
+    "name": "Stardust Synchron",
+    "rarity": "Secret Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN003",
+    "name": "Stardust Trail",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN004",
+    "name": "Despian Comedy",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN005",
+    "name": "Despian Tragedy",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN006",
+    "name": "Aluber the Jester of Despia",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN007",
+    "name": "Dramaturge of Despia",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN008",
+    "name": "Albion the Shrouded Dragon",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN009",
+    "name": "The Iris Swordsoul",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN010",
+    "name": "Clavkiys, the Magikey Skyblaster",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN011",
+    "name": "Gunkan Suship Shari",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN012",
+    "name": "Gunkan Suship Ikura",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN013",
+    "name": "Chronomaly Magella Globe",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN014",
+    "name": "Chronomaly Acambaro Figures",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN015",
+    "name": "Gizmek Inaba, the Hopping Hare of Hakuto",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN016",
+    "name": "Gizmek Naganaki, the Sunrise Signaler",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN017",
+    "name": "Gizmek Taniguku, the Immobile Intellect",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN018",
+    "name": "Gizmek Arakami, the Hailbringer Hog",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN019",
+    "name": "Gusto Vedir",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN020",
+    "name": "Amazement Assistant Delia",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN021",
+    "name": "Alien Stealthbuster",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN022",
+    "name": "Carpiponica, Mystical Beast of the Forest",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN023",
+    "name": "Glacier Aqua Madoor",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN024",
+    "name": "Antihuman Intelligence ME-PSY-YA",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN025",
+    "name": "Protecting Spirit Loagaeth",
+    "rarity": "Ultra Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN026",
+    "name": "Master's Diploman",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN027",
+    "name": "Konohanasakuya",
+    "rarity": "Common",
+    "category": "Spirit monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN028",
+    "name": "Doombearer Psychopompos",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN029",
+    "name": "Slower Swallow",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN030",
+    "name": "Saambell the Star Bonder",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN031",
+    "name": "Aeropixthree",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN032",
+    "name": "Magikey Mechmusket - Batosbuster",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner Ritual Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN033",
+    "name": "Magikey Mechmortar - Garesglasser",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN034",
+    "name": "Despian Quaeritis",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN035",
+    "name": "Despian Proskenion",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN036",
+    "name": "Magikey Beast - Ansyalabolas",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner Fusion Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN037",
+    "name": "Magikey Dragon - Andrabime",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN038",
+    "name": "Allvain the Essence of Vanity",
+    "rarity": "Common",
+    "category": "Tuner Fusion Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN039",
+    "name": "Shooting Majestic Star Dragon",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN040",
+    "name": "Daigusto Laplampilica",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN041",
+    "name": "Stellar Wind Wolfrayet",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN042",
+    "name": "Gaiarmor Dragonshell",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN043",
+    "name": "Gunkan Suship Ikura-class Dreadnought",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN044",
+    "name": "Chronomaly Vimana",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN045",
+    "name": "Voloferniges, the Darkest Dragon Doomrider",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN046",
+    "name": "Dragonlark Pairen",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN047",
+    "name": "Cosmic Slicer Zer'oll",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN048",
+    "name": "GranSolfachord Musecia",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN049",
+    "name": "Dispatchparazzi",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN050",
+    "name": "Arrive in Light",
+    "rarity": "Secret Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN051",
+    "name": "Stardust Illumination",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN052",
+    "name": "Majestic Absorption",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN053",
+    "name": "Despia, Theater of the Branded",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN054",
+    "name": "Branded Opening",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN055",
+    "name": "Branded Bond",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN056",
+    "name": "Magikey Maftea",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN057",
+    "name": "Magikey World",
+    "rarity": "Ultra Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN058",
+    "name": "Gunkan Sushipyard Seaside Supper Spot",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN059",
+    "name": "Chronomaly Temple - Trilithon",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN060",
+    "name": "Sacred Scrolls of the Gizmek Legend",
+    "rarity": "Secret Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN061",
+    "name": "Tailwind of Gusto",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN062",
+    "name": "Live☆Twin Sunny's Snitch",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN063",
+    "name": "Triamid Loading",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN064",
+    "name": "Dimer Synthesis",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN065",
+    "name": "High Ritual Art",
+    "rarity": "Ultra Rare",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN066",
+    "name": "Ready Fusion",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN067",
+    "name": "Synchro Overtake",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN068",
+    "name": "Pendulum Treasure",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN069",
+    "name": "Margin Trading",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN070",
+    "name": "Majestic Mirage",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN071",
+    "name": "Springans Interluder",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN072",
+    "name": "Magikey Duo",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN073",
+    "name": "Magikey Unlocking",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN074",
+    "name": "Gunkan Suship Daily Special",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN075",
+    "name": "Chronomaly Esperanza Glyph",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN076",
+    "name": "Amaze Attraction Viking Vortex",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN077",
+    "name": "Monster Assortment",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN078",
+    "name": "Beast King Unleashed",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN079",
+    "name": "Stall Turn",
+    "rarity": "Super Rare",
+    "category": "Counter Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN080",
+    "name": "Jar of Generosity",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN081",
+    "name": "Baby Mudragon",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN082",
+    "name": "Pazuzule",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN083",
+    "name": "Night's End Administrator",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN084",
+    "name": "Ra'ten, the Heavenly General",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN085",
+    "name": "D.D.D. - Different Dimension Derby",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN086",
+    "name": "Beetrooper Scale Bomber",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN087",
+    "name": "Beetrooper Sting Lancer",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN088",
+    "name": "Beetrooper Armor Horn",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN089",
+    "name": "Giant Beetrooper Invincible Atlas",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN090",
+    "name": "Beetrooper Formation",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN091",
+    "name": "Beetrooper Fly & Sting",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN092",
+    "name": "Link Apple",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN093",
+    "name": "Flying Red Carp",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN094",
+    "name": "Dinowrestler Iguanodraka",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN095",
+    "name": "Tindangle Jhrelth",
+    "rarity": "Super Rare",
+    "category": "Flip monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN096",
+    "name": "Shinobi Insect Hagakuremino",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN097",
+    "name": "Two Toads with One Sting",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN098",
+    "name": "Trickstar Festival",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN099",
+    "name": "Gouki Finishing Move",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Dawn of Majesty"
+  },
+  {
+    "card_number": "DAMA-EN100",
+    "name": "Stardust Dragon",
+    "rarity": "Starlight Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Dawn of Majesty"
+  }
+]

@@ -1,0 +1,709 @@
+[
+  {
+    "card_number": "ETCO-EN000",
+    "name": "Piwraithe the Ghost Pirate",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN001",
+    "name": "Parallel eXceed",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN002",
+    "name": "Codebreaker Zero Day",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN003",
+    "name": "Salamangreat Zebroid X",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN004",
+    "name": "Gouki Iron Claw",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN005",
+    "name": "Gouki Guts",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN006",
+    "name": "Marincess Basilalima",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN007",
+    "name": "Noctovision Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN008",
+    "name": "Archnemeses Protos",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN009",
+    "name": "Archnemeses Eschatos",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN010",
+    "name": "Nemeses Flag",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN011",
+    "name": "Nemeses Umbrella",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN012",
+    "name": "Nemeses Corridor",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN013",
+    "name": "Deep Sea Artisan",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN014",
+    "name": "Deep Sea Sentry",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN015",
+    "name": "Deep Sea Minstrel",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN016",
+    "name": "Red Familiar",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN017",
+    "name": "Crimson Resonator",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN018",
+    "name": "Lantern Shark",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN019",
+    "name": "Buzzsaw Shark",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN020",
+    "name": "Ancient Warriors - Ambitious Cao De",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN021",
+    "name": "Ancient Warriors - Fearsome Zhang Yuan",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN022",
+    "name": "Ancient Warriors - Deceptive Jia Wen",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN023",
+    "name": "Ancient Warriors - Ingenious Zhuge Kong",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN024",
+    "name": "Girsu, the Orcust Mekk-Knight",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN025",
+    "name": "Thunder Dragonlord",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN026",
+    "name": "Chamber Dragonmaid",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN027",
+    "name": "Harr, Generaider Boss of Storms",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN028",
+    "name": "Loptr, Shadow of the Generaider Bosses",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN029",
+    "name": "Unchained Twins - Sarama",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN030",
+    "name": "King Beast Barbaros",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN031",
+    "name": "Gizmek Uka, the Festive Fox of Fecundity",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN032",
+    "name": "Trias Hierarchia",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN033",
+    "name": "Cataclysmic Circumpolar Chilblainia",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN034",
+    "name": "Union Driver",
+    "rarity": "Ultra Rare",
+    "category": "Union monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN035",
+    "name": "Malice, Lady of Lament",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN036",
+    "name": "Ghost Mourner & Moonlit Chill",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN037",
+    "name": "Animadorned Archosaur",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN038",
+    "name": "Goldilocks the Battle Landscaper",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN039",
+    "name": "Magical Hound",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN040",
+    "name": "Invoked Augoeides",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN041",
+    "name": "Dragonmaid Sheou",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN042",
+    "name": "Deep Sea Prima Donna",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner Synchro Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN043",
+    "name": "Ravenous Crocodragon Archethys",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN044",
+    "name": "Valiant Shark Lancer",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN045",
+    "name": "Traptrix Allomerus",
+    "rarity": "Ultra Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN046",
+    "name": "Accesscode Talker",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN047",
+    "name": "Proxy F Magician",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN048",
+    "name": "Splash Mage",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN049",
+    "name": "Linkross",
+    "rarity": "Ultra Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN050",
+    "name": "The Arrival Cyberse @Ignister",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN051",
+    "name": "Codebreaker Virus Berserker",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN052",
+    "name": "Codebreaker Virus Swordsman",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN053",
+    "name": "Gouki The Powerload Ogre",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN054",
+    "name": "Marincess Great Bubble Reef",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN055",
+    "name": "Eria the Water Charmer, Gentle",
+    "rarity": "Super Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN056",
+    "name": "A.I. Contact",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN057",
+    "name": "Burning Draw",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN058",
+    "name": "Link Burst",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN059",
+    "name": "Stairs of Mail",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN060",
+    "name": "Nemeses Adrastea",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN061",
+    "name": "Deep Sea Aria",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN062",
+    "name": "Resonator Command",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN063",
+    "name": "Torpedo Takedown",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN064",
+    "name": "Madolche Salon",
+    "rarity": "Ultra Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN065",
+    "name": "Void Apocalypse",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN066",
+    "name": "Heavy Forward",
+    "rarity": "Ultra Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN067",
+    "name": "Witchcrafter Unveiling",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN068",
+    "name": "Evil Eye Reemergence",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN069",
+    "name": "Ancient Warriors Saga - Borrowing of Arrows",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN070",
+    "name": "Megalith Unformed",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN071",
+    "name": "Fusion Deployment",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN072",
+    "name": "Flourishing Frolic",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN073",
+    "name": "A.I.Q",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN074",
+    "name": "Red Reign",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN075",
+    "name": "Xyz Revive Splash",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN076",
+    "name": "Madolche Promenade",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN077",
+    "name": "Witchcrafter Patronus",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN078",
+    "name": "Gravedigger's Trap Hole",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN079",
+    "name": "Titanocider",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN080",
+    "name": "Pinpoint Dash",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN081",
+    "name": "Rose Girl",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN082",
+    "name": "Scrypton",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN083",
+    "name": "Taotie Dragon",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN084",
+    "name": "Necroquip Prism",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN085",
+    "name": "Bluebeard, the Plunder Patroll Shipwright",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN086",
+    "name": "Goldenhair, the Newest Plunder Patroll",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN087",
+    "name": "Plunder Patrollship Lys",
+    "rarity": "Secret Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN088",
+    "name": "Plunder Patroll Shipshape Ships Shipping",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN089",
+    "name": "Emblem of the Plunder Patroll",
+    "rarity": "Ultra Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN090",
+    "name": "Pride of the Plunder Patroll",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN091",
+    "name": "Plunder Patroll Parrrty",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN092",
+    "name": "Superheavy Samurai Wagon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN093",
+    "name": "Rain Bozu",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN094",
+    "name": "Performapal Turn Trooper",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN095",
+    "name": "Armored Bitron",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN096",
+    "name": "Gussari @Ignister",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN097",
+    "name": "Gatchiri @Ignister",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN098",
+    "name": "Machina Metalcruncher",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN099",
+    "name": "Superheavy Samurai Swordmaster Musashi",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Eternity Code"
+  },
+  {
+    "card_number": "ETCO-EN100",
+    "name": "Effect Veiler",
+    "rarity": "Starlight Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Eternity Code"
+  }
+]

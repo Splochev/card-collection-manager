@@ -1,0 +1,702 @@
+[
+  {
+    "card_number": "SECE-EN000",
+    "name": "Dragoons of Draconia",
+    "rarity": "Rare",
+    "category": "Normal Pendulum Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN001",
+    "name": "Performapal Fire Mufflerlion",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN002",
+    "name": "Performapal Partnaga",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN003",
+    "name": "Performapal Friendonkey",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN004",
+    "name": "Performapal Spikeagle",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN005",
+    "name": "Performapal Stamp Turtle",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN006",
+    "name": "Performapal Trump Witch",
+    "rarity": "Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN007",
+    "name": "Superheavy Samurai Flutist",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN008",
+    "name": "Superheavy Samurai Trumpeter",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN009",
+    "name": "Superheavy Samurai Soulpiercer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN010",
+    "name": "Superheavy Samurai Soulbeads",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN011",
+    "name": "Raidraptor - Vanishing Lanius",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN012",
+    "name": "Gem-Knight Lapis",
+    "rarity": "Common",
+    "category": "Normal Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN013",
+    "name": "Infernoid Antra",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN014",
+    "name": "Infernoid Harmadik",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN015",
+    "name": "Infernoid Patrulea",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN016",
+    "name": "Infernoid Piaty",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN017",
+    "name": "Infernoid Seitsemas",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN018",
+    "name": "Infernoid Attondel",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN019",
+    "name": "Infernoid Onuncu",
+    "rarity": "Secret Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN020",
+    "name": "Qliphort Monolith",
+    "rarity": "Secret Rare",
+    "category": "Normal Pendulum Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN021",
+    "name": "Qliphort Cephalopod",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN022",
+    "name": "Qliphort Stealth",
+    "rarity": "Ultra Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN023",
+    "name": "Apoqliphort Skybase",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN024",
+    "name": "Satellarknight Capella",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN025",
+    "name": "Satellarknight Rigel",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN026",
+    "name": "Yosenju Magat",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN027",
+    "name": "Yosenju Tsujik",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN028",
+    "name": "Dance Princess of the Nekroz",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN029",
+    "name": "Spiritual Beast Rampengu",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN030",
+    "name": "Morphtronic Smartfon",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN031",
+    "name": "Jinzo - Jector",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN032",
+    "name": "Skilled Blue Magician",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN033",
+    "name": "Koa'ki Meiru Overload",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN034",
+    "name": "Jigabyte",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN035",
+    "name": "Caius the Mega Monarch",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN036",
+    "name": "Thunderclap Skywolf",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN037",
+    "name": "Lightning Rod Lord",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN038",
+    "name": "Dragon Dowser",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN039",
+    "name": "Frontline Observer",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN040",
+    "name": "Uni-Zombie",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN041",
+    "name": "Deskbot 003",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN042",
+    "name": "Legendary Maju Garzett",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN043",
+    "name": "Marmiting Captain",
+    "rarity": "Short Print",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN044",
+    "name": "Nekroz of Gungnir",
+    "rarity": "Secret Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN045",
+    "name": "Rune-Eyes Pendulum Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN046",
+    "name": "Gem-Knight Lady Lapis Lazuli",
+    "rarity": "Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN047",
+    "name": "El Shaddoll Wendigo",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN048",
+    "name": "Superheavy Samurai Warlord Susanowo",
+    "rarity": "Super Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN049",
+    "name": "Metaphys Horus",
+    "rarity": "Ultra Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN050",
+    "name": "Raidraptor - Rise Falcon",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN051",
+    "name": "Stellarknight Constellar Diamond",
+    "rarity": "Ultra Rare",
+    "category": "Ultimate Rare",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN052",
+    "name": "Sky Cavalry Centaurea",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN053",
+    "name": "Illusion Balloons",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN054",
+    "name": "Raidraptor - Nest",
+    "rarity": "Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN055",
+    "name": "Constellar Twinkle",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN056",
+    "name": "Gottoms' Second Call",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN057",
+    "name": "Void Seer",
+    "rarity": "Super Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN058",
+    "name": "Void Expansion",
+    "rarity": "Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN059",
+    "name": "Nephe Shaddoll Fusion",
+    "rarity": "Secret Rare",
+    "category": "Equip Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN060",
+    "name": "Nekroz Cycle",
+    "rarity": "Rare",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN061",
+    "name": "Tenacity of the Monarchs",
+    "rarity": "Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN062",
+    "name": "Dragunity Divine Lance",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN063",
+    "name": "Pot of Riches",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN064",
+    "name": "A Wild Monster Appears!",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN065",
+    "name": "Pendulum Shift",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN066",
+    "name": "Extra Net",
+    "rarity": "Short Print",
+    "category": "Field Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN067",
+    "name": "Performapal Call",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN068",
+    "name": "Wall of Disruption",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN069",
+    "name": "Last Minute Cancel",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN070",
+    "name": "Raidraptor - Readiness",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN071",
+    "name": "Eye of the Void",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN072",
+    "name": "Void Launch",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN073",
+    "name": "Re-qliate",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN074",
+    "name": "Ritual Beast Ambush",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN075",
+    "name": "Zenmaiday",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN076",
+    "name": "Unpossessed",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN077",
+    "name": "Blaze Accelerator Reload",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN078",
+    "name": "Soul Transition",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN079",
+    "name": "Echo Oscillation",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN080",
+    "name": "Double Trap Hole",
+    "rarity": "Short Print",
+    "category": "Normal Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN081",
+    "name": "Mischief of the Gnomes",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN082",
+    "name": "Farfa, Malebranche of the Burning Abyss",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN083",
+    "name": "Libic, Malebranche of the Burning Abyss",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN084",
+    "name": "Cagna, Malebranche of the Burning Abyss",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN085",
+    "name": "Malacoda, Netherlord of the Burning Abyss",
+    "rarity": "Secret Rare Ghost Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN086",
+    "name": "Good & Evil in the Burning Abyss",
+    "rarity": "Super Rare",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN087",
+    "name": "U.A. Playmaker",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN088",
+    "name": "U.A. Blockbacker",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN089",
+    "name": "U.A. Turnover Tactics",
+    "rarity": "Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN090",
+    "name": "Gogogo Golem - Golden Form",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN091",
+    "name": "Dododo Witch",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN092",
+    "name": "Dododo Swordsman",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN093",
+    "name": "Toy Knight",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN094",
+    "name": "Explossum",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN095",
+    "name": "Swordsman of Revealing Light",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN096",
+    "name": "Doggy Diver",
+    "rarity": "Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN097",
+    "name": "Level Lifter",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN098",
+    "name": "Gogogo Talisman",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Secrets of Eternity"
+  },
+  {
+    "card_number": "SECE-EN099",
+    "name": "Soul Strike",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Secrets of Eternity"
+  }
+]

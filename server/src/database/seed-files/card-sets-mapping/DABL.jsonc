@@ -1,0 +1,709 @@
+[
+  {
+    "card_number": "DABL-EN000",
+    "name": "Spellbound",
+    "rarity": "Secret Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN001",
+    "name": "Blackwing - Vata the Emblem of Wandering",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN002",
+    "name": "Blackwing - Shamal the Sandstorm",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN003",
+    "name": "Blackwing - Chinook the Snow Blast",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN004",
+    "name": "Blackwing - Sudri the Phantom Glimmer",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN005",
+    "name": "Blackwing - Zonda the Dusk",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN006",
+    "name": "Bystial Magnamhut",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN007",
+    "name": "Bystial Saronir",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN008",
+    "name": "Bystial Druiswurm",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN009",
+    "name": "The Bystial Lubellion",
+    "rarity": "Secret Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN010",
+    "name": "The Bystial Alba Los",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN011",
+    "name": "Blazing Cartesia, the Virtuous",
+    "rarity": "Secret Rare Starlight Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN012",
+    "name": "Kashtira Fenrir",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN013",
+    "name": "Kashtira Unicorn",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN014",
+    "name": "Kashtira Ogre",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN015",
+    "name": "Tobari the Sky Ninja",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN016",
+    "name": "Mitsu the Insect Ninja",
+    "rarity": "Ultra Rare Starlight Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN017",
+    "name": "Baku the Beast Ninja",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN018",
+    "name": "Kagero the Cannon Ninja",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN019",
+    "name": "Prediction Princess Bibliomuse",
+    "rarity": "Common",
+    "category": "Flip monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN020",
+    "name": "Naturia Mole Cricket",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN021",
+    "name": "Naturia Camellia",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN022",
+    "name": "Ignis Phoenix, the Dracoslayer",
+    "rarity": "Secret Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN023",
+    "name": "Majesty Pegasus, the Dracoslayer",
+    "rarity": "Ultra Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN024",
+    "name": "Dinomight Powerload, the Dracoslayer",
+    "rarity": "Super Rare",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN025",
+    "name": "Vera the Vernusylph Goddess",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN026",
+    "name": "Vernusylph of the Misting Seedlings",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN027",
+    "name": "Rex, Freight Fur Hire",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN028",
+    "name": "Celestial Apparatus Tesea",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN029",
+    "name": "Soul Scissors",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN030",
+    "name": "Lady Labrynth of the Silver Castle",
+    "rarity": "Secret Rare Starlight Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN031",
+    "name": "Infernalqueen Salmon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN032",
+    "name": "Han-Shi Kyudo Spirit",
+    "rarity": "Common",
+    "category": "Spirit Pendulum Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN033",
+    "name": "Laughing Puffin",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN034",
+    "name": "Turbo-Tainted Hot Rod GT19",
+    "rarity": "Common",
+    "category": "Flip Tuner monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN035",
+    "name": "Psychic Rover",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN036",
+    "name": "Cucumber Horse",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN037",
+    "name": "Silent Wolf Calupo",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN038",
+    "name": "Prediction Princess Tarotreith",
+    "rarity": "Super Rare",
+    "category": "Flip Ritual Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN039",
+    "name": "Tearlaments Rulkallos",
+    "rarity": "Secret Rare Starlight Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN040",
+    "name": "Meizen the Battle Ninja",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN041",
+    "name": "Freki the Runick Fangs",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN042",
+    "name": "Black-Winged Assault Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN043",
+    "name": "Blackwing - Boreastorm the Wicked Wind",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner Synchro Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN044",
+    "name": "Shamisen Samsara Sorrowcat",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner Synchro Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN045",
+    "name": "Kashtira Shangri-Ira",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN046",
+    "name": "Mereologic Aggregator",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN047",
+    "name": "Wollow, Founder of the Drudge Dragons",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN048",
+    "name": "Spright Sprind",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN049",
+    "name": "Donner, Dagger Fur Hire",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN050",
+    "name": "Worldsea Dragon Zealantis",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN051",
+    "name": "Muckraker From the Underworld",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN052",
+    "name": "Black Feather Whirlwind",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN053",
+    "name": "Branded Regained",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN054",
+    "name": "Decisive Battle of Golgonda",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN055",
+    "name": "Tri-Brigade Showdown",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN056",
+    "name": "Tearlaments Grief",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN057",
+    "name": "Tearlaments Heartbeat",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN058",
+    "name": "Tearlaments Scream",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN059",
+    "name": "Scareclaw Decline",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN060",
+    "name": "Kashtira Birth",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN061",
+    "name": "Ninjitsu Art Notebook of Mystery",
+    "rarity": "Ultra Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN062",
+    "name": "Ninjitsu Art Tool - Iron Digger",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN063",
+    "name": "Underworld Ritual of Prediction",
+    "rarity": "Common",
+    "category": "Ritual Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN064",
+    "name": "Naturia Blessing",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN065",
+    "name": "Dragonic Pendulum",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN066",
+    "name": "Vernusylph in Full Bloom",
+    "rarity": "Common",
+    "category": "Field Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN067",
+    "name": "Curse of Aramatir",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN068",
+    "name": "Vaylantz Wakening - Solo Activation",
+    "rarity": "Ultra Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN069",
+    "name": "Terrors in the Hidden City",
+    "rarity": "Super Rare",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN070",
+    "name": "Original Bamboo Sword",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN071",
+    "name": "Blackwing - Twin Shadow",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN072",
+    "name": "Black Shadow Squall",
+    "rarity": "Common",
+    "category": "Counter Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN073",
+    "name": "Branded Beast",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN074",
+    "name": "Spright Double Cross",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN075",
+    "name": "Scareclaw Twinsaw",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN076",
+    "name": "Kashtira Preparations",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN077",
+    "name": "Ninjitsu Art of Dancing Leaves",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN078",
+    "name": "Simul Archfiends",
+    "rarity": "Super Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN079",
+    "name": "Stars Align across the Milky Way",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN080",
+    "name": "The Great Noodle Inversion",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN081",
+    "name": "Bayerock Dragon",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN082",
+    "name": "Zalamander Catalyzer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN083",
+    "name": "Tilting Entrainment",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN084",
+    "name": "Destructive Daruma Karma Cannon",
+    "rarity": "Ultra Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN085",
+    "name": "Zep, Ruby of the Ghoti",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN086",
+    "name": "Ixeep, Omen of the Ghoti",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN087",
+    "name": "Snopios, Shade of the Ghoti",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN088",
+    "name": "Arionpos, Serpent of the Ghoti",
+    "rarity": "Ultra Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN089",
+    "name": "Guoglim, Spear of the Ghoti",
+    "rarity": "Secret Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN090",
+    "name": "Ghoti Cosmos",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN091",
+    "name": "Ghoti Fury",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN092",
+    "name": "Yorishiro of the Aqua",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN093",
+    "name": "Amazoness Golden Whip Master",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN094",
+    "name": "Amazoness Silver Sword Master",
+    "rarity": "Common",
+    "category": "Effect Pendulum Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN095",
+    "name": "Amazoness War Chief",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN096",
+    "name": "Amazoness Spiritualist",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN097",
+    "name": "Amazoness Augusta",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN098",
+    "name": "Amazoness Pet Liger King",
+    "rarity": "Common",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN099",
+    "name": "Amazoness Secret Arts",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Darkwing Blast"
+  },
+  {
+    "card_number": "DABL-EN100",
+    "name": "\"Black-Winged Dragon\" Starlight Rare",
+    "rarity": "UNKNOWN",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Darkwing Blast"
+  }
+]

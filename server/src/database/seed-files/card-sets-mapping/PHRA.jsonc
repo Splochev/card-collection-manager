@@ -1,0 +1,709 @@
+[
+  {
+    "card_number": "PHRA-EN000",
+    "name": "Myutant Cry",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN001",
+    "name": "Raider's Wing",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN002",
+    "name": "The Phantom Knights of Stained Greaves",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN003",
+    "name": "The Phantom Knights of Torn Scales",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN004",
+    "name": "Raidraptor - Heel Eagle",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN005",
+    "name": "Raidraptor - Strangle Lanius",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN006",
+    "name": "Tri-Brigade Nervall",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN007",
+    "name": "Tri-Brigade Kerass",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN008",
+    "name": "Tri-Brigade Fraktall",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN009",
+    "name": "Dogmatika Ashiyan",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN010",
+    "name": "Virtual World Mai-Hime - Lulu",
+    "rarity": "Ultra Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN011",
+    "name": "Virtual World Roshi - Laolao",
+    "rarity": "Super Rare",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN012",
+    "name": "Virtual World Xiezhi - Jiji",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN013",
+    "name": "Virtual World Kirin - Lili",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN014",
+    "name": "Dual Avatar Fists - Yuhi",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN015",
+    "name": "Dual Avatar Feet - Kokoku",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN016",
+    "name": "Infernity Conjurer",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN017",
+    "name": "Infernity Wildcat",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN018",
+    "name": "U.A. Libero Spiker",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN019",
+    "name": "U.A. Player Manager",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN020",
+    "name": "Awakening of the Possessed - Gagigobyte",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN021",
+    "name": "Awakening of the Possessed - Rasenryu",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN022",
+    "name": "Gizmek Makami, the Ferocious Fanged Fortress",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN023",
+    "name": "Alpha, the Master of Beasts",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN024",
+    "name": "Prufinesse, the Tactical Trapper",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN025",
+    "name": "Rock Band Xenoguitar",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN026",
+    "name": "Magical Broker",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN027",
+    "name": "Gluttonous Reptolphin Greethys",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN028",
+    "name": "Cupid Fore",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN029",
+    "name": "Hinezumi Hanabi",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN030",
+    "name": "Conductor of Nephthys",
+    "rarity": "Super Rare",
+    "category": "Effect Ritual Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN031",
+    "name": "Brigrand the Glory Dragon",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN032",
+    "name": "Dual Avatar Fists - Armored Ah-Gyo",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN033",
+    "name": "Dual Avatar Feet - Armored Un-Gyo",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN034",
+    "name": "Dual Avatar - Empowered Kon-Gyo",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN035",
+    "name": "Armityle the Chaos Phantasm - Phantom of Fury",
+    "rarity": "Ultra Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN036",
+    "name": "Virtual World Kyubi - Shenshen",
+    "rarity": "Secret Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN037",
+    "name": "Infernity Doom Archfiend",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN038",
+    "name": "Infernoble Knight Captain Oliver",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN039",
+    "name": "Penguin Brave",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN040",
+    "name": "Raider's Knight",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN041",
+    "name": "Arc Rebellion Xyz Dragon",
+    "rarity": "Secret Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN042",
+    "name": "Virtual World Shell - Jaja",
+    "rarity": "Common",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN043",
+    "name": "Virtual World Phoenix - Fanfan",
+    "rarity": "Ultra Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN044",
+    "name": "Joyous Melffys",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN045",
+    "name": "Divine Arsenal AA-ZEUS - Sky Thunder",
+    "rarity": "Secret Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN046",
+    "name": "Tri-Brigade Ferrijit the Barren Blossom",
+    "rarity": "Ultra Rare",
+    "category": "Starlight Rare",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN047",
+    "name": "Tri-Brigade Rugal the Silver Sheller",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN048",
+    "name": "Tri-Brigade Shuraig the Ominous Omen",
+    "rarity": "Secret Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN049",
+    "name": "Prank-Kids Meow-Meow-Mu",
+    "rarity": "Super Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN050",
+    "name": "Geonator Transverser",
+    "rarity": "Common",
+    "category": "Effect Link Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN051",
+    "name": "Phantom Knights' Rank-Up-Magic Force",
+    "rarity": "Ultra Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN052",
+    "name": "Tri-Brigade Stand-Off",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN053",
+    "name": "Tri-Brigade Airborne Assault",
+    "rarity": "Secret Rare",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN054",
+    "name": "Dogmatikacism",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN055",
+    "name": "Virtual World City - Kauwloon",
+    "rarity": "Super Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN056",
+    "name": "Virtual World Gate - Qinglong",
+    "rarity": "Common",
+    "category": "Continuous Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN057",
+    "name": "Dual Avatar Invitation",
+    "rarity": "Secret Rare",
+    "category": "Normal Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN058",
+    "name": "Perfect Sync - A-Un",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN059",
+    "name": "Dual Avatar Defeating Evil",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN060",
+    "name": "Infernity Paranoia",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN061",
+    "name": "U.A. Hyper Stadium",
+    "rarity": "Super Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN062",
+    "name": "U.A. Locker Room",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN063",
+    "name": "Charge Into a Dark World",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN064",
+    "name": "Arcana Reading",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN065",
+    "name": "Rookie Fur Hire",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN066",
+    "name": "Xyz Import",
+    "rarity": "Common",
+    "category": "Quick-Play Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN067",
+    "name": "Jack-In-The-Hand",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN068",
+    "name": "Raider's Unbreakable Mind",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN069",
+    "name": "Raidraptor's Phantom Knights Claw",
+    "rarity": "Super Rare",
+    "category": "Counter Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN070",
+    "name": "Tri-Brigade Revolt",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN071",
+    "name": "Tri-Brigade Oath",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN072",
+    "name": "Virtual World Gate - Chuche",
+    "rarity": "Super Rare",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN073",
+    "name": "Dual Avatar Return",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN074",
+    "name": "Dual Avatar Compact",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN075",
+    "name": "Infernity Suppression",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN076",
+    "name": "U.A. Man of the Match",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN077",
+    "name": "Free-Range Monsters",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN078",
+    "name": "Warning Point",
+    "rarity": "Secret Rare",
+    "category": "Normal Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN079",
+    "name": "Banquet of Millions",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN080",
+    "name": "One or Eight",
+    "rarity": "Common",
+    "category": "Normal Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN081",
+    "name": "Mahaama the Fairy Dragon",
+    "rarity": "Common",
+    "category": "Effect Tuner monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN082",
+    "name": "Jabbing Panda",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN083",
+    "name": "Periallis, Empress of Blossoms",
+    "rarity": "Common",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN084",
+    "name": "Myutant M-05",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN085",
+    "name": "Myutant ST-46",
+    "rarity": "Ultra Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN086",
+    "name": "Myutant GB-88",
+    "rarity": "Common",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN087",
+    "name": "Myutant Beast",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN088",
+    "name": "Myutant Mist",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN089",
+    "name": "Myutant Arsenal",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN090",
+    "name": "Myutant Synthesis",
+    "rarity": "Super Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN091",
+    "name": "Myutant Ultimus",
+    "rarity": "Secret Rare",
+    "category": "Effect Fusion Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN092",
+    "name": "Myutant Evolution Lab",
+    "rarity": "Ultra Rare",
+    "category": "Field Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN093",
+    "name": "Myutant Fusion",
+    "rarity": "Common",
+    "category": "Normal Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN094",
+    "name": "Myutant Blast",
+    "rarity": "Common",
+    "category": "Equip Spell Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN095",
+    "name": "Myutant Clash",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN096",
+    "name": "Myutant Expansion",
+    "rarity": "Common",
+    "category": "Continuous Trap Card",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN097",
+    "name": "Virtual World Beast - Jiujiu",
+    "rarity": "Super Rare",
+    "category": "Effect Synchro Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN098",
+    "name": "Virtual World Dragon - Longlong",
+    "rarity": "Super Rare",
+    "category": "Effect Xyz Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN099",
+    "name": "Virtual World Hime - Nyannyan",
+    "rarity": "Super Rare",
+    "category": "Effect Monster",
+    "cardSetName": "Phantom Rage"
+  },
+  {
+    "card_number": "PHRA-EN100",
+    "name": "Hiita the Fire Charmer, Ablaze",
+    "rarity": "Starlight Rare",
+    "category": "Effect Link Monster",
+    "cardSetName": "Phantom Rage"
+  }
+]
