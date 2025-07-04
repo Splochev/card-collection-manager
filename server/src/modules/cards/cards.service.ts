@@ -13,6 +13,7 @@ import { CardQueryDto } from 'src/modules/cards/dto/cardQuery.interface';
 import { CardDto } from './dto/card.dto';
 import { CardSets } from 'src/database/entities/card-sets.entity';
 import { randomUUID } from 'crypto';
+import { CardEditions } from 'src/database/entities/card-editions.entity';
 
 const CHUNK_SIZE = 20;
 
@@ -23,6 +24,8 @@ export class CardsService {
     private readonly cardRepository: Repository<Card>,
     @InjectRepository(CardSets)
     private readonly cardSetRepository: Repository<CardSets>,
+    @InjectRepository(CardEditions)
+    private readonly cardEditionsRepository: Repository<CardEditions>,
     private readonly httpService: HttpService,
   ) {}
 
@@ -123,6 +126,22 @@ export class CardsService {
       console.error(error);
       throw new HttpException(`Cards from set "${cardSetName}" not found`, 404);
     }
+  }
+
+  async getByCardSetCode(cardNumber: string): Promise<CardDto | undefined> {
+    const cardMetadata = await this.cardEditionsRepository.findOneOrFail({
+      where: { cardNumber },
+    });
+
+    const { name, cardSetName } = cardMetadata;
+    const cards = await this.getCardsBySet(cardSetName);
+    const cardNameLower = name.toLowerCase();
+
+    const foundCard = cards.find(
+      (card) => card.name?.toLowerCase() === cardNameLower,
+    );
+
+    return foundCard ? foundCard : undefined;
   }
 
   formatCardData(card: ICard, cardQuery: CardQueryDto): CardDto {

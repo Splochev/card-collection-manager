@@ -43,6 +43,8 @@ export class CardsController {
       return this.cardsService.getCardById(cardQuery);
     } else if (cardQuery.cardSet && cardQuery.name) {
       return this.cardsService.getCardByCode(cardQuery.cardSet, cardQuery.name);
+    } else if (cardQuery.cardSet) {
+      return this.cardsService.getByCardSetCode(cardQuery.cardSet);
     } else {
       throw new HttpException('Invalid query parameters', 400);
     }
