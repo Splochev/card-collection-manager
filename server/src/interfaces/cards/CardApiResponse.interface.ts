@@ -29,3 +29,7 @@ export interface CardApiResponse {
   data: ICard[];
   [key: string]: unknown;
 }
+
+export interface CardEntityInput {
+  [key: string]: any;
+}

@@ -7,34 +7,64 @@ import { HttpService } from '@nestjs/axios';
 import {
   CardApiResponse,
   ICard,
+  CardEntityInput,
 } from 'src/interfaces/cards/CardApiResponse.interface';
 import { CardQueryDto } from 'src/modules/cards/dto/cardQuery.interface';
 import { CardDto } from './dto/card.dto';
 import { CardEditions } from 'src/database/entities/card-editions.entity';
+import { CardEntity } from 'src/database/entities/card.entity';
 
 @Injectable()
 export class CardsService {
   constructor(
+    @InjectRepository(CardEntity)
+    private readonly cardRepository: Repository<CardEntity>,
     @InjectRepository(CardEditions)
     private readonly cardEditionsRepository: Repository<CardEditions>,
     private readonly httpService: HttpService,
   ) {}
 
+  async saveCards(cards: CardDto[]): Promise<void> {
+    try {
+      const cardEntities: CardEntity[] = (cards as CardEntityInput[]).map(
+        (card: CardEntityInput): CardEntity => this.cardRepository.create(card),
+      );
+
+      await this.cardRepository.save(cardEntities);
+    } catch (error) {
+      console.error('Error saving cards:', error);
+    }
+  }
+
   async getCardsBySet(cardSetName: string): Promise<CardDto[]> {
     try {
-      const response: AxiosResponse<CardApiResponse> =
-        await this.httpService.axiosRef.get(
-          `https://db.ygoprodeck.com/api/v7/cardinfo.php?cardset=${encodeURIComponent(
-            cardSetName,
-          )}`,
+      const cardsFromDb: CardEntity[] | AxiosResponse<CardApiResponse> =
+        await this.cardRepository.find({
+          where: { cardSet: cardSetName },
+          order: { name: 'ASC' },
+        });
+
+      let cards: CardDto[] = cardsFromDb as CardDto[];
+
+      if (!cardsFromDb.length) {
+        const response: AxiosResponse<CardApiResponse> =
+          await this.httpService.axiosRef.get(
+            `https://db.ygoprodeck.com/api/v7/cardinfo.php?cardset=${encodeURIComponent(
+              cardSetName,
+            )}`,
+          );
+
+        cards = response.data.data.map((card: ICard) =>
+          this.formatCardData(card, {
+            cardSet: cardSetName,
+            id: card.id.toString(),
+          }),
         );
 
-      return response.data.data.map((card: ICard) =>
-        this.formatCardData(card, {
-          cardSet: cardSetName,
-          id: card.id.toString(),
-        }),
-      );
+        void this.saveCards(cards);
+      }
+
+      return cards;
     } catch (error) {
       console.error(error);
       throw new HttpException(`Cards from set "${cardSetName}" not found`, 404);
@@ -103,7 +133,10 @@ export class CardsService {
       type,
       desc,
       race,
-      imageUrl,
+      imageUrl:
+        imageUrl ||
+        (rest['card_images'] as { image_url?: string }[] | undefined)?.[0]
+          ?.image_url,
       typeline,
       atk,
       def,
