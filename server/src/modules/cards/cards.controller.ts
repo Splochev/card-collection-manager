@@ -39,15 +39,24 @@ export class CardsController {
   async getCardByQuery(
     @Body() cardQuery: CardQueryDto,
   ): Promise<CardDto | undefined> {
+    let card: CardDto | undefined;
     if (cardQuery.cardSet && cardQuery.id) {
-      return this.cardsService.getCardById(cardQuery);
+      card = await this.cardsService.getCardById(cardQuery);
     } else if (cardQuery.cardSet && cardQuery.name) {
-      return this.cardsService.getCardByCode(cardQuery.cardSet, cardQuery.name);
+      card = await this.cardsService.getCardByCode(
+        cardQuery.cardSet,
+        cardQuery.name,
+      );
     } else if (cardQuery.cardSet) {
-      return this.cardsService.getByCardSetCode(cardQuery.cardSet);
+      card = await this.cardsService.getByCardSetCode(cardQuery.cardSet);
     } else {
       throw new HttpException('Invalid query parameters', 400);
     }
+
+    if (!card) {
+      throw new HttpException('Card not found', 404);
+    }
+    return card;
   }
 
   @ApiOperation({ summary: 'Get cards by card set name' })

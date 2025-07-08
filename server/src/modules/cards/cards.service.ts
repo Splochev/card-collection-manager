@@ -129,9 +129,18 @@ export class CardsService {
   }
 
   async getByCardSetCode(cardNumber: string): Promise<CardDto | undefined> {
-    const cardMetadata = await this.cardEditionsRepository.findOneOrFail({
-      where: { cardNumber },
-    });
+    let cardMetadata: CardEditions;
+    try {
+      cardMetadata = await this.cardEditionsRepository.findOneOrFail({
+        where: { cardNumber },
+      });
+    } catch (error) {
+      console.error(error);
+      throw new HttpException(
+        `Card with number "${cardNumber}" not found`,
+        404,
+      );
+    }
 
     const { name, cardSetName } = cardMetadata;
     const cards = await this.getCardsBySet(cardSetName);
