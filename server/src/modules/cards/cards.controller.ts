@@ -1,65 +1,14 @@
-import { Controller, Post, Body, Get, Param } from '@nestjs/common';
+import { Controller, Get, Param } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { CardsService } from './cards.service';
 import { Public } from 'src/decorators/public.decorator';
-import { CardQueryDto } from './dto/cardQuery.interface';
 import { CardDto } from './dto/card.dto';
-import { HttpException } from '@nestjs/common';
 
 @ApiTags('cards')
 @Controller('cards')
 export class CardsController {
   constructor(private readonly cardsService: CardsService) {}
-
-  @ApiOperation({ summary: 'Get multiple cards by their queries' })
-  @ApiResponse({
-    status: 200,
-    description: 'Cards retrieved successfully',
-    type: CardDto,
-    isArray: true,
-  })
-  @ApiResponse({ status: 404, description: 'One or more cards not found' })
-  @Public()
-  @Post('multiple')
-  async getCardsByQueries(
-    @Body() cardQueries: CardQueryDto[],
-  ): Promise<Array<CardDto | null>> {
-    return this.cardsService.getCardsByIds(cardQueries);
-  }
-
-  @ApiOperation({ summary: 'Get card by query' })
-  @ApiResponse({
-    status: 200,
-    description: 'Card retrieved successfully',
-    type: CardDto,
-  })
-  @ApiResponse({ status: 404, description: 'Card not found' })
-  @Public()
-  @Post('single')
-  async getCardByQuery(
-    @Body() cardQuery: CardQueryDto,
-  ): Promise<CardDto | undefined> {
-    let card: CardDto | undefined;
-    if (cardQuery.cardSet && cardQuery.id) {
-      card = await this.cardsService.getCardById(cardQuery);
-    } else if (cardQuery.cardSet && cardQuery.name) {
-      card = await this.cardsService.getCardByCode(
-        cardQuery.cardSet,
-        cardQuery.name,
-      );
-    } else if (cardQuery.cardSet) {
-      card = await this.cardsService.getByCardSetCode(cardQuery.cardSet);
-    } else {
-      throw new HttpException('Invalid query parameters', 400);
-    }
-
-    if (!card) {
-      throw new HttpException('Card not found', 404);
-    }
-    return card;
-  }
-
-  @ApiOperation({ summary: 'Get cards by card set name' })
+  @ApiOperation({ summary: 'Get cards by card set code' })
   @ApiResponse({
     status: 200,
     description: 'Cards retrieved successfully',
@@ -68,10 +17,10 @@ export class CardsController {
   })
   @ApiResponse({ status: 404, description: 'Card set not found' })
   @Public()
-  @Get('set/:cardSetName')
-  async getCardsBySet(
-    @Param('cardSetName') cardSetName: string,
+  @Get(':cardSetCode')
+  async getCardsByCardSetCode(
+    @Param('cardSetCode') cardSetCode: string,
   ): Promise<CardDto[]> {
-    return this.cardsService.getCardsBySet(cardSetName);
+    return this.cardsService.getByCardSetCode(cardSetCode);
   }
 }
