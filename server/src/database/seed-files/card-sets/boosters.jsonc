@@ -1,5 +1,6 @@
 // https://yugipedia.com/wiki/TCG_Set_Galleries:_Boosters
 [
+    // Yu-Gi-Oh! Series 2002 Booster Sets
     {
         "name": "Legend of Blue Eyes White Dragon",
         "abbreviations": [
@@ -41,6 +42,7 @@
             "SDH-S"
         ]
     },
+    // Yu-Gi-Oh! Series 2003 Booster Sets
     {
         "name": "Pharaoh's Servant",
         "abbreviations": [
@@ -92,6 +94,7 @@
             "DCR-IT"
         ]
     },
+    // Yu-Gi-Oh! Series 2004 Booster Sets
     {
         "name": "Invasion of Chaos",
         "abbreviations": [
@@ -150,6 +153,7 @@
             "FET-SP"
         ]
     },
+    // Yu-Gi-Oh! GX Series 1 Booster Sets
     {
         "name": "The Lost Millennium",
         "abbreviations": [
@@ -262,6 +266,7 @@
             "TAEV-SP"
         ]
     },
+    // Yu-Gi-Oh! GX Series 3 Booster Sets
     {
         "name": "Gladiator's Assault",
         "abbreviations": [
@@ -295,6 +300,7 @@
             "LODT-SP"
         ]
     },
+    // Yu-Gi-Oh! 5D's Series 1 Booster Sets
     {
         "name": "The Duelist Genesis",
         "abbreviations": [
@@ -383,6 +389,7 @@
             "TSHD-SP"
         ]
     },
+    // Yu-Gi-Oh! 5D's Series 2 Booster Sets
     {
         "name": "Duelist Revolution",
         "abbreviations": [
@@ -427,6 +434,7 @@
             "EXVC-SP"
         ]
     },
+    // Yu-Gi-Oh! ZEXAL Booster Sets
     {
         "name": "Generation Force",
         "abbreviations": [
@@ -565,6 +573,7 @@
             "PRIO-SP"
         ]
     },
+    // Yu-Gi-Oh! ARC-V Booster Sets
     {
         "name": "Duelist Alliance",
         "abbreviations": [
@@ -709,6 +718,7 @@
             "MACR-SP"
         ]
     },
+    // Yu-Gi-Oh! VRAINS Booster Sets
     {
         "name": "Code of the Duelist",
         "abbreviations": [
@@ -853,6 +863,7 @@
             "ETCO-SP"
         ]
     },
+    // Post-Yu-Gi-Oh! VRAINS Booster Sets, series 1
     {
         "name": "Rise of the Duelist",
         "abbreviations": [
@@ -949,6 +960,7 @@
             "DIFO-SP"
         ]
     },
+    // Yu-Gi-Oh! GX Series 2 Booster Sets
     {
         "name": "Power of the Elements",
         "abbreviations": [
@@ -997,6 +1009,7 @@
             "CYAC-SP"
         ]
     },
+    // Post-Yu-Gi-Oh! VRAINS Booster Sets, series 2
     {
         "name": "Duelist Nexus",
         "abbreviations": [
@@ -1105,6 +1118,7 @@
             "DUAD-SP"
         ]
     },
+    // Yu-Gi-Oh! Trading Card Game Reprint Booster Sets
     {
         "name": "Dark Beginning 1",
         "abbreviations": [
