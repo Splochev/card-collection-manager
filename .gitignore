@@ -141,3 +141,4 @@ dist
 
 # Ignore extracted data file
 extractedData.md
+server/src/database/seed-files/card-sets-mapping/
