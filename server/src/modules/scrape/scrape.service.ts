@@ -75,7 +75,8 @@ export class ScrapeService {
         if (
           message.includes('ERR_SOCKET_NOT_CONNECTED') ||
           message.includes('ERR_CONNECTION_CLOSED') ||
-          message.includes('ERR_CERT_VERIFIER_CHANGED')
+          message.includes('ERR_CERT_VERIFIER_CHANGED') ||
+          message.includes('ERR_NAME_NOT_RESOLVED')
         ) {
           setNames.push(setName);
           await new Promise((r) => setTimeout(r, 20000));
