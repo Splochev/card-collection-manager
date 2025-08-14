@@ -1,4 +1,5 @@
 // https://zenoo.github.io/mui-theme-creator/#Alert
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 //@ts-ignore
 import { ThemeOptions } from "@mui/material/styles";
 

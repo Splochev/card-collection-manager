@@ -131,7 +131,6 @@ export function NavbarSearch({
             </SearchIconWrapper>
             <StyledInputBase
               placeholder="Search…"
-              inputProps={{ "aria-label": "search" }}
               inputRef={inputRef}
               onBlur={isMobile ? handleBlur : undefined}
               value={value}

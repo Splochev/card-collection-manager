@@ -16,6 +16,8 @@ import Grid from "@mui/material/Grid";
 import { NavbarSearch } from "../atoms/NavbarSearch";
 import Container from "@mui/material/Container";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import CardSearchIcon from "../atoms/CardSearchIcon";
+import CollectionIcon from "../atoms/CollectionIcon";
 
 function a11yProps(index: number) {
   return {
@@ -30,8 +32,13 @@ const ROUTES_MAP = {
 };
 
 const PAGES = [
-  { label: "Cards", index: 0, route: ROUTES_MAP.CARDS },
-  { label: "Collection", index: 1, route: ROUTES_MAP.COLLECTION },
+  { label: "Cards", index: 0, route: ROUTES_MAP.CARDS, icon: CardSearchIcon },
+  {
+    label: "Collection",
+    index: 1,
+    route: ROUTES_MAP.COLLECTION,
+    icon: CollectionIcon,
+  },
 ];
 
 const VALID_ROUTES = {
@@ -89,7 +96,18 @@ export default function PageLayout() {
                 {PAGES.map((page) => (
                   <Tab
                     key={page.index}
-                    label={page.label}
+                    label={
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          gap: 6,
+                        }}
+                      >
+                        {page.icon && <page.icon size="small" />}
+                        {page.label}
+                      </div>
+                    }
                     {...a11yProps(page.index)}
                   />
                 ))}
@@ -148,7 +166,14 @@ export default function PageLayout() {
               {PAGES.map((page) => (
                 <Tab
                   key={page.index}
-                  label={page.label}
+                  label={
+                    <div
+                      style={{ display: "flex", alignItems: "center", gap: 6 }}
+                    >
+                      {page.icon && <page.icon size="small" />}
+                      {page.label}
+                    </div>
+                  }
                   {...a11yProps(page.index)}
                 />
               ))}
