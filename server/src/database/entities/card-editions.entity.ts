@@ -6,12 +6,18 @@ export class CardEditions {
   @PrimaryGeneratedColumn()
   id!: number;
 
-  @Column({ nullable: false })
-  name!: string;
+  @Column({ nullable: false, unique: true })
+  cardNumber!: string;
 
   @Column({ nullable: false })
   cardSetName!: string;
 
-  @Column({ nullable: false, unique: true })
-  cardNumber!: string;
+  @Column()
+  category!: string;
+
+  @Column({ nullable: false })
+  name!: string;
+
+  @Column()
+  rarity!: string;
 }

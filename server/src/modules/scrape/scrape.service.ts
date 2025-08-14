@@ -5,6 +5,11 @@ import * as cheerio from 'cheerio';
 import { Injectable } from '@nestjs/common';
 
 const SKIP_URLS = {
+  'https://yugioh.fandom.com/wiki/Hobby_League_participation_cards': 0,
+  'https://yugioh.fandom.com/wiki/Yu-Gi-Oh!_World_Championship_Qualifier_National_Championships_2011_prize_cards': 0,
+  'https://yugioh.fandom.com/wiki/2-Player_Starter_Deck:_Yuya_&_Declan': 1,
+  'https://yugioh.fandom.com/wiki/Structure_Deck:_Marik': 1,
+  'https://yugioh.fandom.com/wiki/Battle_Pack_Tournament_Prize_Cards': 1,
   'https://yugioh.fandom.com/wiki/Duelist_League_participation_cards': 1,
   'https://yugioh.fandom.com/wiki/Pharaoh_Tour_promotional_cards': 1,
   'https://yugioh.fandom.com/wiki/Shonen_Jump_Championship_Series_Prize_Cards': 1,
@@ -12,7 +17,6 @@ const SKIP_URLS = {
   'https://yugioh.fandom.com/wiki/KC_Grand_Tournament_2022_prize_card': 1,
   'https://yugioh.fandom.com/wiki/Attack_of_the_Giant_Card!!': 1,
   'https://yugioh.fandom.com/wiki/Custom_Token_Card': 1,
-  'https://yugioh.fandom.com/wiki/Battle_Pack_Tournament_Prize_Cards': 1,
   'https://yugioh.fandom.com/wiki/Duelist_League_Promotional_Cards_-_Konami_Series': 1,
   'https://yugioh.fandom.com/wiki/Special_Promotional_Cards': 1,
   "https://yugioh.fandom.com/wiki/Kids'_WB!_Duel_of_Destiny_promotional_card": 1,
@@ -99,10 +103,10 @@ export class ScrapeService {
 
   async scrapeCardCollection(
     collectionName: string,
-    collectionType: string,
     failedExtractions: Set<string>,
   ): Promise<void> {
-    const url = `https://yugioh.fandom.com/wiki/${collectionName}`;
+    const urlCollectionName = collectionName.replace(/ /g, '_');
+    const url = `https://yugioh.fandom.com/wiki/${urlCollectionName}`;
 
     if (SKIP_URLS[url]) {
       console.log(`Skipping ${collectionName} as it is in the skip list.`);
@@ -141,8 +145,25 @@ export class ScrapeService {
 
       if (rowIdx === 0) {
         headers.push(...rowData);
+        const index = headers.findIndex((h) => {
+          const lowerCaseHeader = h.toLowerCase();
+          return (
+            lowerCaseHeader === 'card number' ||
+            lowerCaseHeader === 'set number'
+          );
+        });
+
+        if (index !== -1) {
+          headers[index] = 'Card Number';
+        } else {
+          throw new Error(
+            `Expected header "Card Number" or "Set Number" not found in ${collectionName}`,
+          );
+        }
+
+        headers.push('Collection Name');
       } else {
-        const rowObject = {};
+        const rowObject = { 'Collection Name': collectionName };
         rowData.forEach((val, i) => {
           val = val.replace(/"/g, '').trim();
           rowObject[headers[i] || `col${i}`] = val;
@@ -150,14 +171,14 @@ export class ScrapeService {
         rows.push(rowObject);
       }
     });
-    const collectionNameWithNoSpecialChars = collectionName.replace(
+    const collectionNameWithNoSpecialChars = urlCollectionName.replace(
       /[^a-zA-Z0-9_]/g,
       '_',
     );
     await browser.close();
     const seedFilePath = path.join(
       __dirname,
-      `../../../../src/database/seed-files/${collectionType}-mapping`,
+      `../../../../src/database/seed-files/cards-mapping`,
       `${collectionNameWithNoSpecialChars}.jsonc`,
     );
 
@@ -166,21 +187,14 @@ export class ScrapeService {
     failedExtractions.delete(url);
   }
 
-  async scrapeCards(
-    collectionNames: string[],
-    collectionType: string,
-  ): Promise<void> {
+  async scrapeCards(collectionNames: string[]): Promise<void> {
     console.log('Scraping started...');
     collectionNames = collectionNames.reverse();
     const failedExtractions: Set<string> = new Set();
     while (collectionNames.length) {
       const collectionName = collectionNames.pop() || '';
       try {
-        await this.scrapeCardCollection(
-          collectionName.replace(/ /g, '_'),
-          collectionType,
-          failedExtractions,
-        );
+        await this.scrapeCardCollection(collectionName, failedExtractions);
       } catch (error) {
         const message =
           error instanceof Error ? error.message.toUpperCase() : String(error);
@@ -193,12 +207,12 @@ export class ScrapeService {
           collectionNames.push(collectionName);
           await new Promise((r) => setTimeout(r, 20000));
         } else {
-          // eslint-disable-next-line no-debugger
-          debugger;
           console.error(`Error scraping ${collectionName}:`, error);
         }
       }
     }
+    // eslint-disable-next-line no-debugger
+    debugger;
     console.log('Scraping completed.');
     console.log(`
       Failed extractions: ${failedExtractions.size}
