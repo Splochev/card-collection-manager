@@ -13,11 +13,12 @@ import ThemeSwitch from "../atoms/ThemeSwitch";
 import { useState } from "react";
 import Logo from "../atoms/Logo";
 import Grid from "@mui/material/Grid";
-import { NavbarSearch } from "../atoms/NavbarSearch";
+import CoreInput from "../atoms/CoreInput";
 import Container from "@mui/material/Container";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import CardSearchIcon from "../atoms/CardSearchIcon";
 import CollectionIcon from "../atoms/CollectionIcon";
+import SearchIcon from "@mui/icons-material/Search";
 
 function a11yProps(index: number) {
   return {
@@ -50,7 +51,7 @@ export default function PageLayout() {
   const navigate = useNavigate();
   const location = useLocation();
   const [value, setValue] = useState(VALID_ROUTES[location.pathname] || 0);
-  const isSmDown = useMediaQuery("(max-width:650px)");
+  const isSmDown = useMediaQuery("(max-width:720px)");
   const [searchValue, setSearchValue] = useState("");
 
   const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
@@ -114,9 +115,15 @@ export default function PageLayout() {
               </Tabs>
             </Grid>
 
-            <NavbarSearch
-              value={searchValue}
-              onInputChange={(e) => setSearchValue(e.target.value)}
+            <CoreInput
+              label="Search cards by name, code or set"
+              state={[
+                searchValue,
+                (e: React.ChangeEvent<HTMLInputElement>) =>
+                  setSearchValue(e.target.value),
+              ]}
+              startIcon={<SearchIcon />}
+              responsive
             />
             <ThemeSwitch />
           </>
@@ -135,10 +142,14 @@ export default function PageLayout() {
             }}
           >
             <Logo />
-            <NavbarSearch
-              alwaysExpanded
-              value={searchValue}
-              onInputChange={(e) => setSearchValue(e.target.value)}
+            <CoreInput
+              label="Search cards by name, code or set"
+              state={[
+                searchValue,
+                (e: React.ChangeEvent<HTMLInputElement>) =>
+                  setSearchValue(e.target.value),
+              ]}
+              startIcon={<SearchIcon />}
             />
           </Grid>
         )}
@@ -161,26 +172,35 @@ export default function PageLayout() {
           }}
           elevation={3}
         >
-          <Grid container spacing={2} alignItems="center">
-            <Tabs value={value} onChange={handleChange} aria-label="navigation">
-              {PAGES.map((page) => (
-                <Tab
-                  key={page.index}
-                  label={
-                    <div
-                      style={{ display: "flex", alignItems: "center", gap: 6 }}
-                    >
-                      {page.icon && <page.icon size="small" />}
-                      {page.label}
-                    </div>
-                  }
-                  {...a11yProps(page.index)}
-                />
-              ))}
-            </Tabs>
-          </Grid>
+          <Tabs
+            value={value}
+            onChange={handleChange}
+            aria-label="navigation"
+            sx={{
+              width: "100%",
+              "& .MuiTabs-list": {
+                justifyContent: "space-around",
+              },
+            }}
+          >
+            {PAGES.map((page) => (
+              <Tab
+                key={page.index}
+                label={
+                  <div
+                    style={{ display: "flex", alignItems: "center", gap: 6 }}
+                  >
+                    {page.icon && <page.icon size="small" />}
+                    {page.label}
+                  </div>
+                }
+                {...a11yProps(page.index)}
+              />
+            ))}
+          </Tabs>
         </Paper>
       )}
     </Paper>
   );
 }
+// https://6d8n7x-8080.csb.app/?theme=light
