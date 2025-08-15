@@ -42,16 +42,11 @@ const PAGES = [
   },
 ];
 
-const VALID_ROUTES = {
-  [ROUTES_MAP.CARDS]: 0,
-  [ROUTES_MAP.COLLECTION]: 1,
-};
-
 export default function PageLayout() {
   const navigate = useNavigate();
   const location = useLocation();
-  const [value, setValue] = useState(VALID_ROUTES[location.pathname] || 0);
   const isSmDown = useMediaQuery("(max-width:720px)");
+  const [value, setValue] = useState(PAGES.find((page) => location.pathname.includes(page.route))?.index || 0);
   const [searchValue, setSearchValue] = useState("");
 
   const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
@@ -62,7 +57,10 @@ export default function PageLayout() {
     }
   };
 
-  const isValidRoute = VALID_ROUTES[location.pathname] >= 0;
+  const isValidRoute = PAGES.some((page) => location.pathname.includes(page.route));
+  const label = location.pathname.includes(ROUTES_MAP.CARDS)
+    ? "Search by card code"
+    : "Search through collection by card name, code or set";
 
   return (
     <Paper
@@ -81,7 +79,7 @@ export default function PageLayout() {
           justifyContent: "space-between",
           alignItems: "center",
           paddingX: 1,
-          height: 50,
+          height: 60,
         }}
         elevation={3}
       >
@@ -116,7 +114,7 @@ export default function PageLayout() {
             </Grid>
 
             <CoreInput
-              label="Search cards by name, code or set"
+              label={label}
               state={[
                 searchValue,
                 (e: React.ChangeEvent<HTMLInputElement>) =>
@@ -143,7 +141,7 @@ export default function PageLayout() {
           >
             <Logo />
             <CoreInput
-              label="Search cards by name, code or set"
+              label={label}
               state={[
                 searchValue,
                 (e: React.ChangeEvent<HTMLInputElement>) =>
