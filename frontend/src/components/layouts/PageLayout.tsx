@@ -19,6 +19,8 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import CardSearchIcon from "../atoms/CardSearchIcon";
 import CollectionIcon from "../atoms/CollectionIcon";
 import SearchIcon from "@mui/icons-material/Search";
+import SDK from "../../sdk/SDK";
+import debounce from "lodash/debounce";
 
 function a11yProps(index: number) {
   return {
@@ -42,11 +44,16 @@ const PAGES = [
   },
 ];
 
+const CARD_SET_CODE_REGEX = /^[A-Z0-9]{3,6}-[A-Z0-9]{3,6}$/i;
+
 export default function PageLayout() {
+  const sdk = SDK.getInstance("http://localhost:3000"); // TODO replace with .env variable
   const navigate = useNavigate();
   const location = useLocation();
   const isSmDown = useMediaQuery("(max-width:720px)");
-  const [value, setValue] = useState(PAGES.find((page) => location.pathname.includes(page.route))?.index || 0);
+  const [value, setValue] = useState(
+    PAGES.find((page) => location.pathname.includes(page.route))?.index || 0
+  );
   const [searchValue, setSearchValue] = useState("");
 
   const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
@@ -57,10 +64,32 @@ export default function PageLayout() {
     }
   };
 
-  const isValidRoute = PAGES.some((page) => location.pathname.includes(page.route));
+  const searchCards = async (cardSetCode: string) => {
+    try {
+      cardSetCode = cardSetCode.trim().toUpperCase();
+      console.log("Searching for cards with set code:", cardSetCode);
+      const valid = CARD_SET_CODE_REGEX.test(cardSetCode);
+      if (!valid) return;
+
+      const cards = await sdk.cardsManager.getCardsBySetCode(cardSetCode);
+      console.log(cards);
+    } catch (error) {
+      console.error("Error fetching cards:", error);
+    }
+  };
+
+  const debouncedSearchCards = React.useMemo(
+    () => debounce(searchCards, 400),
+    []
+  );
+
+  const isValidRoute = PAGES.some((page) =>
+    location.pathname.includes(page.route)
+  );
+
   const label = location.pathname.includes(ROUTES_MAP.CARDS)
-    ? "Search by card code"
-    : "Search through collection by card name, code or set";
+    ? "Find cards by set code"
+    : "Find cards in collection by card name, set code or set name";
 
   return (
     <Paper
@@ -117,8 +146,10 @@ export default function PageLayout() {
               label={label}
               state={[
                 searchValue,
-                (e: React.ChangeEvent<HTMLInputElement>) =>
-                  setSearchValue(e.target.value),
+                (e: React.ChangeEvent<HTMLInputElement>) => {
+                  setSearchValue(e.target.value);
+                  debouncedSearchCards(e.target.value);
+                },
               ]}
               startIcon={<SearchIcon />}
               responsive
@@ -144,8 +175,10 @@ export default function PageLayout() {
               label={label}
               state={[
                 searchValue,
-                (e: React.ChangeEvent<HTMLInputElement>) =>
-                  setSearchValue(e.target.value),
+                (e: React.ChangeEvent<HTMLInputElement>) => {
+                  setSearchValue(e.target.value);
+                  debouncedSearchCards(e.target.value);
+                },
               ]}
               startIcon={<SearchIcon />}
             />
