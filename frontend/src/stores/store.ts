@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import themeReducer from "./themeSlice";
+import cardsReducer from "./cardSlice";
 
 export const store = configureStore({
   reducer: {
     theme: themeReducer,
+    cards: cardsReducer,
   },
 });
 
