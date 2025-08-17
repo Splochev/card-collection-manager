@@ -1,13 +1,24 @@
-import { Entity, PrimaryGeneratedColumn, Column, Index } from 'typeorm';
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  Column,
+  Index,
+  OneToOne,
+  JoinColumn,
+  OneToMany,
+} from 'typeorm';
+import { CardEditions } from './card-editions.entity';
 
 @Entity('cards')
-@Index(['cardSet', 'cardId', 'name'], { unique: true })
 export class CardEntity {
   @PrimaryGeneratedColumn()
   id!: number;
 
-  @Column()
+  @Column({ nullable: false, unique: true })
   name!: string;
+
+  @Column('text', { array: true, default: [] })
+  cardSetNames?: string[];
 
   @Column()
   type!: string;
@@ -18,10 +29,7 @@ export class CardEntity {
   @Column()
   race!: string;
 
-  @Column()
-  cardSet!: string;
-
-  @Column()
+  @Column({ nullable: false })
   cardId!: string;
 
   @Column({ type: 'text', nullable: true })
@@ -65,4 +73,7 @@ export class CardEntity {
 
   @Column({ nullable: true })
   archetype?: string;
+
+  @OneToMany(() => CardEditions, (cardEditions) => cardEditions.cards)
+  cardEditions!: CardEditions[];
 }

@@ -1,4 +1,14 @@
-import { Entity, PrimaryGeneratedColumn, Column, Index } from 'typeorm';
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  Column,
+  Index,
+  OneToOne,
+  JoinColumn,
+  OneToMany,
+  ManyToOne,
+} from 'typeorm';
+import { CardEntity } from './card.entity';
 
 @Entity('card-editions')
 @Index(['name', 'cardNumber'], { unique: true })
@@ -12,12 +22,16 @@ export class CardEditions {
   @Column({ nullable: false })
   cardSetName!: string;
 
-  @Column()
-  category!: string;
-
   @Column({ nullable: false })
   name!: string;
 
   @Column()
   rarity!: string;
+
+  @Column()
+  cardId!: number;
+
+  @ManyToOne(() => CardEntity, { nullable: false })
+  @JoinColumn({ name: 'cardId' })
+  cards!: CardEntity[];
 }

@@ -2,7 +2,7 @@ import { Controller, Get, Param } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { CardsService } from './cards.service';
 import { Public } from 'src/decorators/public.decorator';
-import { CardDto } from './dto/card.dto';
+import { CardEditions } from 'src/database/entities/card-editions.entity';
 
 @ApiTags('cards')
 @Controller('cards')
@@ -12,7 +12,7 @@ export class CardsController {
   @ApiResponse({
     status: 200,
     description: 'Cards retrieved successfully',
-    type: CardDto,
+    type: CardEditions,
     isArray: true,
   })
   @ApiResponse({ status: 404, description: 'Card set not found' })
@@ -20,7 +20,7 @@ export class CardsController {
   @Get(':cardSetCode')
   async getCardsByCardSetCode(
     @Param('cardSetCode') cardSetCode: string,
-  ): Promise<CardDto[]> {
+  ): Promise<CardEditions[]> {
     return this.cardsService.getByCardSetCode(cardSetCode);
   }
 }

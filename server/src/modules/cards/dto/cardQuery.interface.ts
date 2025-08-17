@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger/dist/decorators/api-property.decorator';
-import { IsString, IsOptional } from 'class-validator';
+import { IsString, IsOptional, IsArray } from 'class-validator';
 
 export class CardQueryDto {
   @ApiProperty()
@@ -16,4 +16,9 @@ export class CardQueryDto {
   @IsString()
   @IsOptional()
   name?: string;
+
+  @ApiProperty()
+  @IsArray()
+  @IsOptional()
+  cardSetNames?: string[];
 }

@@ -23,6 +23,7 @@ export interface ICard {
   card_sets?: Array<object>;
   card_images?: Array<object>;
   card_prices?: Array<object>;
+  cardSetNames?: string[];
 }
 
 export interface CardApiResponse {
@@ -32,4 +33,13 @@ export interface CardApiResponse {
 
 export interface CardEntityInput {
   [key: string]: any;
+}
+
+export interface ScrapeCardDto {
+  'Card Number'?: string;
+  'Set number'?: string;
+  Name: string;
+  Category?: string;
+  Rarity?: string;
+  'Collection Name': string;
 }

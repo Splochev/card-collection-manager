@@ -1234,5 +1234,11 @@
             "SBTK-PT",
             "SBTK-SP"
         ]
+    },
+    {
+        "name": "Quarter Century Stampede",
+        "abbreviations": [
+            "RA04"
+        ]
     }
 ]

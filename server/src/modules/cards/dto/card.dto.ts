@@ -141,4 +141,13 @@ export class CardDto {
     required: false,
   })
   archetype?: string;
+
+  @IsArray()
+  @IsOptional()
+  @ApiProperty({
+    description: 'Card set names the card belongs to',
+    type: [String],
+    required: false,
+  })
+  cardSetNames?: string[];
 }

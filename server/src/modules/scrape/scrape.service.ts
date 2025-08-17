@@ -3,6 +3,8 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as cheerio from 'cheerio';
 import { Injectable } from '@nestjs/common';
+import { CardsService } from '../cards/cards.service';
+import { ScrapeCardDto } from 'src/interfaces/cards/CardApiResponse.interface';
 
 const SKIP_URLS = {
   'https://yugioh.fandom.com/wiki/Hobby_League_participation_cards': 0,
@@ -99,7 +101,7 @@ const SKIP_URLS = {
 
 @Injectable()
 export class ScrapeService {
-  constructor() {}
+  constructor(private readonly cardService: CardsService) {}
 
   async scrapeCardCollection(
     collectionName: string,
@@ -166,29 +168,31 @@ export class ScrapeService {
         const rowObject = { 'Collection Name': collectionName };
         rowData.forEach((val, i) => {
           val = val.replace(/"/g, '').trim();
+          val = val.replace(/\s*\(.*?\)\s*/g, '').trim();
+
           rowObject[headers[i] || `col${i}`] = val;
         });
         rows.push(rowObject);
       }
     });
-    const collectionNameWithNoSpecialChars = urlCollectionName.replace(
-      /[^a-zA-Z0-9_]/g,
-      '_',
-    );
+
     await browser.close();
-    const seedFilePath = path.join(
-      __dirname,
-      `../../../../src/database/seed-files/cards-mapping`,
-      `${collectionNameWithNoSpecialChars}.jsonc`,
+    void this.cardService.saveCards(
+      collectionName,
+      rows as unknown as ScrapeCardDto[],
     );
 
-    fs.writeFileSync(seedFilePath, JSON.stringify(rows, null, 2));
     console.log(`Scraped ${collectionName} successfully!`);
     failedExtractions.delete(url);
   }
 
   async scrapeCards(collectionNames: string[]): Promise<void> {
     console.log('Scraping started...');
+    // delete everything from folder logs
+    const logsPath = path.join(__dirname, `../../../../src/logs`);
+    fs.rmSync(logsPath, { recursive: true, force: true });
+    fs.mkdirSync(logsPath, { recursive: true });
+
     collectionNames = collectionNames.reverse();
     const failedExtractions: Set<string> = new Set();
     while (collectionNames.length) {
@@ -211,14 +215,18 @@ export class ScrapeService {
         }
       }
     }
-    // eslint-disable-next-line no-debugger
-    debugger;
-    console.log('Scraping completed.');
-    console.log(`
-      Failed extractions: ${failedExtractions.size}
-      ${Array.from(failedExtractions)
-        .map((url) => `- ${url}`)
-        .join('\n')}
-    `);
+
+    if (failedExtractions.size) {
+      const seedFilePath = path.join(
+        __dirname,
+        `../../../../src/logs/scrape.status.json`,
+      );
+
+      fs.writeFileSync(
+        seedFilePath,
+        JSON.stringify(failedExtractions, null, 2),
+      );
+      console.log('Scrape completed...');
+    }
   }
 }

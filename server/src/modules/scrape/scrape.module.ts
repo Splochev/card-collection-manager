@@ -3,9 +3,11 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from '../../database/entities/user.entity';
 import { ScrapeService } from './scrape.service';
 import { ScrapeController } from './scrape.controller';
+import { CardsService } from '../cards/cards.service';
+import { CardsModule } from '../cards/cards.module';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([User])],
+  imports: [TypeOrmModule.forFeature([User]), CardsModule],
   controllers: [ScrapeController],
   providers: [ScrapeService],
   exports: [ScrapeService],
