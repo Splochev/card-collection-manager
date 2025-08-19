@@ -4,8 +4,9 @@ const CardWrapper = ({ url, name }: { url?: string; name?: string }) => {
       src={url}
       alt={name}
       style={{
-        width: "15rem",
-        height: "100%",
+        width: "25rem",
+        height: "auto",
+        borderRadius: 6,
       }}
     />
   );

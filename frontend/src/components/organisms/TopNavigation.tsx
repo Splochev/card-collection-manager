@@ -56,6 +56,10 @@ const TopNavigation = ({
     []
   );
 
+  React.useEffect(() => {
+    debouncedSearchCards("ra04-en016");
+  }, []);
+
   return (
     <Paper
       sx={{

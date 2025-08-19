@@ -4,10 +4,12 @@ import EmptyState from "../organisms/EmptyState";
 import type { ICard } from "../../interfaces/card.interface";
 import Grid from "@mui/material/Grid";
 import CardWrapper from "../atoms/CardWrapper";
+import CoreNumber from "../atoms/CoreNumber";
 
 const Cards = () => {
   const [searchedCard, setSearchedCard] = useState<ICard | null>(null);
   const [cards, setCards] = useState<ICard[]>([]);
+  const [quantity, setQuantity] = useState<number | "">(1);
 
   useEffect(() => {
     const unsubscribe = store.subscribe(() => {
@@ -35,10 +37,26 @@ const Cards = () => {
 
   return (
     <Grid>
-      <CardWrapper
-        url={searchedCard?.cards?.imageUrl || undefined}
-        name={searchedCard?.name || undefined}
-      />
+      <Grid
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          gap: 2,
+          paddingBottom: 2
+        }}
+      >
+        <CardWrapper
+          url={searchedCard?.cards?.imageUrl || undefined}
+          name={searchedCard?.name || undefined}
+        />
+        <CoreNumber
+          min={1}
+          max={100}
+          value={quantity}
+          setValue={setQuantity}
+          label="Quantity to Add"
+        />
+      </Grid>
     </Grid>
   );
 };

@@ -6,8 +6,8 @@ import { styled } from "@mui/material/styles";
 import { useState } from "react";
 
 interface InputAdornmentsProps {
-  state?: [string?, ((event: React.ChangeEvent<HTMLInputElement>) => void)?];
-  label: string;
+  state?: [(string | number)?, ((event: React.ChangeEvent<HTMLInputElement>) => void)?];
+  label?: string;
   startIcon?: React.ReactNode;
   endIcon?: React.ReactNode;
   type?: string;
