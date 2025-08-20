@@ -25,8 +25,8 @@ export class CardEditions {
   @Column({ nullable: false })
   name!: string;
 
-  @Column()
-  rarity!: string;
+  @Column('text', { array: true, default: [] })
+  rarities?: string[];
 
   @Column()
   cardId!: number;

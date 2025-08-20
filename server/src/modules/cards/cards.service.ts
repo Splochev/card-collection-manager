@@ -15,6 +15,7 @@ import { CardEditions } from 'src/database/entities/card-editions.entity';
 import { CardEntity } from 'src/database/entities/card.entity';
 import * as fs from 'fs';
 import * as path from 'path';
+import { RARITIES } from './constants';
 
 @Injectable()
 export class CardsService {
@@ -180,19 +181,30 @@ export class CardsService {
 
       const cardEditions: CardEditions[] = [];
       cards.forEach((cardEdition) => {
+        let rarity = cardEdition['Rarity'] || '';
+
+        const rarities: string[] = [];
+        const sortedRarities = RARITIES.sort((a, b) => b.length - a.length);
+        for (const _rarity of sortedRarities) {
+          if ((rarity || '').includes(_rarity)) {
+            rarities.push(_rarity);
+            rarity = rarity.replace(_rarity, '').trim();
+          }
+        }
+
         const obj = {
           cardNumber: cardEdition['Card Number'] || cardEdition['Set number'],
           cardSetName: cardEdition['Collection Name'],
           name: cardEdition['Name'],
-          rarity: cardEdition['Rarity'],
           cardId: cardsMap[cardEdition['Name']],
-        };
+          rarities,
+        } as CardEditions;
 
         if (
           !obj.cardNumber ||
           !obj.cardSetName ||
           !obj.name ||
-          !obj.rarity ||
+          !obj.rarities?.length ||
           !obj.cardId
         ) {
           missingCards.push(cardEdition);

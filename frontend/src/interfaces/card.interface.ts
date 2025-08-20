@@ -3,7 +3,7 @@ export interface ICard {
   cardNumber: string;
   cardSetName: string;
   name: string;
-  rarity: string;
+  rarities: string[];
   cardId: number | string;
   cards: {
     id: number | string;

@@ -5,6 +5,8 @@ import type { ICard } from "../../interfaces/card.interface";
 import Grid from "@mui/material/Grid";
 import CardWrapper from "../atoms/CardWrapper";
 import CoreNumber from "../atoms/CoreNumber";
+import Typography from "@mui/material/Typography";
+import Chips from "../atoms/Chips";
 
 const Cards = () => {
   const [searchedCard, setSearchedCard] = useState<ICard | null>(null);
@@ -36,13 +38,20 @@ const Cards = () => {
   }
 
   return (
-    <Grid>
+    <Grid
+      sx={{
+        display: "flex",
+        flexDirection: "row",
+        gap: 8,
+        paddingBottom: 2,
+      }}
+    >
       <Grid
         sx={{
           display: "flex",
           flexDirection: "column",
           gap: 2,
-          paddingBottom: 2
+          paddingBottom: 2,
         }}
       >
         <CardWrapper
@@ -56,6 +65,17 @@ const Cards = () => {
           setValue={setQuantity}
           label="Quantity to Add"
         />
+      </Grid>
+      <Grid
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          gap: 2,
+          paddingBottom: 2,
+        }}
+      >
+        <Typography variant="h3">{searchedCard?.name}</Typography>
+        <Chips labels={searchedCard?.rarities || []} />
       </Grid>
     </Grid>
   );
