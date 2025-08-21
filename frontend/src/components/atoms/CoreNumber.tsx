@@ -106,9 +106,26 @@ const CoreNumber = ({ min, max, value, label, setValue }: CoreNumberProps) => {
     setValue(quantity);
   }, [quantity, setValue]);
 
+  function onClickPaperFocusInput() {
+    const input = document.getElementById("core-number-input");
+    input?.focus();
+  }
+
   return (
-    <Paper elevation={6} sx={{ padding: 2 }}>
-      <Grid sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%", gap: 2 }}>
+    <Paper
+      elevation={6}
+      sx={{ padding: 2, borderRadius: 3 }}
+      onClick={onClickPaperFocusInput}
+    >
+      <Grid
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          width: "100%",
+          gap: 2,
+        }}
+      >
         <Typography variant="body1" component="h2">
           {label}
         </Typography>
@@ -117,6 +134,10 @@ const CoreNumber = ({ min, max, value, label, setValue }: CoreNumberProps) => {
             disabled={quantity === "" || quantity <= min}
             sx={buttonStyle}
             onMouseDown={() => startHold(handleDecrement)}
+            onClick={(e) => {
+              e.stopPropagation();
+              e.preventDefault();
+            }}
             onMouseUp={stopHold}
             onMouseLeave={stopHold}
             onTouchStart={() => startHold(handleDecrement)}
@@ -128,6 +149,7 @@ const CoreNumber = ({ min, max, value, label, setValue }: CoreNumberProps) => {
           </Button>
           <Grid sx={{ width: "80px", marginRight: 2 }}>
             <CoreInput
+              id="core-number-input"
               type="number"
               state={[quantity, handleInputChange]}
               responsive
@@ -141,6 +163,10 @@ const CoreNumber = ({ min, max, value, label, setValue }: CoreNumberProps) => {
             onMouseLeave={stopHold}
             onTouchStart={() => startHold(handleIncrement)}
             onTouchEnd={stopHold}
+            onClick={(e) => {
+              e.stopPropagation();
+              e.preventDefault();
+            }}
           >
             <Paper elevation={10} sx={{ padding: 0.9, borderRadius: 2.5 }}>
               <AddIcon />

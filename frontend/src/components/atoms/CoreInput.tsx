@@ -12,6 +12,7 @@ interface InputAdornmentsProps {
   endIcon?: React.ReactNode;
   type?: string;
   responsive?: boolean;
+  id?: string;
 }
 
 const InputContainer = styled("div")(({ theme }) => ({
@@ -46,6 +47,7 @@ export default function CoreInput({
   endIcon,
   type = "text",
   responsive = false,
+  id,
 }: InputAdornmentsProps) {
   const [isFocused, setIsFocused] = useState(false);
 
@@ -112,7 +114,7 @@ export default function CoreInput({
                 `calc(1em + ${theme.spacing(startIcon ? 4 : 0)})`,
             },
           }}
-          id={label}
+          id={id || label}
           label={label}
           type={type}
           value={state ? state[0] : ""}

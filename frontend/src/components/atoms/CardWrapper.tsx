@@ -6,7 +6,7 @@ const CardWrapper = ({ url, name }: { url?: string; name?: string }) => {
       style={{
         width: "25rem",
         height: "auto",
-        borderRadius: 6,
+        borderRadius: 12,
       }}
     />
   );

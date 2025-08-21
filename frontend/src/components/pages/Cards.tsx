@@ -3,10 +3,12 @@ import { store } from "../../stores/store";
 import EmptyState from "../organisms/EmptyState";
 import type { ICard } from "../../interfaces/card.interface";
 import Grid from "@mui/material/Grid";
-import CardWrapper from "../atoms/CardWrapper";
-import CoreNumber from "../atoms/CoreNumber";
 import Typography from "@mui/material/Typography";
 import Chips from "../atoms/Chips";
+import CardImageAndQuantity from "../organisms/CardImageAndQuantity";
+import CardSetInfo from "../organisms/CardSetInfo";
+import CardStats from "../organisms/CardStats";
+
 
 const Cards = () => {
   const [searchedCard, setSearchedCard] = useState<ICard | null>(null);
@@ -19,9 +21,7 @@ const Cards = () => {
       setSearchedCard(cards[0]);
       setCards(cards.filter((card) => card.id !== cards[0]?.id));
     });
-    return () => {
-      unsubscribe();
-    };
+    return () => unsubscribe();
   }, []);
 
   if (!cards || !cards.length) {
@@ -38,44 +38,17 @@ const Cards = () => {
   }
 
   return (
-    <Grid
-      sx={{
-        display: "flex",
-        flexDirection: "row",
-        gap: 8,
-        paddingBottom: 2,
-      }}
-    >
-      <Grid
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          gap: 2,
-          paddingBottom: 2,
-        }}
-      >
-        <CardWrapper
-          url={searchedCard?.cards?.imageUrl || undefined}
-          name={searchedCard?.name || undefined}
-        />
-        <CoreNumber
-          min={1}
-          max={100}
-          value={quantity}
-          setValue={setQuantity}
-          label="Quantity to Add"
-        />
-      </Grid>
-      <Grid
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          gap: 2,
-          paddingBottom: 2,
-        }}
-      >
-        <Typography variant="h3">{searchedCard?.name}</Typography>
-        <Chips labels={searchedCard?.rarities || []} />
+    <Grid sx={{ display: "flex", flexDirection: "row", justifyContent: "space-around", width: "100%" }}>
+      <CardImageAndQuantity card={searchedCard} quantity={quantity} setQuantity={setQuantity} />
+      <Grid sx={{ display: "flex", flexDirection: "column", gap: 4, height: "100%", maxWidth: "30rem" }}>
+        <Grid>
+          <Typography variant="h5" sx={{ textWrap: "wrap", marginBottom: 1 }}>
+            {searchedCard?.name}
+          </Typography>
+          <Chips labels={searchedCard?.rarities || []} />
+        </Grid>
+        <CardSetInfo card={searchedCard} />
+        <CardStats card={searchedCard} />
       </Grid>
     </Grid>
   );
