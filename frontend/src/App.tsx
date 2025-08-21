@@ -4,6 +4,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import { lightTheme, darkTheme } from "./themes";
 import { BrowserRouter } from "react-router-dom";
 import PageLayout from "./components/layouts/PageLayout";
+import ScrollbarStyles from "./components/atoms/ScrollbarStyles";
 // import { store } from "./stores/store";
 // import { toggleTheme } from "./stores/themeSlice";
 // store.dispatch(toggleTheme());
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <ScrollbarStyles />
       <BrowserRouter>
         <PageLayout />
       </BrowserRouter>

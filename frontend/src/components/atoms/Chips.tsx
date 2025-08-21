@@ -5,7 +5,7 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { useRef, useState, useEffect } from "react";
 
-const Chips = ({ labels }: { labels: string[] }) => {
+const Chips = ({ labels, width = '35rem' }: { labels: string[], width?: string }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
@@ -41,7 +41,7 @@ const Chips = ({ labels }: { labels: string[] }) => {
       sx={{
         display: "flex",
         gap: 1,
-        maxWidth: "30rem",
+        maxWidth: width,
         alignItems: "center",
       }}
     >

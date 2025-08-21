@@ -1,10 +1,10 @@
-const CardWrapper = ({ url, name }: { url?: string; name?: string }) => {
+const CardWrapper = ({ url, name, width = '25rem'}: { url?: string; name?: string, width?: string }) => {
   return (
     <img
       src={url}
       alt={name}
       style={{
-        width: "25rem",
+        maxWidth: width,
         height: "auto",
         borderRadius: 12,
       }}
