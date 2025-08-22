@@ -142,3 +142,4 @@ dist
 # Ignore extracted data file
 extractedData.md
 server/src/logs
+server/src/database/backups
