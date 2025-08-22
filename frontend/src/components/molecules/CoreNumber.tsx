@@ -2,7 +2,7 @@ import RemoveIcon from "@mui/icons-material/Remove";
 import AddIcon from "@mui/icons-material/Add";
 import Paper from "@mui/material/Paper";
 import Button from "@mui/material/Button";
-import CoreInput from "../atoms/CoreInput";
+import CoreInput from "./CoreInput";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import { useRef, useEffect, useState } from "react";

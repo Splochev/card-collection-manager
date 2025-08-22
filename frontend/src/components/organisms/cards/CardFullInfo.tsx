@@ -1,5 +1,5 @@
 import { Grid, Typography } from "@mui/material";
-import Chips from "../../atoms/Chips";
+import Chips from "../../molecules/Chips";
 import CardSetInfo from "./CardSetInfo";
 import CardStats from "./CardStats";
 import type { ICard } from "../../../interfaces/card.interface";

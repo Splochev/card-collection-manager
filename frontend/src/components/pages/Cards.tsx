@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { store } from "../../stores/store";
-import EmptyState from "../organisms/EmptyState";
 import type { ICard } from "../../interfaces/card.interface";
 import Grid from "@mui/material/Grid";
 import CardImageAndQuantity from "../organisms/cards/CardImageAndQuantity";
 import { setSelectedCardId } from "../../stores/cardSlice";
 import CardFullInfo from "../organisms/cards/CardFullInfo";
 import CardListFromSet from "../organisms/cards/CardListFromSet";
+import EmptyState from "../organisms/shared/EmptyState";
 
 const Cards = () => {
   const { cardId } = useParams();

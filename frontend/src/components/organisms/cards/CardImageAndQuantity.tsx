@@ -1,6 +1,6 @@
 import Grid from "@mui/material/Grid";
 import CardWrapper from "../../atoms/CardWrapper";
-import CoreNumber from "../../atoms/CoreNumber";
+import CoreNumber from "../../molecules/CoreNumber";
 import type { ICard } from "../../../interfaces/card.interface";
 
 interface Props {

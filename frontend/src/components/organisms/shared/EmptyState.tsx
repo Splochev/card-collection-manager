@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography";
 import { useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
-import CollectionIcon from "../icons/CollectionIcon";
+import CollectionIcon from "../../icons/CollectionIcon";
 
 const EmptyState = ({
   title,

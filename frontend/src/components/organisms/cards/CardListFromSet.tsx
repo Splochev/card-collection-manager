@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import type { ICard } from "../../../interfaces/card.interface";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import Chips from "../../atoms/Chips";
+import Chips from "../../molecules/Chips";
 import Paper from "@mui/material/Paper";
 import CardWrapper from "../../atoms/CardWrapper";
 

@@ -7,7 +7,7 @@ import ThemeSwitch from "../../atoms/ThemeSwitch";
 import { useState } from "react";
 import Logo from "../../icons/Logo";
 import Grid from "@mui/material/Grid";
-import CoreInput from "../../atoms/CoreInput";
+import CoreInput from "../../molecules/CoreInput";
 import { setCards } from "../../../stores/cardSlice";
 import SearchIcon from "@mui/icons-material/Search";
 import SDK from "../../../sdk/SDK";
