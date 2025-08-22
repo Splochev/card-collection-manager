@@ -1,8 +1,8 @@
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Paper from "@mui/material/Paper";
-import { PAGES } from "../../constants";
-import { getTabProps } from "../../utils";
+import { PAGES } from "../../../constants";
+import { getTabProps } from "../../../utils";
 
 const BottomNavigation = ({
   value,

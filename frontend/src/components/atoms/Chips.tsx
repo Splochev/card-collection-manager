@@ -5,7 +5,13 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { useRef, useState, useEffect } from "react";
 
-const Chips = ({ labels, width = '35rem' }: { labels: string[], width?: string }) => {
+const Chips = ({
+  labels,
+  width = "35rem",
+}: {
+  labels: string[];
+  width?: string;
+}) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
@@ -47,8 +53,10 @@ const Chips = ({ labels, width = '35rem' }: { labels: string[], width?: string }
     >
       {showButtons && (
         <IconButton
-          onClick={() => scrollBy(-120)}
-          disabled={!canScrollLeft}
+          onClick={() => {
+            if (!canScrollLeft) return;
+            scrollBy(-120);
+          }}
           aria-label="Scroll left"
         >
           <ChevronLeftIcon />
@@ -71,8 +79,10 @@ const Chips = ({ labels, width = '35rem' }: { labels: string[], width?: string }
       </Grid>
       {showButtons && (
         <IconButton
-          onClick={() => scrollBy(120)}
-          disabled={!canScrollRight}
+          onClick={() => {
+            if (!canScrollRight) return;
+            scrollBy(120);
+          }}
           aria-label="Scroll right"
         >
           <ChevronRightIcon />

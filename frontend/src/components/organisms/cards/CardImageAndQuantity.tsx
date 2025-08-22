@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid";
-import CardWrapper from "../atoms/CardWrapper";
-import CoreNumber from "../atoms/CoreNumber";
-import type { ICard } from "../../interfaces/card.interface";
+import CardWrapper from "../../atoms/CardWrapper";
+import CoreNumber from "../../atoms/CoreNumber";
+import type { ICard } from "../../../interfaces/card.interface";
 
 interface Props {
   card: ICard | null;
@@ -14,7 +14,7 @@ const CardImageAndQuantity = ({ card, quantity, setQuantity }: Props) => (
     sx={{
       display: "flex",
       flexDirection: "column",
-      justifyContent: "space-around",
+      gap: 6,
       height: "100%",
     }}
   >

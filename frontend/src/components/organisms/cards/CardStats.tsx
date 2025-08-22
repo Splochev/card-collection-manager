@@ -1,7 +1,7 @@
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import type { ICard } from "../../interfaces/card.interface";
+import type { ICard } from "../../../interfaces/card.interface";
 import CardDescription from "./CardDescription";
 
 const CardStats = ({ card }: { card: ICard | null }) => {
@@ -10,7 +10,7 @@ const CardStats = ({ card }: { card: ICard | null }) => {
     : card?.cards?.type;
   const isMonster = card?.cards?.type?.includes("Monster");
   return (
-    <Paper elevation={6} sx={{ padding: 2, borderRadius: 3, gap: 2, display: "flex", flexDirection: "column" }}>
+    <Paper elevation={6} sx={{ padding: 2, borderRadius: 3, gap: 2, display: "flex", flexDirection: "column", width: "100%" }}>
       <Typography variant="h6" component="p">Card stats</Typography>
       <Grid container spacing={2} justifyContent={"space-between"}>
         <Typography variant="body2" component="p">{typeline}</Typography>

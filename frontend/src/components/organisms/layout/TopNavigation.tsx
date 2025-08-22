@@ -3,19 +3,19 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Paper from "@mui/material/Paper";
 import { useLocation, useNavigate } from "react-router-dom";
-import ThemeSwitch from "../atoms/ThemeSwitch";
+import ThemeSwitch from "../../atoms/ThemeSwitch";
 import { useState } from "react";
-import Logo from "../icons/Logo";
+import Logo from "../../icons/Logo";
 import Grid from "@mui/material/Grid";
-import CoreInput from "../atoms/CoreInput";
-import { setCards } from "../../stores/cardSlice";
+import CoreInput from "../../atoms/CoreInput";
+import { setCards } from "../../../stores/cardSlice";
 import SearchIcon from "@mui/icons-material/Search";
-import SDK from "../../sdk/SDK";
+import SDK from "../../../sdk/SDK";
 import debounce from "lodash/debounce";
-import { CARD_SET_CODE_REGEX, PAGES, ROUTES_MAP } from "../../constants";
-import { getTabProps } from "../../utils";
-import { store } from "../../stores/store";
-import type { ICard } from "../../interfaces/card.interface";
+import { CARD_SET_CODE_REGEX, PAGES, ROUTES_MAP } from "../../../constants";
+import { getTabProps } from "../../../utils";
+import { store } from "../../../stores/store";
+import type { ICard } from "../../../interfaces/card.interface";
 
 const TopNavigation = ({
   value,
