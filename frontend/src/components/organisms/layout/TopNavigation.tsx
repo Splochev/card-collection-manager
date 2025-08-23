@@ -15,7 +15,14 @@ import debounce from "lodash/debounce";
 import { CARD_SET_CODE_REGEX, PAGES, ROUTES_MAP } from "../../../constants";
 import { getTabProps } from "../../../utils";
 import { store } from "../../../stores/store";
+import useConfirm from "../../../hooks/useConfirm";
 import type { ICard } from "../../../interfaces/card.interface";
+import Typography from "@mui/material/Typography";
+
+const HOST = import.meta.env.VITE_REACT_APP_HOST;
+if (!HOST) {
+  throw new Error("VITE_REACT_APP_HOST is not defined");
+}
 
 const TopNavigation = ({
   value,
@@ -26,11 +33,46 @@ const TopNavigation = ({
   handleChange: (event: React.SyntheticEvent, newValue: number) => void;
   isSmDown: boolean;
 }) => {
-  const sdk = SDK.getInstance("http://localhost:3000"); // TODO replace with .env variable
+  const sdk = SDK.getInstance(HOST);
   const location = useLocation();
   const navigate = useNavigate();
+  const { confirm } = useConfirm();
+  const [searchValue, setSearchValue] = useState(
+    window.location.pathname.split("/").pop() || ""
+  );
 
-  const [searchValue, setSearchValue] = useState(window.location.pathname.split("/").pop() || "");
+  const fetchCardSet = React.useCallback(
+    async (cardSetNameValue: string) => {
+      console.log(cardSetNameValue, searchValue);
+
+      try {
+        await sdk.cardsManager.findCardSets([cardSetNameValue]);
+        await confirm({
+          title: "Success",
+          message:
+            "Job for finding cards for this set has been started, we will notify you when it's done.",
+          variant: "success",
+          confirmText: "Confirm",
+          cancelText: "Cancel",
+          dismissible: true,
+        });
+      } catch (error) {
+        console.error("Error fetching card set:", error);
+        await confirm({
+          title: "Error",
+          message:
+            "An error occurred while trying to find cards for this set: " +
+            cardSetNameValue,
+          variant: "error",
+          confirmText: "Confirm",
+          cancelText: "Cancel",
+          dismissible: true,
+        });
+      }
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [searchValue]
+  );
 
   const searchCards = React.useCallback(
     async (cardSetCode: string) => {
@@ -47,7 +89,11 @@ const TopNavigation = ({
         const storedCards = store.getState().cards.cards;
         let cards: ICard[] | undefined;
 
-        if(storedCards && storedCards.length && storedCards.some(c => c.cardNumber === cardSetCode)) {
+        if (
+          storedCards &&
+          storedCards.length &&
+          storedCards.some((c) => c.cardNumber === cardSetCode)
+        ) {
           cards = storedCards;
           setSearchValue(cardSetCode);
         } else {
@@ -58,11 +104,57 @@ const TopNavigation = ({
         }
 
         store.dispatch(setCards(cards));
-      } catch (error) {
-        console.error("Error fetching cards:", error);
-        store.dispatch(setCards([]));
+      } catch (error: any) {
+        if (
+          error?.response?.data?.statusCode === 404 &&
+          error?.response?.data?.message.toLowerCase().includes("not found")
+        ) {
+          try {
+            let cardSetNameValue = "";
+            const confirmed = await confirm({
+              title: "Card set not found",
+              message: "",
+              custom: () => (
+                <Grid sx={{ flexDirection: "column", display: "flex", gap: 2 }}>
+                  <Typography
+                    sx={{ marginLeft: 1 }}
+                    variant="body2"
+                    component="p"
+                  >
+                    We couldn't find the card set you're looking for. Would you
+                    like to provide the card set name for the card with set
+                    code: {searchValue}?
+                  </Typography>
+                  <CoreInput
+                    label="Card Set Name (e.g. Metal Raiders, Alliance Insight, etc...)"
+                    onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                      (cardSetNameValue = e.target.value)
+                    }
+                  />
+                </Grid>
+              ),
+              variant: "info",
+              confirmText: "Confirm",
+              cancelText: "Cancel",
+              dismissible: true,
+            });
+
+            if (confirmed && cardSetNameValue) {
+              fetchCardSet(cardSetNameValue);
+            } else {
+              store.dispatch(setCards([]));
+            }
+          } catch (e) {
+            console.error("Error fetching cards:", e);
+            store.dispatch(setCards([]));
+          }
+        } else {
+          console.error("Error fetching cards:", error);
+          store.dispatch(setCards([]));
+        }
       }
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [sdk, navigate]
   );
 
@@ -119,13 +211,11 @@ const TopNavigation = ({
           </Grid>
           <CoreInput
             label={label}
-            state={[
-              searchValue,
-              (e: React.ChangeEvent<HTMLInputElement>) => {
-                setSearchValue(e.target.value);
-                debouncedSearchCards(e.target.value);
-              },
-            ]}
+            value={searchValue}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+              setSearchValue(e.target.value);
+              debouncedSearchCards(e.target.value);
+            }}
             startIcon={<SearchIcon />}
             responsive
           />
@@ -148,13 +238,11 @@ const TopNavigation = ({
           <Logo />
           <CoreInput
             label={label}
-            state={[
-              searchValue,
-              (e: React.ChangeEvent<HTMLInputElement>) => {
-                setSearchValue(e.target.value);
-                debouncedSearchCards(e.target.value);
-              },
-            ]}
+            value={searchValue}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+              setSearchValue(e.target.value);
+              debouncedSearchCards(e.target.value);
+            }}
             startIcon={<SearchIcon />}
           />
         </Grid>

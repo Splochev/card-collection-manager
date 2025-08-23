@@ -6,7 +6,8 @@ import { styled } from "@mui/material/styles";
 import { useState } from "react";
 
 interface InputAdornmentsProps {
-  state?: [(string | number)?, ((event: React.ChangeEvent<HTMLInputElement>) => void)?];
+  value?: string | number;
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
   label?: string;
   startIcon?: React.ReactNode;
   endIcon?: React.ReactNode;
@@ -42,7 +43,8 @@ const StyledInputBase = styled(OutlinedInput)(({ theme }) => ({
 
 export default function CoreInput({
   label,
-  state,
+  value,
+  onChange,
   startIcon,
   endIcon,
   type = "text",
@@ -84,7 +86,7 @@ export default function CoreInput({
       <InputLabel
         htmlFor={label}
         sx={
-          isFocused || state?.[0]
+          isFocused || value
             ? null
             : {
                 position: "absolute",
@@ -117,8 +119,8 @@ export default function CoreInput({
           id={id || label}
           label={label}
           type={type}
-          value={state ? state[0] : ""}
-          onChange={state ? state[1] : undefined}
+          value={value}
+          onChange={onChange}
           onFocus={() => setIsFocused(true)}
           onBlur={() => setIsFocused(false)}
           endAdornment={

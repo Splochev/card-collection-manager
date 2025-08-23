@@ -20,4 +20,18 @@ export default class CardsManager {
     );
     return data;
   }
+
+  /**
+   * Scrapes card sets by name.
+   */
+  async findCardSets(cardSetNames: string[]): Promise<void> {
+    const password = import.meta.env.VITE_REACT_APP_PASSWORD;
+    if (!password) {
+      throw new Error("VITE_REACT_APP_PASSWORD is not defined");
+    }
+
+    await axios.post<void>(`${this.systemUrl}/scrape`, cardSetNames, {
+      headers: { password },
+    });
+  }
 }

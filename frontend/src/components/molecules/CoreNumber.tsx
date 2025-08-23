@@ -151,7 +151,8 @@ const CoreNumber = ({ min, max, value, label, setValue }: CoreNumberProps) => {
             <CoreInput
               id="core-number-input"
               type="number"
-              state={[quantity, handleInputChange]}
+              value={quantity}
+              onChange={handleInputChange}
               responsive
             />
           </Grid>
