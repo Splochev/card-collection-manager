@@ -53,6 +53,7 @@ const Chips = ({
     >
       {showButtons && (
         <IconButton
+          disabled={!canScrollLeft}
           onClick={() => {
             if (!canScrollLeft) return;
             scrollBy(-120);
@@ -79,6 +80,7 @@ const Chips = ({
       </Grid>
       {showButtons && (
         <IconButton
+          disabled={!canScrollRight}
           onClick={() => {
             if (!canScrollRight) return;
             scrollBy(120);

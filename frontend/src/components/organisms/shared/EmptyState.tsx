@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
-import { useState } from "react";
+import { useState, type JSX } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import CollectionIcon from "../../icons/CollectionIcon";
@@ -10,10 +10,12 @@ const EmptyState = ({
   title,
   description,
   callback,
+  custom
 }: {
   title: string;
   description: string;
   callback: () => void;
+  custom?: () => JSX.Element;
 }) => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
 
@@ -41,11 +43,12 @@ const EmptyState = ({
         alignItems: "center",
         textAlign: "center",
         justifyContent: "space-around",
-        width: "60%",
         height: "fit-content",
         paddingY: 12,
         borderRadius: 2,
         cursor: "pointer",
+        maxWidth: "800px",
+        width: "100%",
       }}
     >
       <Grid
@@ -115,7 +118,12 @@ const EmptyState = ({
           </Grid>
         </Grid>
         <Typography variant="h5">{title}</Typography>
-        <Typography variant="body2">{description}</Typography>
+        <Typography variant="body2" sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: 0.5}}>
+          {description.split(/\r?\n/).map((line, idx) => (
+            <span key={"description-" + idx}>{line}<br /></span>
+          ))}
+        </Typography>
+        {custom && custom()}
       </Grid>
     </Paper>
   );

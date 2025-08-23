@@ -60,7 +60,7 @@ export default function PageLayout() {
       >
         {!isValidRoute && <Navigate to="/cards" replace />}
         <Routes>
-          <Route path="/cards/:cardId?" element={<Cards />} />
+          <Route path="/cards/:cardNumber?" element={<Cards />} />
           <Route path="/collection" element={<Collection />} />
         </Routes>
       </Grid>

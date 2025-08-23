@@ -15,7 +15,11 @@ const CardImageAndQuantity = ({ card, quantity, setQuantity }: Props) => (
       display: "flex",
       flexDirection: "column",
       gap: 6,
-      height: "100%",
+      // responsive sizing: full width on xs, fixed-ish on md+
+      flex: { xs: "1 1 100%", md: "0 0 25rem" },
+      width: { xs: "100%", md: "25rem" },
+      minWidth: { xs: 0, md: '18em' },
+      maxWidth: { xs: "21rem", md: "25rem" }
     }}
   >
     <CardWrapper url={card?.cards?.imageUrl || undefined} name={card?.name || undefined} />

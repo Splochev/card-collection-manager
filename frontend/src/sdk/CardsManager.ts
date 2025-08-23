@@ -22,7 +22,7 @@ export default class CardsManager {
   }
 
   /**
-   * Scrapes card sets by name.
+   * Searches card sets by name.
    */
   async findCardSets(cardSetNames: string[], socketId?: string): Promise<void> {
     const password = import.meta.env.VITE_REACT_APP_PASSWORD;

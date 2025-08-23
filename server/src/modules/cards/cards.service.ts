@@ -277,10 +277,10 @@ export class CardsService {
       fs.writeFileSync(seedFilePath, JSON.stringify(updatedData, null, 2));
     }
 
-    // notify clients that scraping finished for this collection
+    // notify clients that searching finished for this collection
     try {
       const payload = { collectionName, count: cards.length };
-      this.scrapeGateway?.notifyScrapeFinished(payload, socketId);
+      this.scrapeGateway?.notifySearchFinished(payload, socketId);
     } catch (e) {
       // ignore errors emitting websocket notifications
     }
