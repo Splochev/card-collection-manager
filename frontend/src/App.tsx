@@ -6,6 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 import PageLayout from "./components/layouts/PageLayout";
 import ScrollbarStyles from "./components/atoms/ScrollbarStyles";
 import ConfirmDialog from "./components/organisms/layout/ConfirmDialog";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 // import { store } from "./stores/store";
 // import { toggleTheme } from "./stores/themeSlice";
 // store.dispatch(toggleTheme());
@@ -21,6 +23,7 @@ function App() {
       <BrowserRouter>
         <PageLayout />
         <ConfirmDialog />
+        <ToastContainer />
       </BrowserRouter>
     </ThemeProvider>
   );

@@ -106,6 +106,7 @@ export class ScrapeService {
   async scrapeCardCollection(
     collectionName: string,
     failedExtractions: Set<string>,
+    socketId?: string,
   ): Promise<void> {
     const urlCollectionName = collectionName.replace(/ /g, '_');
     const url = `https://yugioh.fandom.com/wiki/${urlCollectionName}`;
@@ -180,13 +181,17 @@ export class ScrapeService {
     void this.cardService.saveCards(
       collectionName,
       rows as unknown as ScrapeCardDto[],
+      socketId,
     );
 
     console.log(`Scraped ${collectionName} successfully!`);
     failedExtractions.delete(url);
   }
 
-  async scrapeCards(collectionNames: string[]): Promise<void> {
+  async scrapeCards(
+    collectionNames: string[],
+    socketId?: string,
+  ): Promise<void> {
     console.log('Scraping started...');
     // delete everything from folder logs
     const logsPath = path.join(__dirname, `../../../../src/logs`);
@@ -198,7 +203,11 @@ export class ScrapeService {
     while (collectionNames.length) {
       const collectionName = collectionNames.pop() || '';
       try {
-        await this.scrapeCardCollection(collectionName, failedExtractions);
+        await this.scrapeCardCollection(
+          collectionName,
+          failedExtractions,
+          socketId,
+        );
       } catch (error) {
         const message =
           error instanceof Error ? error.message.toUpperCase() : String(error);

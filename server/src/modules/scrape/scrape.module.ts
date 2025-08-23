@@ -5,9 +5,10 @@ import { ScrapeService } from './scrape.service';
 import { ScrapeController } from './scrape.controller';
 import { CardsService } from '../cards/cards.service';
 import { CardsModule } from '../cards/cards.module';
+import { WebsocketModule } from '../websocket/websocket.module';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([User]), CardsModule],
+  imports: [TypeOrmModule.forFeature([User]), CardsModule, WebsocketModule],
   controllers: [ScrapeController],
   providers: [ScrapeService],
   exports: [ScrapeService],

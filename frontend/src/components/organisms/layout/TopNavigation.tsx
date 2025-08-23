@@ -18,6 +18,9 @@ import { store } from "../../../stores/store";
 import useConfirm from "../../../hooks/useConfirm";
 import type { ICard } from "../../../interfaces/card.interface";
 import Typography from "@mui/material/Typography";
+import { io, type Socket } from "socket.io-client";
+import { toast } from "react-toastify";
+import { Button } from "@mui/material";
 
 const HOST = import.meta.env.VITE_REACT_APP_HOST;
 if (!HOST) {
@@ -35,44 +38,12 @@ const TopNavigation = ({
 }) => {
   const sdk = SDK.getInstance(HOST);
   const location = useLocation();
+  const param = new URLSearchParams(location.search);
   const navigate = useNavigate();
   const { confirm } = useConfirm();
-  const [searchValue, setSearchValue] = useState(
-    window.location.pathname.split("/").pop() || ""
-  );
-
-  const fetchCardSet = React.useCallback(
-    async (cardSetNameValue: string) => {
-      console.log(cardSetNameValue, searchValue);
-
-      try {
-        await sdk.cardsManager.findCardSets([cardSetNameValue]);
-        await confirm({
-          title: "Success",
-          message:
-            "Job for finding cards for this set has been started, we will notify you when it's done.",
-          variant: "success",
-          confirmText: "Confirm",
-          cancelText: "Cancel",
-          dismissible: true,
-        });
-      } catch (error) {
-        console.error("Error fetching card set:", error);
-        await confirm({
-          title: "Error",
-          message:
-            "An error occurred while trying to find cards for this set: " +
-            cardSetNameValue,
-          variant: "error",
-          confirmText: "Confirm",
-          cancelText: "Cancel",
-          dismissible: true,
-        });
-      }
-    },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [searchValue]
-  );
+  const [searchValue, setSearchValue] = useState(param.get("cardId") || "");
+  const searchValueRef = React.useRef(searchValue);
+  const socketIdRef = React.useRef<string>('');
 
   const searchCards = React.useCallback(
     async (cardSetCode: string) => {
@@ -151,6 +122,7 @@ const TopNavigation = ({
         } else {
           console.error("Error fetching cards:", error);
           store.dispatch(setCards([]));
+          toast.error("Error fetching cards.");
         }
       }
     },
@@ -158,19 +130,81 @@ const TopNavigation = ({
     [sdk, navigate]
   );
 
-  const label = location.pathname.includes(ROUTES_MAP.CARDS)
-    ? "Find cards by set code"
-    : "Find cards in collection by card name, set code or set name";
-
   const debouncedSearchCards = React.useMemo(
     () => debounce(searchCards, 400),
     [searchCards]
   );
 
   React.useEffect(() => {
+    searchValueRef.current = searchValue;
+  }, [searchValue]);
+
+  React.useEffect(() => {
+      const socket: Socket = io(`${HOST}/scrape`);
+    socket.on(
+      "scrapeFinished",
+      async (payload: {
+        collectionName: string;
+        count?: number;
+        cardNumber?: string;
+      }) => {
+        const { collectionName, cardNumber } = payload || {};
+        const target = cardNumber || searchValueRef.current || "";
+        toast.success(
+          <Grid
+            sx={{ display: "flex", gap: 1, alignItems: "start", marginTop: 1 }}
+          >
+            <Typography variant="body2">
+              Finished scraping "{collectionName}".
+            </Typography>
+            <Button
+              variant="text"
+              href={target ? `/cards/${target}` : "/cards"}
+              sx={{ width: 80 }}
+            >
+              View
+            </Button>
+          </Grid>,
+          { autoClose: 8000 }
+        );
+      }
+    );
+      socket.on('connect', () => {
+        // capture socket id for POST requests
+        socketIdRef.current = socket.id;
+      });
+
+    return () => {
+      socket.disconnect();
+    };
+  }, []);
+
+  React.useEffect(() => {
     const cardSetCode = window.location.pathname.split("/").pop() || "";
     if (cardSetCode) debouncedSearchCards(cardSetCode);
   }, [debouncedSearchCards]);
+
+  const fetchCardSet = React.useCallback(
+    async (cardSetNameValue: string) => {
+      try {
+          // pass socket id header so server can reply only to this client
+          const socketId = socketIdRef.current || undefined;
+          await sdk.cardsManager.findCardSets([cardSetNameValue], socketId);
+        toast.success(
+          "Scrape job started — you will be notified when it finishes."
+        );
+      } catch (error) {
+        console.error("Error fetching card set:", error);
+        toast.error("Failed to start scrape job. Please try again.");
+      }
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [searchValue]
+  );
+
+  const label = location.pathname.includes(ROUTES_MAP.CARDS)
+    ? "Find cards by set code"
+    : "Find cards in collection by card name, set code or set name";
 
   return (
     <Paper

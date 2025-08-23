@@ -1,4 +1,11 @@
-import { Body, Controller, Param, Post, UseGuards } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Param,
+  Post,
+  UseGuards,
+  Headers,
+} from '@nestjs/common';
 import { ScrapeService } from './scrape.service';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { Public } from 'src/decorators/public.decorator';
@@ -16,8 +23,9 @@ export class ScrapeController {
   @Post('/')
   migrateCardSets(
     @Body() dto: string[],
+    @Headers('x-socket-id') socketId?: string,
   ): Promise<{ message: string; status: number }> {
-    void this.scrapeService.scrapeCards(dto);
+    void this.scrapeService.scrapeCards(dto, socketId);
     return Promise.resolve({
       message: 'Scrape job started successfully',
       status: 201,

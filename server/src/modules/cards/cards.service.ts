@@ -16,6 +16,7 @@ import { CardEntity } from 'src/database/entities/card.entity';
 import * as fs from 'fs';
 import * as path from 'path';
 import { RARITIES } from './constants';
+import { ScrapeGateway } from '../websocket/scrape.gateway';
 
 @Injectable()
 export class CardsService {
@@ -25,6 +26,7 @@ export class CardsService {
     @InjectRepository(CardEditions)
     private readonly cardEditionsRepository: Repository<CardEditions>,
     private readonly httpService: HttpService,
+    private readonly scrapeGateway: ScrapeGateway,
   ) {}
 
   async upsertCardsFromSet(cardSetName: string) {
@@ -163,7 +165,11 @@ export class CardsService {
     return parsedCard as CardDto;
   }
 
-  async saveCards(collectionName: string, cards: ScrapeCardDto[]) {
+  async saveCards(
+    collectionName: string,
+    cards: ScrapeCardDto[],
+    socketId?: string,
+  ) {
     const missingCards: ScrapeCardDto[] = [];
 
     try {
@@ -269,6 +275,14 @@ export class CardsService {
 
       const updatedData = [...existingData, ...missingCards];
       fs.writeFileSync(seedFilePath, JSON.stringify(updatedData, null, 2));
+    }
+
+    // notify clients that scraping finished for this collection
+    try {
+      const payload = { collectionName, count: cards.length };
+      this.scrapeGateway?.notifyScrapeFinished(payload, socketId);
+    } catch (e) {
+      // ignore errors emitting websocket notifications
     }
   }
 }
