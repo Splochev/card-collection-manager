@@ -25,12 +25,7 @@ export default class CardsManager {
    * Searches card sets by name.
    */
   async findCardSets(cardSetNames: string[], socketId?: string): Promise<void> {
-    const password = import.meta.env.VITE_REACT_APP_PASSWORD;
-    if (!password) {
-      throw new Error("VITE_REACT_APP_PASSWORD is not defined");
-    }
-
-    const headers: Record<string, string> = { password };
+    const headers: Record<string, string> = {};
     if (socketId) headers["x-socket-id"] = socketId;
 
     await axios.post<void>(`${this.systemUrl}/scrape`, cardSetNames, {

@@ -3,17 +3,44 @@ import Grid from "@mui/material/Grid";
 
 const CardsLoadingScreen = () => {
     return ( 
-      <Grid sx={{ display: "flex", flexDirection: "row", justifyContent: "space-around", width: "100%", gap: 4}}>
-        <Grid sx={{ display: "flex", flexDirection: "column", gap: 6, height: "100%", width: '100%', maxWidth: '25rem' }}>
+    <Grid
+      sx={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-around",
+        width: "100%",
+        gap: 4,
+        flexWrap: "wrap",
+        alignItems: "flex-start",
+      }}
+    >
+      <Grid
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          gap: 6,
+          // responsive sizing: full width on xs, fixed-ish on md+
+            flex: { xs: "1 1 100%", md: "0 0 25rem" },
+            width: { xs: "100%", md: "25rem" },
+            minWidth: { xs: 0, md: '18em' },
+            maxWidth: { xs: "21rem", md: "25rem" }
+          }}
+        >
           <Skeleton animation="wave" variant="rounded" sx={{ height: 580, width: '100%'}} />
           <Skeleton animation="wave" variant="rounded" sx={{ height: 140, width: '100%'}} />
         </Grid>
-        <Grid sx={{ display: "flex", flexDirection: "column", gap: 6, height: "100%", width: '100%', maxWidth: '35rem' }}>
+        <Grid sx={{ display: "flex", flexDirection: "column", gap: 4, width: '100%', overflowY: "auto", maxWidth: "35rem",
+          flex: { xs: "1 1 100%", md: "1 1 35rem" },
+          minWidth: { xs: 0, md: 300 }
+        }}>
           <Skeleton variant="rounded" sx={{ height: 80, width: '100%'}} />
           <Skeleton variant="rounded" sx={{ height: 160, width: '100%'}} />
           <Skeleton variant="rounded" sx={{ height: 400, width: '100%'}} />
         </Grid>
-        <Grid sx={{ display: "flex", flexDirection: "column", gap: 2, maxWidth: '35rem', width: '100%', }}>
+        <Grid sx={{ display: "flex", flexDirection: "column", gap: 2, maxWidth: '35rem', minWidth: '21rem',
+          flex: { xs: "1 1 100%", md: "0 0 35rem" },
+          width: { xs: "100%", md: "35rem" },
+        }}>
           <Typography variant="h6">Other Cards from set</Typography>
           <Grid sx={{ display: "flex", flexDirection: "column", gap: 4, width: '100%', overflowY: 'auto', paddingRight: 2 }}>
             {Array.from({ length: 4 }).map((_, index) => {

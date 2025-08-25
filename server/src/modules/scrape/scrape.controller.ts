@@ -9,7 +9,6 @@ import {
 import { ScrapeService } from './scrape.service';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { Public } from 'src/decorators/public.decorator';
-import { SuperAdminPasswordGuard } from '../../guards/super-admin-password.guard';
 
 @Controller('scrape')
 export class ScrapeController {
@@ -19,7 +18,6 @@ export class ScrapeController {
   @ApiOperation({ summary: 'Create a new scrape job for cards' })
   @ApiResponse({ status: 201, description: 'Scrape job created successfully' })
   @ApiResponse({ status: 400, description: 'Invalid data' })
-  @UseGuards(SuperAdminPasswordGuard)
   @Post('/')
   migrateCardSets(
     @Body() dto: string[],

@@ -23,6 +23,29 @@ const Chips = ({
     setCanScrollRight(el.scrollLeft + el.clientWidth < el.scrollWidth);
   };
 
+  // Ref to store the interval id for continuous scrolling while a button is held
+  const scrollIntervalRef = useRef<number | null>(null);
+  const SCROLL_STEP = 5; // pixels per tick
+  const SCROLL_TICK = 8; // ms per tick (~60fps)
+
+  const stopScrolling = () => {
+    if (scrollIntervalRef.current !== null) {
+      window.clearInterval(scrollIntervalRef.current);
+      scrollIntervalRef.current = null;
+    }
+  };
+
+  const startScrolling = (direction: number) => {
+    stopScrolling();
+    scrollIntervalRef.current = window.setInterval(() => {
+      const el = scrollRef.current;
+      if (!el) return;
+      // use non-smooth scrolling for continuous behavior
+      el.scrollBy({ left: direction * SCROLL_STEP });
+      updateScrollButtons();
+    }, SCROLL_TICK) as unknown as number;
+  };
+
   useEffect(() => {
     updateScrollButtons();
     const el = scrollRef.current;
@@ -32,14 +55,9 @@ const Chips = ({
     return () => {
       el.removeEventListener("scroll", updateScrollButtons);
       window.removeEventListener("resize", updateScrollButtons);
+      stopScrolling();
     };
   }, [labels.length]);
-
-  const scrollBy = (amount: number) => {
-    const el = scrollRef.current;
-    if (!el) return;
-    el.scrollBy({ left: amount, behavior: "smooth" });
-  };
 
   const showButtons = canScrollLeft || canScrollRight;
   return (
@@ -54,10 +72,25 @@ const Chips = ({
       {showButtons && (
         <IconButton
           disabled={!canScrollLeft}
-          onClick={() => {
-            if (!canScrollLeft) return;
-            scrollBy(-120);
+          onPointerDown={(e) => {
+            e.preventDefault();
+            startScrolling(-1);
+            try {
+              (e.currentTarget as any).setPointerCapture?.(e.pointerId);
+            } catch {
+              /* ignore */
+            }
           }}
+          onPointerUp={(e) => {
+            stopScrolling();
+            try {
+              (e.currentTarget as any).releasePointerCapture?.(e.pointerId);
+            } catch {
+              /* ignore */
+            }
+          }}
+          onPointerCancel={() => stopScrolling()}
+          onPointerLeave={() => stopScrolling()}
           aria-label="Scroll left"
         >
           <ChevronLeftIcon />
@@ -81,10 +114,25 @@ const Chips = ({
       {showButtons && (
         <IconButton
           disabled={!canScrollRight}
-          onClick={() => {
-            if (!canScrollRight) return;
-            scrollBy(120);
+          onPointerDown={(e) => {
+            e.preventDefault();
+            startScrolling(1);
+            try {
+              (e.currentTarget as any).setPointerCapture?.(e.pointerId);
+            } catch {
+              /* ignore */
+            }
           }}
+          onPointerUp={(e) => {
+            stopScrolling();
+            try {
+              (e.currentTarget as any).releasePointerCapture?.(e.pointerId);
+            } catch {
+              /* ignore */
+            }
+          }}
+          onPointerCancel={() => stopScrolling()}
+          onPointerLeave={() => stopScrolling()}
           aria-label="Scroll right"
         >
           <ChevronRightIcon />

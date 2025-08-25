@@ -17,11 +17,11 @@ import { store } from "../../stores/store";
 import CoreInput from "../molecules/CoreInput";
 import CardsLoadingScreen from "../organisms/cards/CardsLoadingScreen";
 
-const HOST = import.meta.env.VITE_REACT_APP_HOST;
-if (!HOST) throw new Error("VITE_REACT_APP_HOST is not defined");
+const VITE_REACT_BACKEND_URL = import.meta.env.VITE_REACT_BACKEND_URL;
+if (!VITE_REACT_BACKEND_URL) throw new Error("VITE_REACT_BACKEND_URL is not defined");
 
 const Cards = () => {
-  const sdk = SDK.getInstance(HOST);
+  const sdk = SDK.getInstance(VITE_REACT_BACKEND_URL);
   const navigate = useNavigate();
   const [searchedCard, setSearchedCard] = useState<ICard | null>(null);
   const [cardsList, setCardsList] = useState<ICard[]>([]);
@@ -102,7 +102,7 @@ const Cards = () => {
   }, [searchCards]);
 
   React.useEffect(() => {
-    const socket: Socket = io(`${HOST}/card-manager`);
+    const socket: Socket = io(`${VITE_REACT_BACKEND_URL}/card-manager`);
     socket.on(
       "searchCardSetFinished",
       async (payload: { collectionName: string }) => {
@@ -186,7 +186,6 @@ const Cards = () => {
     <Grid
       sx={{
         display: "flex",
-        // keep row layout but allow wrapping; components control order internally
         flexDirection: "row",
         justifyContent: "space-around",
         width: "100%",

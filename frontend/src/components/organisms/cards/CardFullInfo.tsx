@@ -7,7 +7,6 @@ import type { ICard } from "../../../interfaces/card.interface";
 const CardFullInfo = ({card} : {card: ICard | null}) => {
     return (  
       <Grid sx={{ display: "flex", flexDirection: "column", gap: 4, width: '100%', overflowY: "auto", maxWidth: "35rem",
-        // responsive placement: full width on xs, flexible center column on md+
         flex: { xs: "1 1 100%", md: "1 1 35rem" },
         minWidth: { xs: 0, md: 300 }
       }}>
