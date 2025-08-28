@@ -1,22 +1,33 @@
 import type { ICard } from "../interfaces/card.interface";
 import axios from "axios";
+import type SDK from "./SDK";
 
 /**
  * CardsManager - A class to handle card-related operations.
  */
 export default class CardsManager {
   private systemUrl: string;
+  private sdk: SDK;
 
-  constructor(systemUrl: string) {
+  constructor(systemUrl: string, sdk: SDK) {
     this.systemUrl = systemUrl;
+    this.sdk = sdk;
   }
 
   /**
    * Retrieves cards by card set code.
    */
   async getCardsBySetCode(cardSetCode: string): Promise<ICard[]> {
+    const token = this.sdk.getToken();
+    console.log("token", token);
+
     const { data } = await axios.get<ICard[]>(
-      `${this.systemUrl}/cards/${cardSetCode}`
+      `${this.systemUrl}/cards/${cardSetCode}`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
     );
     return data;
   }
@@ -26,10 +37,16 @@ export default class CardsManager {
    */
   async findCardSets(cardSetNames: string[], socketId?: string): Promise<void> {
     const headers: Record<string, string> = {};
+    const token = this.sdk.getToken();
     if (socketId) headers["x-socket-id"] = socketId;
 
+    console.log("token", token);
+
     await axios.post<void>(`${this.systemUrl}/scrape`, cardSetNames, {
-      headers,
+      headers: {
+        ...headers,
+        Authorization: `Bearer ${token}`,
+      },
     });
   }
 }

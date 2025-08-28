@@ -17,11 +17,11 @@ import { store } from "../../stores/store";
 import CoreInput from "../molecules/CoreInput";
 import CardsLoadingScreen from "../organisms/cards/CardsLoadingScreen";
 
-const VITE_REACT_BACKEND_URL = import.meta.env.VITE_REACT_BACKEND_URL;
-if (!VITE_REACT_BACKEND_URL) throw new Error("VITE_REACT_BACKEND_URL is not defined");
+const VITE_REACT_LOCAL_BACKEND_URL = import.meta.env.VITE_REACT_LOCAL_BACKEND_URL;
+if (!VITE_REACT_LOCAL_BACKEND_URL) throw new Error("VITE_REACT_LOCAL_BACKEND_URL is not defined");
 
 const Cards = () => {
-  const sdk = SDK.getInstance(VITE_REACT_BACKEND_URL);
+  const sdk = SDK.getInstance(VITE_REACT_LOCAL_BACKEND_URL);
   const navigate = useNavigate();
   const [searchedCard, setSearchedCard] = useState<ICard | null>(null);
   const [cardsList, setCardsList] = useState<ICard[]>([]);
@@ -97,12 +97,15 @@ const Cards = () => {
       searchCards(selectedCardNumber || "");
       setSelectedCardNumber(selectedCardNumber || "");
       selectedCardNumberRef.current = selectedCardNumber || "";
+
+      console.log(store.getState().user.accessToken)
+      console.log(store.getState().user.user)
     });
     return () => unsubscribe();
   }, [searchCards]);
 
   React.useEffect(() => {
-    const socket: Socket = io(`${VITE_REACT_BACKEND_URL}/card-manager`);
+    const socket: Socket = io(`${VITE_REACT_LOCAL_BACKEND_URL}/card-manager`);
     socket.on(
       "searchCardSetFinished",
       async (payload: { collectionName: string }) => {

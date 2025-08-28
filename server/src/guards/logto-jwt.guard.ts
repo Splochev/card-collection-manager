@@ -15,7 +15,7 @@ declare module 'express-serve-static-core' {
     userAuthId?: string;
   }
 }
-import jwksClient, { SigningKey } from 'jwks-rsa';
+import * as jwksRsa from 'jwks-rsa';
 import { configDotenv } from 'dotenv';
 import * as path from 'path';
 
@@ -35,27 +35,18 @@ if (!process.env.LOGTO_AUDIENCE) {
 }
 
 // Helper: Extract Bearer Token
-import { IncomingHttpHeaders } from 'http';
-
 function extractBearerTokenFromHeaders(
-  headers: IncomingHttpHeaders,
+  headers: Record<string, any>,
 ): string | undefined {
-  const getHeaderValue = (key: string): string | undefined => {
-    const value = headers[key];
-    if (typeof value === 'string') return value;
-    if (Array.isArray(value)) return value[0];
-    return undefined;
-  };
-
-  const authHeader =
-    getHeaderValue('authorization') ?? getHeaderValue('Authorization');
-
+  const authHeader = headers['authorization'] || headers['Authorization'];
   if (!authHeader?.startsWith('Bearer ')) return undefined;
   return authHeader.slice('Bearer '.length);
 }
 
 // JWKS client setup
-const client = jwksClient({ jwksUri: process.env.LOGTO_JWKS_URI });
+const client = new jwksRsa.JwksClient({
+  jwksUri: process.env.LOGTO_JWKS_URI || '',
+});
 
 // JWKS key resolver function
 function getKey(
@@ -65,15 +56,19 @@ function getKey(
   if (!header.kid) {
     return callback(new Error('Missing kid in token header'));
   }
-  client
-    .getSigningKey(header.kid)
-    .then((key) => {
-      const signingKey = key.getPublicKey();
-      callback(null, signingKey);
-    })
-    .catch((err) =>
-      callback(err instanceof Error ? err : new Error(String(err))),
-    );
+  client.getSigningKey(header.kid, (err, key) => {
+    if (err) return callback(err);
+
+    // Safely handle key types
+    const signingKey =
+      key && typeof key === 'object'
+        ? typeof key.getPublicKey === 'function'
+          ? key.getPublicKey()
+          : ''
+        : '';
+
+    callback(null, signingKey);
+  });
 }
 
 @Injectable()
@@ -86,6 +81,7 @@ export class JwtAuthGuard implements CanActivate {
       throw new UnauthorizedException('No token provided');
     }
 
+    debugger;
     return new Promise((resolve, reject) => {
       jwt.verify(
         token,
@@ -93,9 +89,9 @@ export class JwtAuthGuard implements CanActivate {
         {
           issuer: process.env.LOGTO_ISSUER,
           audience: process.env.LOGTO_AUDIENCE,
-          algorithms: ['ES384'],
+          algorithms: ['ES384'] as jwt.Algorithm[],
         },
-        (err, payload) => {
+        (err: jwt.VerifyErrors | null, payload: any) => {
           if (err) {
             console.error('JWT verification error:', err);
             if (
@@ -114,7 +110,19 @@ export class JwtAuthGuard implements CanActivate {
             );
           }
 
-          const { /*scope,*/ sub } = payload as { sub: string };
+          // Type checking the payload
+          if (!payload || typeof payload !== 'object') {
+            return reject(new UnauthorizedException('Invalid token payload'));
+          }
+          
+          const sub = payload.sub as string | undefined;
+          
+          if (!sub || typeof sub !== 'string') {
+            return reject(
+              new UnauthorizedException('Missing or invalid subject claim'),
+            );
+          }
+          
           // if (!scope || typeof scope !== 'string') {
           //   throw new Error('Missing or invalid scope claim');
           // }
@@ -123,6 +131,7 @@ export class JwtAuthGuard implements CanActivate {
           //   'Missing required scope "read:products"',
           // );
           // req.userAuthId = { userAuthId: sub /*, scope */ }; // Include scope if needed
+          
           req.userAuthId = sub;
           resolve(true);
         },

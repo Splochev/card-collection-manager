@@ -1,8 +1,9 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, Param, UseGuards } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { CardsService } from './cards.service';
 import { Public } from 'src/decorators/public.decorator';
 import { CardEditions } from 'src/database/entities/card-editions.entity';
+import { JwtAuthGuard } from 'src/guards/logto-jwt.guard';
 
 @ApiTags('cards')
 @Controller('cards')
@@ -16,7 +17,7 @@ export class CardsController {
     isArray: true,
   })
   @ApiResponse({ status: 404, description: 'Card set not found' })
-  @Public()
+  @UseGuards(JwtAuthGuard)
   @Get(':cardSetCode')
   async getCardsByCardSetCode(
     @Param('cardSetCode') cardSetCode: string,

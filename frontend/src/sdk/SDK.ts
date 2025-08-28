@@ -41,7 +41,7 @@ export default class SDK {
     this.initToken()
     this.userManager = new UserManager(systemUrl)
     this.authManager = new AuthManager(systemUrl, this)
-    this.cardsManager = new CardsManager(systemUrl)
+    this.cardsManager = new CardsManager(systemUrl, this)
   }
 
   /**
@@ -67,15 +67,16 @@ export default class SDK {
    * Retrieves the current authentication token.
    */
   public getToken(): string | null {
-    return this.token
+    return this.token || this.initToken()
   }
 
-  private initToken(): void {
-    const token = localStorage.getItem('token')
+  private initToken(): string {
+    const token = JSON.parse(localStorage.getItem('accessToken') || 'null')
     if (token) {
       this.setTokens(token)
     } else {
       this.setTokens('')
     }
+    return token
   }
 }
