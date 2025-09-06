@@ -97,9 +97,6 @@ const Cards = () => {
       searchCards(selectedCardNumber || "");
       setSelectedCardNumber(selectedCardNumber || "");
       selectedCardNumberRef.current = selectedCardNumber || "";
-
-      console.log(store.getState().user.accessToken)
-      console.log(store.getState().user.user)
     });
     return () => unsubscribe();
   }, [searchCards]);

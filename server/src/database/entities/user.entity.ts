@@ -13,4 +13,7 @@ export class User {
 
   @Column({ nullable: true })
   lastName?: string;
+
+  @Column({ nullable: false, enum: ['light', 'dark'], default: 'light' })
+  theme?: 'light' | 'dark';
 }

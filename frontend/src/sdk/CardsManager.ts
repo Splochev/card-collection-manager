@@ -19,7 +19,6 @@ export default class CardsManager {
    */
   async getCardsBySetCode(cardSetCode: string): Promise<ICard[]> {
     const token = this.sdk.getToken();
-    console.log("token", token);
 
     const { data } = await axios.get<ICard[]>(
       `${this.systemUrl}/cards/${cardSetCode}`,
@@ -39,8 +38,6 @@ export default class CardsManager {
     const headers: Record<string, string> = {};
     const token = this.sdk.getToken();
     if (socketId) headers["x-socket-id"] = socketId;
-
-    console.log("token", token);
 
     await axios.post<void>(`${this.systemUrl}/scrape`, cardSetNames, {
       headers: {
