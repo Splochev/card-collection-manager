@@ -6,7 +6,11 @@ export class ScrapeGateway {
   @WebSocketServer()
   server: Server;
   notifySearchFinished(
-    payload: { collectionName: string; count?: number; cardNumber?: string },
+    payload: {
+      collectionName: string;
+      count?: number;
+      cardSetCode?: string;
+    },
     socketId?: string,
   ) {
     try {

@@ -28,6 +28,8 @@ const CoreNumber = ({ min, max, value, label, setValue }: CoreNumberProps) => {
   const [lastValid, setLastValid] = useState<number | "">(value);
   const holdInterval = useRef<number | null>(null);
   const holdAction = useRef<(() => void) | null>(null);
+  // Debounce timer reference
+  const debounceTimerRef = useRef<number | null>(null);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const input = e.target.value;
@@ -45,7 +47,7 @@ const CoreNumber = ({ min, max, value, label, setValue }: CoreNumberProps) => {
     }
   };
 
-  // Hold logic
+  // Optimized increment/decrement logic
   const handleDecrement = () => {
     setQuantity((prev) => {
       if (prev !== "" && prev > min) {
@@ -69,13 +71,29 @@ const CoreNumber = ({ min, max, value, label, setValue }: CoreNumberProps) => {
   };
 
   const startHold = (action: () => void) => {
+    // Clear any existing interval
+    if (holdInterval.current) {
+      clearInterval(holdInterval.current);
+    }
+    
+    // Store the action
     holdAction.current = action;
+    
+    // Execute action immediately
     action();
+    
+    // Start with moderate speed
     let speed = 120;
     let elapsed = 0;
+    
+    // Set up interval for repeated actions
     holdInterval.current = window.setInterval(() => {
       elapsed += speed;
+      
+      // Execute the action if available
       if (holdAction.current) holdAction.current();
+      
+      // Speed up after holding for 1.5 seconds
       if (elapsed >= 1500 && speed === 120) {
         speed = 40;
         clearInterval(holdInterval.current!);
@@ -94,16 +112,35 @@ const CoreNumber = ({ min, max, value, label, setValue }: CoreNumberProps) => {
     }
   };
 
+  // Clean up intervals on unmount
   useEffect(() => {
     return () => {
       if (holdInterval.current) {
         clearInterval(holdInterval.current);
       }
+      if (debounceTimerRef.current) {
+        clearTimeout(debounceTimerRef.current);
+      }
     };
   }, []);
 
+  // Debounced setValue effect
   useEffect(() => {
-    setValue(quantity);
+    // Clear any existing timeout
+    if (debounceTimerRef.current) {
+      clearTimeout(debounceTimerRef.current);
+    }
+    
+    // Set new timeout to update the parent value after delay
+    debounceTimerRef.current = window.setTimeout(() => {
+      setValue(quantity);
+    }, 200); // 200ms debounce delay
+    
+    return () => {
+      if (debounceTimerRef.current) {
+        clearTimeout(debounceTimerRef.current);
+      }
+    };
   }, [quantity, setValue]);
 
   function onClickPaperFocusInput() {

@@ -4,18 +4,30 @@ import Typography from "@mui/material/Typography";
 import Chips from "../../molecules/Chips";
 import Paper from "@mui/material/Paper";
 import CardWrapper from "../../atoms/CardWrapper";
-import { IconButton } from "@mui/material";
+import { IconButton, useMediaQuery } from "@mui/material";
 import LaunchIcon from '@mui/icons-material/Launch';
 
 const CardListFromSet = ({cardsList, excludedCards} : {cardsList: ICard[], excludedCards: (ICard | null)[]}) => {
+    // Check if width is greater than 1630px
+    const isWideScreen = useMediaQuery('(min-width:1631px)');
 
     return ( 
-      <Grid sx={{ display: "flex", flexDirection: "column", gap: 2, maxWidth: '35rem', minWidth: '21rem',
+      <Grid sx={{ display: "flex", flexDirection: "column", gap: 2, maxWidth: '35rem', minWidth: '21rem', paddingBottom: 2,
         flex: { xs: "1 1 100%", md: "0 0 35rem" },
         width: { xs: "100%", md: "35rem" },
       }}>
         <Typography variant="h6">Other Cards from set</Typography>
-        <Grid sx={{ display: "flex", flexDirection: "column", gap: 4, width: '100%', overflowY: 'auto', paddingRight: 2 }}>
+        <Grid sx={{ 
+          display: "flex",
+          flexDirection: "column", 
+          gap: 4, 
+          width: '100%',
+          paddingRight: 2,
+          ...(isWideScreen && {
+            overflowY: 'auto',
+            maxHeight: 'calc(100vh - 140px)',
+          }),
+        }}>
           {cardsList.map((card) => {
             if((excludedCards || []).some(excludedCard => excludedCard?.cardNumber === card.cardNumber)) return null;
 

@@ -20,10 +20,14 @@ export class ScrapeController {
   @ApiResponse({ status: 400, description: 'Invalid data' })
   @Post('/')
   migrateCardSets(
-    @Body() dto: string[],
+    @Body() body: { cardSetNames: string[]; cardSetCode: string },
     @Headers('x-socket-id') socketId?: string,
   ): Promise<{ message: string; status: number }> {
-    void this.scrapeService.scrapeCards(dto, socketId);
+    void this.scrapeService.scrapeCards(
+      body.cardSetNames,
+      body.cardSetCode,
+      socketId,
+    );
     return Promise.resolve({
       message: 'Scrape job started successfully',
       status: 201,

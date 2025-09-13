@@ -6,8 +6,6 @@ import * as React from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
-import { io, type Socket } from "socket.io-client";
 import { toast } from "react-toastify";
 import { Button } from "@mui/material";
 import type { ICard } from "../../interfaces/card.interface";
@@ -17,10 +15,12 @@ import { store } from "../../stores/store";
 import CoreInput from "../molecules/CoreInput";
 import CardsLoadingScreen from "../organisms/cards/CardsLoadingScreen";
 
-const VITE_REACT_LOCAL_BACKEND_URL = import.meta.env.VITE_REACT_LOCAL_BACKEND_URL;
-if (!VITE_REACT_LOCAL_BACKEND_URL) throw new Error("VITE_REACT_LOCAL_BACKEND_URL is not defined");
+const VITE_REACT_LOCAL_BACKEND_URL = import.meta.env
+  .VITE_REACT_LOCAL_BACKEND_URL;
+if (!VITE_REACT_LOCAL_BACKEND_URL)
+  throw new Error("VITE_REACT_LOCAL_BACKEND_URL is not defined");
 
-const Cards = () => {
+const Cards = ({ socketId }: { socketId: string }) => {
   const sdk = SDK.getInstance(VITE_REACT_LOCAL_BACKEND_URL);
   const navigate = useNavigate();
   const [searchedCard, setSearchedCard] = useState<ICard | null>(null);
@@ -30,21 +30,27 @@ const Cards = () => {
   const [showCardSetFetch, setShowCardSetFetch] = useState<boolean>(false);
   const [selectedCardNumber, setSelectedCardNumber] = useState<string>(null);
   const selectedCardNumberRef = React.useRef<string>("");
-  const socketIdRef = React.useRef<string>("");
   const [isLoading, setIsLoading] = React.useState<boolean>(true);
 
   const fetchCardSet = React.useCallback(
     async (cardSetNameValue: string) => {
       try {
-        const socketId = socketIdRef.current || undefined;
-        await sdk.cardsManager.findCardSets([cardSetNameValue], socketId);
-        toast.success("Started search — you will be notified when it finishes.");
+        await sdk.cardsManager.findCardSets(
+          {
+            cardSetNames: [cardSetNameValue],
+            cardSetCode: selectedCardNumberRef.current,
+          },
+          socketId
+        );
+        toast.success(
+          "Started search — you will be notified when it finishes."
+        );
       } catch (error) {
         console.error("Error fetching card set:", error);
         toast.error("Failed to start search. Please try again.");
       }
     },
-    [sdk.cardsManager]
+    [sdk.cardsManager, socketId, selectedCardNumberRef]
   );
 
   const searchCards = React.useCallback(
@@ -61,7 +67,9 @@ const Cards = () => {
         if (!valid) return;
 
         let cards: ICard[] | undefined;
-        const cardInList = (cardsList || []).find((c) => c.cardNumber.toUpperCase() === cardSetCode)
+        const cardInList = (cardsList || []).find(
+          (c) => c.cardNumber.toUpperCase() === cardSetCode
+        );
 
         if (cardInList) {
           cards = cardsList;
@@ -101,84 +109,86 @@ const Cards = () => {
     return () => unsubscribe();
   }, [searchCards]);
 
-  React.useEffect(() => {
-    const socket: Socket = io(`${VITE_REACT_LOCAL_BACKEND_URL}/card-manager`);
-    socket.on(
-      "searchCardSetFinished",
-      async (payload: { collectionName: string }) => {
-        toast.success(
-          <Grid
-            sx={{ display: "flex", gap: 1, alignItems: "start", marginTop: 1 }}
-          >
-            <Typography variant="body2">
-              Finished search for "{payload.collectionName}".
-            </Typography>
-            <Button
-              variant="text"
-              href={`/cards/${selectedCardNumberRef.current}`}
-              sx={{ width: 80 }}
-            >
-              View
-            </Button>
-          </Grid>,
-          { autoClose: 8000 }
-        );
-      }
-    );
-    socket.on("connect", () => socketIdRef.current = socket.id);
-
-    return () => {
-      socket.disconnect();
-    };
-  }, []);
-
-  if(isLoading) return <CardsLoadingScreen />
-
+  if (isLoading) return <CardsLoadingScreen />;
 
   if (showCardSetFetch) {
     return (
-      <EmptyState
-        title="Find Card Set"
-        description={`We couldn't find the card set you're looking for. Would you like to\n\rprovide the card set name for the card with set code: ${selectedCardNumber}?`}
-        callback={() => {
-          const searchBar = document.getElementById("Find cards by set code");
-          searchBar?.focus();
+      <Grid
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-around",
+          width: "100%",
+          alignItems: "center",
         }}
-        custom={() => (
-          <Grid sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: 2, width: '100%', maxWidth: '500px'}}>
-            <CoreInput
-              label="Card Set Name (e.g. Metal Raiders, Alliance Insight, etc...)"
-              onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                setCardSetName(e.target.value)
-              }
-              value={cardSetName}
-            />
-            <Button
-              variant="contained"
-              sx={{ width: '100%' }}
-              onClick={async () => {
-                if (!cardSetName) return;
-                await fetchCardSet(cardSetName);
+      >
+        <EmptyState
+          title="Find Card Set"
+          description={`We couldn't find the card set you're looking for. Would you like to\n\rprovide the card set name for the card with set code: ${selectedCardNumber}?`}
+          callback={() => {
+            const searchBar = document.getElementById(
+              "Card Set Name (e.g. Metal Raiders, Alliance Insight, etc...)"
+            );
+            searchBar?.focus();
+          }}
+          custom={() => (
+            <Grid
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                textAlign: "center",
+                gap: 2,
+                width: "100%",
+                maxWidth: "500px",
               }}
             >
-              Search
-            </Button>
-          </Grid>
-        )}
-      />
+              <CoreInput
+                label="Card Set Name (e.g. Metal Raiders, Alliance Insight, etc...)"
+                onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                  setCardSetName(e.target.value)
+                }
+                value={cardSetName}
+              />
+              <Button
+                variant="contained"
+                sx={{ width: "100%" }}
+                onClick={async () => {
+                  if (!cardSetName) return;
+                  await fetchCardSet(cardSetName);
+                }}
+              >
+                Search
+              </Button>
+            </Grid>
+          )}
+        />
+      </Grid>
     );
   }
-  
+
   if (!cardsList.length) {
     return (
-      <EmptyState
-        title="Search for Yu-Gi-Oh! Cards"
-        description={`Use the search bar above to find cards and add them to your collection.\n\rExplore thousands of cards from different sets and rarities.`}
-        callback={() => {
-          const searchBar = document.getElementById("Find cards by set code");
-          searchBar?.focus();
+      <Grid
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-around",
+          width: "100%",
+          alignItems: "center",
         }}
-      />
+      >
+        <EmptyState
+          title="Search for Yu-Gi-Oh! Cards"
+          description={`Use the search bar above to find cards and add them to your collection.\n\rExplore thousands of cards from different sets and rarities.`}
+          callback={() => {
+            const searchBar = document.getElementById(
+              "Find cards by set number"
+            );
+            searchBar?.focus();
+          }}
+        />
+      </Grid>
     );
   }
 
@@ -194,7 +204,11 @@ const Cards = () => {
         alignItems: "flex-start",
       }}
     >
-      <CardImageAndQuantity card={searchedCard} quantity={quantity} setQuantity={setQuantity} />
+      <CardImageAndQuantity
+        card={searchedCard}
+        quantity={quantity}
+        setQuantity={setQuantity}
+      />
       <CardFullInfo card={searchedCard} />
       <CardListFromSet cardsList={cardsList} excludedCards={[searchedCard]} />
     </Grid>

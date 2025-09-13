@@ -106,6 +106,7 @@ export class ScrapeService {
   async scrapeCardCollection(
     collectionName: string,
     failedExtractions: Set<string>,
+    cardSetCode: string,
     socketId?: string,
   ): Promise<void> {
     const urlCollectionName = collectionName.replace(/ /g, '_');
@@ -181,6 +182,7 @@ export class ScrapeService {
     void this.cardService.saveCards(
       collectionName,
       rows as unknown as ScrapeCardDto[],
+      cardSetCode,
       socketId,
     );
 
@@ -190,6 +192,7 @@ export class ScrapeService {
 
   async scrapeCards(
     collectionNames: string[],
+    cardSetCode: string,
     socketId?: string,
   ): Promise<void> {
     console.log('Scraping started...');
@@ -206,6 +209,7 @@ export class ScrapeService {
         await this.scrapeCardCollection(
           collectionName,
           failedExtractions,
+          cardSetCode,
           socketId,
         );
       } catch (error) {

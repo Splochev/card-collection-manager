@@ -34,12 +34,15 @@ export default class CardsManager {
   /**
    * Searches card sets by name.
    */
-  async findCardSets(cardSetNames: string[], socketId?: string): Promise<void> {
+  async findCardSets(
+    body: { cardSetNames: string[]; cardSetCode: string },
+    socketId?: string
+  ): Promise<void> {
     const headers: Record<string, string> = {};
     const token = this.sdk.getToken();
     if (socketId) headers["x-socket-id"] = socketId;
 
-    await axios.post<void>(`${this.systemUrl}/scrape`, cardSetNames, {
+    await axios.post<void>(`${this.systemUrl}/scrape`, body, {
       headers: {
         ...headers,
         Authorization: `Bearer ${token}`,

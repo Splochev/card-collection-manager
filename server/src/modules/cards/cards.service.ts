@@ -168,6 +168,7 @@ export class CardsService {
   async saveCards(
     collectionName: string,
     cards: ScrapeCardDto[],
+    cardSetCode?: string,
     socketId?: string,
   ) {
     const missingCards: ScrapeCardDto[] = [];
@@ -279,7 +280,7 @@ export class CardsService {
 
     // notify clients that searching finished for this collection
     try {
-      const payload = { collectionName, count: cards.length };
+      const payload = { collectionName, count: cards.length, cardSetCode };
       this.scrapeGateway?.notifySearchFinished(payload, socketId);
     } catch (e) {
       // ignore errors emitting websocket notifications
