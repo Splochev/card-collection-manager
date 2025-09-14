@@ -18,6 +18,7 @@ import * as path from 'path';
 import { RARITIES } from './constants';
 import { ScrapeGateway } from '../websocket/scrape.gateway';
 import { UserCards } from 'src/database/entities/users-cards.entity';
+import { CacheService } from '../cache';
 
 @Injectable()
 export class CardsService {
@@ -30,6 +31,7 @@ export class CardsService {
     private readonly scrapeGateway: ScrapeGateway,
     @InjectRepository(UserCards)
     private readonly userCardsRepository: Repository<UserCards>,
+    private readonly cacheService: CacheService,
   ) {}
 
   async upsertCardsFromSet(cardSetName: string) {
@@ -108,25 +110,32 @@ export class CardsService {
       );
     }
 
-    const setCards: CardEditions[] = await this.cardEditionsRepository.query(
-      `
-        SELECT
-          ce.*,
-          c.*,
-          COALESCE(uc."count", 0) AS "count"
-        FROM "card-editions" ce
-        LEFT JOIN "cards" c ON c."id" = ce."cardId"
-        LEFT JOIN "users-cards" uc ON uc."cardId" = c."id"
-        WHERE 
-          ce."cardSetName" ILIKE '%${cardMetadata.cardSetName}%'
-          AND (uc."userId" = ${userId} OR uc."userId" IS NULL)
-      `,
-    );
+    const cacheKey = `card-set:${userId}:${cardMetadata.cardSetName}`;
+    const cachedCards = await this.cacheService.get<CardEditions[]>(cacheKey);
 
-    const searchedCard = setCards.find(
-      (card) => card.id === cardMetadata.cardId,
-    );
-    const otherCards = setCards.filter((card) => card.id !== cardMetadata.id);
+    const setCards: CardEditions[] =
+      cachedCards ||
+      (await this.cardEditionsRepository.query(
+        `
+      SELECT
+        ce.*,
+        c.*,
+        COALESCE(uc."count", 0) AS "count"
+      FROM "card-editions" ce
+      LEFT JOIN "cards" c ON c."id" = ce."cardId"
+      LEFT JOIN "users-cards" uc ON uc."cardId" = c."id"
+      WHERE 
+        ce."cardSetName" ILIKE '%${cardMetadata.cardSetName}%'
+        AND (uc."userId" = ${userId} OR uc."userId" IS NULL)
+    `,
+      ));
+
+    if (!cachedCards) {
+      await this.cacheService.set(cacheKey, setCards, 300);
+    }
+
+    const searchedCard = setCards.find((c) => c.id === cardMetadata.cardId);
+    const otherCards = setCards.filter((c) => c.id !== cardMetadata.id);
 
     return [searchedCard!, ...otherCards];
   }
@@ -315,17 +324,30 @@ export class CardsService {
     try {
       if (!quantity) {
         await this.userCardsRepository.delete({ cardId, userId });
-        return;
+      } else {
+        await this.userCardsRepository.upsert(
+          {
+            count: quantity,
+            cardId,
+            userId,
+          },
+          ['cardId', 'userId'],
+        );
       }
 
-      await this.userCardsRepository.upsert(
-        {
-          count: quantity,
-          cardId,
-          userId,
-        },
-        ['cardId', 'userId'],
-      );
+      // Get the card to determine its card set
+      const card = await this.cardRepository.findOneOrFail({
+        where: { id: cardId },
+        relations: ['cardEditions'],
+      });
+
+      // If the card has card editions, invalidate the related cache entries
+      if (card.cardEditions && card.cardEditions.length > 0) {
+        for (const edition of card.cardEditions) {
+          const cacheKey = `card-set:${userId}:${edition.cardSetName}`;
+          await this.cacheService.del(cacheKey);
+        }
+      }
     } catch (error) {
       throw new NotFoundException('Card not found');
     }
