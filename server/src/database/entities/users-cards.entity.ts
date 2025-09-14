@@ -2,13 +2,16 @@ import {
   Entity,
   PrimaryGeneratedColumn,
   Column,
-  OneToOne,
+  ManyToOne,
   JoinColumn,
+  Index,
+  Unique,
 } from 'typeorm';
 import { CardEntity } from './card.entity';
 import { User } from './user.entity';
 
 @Entity('users-cards')
+@Unique(['cardId', 'userId']) // Creates a composite unique constraint
 export class UserCards {
   @PrimaryGeneratedColumn()
   id!: number;
@@ -16,11 +19,11 @@ export class UserCards {
   @Column({ default: 0, nullable: false })
   count!: number;
 
-  @OneToOne(() => CardEntity, { nullable: false })
+  @ManyToOne(() => CardEntity, { nullable: false })
   @JoinColumn({ name: 'cardId' })
   cardId!: number;
 
-  @OneToOne(() => User, { nullable: false })
+  @ManyToOne(() => User, { nullable: false })
   @JoinColumn({ name: 'userId' })
   userId!: number;
 }

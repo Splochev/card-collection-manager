@@ -8,9 +8,10 @@ interface Props {
   card: ICard | null;
   quantity: number | "";
   setQuantity: (val: number | "") => void;
+  onSubmit: () => void;
 }
 
-const CardImageAndQuantity = ({ card, quantity, setQuantity }: Props) => {
+const CardImageAndQuantity = ({ card, quantity, setQuantity, onSubmit }: Props) => {
   const isNotWiderThan900 = useMediaQuery('(max-width:900px)');
 
   return <Grid
@@ -25,9 +26,17 @@ const CardImageAndQuantity = ({ card, quantity, setQuantity }: Props) => {
     }}
   >
     {isNotWiderThan900 && <CardInfoHeader card={card} />}
-    <CardWrapper url={card?.cards?.imageUrl || undefined} name={card?.name || undefined} />
-    <CoreNumber min={1} max={100} value={quantity} setValue={setQuantity} label="Quantity to Add" />
-  </Grid>
+    <CardWrapper url={card?.imageUrl || undefined} name={card?.name || undefined} />
+      <CoreNumber
+        min={1}
+        max={100}
+        value={quantity}
+        setValue={setQuantity}
+        label="Quantity to Add"
+        btnLabel="Add to Collection"
+        onSubmit={onSubmit}
+      />
+    </Grid>
 };
 
 export default CardImageAndQuantity;

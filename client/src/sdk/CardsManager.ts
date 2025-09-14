@@ -30,4 +30,12 @@ export default class CardsManager {
     const response = await axios.get(`${this.systemUrl}/cards/set/${cardSetName}`)
     return response.data
   }
+
+  /**
+   * Adds a card to the user's collection with the specified quantity.
+   */
+  async addCardToCollection(cardId: number, quantity: number): Promise<ICard[]> {
+    const response = await axios.post(`${this.systemUrl}/cards`, { cardId, quantity })
+    return response.data
+  }
 }

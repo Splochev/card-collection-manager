@@ -74,10 +74,12 @@ const Cards = ({ socketId }: { socketId: string }) => {
         if (cardInList) {
           cards = cardsList;
           setSearchedCard(cardInList);
+          setQuantity(cardInList.count || 1);
         } else {
           setIsLoading(true);
           cards = await sdk.cardsManager.getCardsBySetCode(cardSetCode);
           setSearchedCard(cards[0]);
+          setQuantity(cards[0].count || 1);
         }
         setCardsList(cards);
         setShowCardSetFetch(false);
@@ -108,6 +110,22 @@ const Cards = ({ socketId }: { socketId: string }) => {
     });
     return () => unsubscribe();
   }, [searchCards]);
+
+  const onSubmit = async () => {
+    if (!searchedCard || !quantity || quantity < 1) return;
+    try {
+      await sdk.cardsManager.addCardToCollection(
+        searchedCard.id,
+        Number(quantity)
+      );
+      toast.success(
+        `Added ${quantity} x ${searchedCard.name} to your collection!`
+      );
+    } catch (error) {
+      console.error("Error adding card to collection:", error);
+      toast.error("Failed to add card to collection. Please try again.");
+    }
+  };
 
   if (isLoading) return <CardsLoadingScreen />;
 
@@ -208,6 +226,7 @@ const Cards = ({ socketId }: { socketId: string }) => {
         card={searchedCard}
         quantity={quantity}
         setQuantity={setQuantity}
+        onSubmit={onSubmit}
       />
       <CardFullInfo card={searchedCard} />
       <CardListFromSet cardsList={cardsList} excludedCards={[searchedCard]} />

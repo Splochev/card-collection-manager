@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { In, Not, Repository } from 'typeorm';
 import { HttpException } from '@nestjs/common';
@@ -17,6 +17,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { RARITIES } from './constants';
 import { ScrapeGateway } from '../websocket/scrape.gateway';
+import { UserCards } from 'src/database/entities/users-cards.entity';
 
 @Injectable()
 export class CardsService {
@@ -27,6 +28,8 @@ export class CardsService {
     private readonly cardEditionsRepository: Repository<CardEditions>,
     private readonly httpService: HttpService,
     private readonly scrapeGateway: ScrapeGateway,
+    @InjectRepository(UserCards)
+    private readonly userCardsRepository: Repository<UserCards>,
   ) {}
 
   async upsertCardsFromSet(cardSetName: string) {
@@ -88,7 +91,10 @@ export class CardsService {
     );
   }
 
-  async getByCardSetCode(cardNumber: string): Promise<CardEditions[]> {
+  async getByCardSetCode(
+    cardNumber: string,
+    userId: number,
+  ): Promise<CardEditions[]> {
     let cardMetadata: CardEditions;
     try {
       cardMetadata = await this.cardEditionsRepository.findOneOrFail({
@@ -102,13 +108,27 @@ export class CardsService {
       );
     }
 
-    const { id, cardSetName } = cardMetadata;
-    const setCards = await this.cardEditionsRepository.find({
-      where: { cardSetName, id: Not(id) },
-      relations: ['cards'],
-    });
+    const setCards: CardEditions[] = await this.cardEditionsRepository.query(
+      `
+        SELECT
+          ce.*,
+          c.*,
+          COALESCE(uc."count", 0) AS "count"
+        FROM "card-editions" ce
+        LEFT JOIN "cards" c ON c."id" = ce."cardId"
+        LEFT JOIN "users-cards" uc ON uc."cardId" = c."id"
+        WHERE 
+          ce."cardSetName" ILIKE '%${cardMetadata.cardSetName}%'
+          AND (uc."userId" = ${userId} OR uc."userId" IS NULL)
+      `,
+    );
 
-    return [cardMetadata, ...setCards];
+    const searchedCard = setCards.find(
+      (card) => card.id === cardMetadata.cardId,
+    );
+    const otherCards = setCards.filter((card) => card.id !== cardMetadata.id);
+
+    return [searchedCard!, ...otherCards];
   }
 
   formatCardData(card: ICard, cardQuery: CardQueryDto): CardDto {
@@ -284,6 +304,22 @@ export class CardsService {
       this.scrapeGateway?.notifySearchFinished(payload, socketId);
     } catch (e) {
       // ignore errors emitting websocket notifications
+    }
+  }
+
+  async addCardToCollection(
+    cardId: number,
+    quantity: number,
+    userId: number,
+  ): Promise<void> {
+    try {
+      await this.userCardsRepository.save({
+        count: quantity,
+        cardId,
+        userId,
+      });
+    } catch (error) {
+      throw new NotFoundException('Card not found');
     }
   }
 }

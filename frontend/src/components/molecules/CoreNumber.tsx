@@ -12,7 +12,9 @@ interface CoreNumberProps {
   max: number;
   value: number | "";
   label: string;
+  btnLabel: string;
   setValue: (value: number | "") => void;
+  onSubmit: () => void;
 }
 
 const buttonStyle = {
@@ -23,7 +25,7 @@ const buttonStyle = {
   borderRadius: 2.5,
 };
 
-const CoreNumber = ({ min, max, value, label, setValue }: CoreNumberProps) => {
+const CoreNumber = ({ min, max, value, label, btnLabel, setValue, onSubmit }: CoreNumberProps) => {
   const [quantity, setQuantity] = useState<number | "">(value);
   const [lastValid, setLastValid] = useState<number | "">(value);
   const holdInterval = useRef<number | null>(null);
@@ -212,8 +214,8 @@ const CoreNumber = ({ min, max, value, label, setValue }: CoreNumberProps) => {
           </Button>
         </Grid>
       </Grid>
-      <Button variant="contained" sx={{ marginTop: 2, width: "100%" }}>
-        Add to Collection
+      <Button variant="contained" sx={{ marginTop: 2, width: "100%" }} onClick={onSubmit}>
+        {btnLabel}
       </Button>
     </Paper>
   );
