@@ -313,11 +313,19 @@ export class CardsService {
     userId: number,
   ): Promise<void> {
     try {
-      await this.userCardsRepository.save({
-        count: quantity,
-        cardId,
-        userId,
-      });
+      if (!quantity) {
+        await this.userCardsRepository.delete({ cardId, userId });
+        return;
+      }
+
+      await this.userCardsRepository.upsert(
+        {
+          count: quantity,
+          cardId,
+          userId,
+        },
+        ['cardId', 'userId'],
+      );
     } catch (error) {
       throw new NotFoundException('Card not found');
     }

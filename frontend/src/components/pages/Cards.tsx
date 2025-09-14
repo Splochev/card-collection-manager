@@ -112,7 +112,7 @@ const Cards = ({ socketId }: { socketId: string }) => {
   }, [searchCards]);
 
   const onSubmit = async () => {
-    if (!searchedCard || !quantity || quantity < 1) return;
+    if (!searchedCard) return;
     try {
       await sdk.cardsManager.addCardToCollection(
         searchedCard.id,

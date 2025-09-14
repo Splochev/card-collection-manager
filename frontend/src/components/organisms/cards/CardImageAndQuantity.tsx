@@ -28,7 +28,7 @@ const CardImageAndQuantity = ({ card, quantity, setQuantity, onSubmit }: Props) 
     {isNotWiderThan900 && <CardInfoHeader card={card} />}
     <CardWrapper url={card?.imageUrl || undefined} name={card?.name || undefined} />
       <CoreNumber
-        min={1}
+        min={0}
         max={100}
         value={quantity}
         setValue={setQuantity}
