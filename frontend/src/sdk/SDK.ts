@@ -1,5 +1,4 @@
 import axios from 'axios'
-import UserManager from './UserManager'
 import CardsManager from './CardsManager'
 
 /**
@@ -27,7 +26,6 @@ import CardsManager from './CardsManager'
 export default class SDK {
   private static instance: SDK | null = null
 
-  public userManager: UserManager
   public cardsManager: CardsManager
 
   private token: string | null = null
@@ -37,7 +35,6 @@ export default class SDK {
   constructor(systemUrl: string) {
     this.systemUrl = systemUrl
     this.initToken()
-    this.userManager = new UserManager(systemUrl)
     this.cardsManager = new CardsManager(systemUrl, this)
   }
 
