@@ -117,6 +117,11 @@ const CoreNumber = ({ min, max, value, label, btnLabel, setValue, onSubmit }: Co
   }, []);
 
   useEffect(() => {
+    setQuantity(value);
+    setLastValid(value);
+  }, [value]);
+
+  useEffect(() => {
     if (debounceTimerRef.current) {
       clearTimeout(debounceTimerRef.current);
     }

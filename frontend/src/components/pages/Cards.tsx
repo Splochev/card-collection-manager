@@ -13,13 +13,16 @@ import {
   setCardsData,
   clearCardsData,
   setSelectedCardNumber as setSelectedCardNumberAction,
+  updateCardCount,
 } from "../../stores/cardSlice";
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState } from "../../stores/store";
 import CoreInput from "../molecules/CoreInput";
 import CardsLoadingScreen from "../organisms/cards/CardsLoadingScreen";
 
-const CardListFromSet = lazy(() => import("../organisms/cards/CardListFromSet"));
+const CardListFromSet = lazy(
+  () => import("../organisms/cards/CardListFromSet")
+);
 import CardListLoadingSkeleton from "../organisms/cards/CardListLoadingSkeleton";
 
 const VITE_REACT_LOCAL_BACKEND_URL = import.meta.env
@@ -55,6 +58,13 @@ const Cards = ({ socketId }: CardsProps) => {
       dispatch(setSelectedCardNumberAction(urlCardNumber));
     }
   }, [urlCardNumber, dispatch]);
+
+  useEffect(() => {
+    if (searchedCard) {
+      const newQuantity = searchedCard.count > 0 ? searchedCard.count : 1;
+      setQuantity(newQuantity);
+    }
+  }, [searchedCard]);
 
   const fetchCardSet = useCallback(
     async (cardSetNameValue: string) => {
@@ -104,7 +114,6 @@ const Cards = ({ socketId }: CardsProps) => {
           );
           if (cardInList) {
             setSearchedCard(cardInList);
-            setQuantity(cardInList.count || 1);
             setShowCardSetFetch(false);
           } else {
             setSearchedCard(null);
@@ -134,7 +143,6 @@ const Cards = ({ socketId }: CardsProps) => {
         }
 
         setSearchedCard(searchedCard);
-        setQuantity(searchedCard.count || 1);
         setShowCardSetFetch(false);
       } catch (error) {
         const err = error as {
@@ -161,10 +169,16 @@ const Cards = ({ socketId }: CardsProps) => {
   const onSubmit = async () => {
     if (!searchedCard) return;
     try {
+      const quantityToAdd = Number(quantity);
       await sdk.cardsManager.addCardToCollection(
         searchedCard.id,
-        Number(quantity)
+        quantityToAdd
       );
+
+      const newCount = (searchedCard.count || 0) + quantityToAdd;
+      dispatch(updateCardCount({ cardId: searchedCard.id, count: newCount }));
+      setSearchedCard({ ...searchedCard, count: newCount });
+
       toast.success(
         `Added ${quantity} x ${searchedCard.name} to your collection!`
       );

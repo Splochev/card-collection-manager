@@ -32,9 +32,18 @@ const cardsSlice = createSlice({
       state.cardSetPrefix = null;
       state.cardsList = [];
     },
+    updateCardCount: (
+      state,
+      action: PayloadAction<{ cardId: number; count: number }>
+    ) => {
+      const card = state.cardsList.find((c) => c.id === action.payload.cardId);
+      if (card) {
+        card.count = action.payload.count;
+      }
+    },
   },
 });
 
-export const { setSelectedCardNumber, setCardsData, clearCardsData } =
+export const { setSelectedCardNumber, setCardsData, clearCardsData, updateCardCount } =
   cardsSlice.actions;
 export default cardsSlice.reducer;
