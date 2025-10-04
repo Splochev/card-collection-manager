@@ -1,9 +1,8 @@
 import CardImageAndQuantity from "../organisms/cards/CardImageAndQuantity";
 import CardFullInfo from "../organisms/cards/CardFullInfo";
-import CardListFromSet from "../organisms/cards/CardListFromSet";
 import EmptyState from "../organisms/shared/EmptyState";
 import { useParams } from "react-router-dom";
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, lazy, Suspense } from "react";
 import Grid from "@mui/material/Grid";
 import { toast } from "react-toastify";
 import { Button } from "@mui/material";
@@ -19,6 +18,9 @@ import { useSelector, useDispatch } from "react-redux";
 import type { RootState } from "../../stores/store";
 import CoreInput from "../molecules/CoreInput";
 import CardsLoadingScreen from "../organisms/cards/CardsLoadingScreen";
+
+const CardListFromSet = lazy(() => import("../organisms/cards/CardListFromSet"));
+import CardListLoadingSkeleton from "../organisms/cards/CardListLoadingSkeleton";
 
 const VITE_REACT_LOCAL_BACKEND_URL = import.meta.env
   .VITE_REACT_LOCAL_BACKEND_URL;
@@ -274,7 +276,9 @@ const Cards = ({ socketId }: CardsProps) => {
         onSubmit={onSubmit}
       />
       <CardFullInfo card={searchedCard} />
-      <CardListFromSet />
+      <Suspense fallback={<CardListLoadingSkeleton />}>
+        <CardListFromSet />
+      </Suspense>
     </Grid>
   );
 };
