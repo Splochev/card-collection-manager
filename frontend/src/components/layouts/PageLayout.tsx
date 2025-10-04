@@ -1,16 +1,17 @@
 import Paper from "@mui/material/Paper";
 import { Route, Routes, Navigate, useNavigate } from "react-router-dom";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import { PAGES } from "../../constants";
+import { PAGES, BREAKPOINTS } from "../../constants";
 import BottomNavigation from "../organisms/layout/BottomNavigation";
 import TopNavigation from "../organisms/layout/TopNavigation";
-import React, { useState } from "react";
-import Cards from "../pages/Cards";
-import Collection from "../pages/Collection";
+import { useState, Suspense, lazy, useEffect, useRef } from "react";
 import Grid from "@mui/material/Grid";
 import { io, type Socket } from "socket.io-client";
 import { toast } from "react-toastify";
-import { Button, Typography } from "@mui/material";
+import { Button, Typography, CircularProgress } from "@mui/material";
+
+const Collection = lazy(() => import("../pages/Collection"));
+const Cards = lazy(()=> import("../pages/Cards"))
 
 const VITE_REACT_LOCAL_BACKEND_URL = import.meta.env
   .VITE_REACT_LOCAL_BACKEND_URL;
@@ -18,9 +19,9 @@ if (!VITE_REACT_LOCAL_BACKEND_URL)
   throw new Error("VITE_REACT_LOCAL_BACKEND_URL is not defined");
 
 export default function PageLayout() {
-  const isSmDown = useMediaQuery("(max-width:720px)");
+  const isSmDown = useMediaQuery(BREAKPOINTS.SMALL_DOWN);
   const navigate = useNavigate();
-  const socketIdRef = React.useRef<string>("");
+  const socketIdRef = useRef<string>("");
 
   const [value, setValue] = useState(
     PAGES.find((page) => location.pathname.includes(page.route))?.index || 0
@@ -38,7 +39,7 @@ export default function PageLayout() {
     location.pathname.includes(page.route)
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     const socket: Socket = io(`${VITE_REACT_LOCAL_BACKEND_URL}/card-manager`);
     socket.on(
       "searchCardSetFinished",
@@ -65,6 +66,7 @@ export default function PageLayout() {
     socket.on("connect", () => (socketIdRef.current = socket.id));
 
     return () => {
+      socket.removeAllListeners();
       socket.disconnect();
     };
   }, []);
@@ -100,8 +102,30 @@ export default function PageLayout() {
       >
         {!isValidRoute && <Navigate to="/cards" replace />}
         <Routes>
-          <Route path="/cards/:cardNumber?" element={<Cards socketId={socketIdRef.current} />} />
-          <Route path="/collection" element={<Collection />} />
+          <Route 
+            path='/cards/:cardNumber?'
+            element={
+              <Suspense fallback={
+                <Grid container justifyContent="center" alignItems="center" sx={{ height: '100%' }}>
+                  <CircularProgress />
+                </Grid>
+              }>
+                <Cards socketId={socketIdRef.current}/>
+              </Suspense>
+            }
+          />
+          <Route 
+            path="/collection" 
+            element={
+              <Suspense fallback={
+                <Grid container justifyContent="center" alignItems="center" sx={{ height: '100%' }}>
+                  <CircularProgress />
+                </Grid>
+              }>
+                <Collection />
+              </Suspense>
+            } 
+          />
         </Routes>
       </Grid>
       {isSmDown && (

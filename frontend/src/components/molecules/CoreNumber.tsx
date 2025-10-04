@@ -30,7 +30,6 @@ const CoreNumber = ({ min, max, value, label, btnLabel, setValue, onSubmit }: Co
   const [lastValid, setLastValid] = useState<number | "">(value);
   const holdInterval = useRef<number | null>(null);
   const holdAction = useRef<(() => void) | null>(null);
-  // Debounce timer reference
   const debounceTimerRef = useRef<number | null>(null);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -49,7 +48,6 @@ const CoreNumber = ({ min, max, value, label, btnLabel, setValue, onSubmit }: Co
     }
   };
 
-  // Optimized increment/decrement logic
   const handleDecrement = () => {
     setQuantity((prev) => {
       if (prev !== "" && prev > min) {
@@ -73,29 +71,22 @@ const CoreNumber = ({ min, max, value, label, btnLabel, setValue, onSubmit }: Co
   };
 
   const startHold = (action: () => void) => {
-    // Clear any existing interval
     if (holdInterval.current) {
       clearInterval(holdInterval.current);
     }
     
-    // Store the action
     holdAction.current = action;
     
-    // Execute action immediately
     action();
     
-    // Start with moderate speed
     let speed = 120;
     let elapsed = 0;
     
-    // Set up interval for repeated actions
     holdInterval.current = window.setInterval(() => {
       elapsed += speed;
       
-      // Execute the action if available
       if (holdAction.current) holdAction.current();
       
-      // Speed up after holding for 1.5 seconds
       if (elapsed >= 1500 && speed === 120) {
         speed = 40;
         clearInterval(holdInterval.current!);
@@ -114,7 +105,6 @@ const CoreNumber = ({ min, max, value, label, btnLabel, setValue, onSubmit }: Co
     }
   };
 
-  // Clean up intervals on unmount
   useEffect(() => {
     return () => {
       if (holdInterval.current) {
@@ -126,17 +116,14 @@ const CoreNumber = ({ min, max, value, label, btnLabel, setValue, onSubmit }: Co
     };
   }, []);
 
-  // Debounced setValue effect
   useEffect(() => {
-    // Clear any existing timeout
     if (debounceTimerRef.current) {
       clearTimeout(debounceTimerRef.current);
     }
     
-    // Set new timeout to update the parent value after delay
     debounceTimerRef.current = window.setTimeout(() => {
       setValue(quantity);
-    }, 200); // 200ms debounce delay
+    }, 200);
     
     return () => {
       if (debounceTimerRef.current) {

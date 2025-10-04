@@ -3,6 +3,7 @@ import CardWrapper from "../../atoms/CardWrapper";
 import CoreNumber from "../../molecules/CoreNumber";
 import type { ICard } from "../../../interfaces/card.interface";
 import CardInfoHeader from "./CardInfoHeader";
+import { BREAKPOINTS } from "../../../constants";
 
 interface Props {
   card: ICard | null;
@@ -12,7 +13,7 @@ interface Props {
 }
 
 const CardImageAndQuantity = ({ card, quantity, setQuantity, onSubmit }: Props) => {
-  const isNotWiderThan900 = useMediaQuery('(max-width:900px)');
+  const isNotWiderThan900 = useMediaQuery(BREAKPOINTS.NOT_WIDER_THAN_900);
 
   return <Grid
     sx={{

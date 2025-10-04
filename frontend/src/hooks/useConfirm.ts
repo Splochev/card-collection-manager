@@ -1,5 +1,4 @@
-import * as React from "react";
-import { useCallback } from "react";
+import { useCallback, createElement, type FC } from "react";
 import { useDispatch } from "react-redux";
 import { showConfirm, closeConfirm } from "../stores/confirmSlice";
 import { registerResolver } from "../services/confirmService";
@@ -13,7 +12,7 @@ type ConfirmOptions = {
   confirmText?: string;
   cancelText?: string | null;
   dismissible?: boolean;
-  custom?: React.FC | null;
+  custom?: FC | null;
 };
 
 const resolvers = new Map<string, { resolve: (v: boolean) => void }>();
@@ -31,8 +30,7 @@ export const useConfirm = () => {
       return new Promise<boolean>((resolve) => {
         registerResolver(id, resolve);
         if (opts.custom) {
-          // convert component type into a React node
-          registerCustom(id, React.createElement(opts.custom));
+          registerCustom(id, createElement(opts.custom));
         }
         dispatch(
           showConfirm({

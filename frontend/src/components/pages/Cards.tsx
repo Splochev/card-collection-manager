@@ -2,16 +2,21 @@ import CardImageAndQuantity from "../organisms/cards/CardImageAndQuantity";
 import CardFullInfo from "../organisms/cards/CardFullInfo";
 import CardListFromSet from "../organisms/cards/CardListFromSet";
 import EmptyState from "../organisms/shared/EmptyState";
-import * as React from "react";
-import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useParams } from "react-router-dom";
+import { useState, useCallback, useEffect } from "react";
 import Grid from "@mui/material/Grid";
 import { toast } from "react-toastify";
 import { Button } from "@mui/material";
 import type { ICard } from "../../interfaces/card.interface";
 import SDK from "../../sdk/SDK";
-import { CARD_SET_CODE_REGEX } from "../../constants";
-import { store } from "../../stores/store";
+import { CARD_SET_CODE_REGEX, ELEMENT_IDS } from "../../constants";
+import {
+  setCardsData,
+  clearCardsData,
+  setSelectedCardNumber as setSelectedCardNumberAction,
+} from "../../stores/cardSlice";
+import { useSelector, useDispatch } from "react-redux";
+import type { RootState } from "../../stores/store";
 import CoreInput from "../molecules/CoreInput";
 import CardsLoadingScreen from "../organisms/cards/CardsLoadingScreen";
 
@@ -20,25 +25,42 @@ const VITE_REACT_LOCAL_BACKEND_URL = import.meta.env
 if (!VITE_REACT_LOCAL_BACKEND_URL)
   throw new Error("VITE_REACT_LOCAL_BACKEND_URL is not defined");
 
-const Cards = ({ socketId }: { socketId: string }) => {
+interface CardsProps {
+  socketId: string;
+}
+
+const Cards = ({ socketId }: CardsProps) => {
   const sdk = SDK.getInstance(VITE_REACT_LOCAL_BACKEND_URL);
-  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const { cardNumber: urlCardNumber } = useParams<{ cardNumber?: string }>();
+
+  const cardsList = useSelector((state: RootState) => state.cards.cardsList);
+  const cardSetPrefixInStore = useSelector(
+    (state: RootState) => state.cards.cardSetPrefix
+  );
+  const selectedCardNumber = useSelector(
+    (state: RootState) => state.cards.selectedCardNumber
+  );
+
   const [searchedCard, setSearchedCard] = useState<ICard | null>(null);
-  const [cardsList, setCardsList] = useState<ICard[]>([]);
   const [quantity, setQuantity] = useState<number | "">(1);
   const [cardSetName, setCardSetName] = useState<string>("");
   const [showCardSetFetch, setShowCardSetFetch] = useState<boolean>(false);
-  const [selectedCardNumber, setSelectedCardNumber] = useState<string>(null);
-  const selectedCardNumberRef = React.useRef<string>("");
-  const [isLoading, setIsLoading] = React.useState<boolean>(true);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
 
-  const fetchCardSet = React.useCallback(
+  useEffect(() => {
+    if (urlCardNumber) {
+      dispatch(setSelectedCardNumberAction(urlCardNumber));
+    }
+  }, [urlCardNumber, dispatch]);
+
+  const fetchCardSet = useCallback(
     async (cardSetNameValue: string) => {
       try {
         await sdk.cardsManager.findCardSets(
           {
             cardSetNames: [cardSetNameValue],
-            cardSetCode: selectedCardNumberRef.current,
+            cardSetCode: selectedCardNumber || "",
           },
           socketId
         );
@@ -50,43 +72,69 @@ const Cards = ({ socketId }: { socketId: string }) => {
         toast.error("Failed to start search. Please try again.");
       }
     },
-    [sdk.cardsManager, socketId, selectedCardNumberRef]
+    [sdk.cardsManager, socketId, selectedCardNumber]
   );
 
-  const searchCards = React.useCallback(
-    async (cardSetCode: string) => {
+  useEffect(() => {
+    const executeSearch = async () => {
       try {
+        const cardSetCode = selectedCardNumber || urlCardNumber;
         if (!cardSetCode) {
-          setCardsList([]);
-          navigate("/cards");
+          dispatch(clearCardsData());
+          setShowCardSetFetch(false);
+          setIsLoading(false);
+          return;
+        }
+        
+        const normalizedCode = cardSetCode.trim().toUpperCase();
+        const valid = CARD_SET_CODE_REGEX.test(normalizedCode);
+        if (!valid) {
+          setIsLoading(false);
+          return;
+        }
+
+        const setCodePrefix = normalizedCode.split("-")[0];
+
+        if (cardSetPrefixInStore === setCodePrefix && cardsList.length > 0) {
+          setIsLoading(false);
+          const cardInList = cardsList.find(
+            (c) => c.cardNumber.toUpperCase() === normalizedCode
+          );
+          if (cardInList) {
+            setSearchedCard(cardInList);
+            setQuantity(cardInList.count || 1);
+            setShowCardSetFetch(false);
+          } else {
+            setSearchedCard(null);
+            setShowCardSetFetch(true);
+          }
+          return;
+        }
+
+        setIsLoading(true);
+        const cards = await sdk.cardsManager.getCardsBySetCode(normalizedCode);
+
+        dispatch(
+          setCardsData({ cardSetPrefix: setCodePrefix, cardsList: cards })
+        );
+        const searchedCard = cards.find(
+          (c) => c.cardNumber.toUpperCase() === normalizedCode
+        );
+        if (!searchedCard) {
+          toast.error("Card not found in the fetched set.");
+          setSearchedCard(null);
           setShowCardSetFetch(false);
           return;
         }
-        cardSetCode = cardSetCode.trim().toUpperCase();
-        const valid = CARD_SET_CODE_REGEX.test(cardSetCode);
-        if (!valid) return;
 
-        let cards: ICard[] | undefined;
-        const cardInList = (cardsList || []).find(
-          (c) => c.cardNumber.toUpperCase() === cardSetCode
-        );
-
-        if (cardInList) {
-          cards = cardsList;
-          setSearchedCard(cardInList);
-          setQuantity(cardInList.count || 1);
-        } else {
-          setIsLoading(true);
-          cards = await sdk.cardsManager.getCardsBySetCode(cardSetCode);
-          setSearchedCard(cards[0]);
-          setQuantity(cards[0].count || 1);
-        }
-        setCardsList(cards);
+        setSearchedCard(searchedCard);
+        setQuantity(searchedCard.count || 1);
         setShowCardSetFetch(false);
-      } catch (error: any) {
+      } catch (error) {
+        const err = error as { response?: { data?: { statusCode?: number; message?: string } } };
         if (
-          error?.response?.data?.statusCode === 404 &&
-          error?.response?.data?.message.toLowerCase().includes("not found")
+          err?.response?.data?.statusCode === 404 &&
+          err?.response?.data?.message?.toLowerCase().includes("not found")
         ) {
           setShowCardSetFetch(true);
         } else {
@@ -96,20 +144,11 @@ const Cards = ({ socketId }: { socketId: string }) => {
       } finally {
         setIsLoading(false);
       }
-    },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [sdk, navigate]
-  );
+    };
 
-  React.useEffect(() => {
-    const unsubscribe = store.subscribe(() => {
-      const selectedCardNumber = store.getState().cards.selectedCardNumber;
-      searchCards(selectedCardNumber || "");
-      setSelectedCardNumber(selectedCardNumber || "");
-      selectedCardNumberRef.current = selectedCardNumber || "";
-    });
-    return () => unsubscribe();
-  }, [searchCards]);
+    executeSearch();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedCardNumber, urlCardNumber]);
 
   const onSubmit = async () => {
     if (!searchedCard) return;
@@ -144,9 +183,7 @@ const Cards = ({ socketId }: { socketId: string }) => {
           title="Find Card Set"
           description={`We couldn't find the card set you're looking for. Would you like to\n\rprovide the card set name for the card with set code: ${selectedCardNumber}?`}
           callback={() => {
-            const searchBar = document.getElementById(
-              "Card Set Name (e.g. Metal Raiders, Alliance Insight, etc...)"
-            );
+            const searchBar = document.getElementById(ELEMENT_IDS.CARD_SET_NAME_INPUT);
             searchBar?.focus();
           }}
           custom={() => (
@@ -162,7 +199,7 @@ const Cards = ({ socketId }: { socketId: string }) => {
               }}
             >
               <CoreInput
-                label="Card Set Name (e.g. Metal Raiders, Alliance Insight, etc...)"
+                label={ELEMENT_IDS.CARD_SET_NAME_INPUT}
                 onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                   setCardSetName(e.target.value)
                 }
@@ -200,9 +237,7 @@ const Cards = ({ socketId }: { socketId: string }) => {
           title="Search for Yu-Gi-Oh! Cards"
           description={`Use the search bar above to find cards and add them to your collection.\n\rExplore thousands of cards from different sets and rarities.`}
           callback={() => {
-            const searchBar = document.getElementById(
-              "Find cards by set number"
-            );
+            const searchBar = document.getElementById(ELEMENT_IDS.CARD_SEARCH_INPUT);
             searchBar?.focus();
           }}
         />
@@ -229,7 +264,7 @@ const Cards = ({ socketId }: { socketId: string }) => {
         onSubmit={onSubmit}
       />
       <CardFullInfo card={searchedCard} />
-      <CardListFromSet cardsList={cardsList} excludedCards={[searchedCard]} />
+      <CardListFromSet />
     </Grid>
   );
 };

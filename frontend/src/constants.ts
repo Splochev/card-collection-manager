@@ -18,4 +18,16 @@ const PAGES = [
 
 const CARD_SET_CODE_REGEX = /^[A-Z0-9]{3,6}-[A-Z0-9]{3,6}$/i;
 
-export { ROUTES_MAP, PAGES, CARD_SET_CODE_REGEX };
+const BREAKPOINTS = {
+  WIDE_SCREEN: "(min-width:1631px)",
+  SMALL_DOWN: "(max-width:720px)",
+  NOT_WIDER_THAN_900: "(max-width:900px)",
+} as const;
+
+const ELEMENT_IDS = {
+  CARD_SEARCH_INPUT: "Find cards by set number",
+  CARD_SET_NAME_INPUT: "Card Set Name (e.g. Metal Raiders, Alliance Insight, etc...)",
+  CARD_FILTER_INPUT: "card-filter",
+} as const;
+
+export { ROUTES_MAP, PAGES, CARD_SET_CODE_REGEX, BREAKPOINTS, ELEMENT_IDS };

@@ -14,8 +14,6 @@ const themeSlice = createSlice({
         action.payload || (state.mode === "light" ? "dark" : "light");
       state.mode = newMode;
       localStorage.setItem("themeMode", newMode);
-      // TODO save as user preference in the database
-      // when user is fetched from the database, set the theme based on user preference
     },
   },
 });

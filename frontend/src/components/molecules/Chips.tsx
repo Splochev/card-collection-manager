@@ -23,10 +23,9 @@ const Chips = ({
     setCanScrollRight(el.scrollLeft + el.clientWidth < el.scrollWidth);
   };
 
-  // Ref to store the interval id for continuous scrolling while a button is held
   const scrollIntervalRef = useRef<number | null>(null);
-  const SCROLL_STEP = 5; // pixels per tick
-  const SCROLL_TICK = 8; // ms per tick (~60fps)
+  const SCROLL_STEP = 5;
+  const SCROLL_TICK = 8;
 
   const stopScrolling = () => {
     if (scrollIntervalRef.current !== null) {
@@ -40,7 +39,6 @@ const Chips = ({
     scrollIntervalRef.current = window.setInterval(() => {
       const el = scrollRef.current;
       if (!el) return;
-      // use non-smooth scrolling for continuous behavior
       el.scrollBy({ left: direction * SCROLL_STEP });
       updateScrollButtons();
     }, SCROLL_TICK) as unknown as number;

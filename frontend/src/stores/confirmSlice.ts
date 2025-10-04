@@ -12,7 +12,6 @@ export interface ConfirmState {
   confirmText: string;
   cancelText: string | null;
   dismissible: boolean;
-  // store only a serializable key that references custom content kept outside the store
   customKey: string | null;
 }
 
@@ -45,8 +44,7 @@ const confirmSlice = createSlice({
       state.confirmText = payload.confirmText ?? "OK";
       state.cancelText = payload.cancelText ?? "Cancel";
       state.dismissible = payload.dismissible ?? true;
-      state.customKey = payload.customKey ?? null; // Update to use customKey
-      // defensive: remove any leftover non-serializable `custom` field if present
+      state.customKey = payload.customKey ?? null;
       try {
         if ((state as any).custom) delete (state as any).custom;
       } catch (e) {
@@ -58,8 +56,7 @@ const confirmSlice = createSlice({
       state.id = null;
       state.title = null;
       state.message = null;
-      state.customKey = null; // Update to reset customKey
-      // also defensively remove leftover custom
+      state.customKey = null;
       try {
         if ((state as any).custom) delete (state as any).custom;
       } catch (e) {

@@ -1,4 +1,3 @@
-// App.tsx
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import { ToastContainer } from "react-toastify";
@@ -18,11 +17,15 @@ import {
   useHandleSignInCallback,
 } from "@logto/react";
 
-// ---- Logto Config ----
+const LOGTO_ENDPOINT = import.meta.env.VITE_LOGTO_ENDPOINT;
+const LOGTO_APP_ID = import.meta.env.VITE_LOGTO_APP_ID;
+const LOGTO_REDIRECT_URI = import.meta.env.VITE_LOGTO_REDIRECT_URI;
+const LOGTO_RESOURCE = import.meta.env.VITE_LOGTO_RESOURCE;
+
 const config: LogtoConfig = {
-  endpoint: "http://localhost:3001/",
-  appId: "nxbvkezf2ydmgzwrph7at",
-  resources: ["https://03f80a3a0207.ngrok-free.app"],
+  endpoint: LOGTO_ENDPOINT,
+  appId: LOGTO_APP_ID,
+  resources: [LOGTO_RESOURCE],
 };
 
 function App() {
@@ -38,10 +41,8 @@ function App() {
   );
 }
 
-// ---- Callback page to complete login ----
 function CallbackPage() {
   const { isLoading } = useHandleSignInCallback(() => {
-    // After processing, go back home
     window.location.replace("/");
   });
 
@@ -49,23 +50,21 @@ function CallbackPage() {
   return null;
 }
 
-// ---- Protected app ----
 function ProtectedApp() {
   const theme = useSelector((state: RootState) =>
     state.theme.mode === "light" ? lightTheme : darkTheme
   );
+  const accessToken = useSelector((state: RootState) => state.user.accessToken);
   const dispatch = useDispatch();
   const { signIn, isAuthenticated, isLoading, fetchUserInfo, getAccessToken } =
     useLogto();
 
-  // auto-login if not authenticated
   useEffect(() => {
     if (!isLoading && !isAuthenticated) {
-      signIn("http://localhost:5173/callback");
+      signIn(LOGTO_REDIRECT_URI);
     }
   }, [isLoading, isAuthenticated, signIn]);
 
-  // fetch user + token when authenticated
   useEffect(() => {
     if (isAuthenticated) {
       (async () => {
@@ -73,9 +72,7 @@ function ProtectedApp() {
           const user = await fetchUserInfo();
           dispatch(setUser(user));
 
-          const token = await getAccessToken(
-            "https://03f80a3a0207.ngrok-free.app"
-          );
+          const token = await getAccessToken(LOGTO_RESOURCE);
           dispatch(setAccessToken(token));
         } catch (err) {
           console.error("Failed to fetch user or token", err);
@@ -83,6 +80,12 @@ function ProtectedApp() {
       })();
     }
   }, [isAuthenticated, fetchUserInfo, getAccessToken, dispatch]);
+
+  useEffect(() => {
+    if (accessToken) {
+      localStorage.setItem('accessToken', JSON.stringify(accessToken));
+    }
+  }, [accessToken]);
 
   if (isLoading) return <div>Loading...</div>;
 

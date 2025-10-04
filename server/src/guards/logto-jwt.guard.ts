@@ -9,7 +9,6 @@ import { Request } from 'express';
 import * as jsonwebtoken from 'jsonwebtoken';
 import { JwtHeader } from 'jsonwebtoken';
 
-// Extend Express Request interface to include userAuthId
 declare module 'express-serve-static-core' {
   interface Request {
     userAuthId?: string;
@@ -151,15 +150,6 @@ export class JwtAuthGuard implements CanActivate {
                 new UnauthorizedException('Missing or invalid subject claim'),
               );
             }
-
-            // if (!scope || typeof scope !== 'string') {
-            //   throw new Error('Missing or invalid scope claim');
-            // }
-            // assert(
-            //   scope.split(' ').includes('read:products'),
-            //   'Missing required scope "read:products"',
-            // );
-            // req.userAuthId = { userAuthId: sub /*, scope */ }; // Include scope if needed
 
             req.userAuthId = sub;
             resolve(true);

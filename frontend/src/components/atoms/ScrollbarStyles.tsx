@@ -10,7 +10,6 @@ export default function ScrollbarStyles(): React.JSX.Element {
     ? theme.palette.background.default
     : theme.palette.background.paper;
 
-  // fallback colors if palette doesn't have the expected shades
   const primaryMain = theme.palette.primary?.main ?? "#c59d39";
   const primaryLight = theme.palette.primary?.light ?? "#f4d76e";
 
@@ -23,7 +22,6 @@ export default function ScrollbarStyles(): React.JSX.Element {
   return (
     <GlobalStyles
       styles={{
-        // WebKit browsers
         "*::-webkit-scrollbar": {
           width: 12,
           height: 12,
@@ -41,7 +39,6 @@ export default function ScrollbarStyles(): React.JSX.Element {
           backgroundColor: thumbHover,
         },
 
-        // Firefox
         html: {
           scrollbarWidth: "thin",
           scrollbarColor: `${thumb} ${track}`,

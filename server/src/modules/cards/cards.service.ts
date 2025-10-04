@@ -307,7 +307,6 @@ export class CardsService {
       fs.writeFileSync(seedFilePath, JSON.stringify(updatedData, null, 2));
     }
 
-    // notify clients that searching finished for this collection
     try {
       const payload = { collectionName, count: cards.length, cardSetCode };
       this.scrapeGateway?.notifySearchFinished(payload, socketId);
@@ -335,13 +334,11 @@ export class CardsService {
         );
       }
 
-      // Get the card to determine its card set
       const card = await this.cardRepository.findOneOrFail({
         where: { id: cardId },
         relations: ['cardEditions'],
       });
 
-      // If the card has card editions, invalidate the related cache entries
       if (card.cardEditions && card.cardEditions.length > 0) {
         for (const edition of card.cardEditions) {
           const cacheKey = `card-set:${userId}:${edition.cardSetName}`;

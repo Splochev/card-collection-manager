@@ -11,7 +11,7 @@ import { CardEntity } from './card.entity';
 import { User } from './user.entity';
 
 @Entity('users-cards')
-@Unique(['cardId', 'userId']) // Creates a composite unique constraint
+@Unique(['cardId', 'userId'])
 export class UserCards {
   @PrimaryGeneratedColumn()
   id!: number;

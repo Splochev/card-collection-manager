@@ -41,7 +41,6 @@ const ConfirmDialog: React.FC = () => {
     const id = state.id;
     dispatch(closeConfirm());
     resolveConfirm(id, accepted);
-    // cleanup any registered custom content
     clearCustom(id);
   };
 

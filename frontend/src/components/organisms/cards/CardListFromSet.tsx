@@ -6,18 +6,22 @@ import Paper from "@mui/material/Paper";
 import CardWrapper from "../../atoms/CardWrapper";
 import { IconButton, useMediaQuery, TextField, InputAdornment } from "@mui/material";
 import LaunchIcon from '@mui/icons-material/Launch';
-import React, { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, memo } from "react";
 import SearchIcon from '@mui/icons-material/Search';
+import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
+import type { RootState } from "../../../stores/store";
+import { BREAKPOINTS, ELEMENT_IDS } from "../../../constants";
 
-const CardListFromSet = ({cardsList, excludedCards} : {cardsList: ICard[], excludedCards: (ICard | null)[]}) => {
-    // Check if width is greater than 1630px
-    const isWideScreen = useMediaQuery('(min-width:1631px)');
+const CardListFromSet = () => {
+    const cardsList = useSelector((state: RootState) => state.cards.cardsList);
+    const selectedCardNumber = useSelector((state: RootState) => state.cards.selectedCardNumber);
+    
+    const isWideScreen = useMediaQuery(BREAKPOINTS.WIDE_SCREEN);
     const [inputValue, setInputValue] = useState<string>(""); 
     const [filterText, setFilterText] = useState<string>("");
     
-    // Handle input change with debounce effect
     useEffect(() => {
-      // Only update filter after a delay of typing
       const handler = setTimeout(() => {
         setFilterText(inputValue);
       }, 200);
@@ -27,29 +31,32 @@ const CardListFromSet = ({cardsList, excludedCards} : {cardsList: ICard[], exclu
       };
     }, [inputValue]);
     
-    // Create a set of excluded card numbers for faster lookups (O(1) instead of O(n))
     const excludedCardSet = useMemo(() => {
       const set = new Set<string>();
-      excludedCards?.forEach(card => {
-        if (card?.cardNumber) set.add(card.cardNumber);
-      });
+      if (selectedCardNumber) {
+        set.add(selectedCardNumber.toUpperCase());
+      }
       return set;
-    }, [excludedCards]);
+    }, [selectedCardNumber]);
     
-    // First filter out excluded cards (this remains constant)
     const eligibleCards = useMemo(() => {
-      return cardsList.filter(card => !excludedCardSet.has(card.cardNumber || ''));
+      const seen = new Set<string>();
+      return cardsList.filter(card => {
+        const cardNumber = (card.cardNumber || '').toUpperCase();
+        if (excludedCardSet.has(cardNumber) || seen.has(cardNumber)) {
+          return false;
+        }
+        seen.add(cardNumber);
+        return true;
+      });
     }, [cardsList, excludedCardSet]);
     
-    // Apply search filter with memoization
     const displayedCards = useMemo(() => {
-      // If no search term, return all eligible cards
       const trimmedSearch = filterText.trim();
       if (!trimmedSearch) {
         return eligibleCards;
       }
       
-      // Apply search filter
       const search = trimmedSearch.toLowerCase();
       return eligibleCards.filter(card => 
         (card.name?.toLowerCase() || '').includes(search) ||
@@ -76,7 +83,7 @@ const CardListFromSet = ({cardsList, excludedCards} : {cardsList: ICard[], exclu
             ),
           }}
           size="small"
-          id="card-filter"
+          id={ELEMENT_IDS.CARD_FILTER_INPUT}
           fullWidth
           margin="dense"
         />
@@ -85,7 +92,7 @@ const CardListFromSet = ({cardsList, excludedCards} : {cardsList: ICard[], exclu
           flexDirection: "column", 
           gap: 4, 
           width: '100%',
-          paddingRight: 2,
+          padding: 2,
           ...(isWideScreen && {
             overflowY: 'auto',
             maxHeight: 'calc(100vh - 220px)',
@@ -105,9 +112,14 @@ const CardListFromSet = ({cardsList, excludedCards} : {cardsList: ICard[], exclu
      );
 };
 
-// Separate card item component to prevent re-rendering all cards when one changes
-// Use React.memo to prevent unnecessary re-renders
-const CardItem = React.memo(({ card }: { card: ICard }) => {
+const CardItem = memo(({ card }: { card: ICard }) => {
+  const navigate = useNavigate();
+  
+  const handleNavigate = (e: React.MouseEvent) => {
+    e.preventDefault();
+    navigate(`/cards/${card.cardNumber}`);
+  };
+
   return (
     <Paper 
       elevation={6} 
@@ -119,7 +131,7 @@ const CardItem = React.memo(({ card }: { card: ICard }) => {
         <CardWrapper url={card?.imageUrl || undefined} name={card?.name || undefined} width={'6rem'}/>
         <Grid sx={{width: '100%', height: '100%'}}>
           <Grid sx={{width: '100%', justifyContent: 'flex-end', display: 'flex', alignItems: 'baseline'}}>
-            <IconButton href={`/cards/${card.cardNumber}`} sx={{marginTop: '-10px', marginRight: '-10px'}}>
+            <IconButton onClick={handleNavigate} sx={{marginTop: '-10px', marginRight: '-10px'}}>
               <LaunchIcon />
             </IconButton>
           </Grid>

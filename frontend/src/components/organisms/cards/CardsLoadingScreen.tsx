@@ -19,7 +19,6 @@ const CardsLoadingScreen = () => {
           display: "flex",
           flexDirection: "column",
           gap: 6,
-          // responsive sizing: full width on xs, fixed-ish on md+
             flex: { xs: "1 1 100%", md: "0 0 25rem" },
             width: { xs: "100%", md: "25rem" },
             minWidth: { xs: 0, md: '18em' },
