@@ -85,7 +85,7 @@ const Cards = ({ socketId }: CardsProps) => {
           setIsLoading(false);
           return;
         }
-        
+
         const normalizedCode = cardSetCode.trim().toUpperCase();
         const valid = CARD_SET_CODE_REGEX.test(normalizedCode);
         if (!valid) {
@@ -98,7 +98,7 @@ const Cards = ({ socketId }: CardsProps) => {
         if (cardSetPrefixInStore === setCodePrefix && cardsList.length > 0) {
           setIsLoading(false);
           const cardInList = cardsList.find(
-            (c) => c.cardNumber.toUpperCase() === normalizedCode
+            (c) => c?.cardNumber?.toUpperCase() === normalizedCode
           );
           if (cardInList) {
             setSearchedCard(cardInList);
@@ -114,10 +114,14 @@ const Cards = ({ socketId }: CardsProps) => {
         setIsLoading(true);
         const cards = await sdk.cardsManager.getCardsBySetCode(normalizedCode);
 
-        dispatch(
-          setCardsData({ cardSetPrefix: setCodePrefix, cardsList: cards })
+        const validCards = cards.filter(
+          (c): c is ICard => c != null && c.cardNumber != null
         );
-        const searchedCard = cards.find(
+
+        dispatch(
+          setCardsData({ cardSetPrefix: setCodePrefix, cardsList: validCards })
+        );
+        const searchedCard = validCards.find(
           (c) => c.cardNumber.toUpperCase() === normalizedCode
         );
         if (!searchedCard) {
@@ -131,7 +135,9 @@ const Cards = ({ socketId }: CardsProps) => {
         setQuantity(searchedCard.count || 1);
         setShowCardSetFetch(false);
       } catch (error) {
-        const err = error as { response?: { data?: { statusCode?: number; message?: string } } };
+        const err = error as {
+          response?: { data?: { statusCode?: number; message?: string } };
+        };
         if (
           err?.response?.data?.statusCode === 404 &&
           err?.response?.data?.message?.toLowerCase().includes("not found")
@@ -183,7 +189,9 @@ const Cards = ({ socketId }: CardsProps) => {
           title="Find Card Set"
           description={`We couldn't find the card set you're looking for. Would you like to\n\rprovide the card set name for the card with set code: ${selectedCardNumber}?`}
           callback={() => {
-            const searchBar = document.getElementById(ELEMENT_IDS.CARD_SET_NAME_INPUT);
+            const searchBar = document.getElementById(
+              ELEMENT_IDS.CARD_SET_NAME_INPUT
+            );
             searchBar?.focus();
           }}
           custom={() => (
@@ -237,7 +245,9 @@ const Cards = ({ socketId }: CardsProps) => {
           title="Search for Yu-Gi-Oh! Cards"
           description={`Use the search bar above to find cards and add them to your collection.\n\rExplore thousands of cards from different sets and rarities.`}
           callback={() => {
-            const searchBar = document.getElementById(ELEMENT_IDS.CARD_SEARCH_INPUT);
+            const searchBar = document.getElementById(
+              ELEMENT_IDS.CARD_SEARCH_INPUT
+            );
             searchBar?.focus();
           }}
         />

@@ -111,22 +111,47 @@ export class CardsService {
     }
 
     const cacheKey = `card-set:${userId}:${cardMetadata.cardSetName}`;
-    const cachedCards = await this.cacheService.get<CardEditions[]>(cacheKey);
+    let cachedCards = await this.cacheService.get<CardEditions[]>(cacheKey);
+
+    if (!(cachedCards || []).find((c) => c.cardNumber === cardNumber)) {
+      await this.cacheService.del(cacheKey);
+      cachedCards = null;
+    }
 
     const setCards: CardEditions[] =
       cachedCards ||
       (await this.cardEditionsRepository.query(
         `
       SELECT
-        ce.*,
-        c.*,
+        ce."id" as "id",
+        ce."cardNumber" as "cardNumber",
+        ce."cardSetName" as "cardSetName",
+        ce."name" as "name",
+        ce."rarities" as "rarities",
+        ce."cardId" as "cardId",
+        c."type" as "type",
+        c."desc" as "desc",
+        c."race" as "race",
+        c."imageUrl" as "imageUrl",
+        c."typeline" as "typeline",
+        c."atk" as "atk",
+        c."def" as "def",
+        c."level" as "level",
+        c."attribute" as "attribute",
+        c."linkval" as "linkval",
+        c."linkmarkers" as "linkmarkers",
+        c."pend_desc" as "pend_desc",
+        c."monster_desc" as "monster_desc",
+        c."scale" as "scale",
+        c."humanReadableCardType" as "humanReadableCardType",
+        c."frameType" as "frameType",
+        c."archetype" as "archetype",
         COALESCE(uc."count", 0) AS "count"
       FROM "card-editions" ce
       LEFT JOIN "cards" c ON c."id" = ce."cardId"
-      LEFT JOIN "users-cards" uc ON uc."cardId" = c."id"
+      LEFT JOIN "users-cards" uc ON uc."cardId" = c."id" AND uc."userId" = ${userId}
       WHERE 
         ce."cardSetName" ILIKE '%${cardMetadata.cardSetName}%'
-        AND (uc."userId" = ${userId} OR uc."userId" IS NULL)
     `,
       ));
 
@@ -134,10 +159,7 @@ export class CardsService {
       await this.cacheService.set(cacheKey, setCards, 300);
     }
 
-    const searchedCard = setCards.find((c) => c.id === cardMetadata.cardId);
-    const otherCards = setCards.filter((c) => c.id !== cardMetadata.id);
-
-    return [searchedCard!, ...otherCards];
+    return setCards;
   }
 
   formatCardData(card: ICard, cardQuery: CardQueryDto): CardDto {
