@@ -41,6 +41,11 @@ export default function PageLayout() {
 
   useEffect(() => {
     const socket: Socket = io(`${VITE_REACT_LOCAL_BACKEND_URL}/card-manager`);
+    
+    socket.on("connect", () => {
+      socketIdRef.current = socket.id;
+    });
+
     socket.on(
       "searchCardSetFinished",
       async (payload: { collectionName: string; cardSetCode: string }) => {
@@ -63,7 +68,6 @@ export default function PageLayout() {
         );
       }
     );
-    socket.on("connect", () => (socketIdRef.current = socket.id));
 
     return () => {
       socket.removeAllListeners();

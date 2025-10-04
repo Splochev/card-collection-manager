@@ -27,8 +27,16 @@ const TopNavigation = ({
   const [searchValue, setSearchValue] = React.useState("");
 
   const searchCards = React.useCallback((cardNumber: string) => {
-    store.dispatch(setSelectedCardNumber(cardNumber));
-  }, []);
+    const upperCaseCardNumber = cardNumber.toUpperCase();
+    store.dispatch(setSelectedCardNumber(upperCaseCardNumber));
+    
+    if (location.pathname.includes(ROUTES_MAP.CARDS)) {
+      const newPath = upperCaseCardNumber 
+        ? `/cards/${upperCaseCardNumber}` 
+        : '/cards';
+      window.history.pushState({}, '', newPath);
+    }
+  }, [location.pathname]);
 
   const debouncedSearchCards = React.useMemo(
     () => debounce(searchCards, 400),
@@ -37,8 +45,9 @@ const TopNavigation = ({
 
   React.useEffect(() => {
     const cardSetCode = location.pathname.split("/cards/")[1];
-    setSearchValue(cardSetCode || "");
-    debouncedSearchCards(cardSetCode || "");
+    const upperCaseCardSetCode = cardSetCode ? cardSetCode.toUpperCase() : "";
+    setSearchValue(upperCaseCardSetCode);
+    debouncedSearchCards(upperCaseCardSetCode);
   }, [debouncedSearchCards, location.pathname]);
 
   const label = location.pathname.includes(ROUTES_MAP.CARDS)
@@ -86,8 +95,9 @@ const TopNavigation = ({
             label={label}
             value={searchValue}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-              setSearchValue(e.target.value);
-              debouncedSearchCards(e.target.value);
+              const upperValue = e.target.value.toUpperCase();
+              setSearchValue(upperValue);
+              debouncedSearchCards(upperValue);
             }}
             startIcon={<SearchIcon />}
             responsive
@@ -113,8 +123,9 @@ const TopNavigation = ({
             label={label}
             value={searchValue}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-              setSearchValue(e.target.value);
-              debouncedSearchCards(e.target.value);
+              const upperValue = e.target.value.toUpperCase();
+              setSearchValue(upperValue);
+              debouncedSearchCards(upperValue);
             }}
             startIcon={<SearchIcon />}
           />

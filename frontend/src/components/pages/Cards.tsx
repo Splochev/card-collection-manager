@@ -86,7 +86,7 @@ const Cards = ({ socketId }: CardsProps) => {
           return;
         }
 
-        const normalizedCode = cardSetCode.trim().toUpperCase();
+        const normalizedCode = cardSetCode.trim();
         const valid = CARD_SET_CODE_REGEX.test(normalizedCode);
         if (!valid) {
           setIsLoading(false);
@@ -98,7 +98,7 @@ const Cards = ({ socketId }: CardsProps) => {
         if (cardSetPrefixInStore === setCodePrefix && cardsList.length > 0) {
           setIsLoading(false);
           const cardInList = cardsList.find(
-            (c) => c?.cardNumber?.toUpperCase() === normalizedCode
+            (c) => c?.cardNumber?.toUpperCase() === normalizedCode.toUpperCase()
           );
           if (cardInList) {
             setSearchedCard(cardInList);
@@ -122,7 +122,7 @@ const Cards = ({ socketId }: CardsProps) => {
           setCardsData({ cardSetPrefix: setCodePrefix, cardsList: validCards })
         );
         const searchedCard = validCards.find(
-          (c) => c.cardNumber.toUpperCase() === normalizedCode
+          (c) => c.cardNumber.toUpperCase() === normalizedCode.toUpperCase()
         );
         if (!searchedCard) {
           toast.error("Card not found in the fetched set.");
