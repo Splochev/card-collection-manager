@@ -8,13 +8,13 @@ import {
 } from '@nestjs/common';
 import { ScrapeService } from './scrape.service';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
-import { Public } from 'src/decorators/public.decorator';
+import { JwtAuthGuard } from 'src/guards/logto-jwt.guard';
 
+@UseGuards(JwtAuthGuard)
 @Controller('scrape')
 export class ScrapeController {
   constructor(private readonly scrapeService: ScrapeService) {}
 
-  @Public()
   @ApiOperation({ summary: 'Create a new scrape job for cards' })
   @ApiResponse({ status: 201, description: 'Scrape job created successfully' })
   @ApiResponse({ status: 400, description: 'Invalid data' })

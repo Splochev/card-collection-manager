@@ -16,6 +16,7 @@ import { User } from 'src/database/entities/user.entity';
 import { UsersService } from '../users/users.service';
 
 @ApiTags('cards')
+@UseGuards(JwtAuthGuard)
 @Controller('cards')
 export class CardsController {
   constructor(
@@ -30,7 +31,6 @@ export class CardsController {
     isArray: true,
   })
   @ApiResponse({ status: 404, description: 'Card set not found' })
-  @UseGuards(JwtAuthGuard)
   @Get(':cardSetCode')
   async getCardsByCardSetCode(
     @Param('cardSetCode') cardSetCode: string,
@@ -48,7 +48,6 @@ export class CardsController {
     isArray: true,
   })
   @ApiResponse({ status: 404, description: 'Card not found' })
-  @UseGuards(JwtAuthGuard)
   @Post()
   async addCardToCollection(
     @Req() req: IRequest,
