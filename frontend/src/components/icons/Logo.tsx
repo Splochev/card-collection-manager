@@ -5,17 +5,20 @@ const SIZE_MAP = {
     small: 'h-8',
     medium: 'h-10',
     large: 'h-12',
+    xlarge: 'h-24',
 }
 
 type LogoProps = {
-    size?: 'small' | 'medium' | 'large';
+    size?: 'small' | 'medium' | 'large' | 'xlarge';
+    disableClick?: boolean;
 };
 
-const Logo = ({ size = 'small' }: LogoProps) => {
+const Logo = ({ size = 'small', disableClick = false }: LogoProps) => {
   const navigate = useNavigate();
   const location = useLocation();
 
   const handleClick = () => {
+    if (disableClick) return;
     const basePath = '/' + location.pathname.split('/')[1];
     navigate(basePath);
     window.location.reload();
@@ -28,14 +31,16 @@ const Logo = ({ size = 'small' }: LogoProps) => {
       className={SIZE_MAP[size]} 
       onClick={handleClick}
       style={{
-        cursor: 'pointer',
+        cursor: disableClick ? 'default' : 'pointer',
         transition: 'opacity 0.2s ease-in-out, transform 0.2s ease-in-out',
       }}
       onMouseEnter={(e) => {
+        if (disableClick) return;
         e.currentTarget.style.opacity = '0.8';
         e.currentTarget.style.transform = 'scale(1.05)';
       }}
       onMouseLeave={(e) => {
+        if (disableClick) return;
         e.currentTarget.style.opacity = '1';
         e.currentTarget.style.transform = 'scale(1)';
       }}

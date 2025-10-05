@@ -10,6 +10,7 @@ import { lightTheme, darkTheme } from "./themes";
 import PageLayout from "./components/layouts/PageLayout";
 import ScrollbarStyles from "./components/atoms/ScrollbarStyles";
 import ConfirmDialog from "./components/organisms/layout/ConfirmDialog";
+import AppLoadingScreen from "./components/organisms/shared/AppLoadingScreen";
 import {
   LogtoProvider,
   type LogtoConfig,
@@ -46,7 +47,7 @@ function CallbackPage() {
     window.location.replace("/");
   });
 
-  if (isLoading) return <div>Redirecting...</div>;
+  if (isLoading) return <AppLoadingScreen label="Redirecting..." />;
   return null;
 }
 
@@ -83,13 +84,14 @@ function ProtectedApp() {
 
   useEffect(() => {
     if (accessToken) {
-      localStorage.setItem('accessToken', JSON.stringify(accessToken));
+      localStorage.setItem("accessToken", JSON.stringify(accessToken));
     }
   }, [accessToken]);
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) return <AppLoadingScreen />;
 
-  if (!isAuthenticated) return <div>Redirecting to login...</div>;
+  if (!isAuthenticated)
+    return <AppLoadingScreen label="Redirecting to login..." />;
 
   return (
     <ThemeProvider theme={theme}>

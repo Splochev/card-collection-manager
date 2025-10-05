@@ -200,6 +200,7 @@ const Cards = ({ socketId }: CardsProps) => {
           justifyContent: "space-around",
           width: "100%",
           alignItems: "center",
+          padding: 2,
         }}
       >
         <EmptyState
@@ -256,6 +257,7 @@ const Cards = ({ socketId }: CardsProps) => {
           justifyContent: "space-around",
           width: "100%",
           alignItems: "center",
+          padding: 2,
         }}
       >
         <EmptyState
@@ -282,6 +284,7 @@ const Cards = ({ socketId }: CardsProps) => {
         gap: 4,
         flexWrap: "wrap",
         alignItems: "flex-start",
+        padding: 2,
       }}
     >
       <CardImageAndQuantity

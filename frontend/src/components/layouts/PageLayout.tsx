@@ -8,10 +8,11 @@ import { useState, Suspense, lazy, useEffect, useRef } from "react";
 import Grid from "@mui/material/Grid";
 import { io, type Socket } from "socket.io-client";
 import { toast } from "react-toastify";
-import { Button, Typography, CircularProgress } from "@mui/material";
+import { Button, Typography } from "@mui/material";
+import AppLoadingScreen from "../organisms/shared/AppLoadingScreen";
 
 const Collection = lazy(() => import("../pages/Collection"));
-const Cards = lazy(()=> import("../pages/Cards"))
+const Cards = lazy(() => import("../pages/Cards"));
 
 const VITE_REACT_LOCAL_BACKEND_URL = import.meta.env
   .VITE_REACT_LOCAL_BACKEND_URL;
@@ -41,7 +42,7 @@ export default function PageLayout() {
 
   useEffect(() => {
     const socket: Socket = io(`${VITE_REACT_LOCAL_BACKEND_URL}/card-manager`);
-    
+
     socket.on("connect", () => {
       socketIdRef.current = socket.id;
     });
@@ -99,36 +100,31 @@ export default function PageLayout() {
           justifyContent: "center",
           alignItems: "top",
           gap: 2,
-          padding: 2,
           height: `calc(100vh - ${isSmDown ? "120px" : "60px"})`,
           overflowY: "auto",
         }}
       >
         {!isValidRoute && <Navigate to="/cards" replace />}
         <Routes>
-          <Route 
-            path='/cards/:cardNumber?'
+          <Route
+            path="/cards/:cardNumber?"
             element={
-              <Suspense fallback={
-                <Grid container justifyContent="center" alignItems="center" sx={{ height: '100%' }}>
-                  <CircularProgress />
-                </Grid>
-              }>
-                <Cards socketId={socketIdRef.current}/>
+              <Suspense
+                fallback={<AppLoadingScreen label="Loading cards..." />}
+              >
+                <Cards socketId={socketIdRef.current} />
               </Suspense>
             }
           />
-          <Route 
-            path="/collection" 
+          <Route
+            path="/collection"
             element={
-              <Suspense fallback={
-                <Grid container justifyContent="center" alignItems="center" sx={{ height: '100%' }}>
-                  <CircularProgress />
-                </Grid>
-              }>
+              <Suspense
+                fallback={<AppLoadingScreen label="Loading collection..." />}
+              >
                 <Collection />
               </Suspense>
-            } 
+            }
           />
         </Routes>
       </Grid>
