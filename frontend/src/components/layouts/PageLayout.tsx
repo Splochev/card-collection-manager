@@ -1,5 +1,5 @@
 import Paper from "@mui/material/Paper";
-import { Route, Routes, Navigate, useNavigate } from "react-router-dom";
+import { Route, Routes, Navigate, useNavigate, useLocation } from "react-router-dom";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { PAGES, BREAKPOINTS } from "../../constants";
 import BottomNavigation from "../organisms/layout/BottomNavigation";
@@ -22,11 +22,21 @@ if (!VITE_REACT_LOCAL_BACKEND_URL)
 export default function PageLayout() {
   const isSmDown = useMediaQuery(BREAKPOINTS.SMALL_DOWN);
   const navigate = useNavigate();
+  const location = useLocation();
   const socketIdRef = useRef<string>("");
 
   const [value, setValue] = useState(
     PAGES.find((page) => location.pathname.includes(page.route))?.index || 0
   );
+
+  useEffect(() => {
+    const pageIndex = PAGES.find((page) =>
+      location.pathname.includes(page.route)
+    )?.index;
+    if (pageIndex !== undefined && pageIndex !== value) {
+      setValue(pageIndex);
+    }
+  }, [location.pathname, value]);
 
   const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
     const page = PAGES[newValue];

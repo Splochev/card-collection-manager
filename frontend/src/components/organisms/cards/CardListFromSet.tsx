@@ -11,12 +11,14 @@ import {
   InputAdornment,
 } from "@mui/material";
 import LaunchIcon from "@mui/icons-material/Launch";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { useState, useMemo, useEffect, memo } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import type { RootState } from "../../../stores/store";
 import { BREAKPOINTS, ELEMENT_IDS } from "../../../constants";
+import { getCardmarketUrl } from "../../../utils";
 
 const CardListFromSet = () => {
   const cardsList = useSelector((state: RootState) => state.cards.cardsList);
@@ -49,7 +51,6 @@ const CardListFromSet = () => {
   const eligibleCards = useMemo(() => {
     const seen = new Set<string>();
     return cardsList.filter((card) => {
-      // Filter out null/undefined cards or cards without cardNumber
       if (!card || !card.cardNumber) {
         return false;
       }
@@ -179,9 +180,21 @@ const CardItem = memo(({ card }: { card: ICard }) => {
               justifyContent: "flex-end",
               display: "flex",
               alignItems: "baseline",
+              gap: 0.5,
             }}
           >
             <IconButton
+              component="a"
+              href={getCardmarketUrl(card.cardSetName, card.name, card.cardNumber, card.rarities)}
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{ marginTop: "-10px", marginRight: "-10px" }}
+            >
+              <ShoppingCartIcon />
+            </IconButton>
+            <IconButton
+              component="a"
+              href={`/cards/${card.cardNumber}`}
               onClick={handleNavigate}
               sx={{ marginTop: "-10px", marginRight: "-10px" }}
             >

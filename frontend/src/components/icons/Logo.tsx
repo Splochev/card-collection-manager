@@ -17,34 +17,48 @@ const Logo = ({ size = 'small', disableClick = false }: LogoProps) => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const handleClick = () => {
-    if (disableClick) return;
-    const basePath = '/' + location.pathname.split('/')[1];
-    navigate(basePath);
-    window.location.reload();
+  const basePath = '/' + location.pathname.split('/')[1];
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (disableClick) {
+      e.preventDefault();
+      return;
+    }
+    if (e.button === 0 && !e.ctrlKey && !e.metaKey) {
+      e.preventDefault();
+      navigate(basePath);
+      window.location.reload();
+    }
   };
 
   return (
-    <img 
-      src={logo} 
-      alt="Logo" 
-      className={SIZE_MAP[size]} 
+    <a 
+      href={basePath}
       onClick={handleClick}
       style={{
         cursor: disableClick ? 'default' : 'pointer',
-        transition: 'opacity 0.2s ease-in-out, transform 0.2s ease-in-out',
+        display: 'inline-block',
       }}
-      onMouseEnter={(e) => {
-        if (disableClick) return;
-        e.currentTarget.style.opacity = '0.8';
-        e.currentTarget.style.transform = 'scale(1.05)';
-      }}
-      onMouseLeave={(e) => {
-        if (disableClick) return;
-        e.currentTarget.style.opacity = '1';
-        e.currentTarget.style.transform = 'scale(1)';
-      }}
-    />
+    >
+      <img 
+        src={logo} 
+        alt="Logo" 
+        className={SIZE_MAP[size]}
+        style={{
+          transition: 'opacity 0.2s ease-in-out, transform 0.2s ease-in-out',
+        }}
+        onMouseEnter={(e) => {
+          if (disableClick) return;
+          e.currentTarget.style.opacity = '0.8';
+          e.currentTarget.style.transform = 'scale(1.05)';
+        }}
+        onMouseLeave={(e) => {
+          if (disableClick) return;
+          e.currentTarget.style.opacity = '1';
+          e.currentTarget.style.transform = 'scale(1)';
+        }}
+      />
+    </a>
   );
 };
 

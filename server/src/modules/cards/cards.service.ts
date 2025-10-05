@@ -363,17 +363,225 @@ export class CardsService {
         );
       }
 
-      const cacheKey = `card-set:${userId}:${cardEdition.cardSetName}`;
-      const cachedCards = await this.cacheService.get<CardEditions[]>(cacheKey);
+      const cardSetCacheKey = `card-set:${userId}:${cardEdition.cardSetName}`;
+      const cachedCards =
+        await this.cacheService.get<CardEditions[]>(cardSetCacheKey);
       if (cachedCards) {
         const cardInCache = cachedCards.find((c) => c.id === cardEdition.id);
         if (cardInCache) {
           cardInCache.count = quantity;
-          await this.cacheService.set(cacheKey, cachedCards, 300);
+          await this.cacheService.set(cardSetCacheKey, cachedCards, 300);
         }
+      }
+
+      const collectionCachePattern = `collection:${userId}:*`;
+      const keys = await this.cacheService.keys(collectionCachePattern);
+      if (keys && keys.length > 0) {
+        await Promise.all(keys.map((key) => this.cacheService.del(key)));
       }
     } catch (error) {
       throw new NotFoundException('Card not found');
     }
+  }
+
+  async getCollection(
+    userId: number,
+    filter?: string,
+    limit: number = 5,
+    offset: number = 0,
+    groupBy: string = 'setName',
+    orderBy: string = 'cardName',
+    sortType: 'ASC' | 'DESC' = 'ASC',
+  ): Promise<{
+    groups: Array<{ groupKey: string; totalCount: number; cards: any[] }>;
+    totalGroups: number;
+    hasMore: boolean;
+  }> {
+    const cacheKey = `collection:${userId}:${groupBy}:${orderBy}:${sortType}:${filter || 'all'}:${offset}:${limit}`;
+
+    const cachedResult = await this.cacheService.get<{
+      groups: Array<{ groupKey: string; totalCount: number; cards: any[] }>;
+      totalGroups: number;
+      hasMore: boolean;
+    }>(cacheKey);
+
+    if (cachedResult) {
+      return cachedResult;
+    }
+
+    const queryBuilder = this.userCardsRepository
+      .createQueryBuilder('uc')
+      .leftJoinAndSelect('uc.cardEditionId', 'ce')
+      .leftJoin('ce.cards', 'c')
+      .addSelect([
+        'c.id',
+        'c.name',
+        'c.type',
+        'c.desc',
+        'c.race',
+        'c.imageUrl',
+        'c.typeline',
+        'c.atk',
+        'c.def',
+        'c.level',
+        'c.attribute',
+        'c.linkval',
+        'c.linkmarkers',
+        'c.pend_desc',
+        'c.monster_desc',
+        'c.scale',
+        'c.humanReadableCardType',
+        'c.frameType',
+        'c.archetype',
+      ])
+      .where('uc.userId = :userId', { userId });
+
+    if (filter) {
+      queryBuilder.andWhere(
+        '(LOWER(ce.name) LIKE LOWER(:filter) OR LOWER(ce.cardSetName) LIKE LOWER(:filter) OR LOWER(ce.cardNumber) LIKE LOWER(:filter))',
+        { filter: `%${filter}%` },
+      );
+    }
+
+    const allCards = await queryBuilder.getMany();
+
+    interface UserCardWithRelations {
+      id: number;
+      count: number;
+      userId: number;
+      cardEditionId: CardEditions & {
+        cards: CardEntity;
+      };
+    }
+
+    const groupMap = new Map<
+      string,
+      {
+        groupKey: string;
+        totalCount: number;
+        cards: Array<{
+          id: number;
+          cardNumber: string;
+          cardSetName: string;
+          name: string;
+          rarities: string[];
+          cardId: number;
+          count: number;
+          type: string;
+          desc?: string;
+          race: string;
+          imageUrl: string | null;
+          typeline?: string[];
+          atk?: number;
+          def?: number;
+          level?: number;
+          attribute?: string;
+          linkval?: number;
+          linkmarkers?: string[];
+          pend_desc?: string;
+          monster_desc?: string;
+          scale?: number;
+          humanReadableCardType?: string;
+          frameType?: string;
+          archetype?: string;
+        }>;
+      }
+    >();
+
+    allCards.forEach((userCard) => {
+      const typedUserCard = userCard as unknown as UserCardWithRelations;
+      let groupKey: string;
+      const cardEdition = typedUserCard.cardEditionId;
+
+      switch (groupBy) {
+        case 'setName':
+          groupKey = cardEdition.cardSetName;
+          break;
+        case 'setCode':
+          groupKey = cardEdition.cardNumber;
+          break;
+        case 'cardName':
+        default:
+          groupKey = cardEdition.name;
+          break;
+      }
+
+      if (!groupMap.has(groupKey)) {
+        groupMap.set(groupKey, {
+          groupKey,
+          totalCount: 0,
+          cards: [],
+        });
+      }
+
+      const group = groupMap.get(groupKey)!;
+      group.totalCount += typedUserCard.count;
+      group.cards.push({
+        id: cardEdition.id,
+        cardNumber: cardEdition.cardNumber,
+        cardSetName: cardEdition.cardSetName,
+        name: cardEdition.name,
+        rarities: cardEdition.rarities || [],
+        cardId: cardEdition.cardId,
+        count: typedUserCard.count,
+        type: cardEdition.cards.type,
+        desc: cardEdition.cards.desc,
+        race: cardEdition.cards.race,
+        imageUrl: cardEdition.cards.imageUrl,
+        typeline: cardEdition.cards.typeline,
+        atk: cardEdition.cards.atk,
+        def: cardEdition.cards.def,
+        level: cardEdition.cards.level,
+        attribute: cardEdition.cards.attribute,
+        linkval: cardEdition.cards.linkval,
+        linkmarkers: cardEdition.cards.linkmarkers,
+        pend_desc: cardEdition.cards.pend_desc,
+        monster_desc: cardEdition.cards.monster_desc,
+        scale: cardEdition.cards.scale,
+        humanReadableCardType: cardEdition.cards.humanReadableCardType,
+        frameType: cardEdition.cards.frameType,
+        archetype: cardEdition.cards.archetype,
+      });
+    });
+
+    const groups = Array.from(groupMap.values());
+
+    groups.sort((a, b) => {
+      let comparison = 0;
+      switch (orderBy) {
+        case 'count':
+          comparison = a.totalCount - b.totalCount;
+          break;
+        case 'setName':
+          comparison = (a.cards[0]?.cardSetName || '').localeCompare(
+            b.cards[0]?.cardSetName || '',
+          );
+          break;
+        case 'setCode':
+          comparison = (a.cards[0]?.cardNumber || '').localeCompare(
+            b.cards[0]?.cardNumber || '',
+          );
+          break;
+        case 'cardName':
+        default:
+          comparison = a.groupKey.localeCompare(b.groupKey);
+          break;
+      }
+      return sortType === 'ASC' ? comparison : -comparison;
+    });
+
+    const totalGroups = groups.length;
+    const paginatedGroups = groups.slice(offset, offset + limit);
+    const hasMore = offset + limit < totalGroups;
+
+    const result = {
+      groups: paginatedGroups,
+      totalGroups,
+      hasMore,
+    };
+
+    await this.cacheService.set(cacheKey, result, 300);
+
+    return result;
   }
 }

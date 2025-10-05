@@ -86,6 +86,13 @@ const TopNavigation = ({
                       {page.label}
                     </div>
                   }
+                  component="a"
+                  href={page.route}
+                  onClick={(e: React.MouseEvent<HTMLAnchorElement>) => {
+                    if (e.button === 0 && !e.ctrlKey && !e.metaKey) {
+                      e.preventDefault();
+                    }
+                  }}
                   {...getTabProps(page.index)}
                 />
               ))}

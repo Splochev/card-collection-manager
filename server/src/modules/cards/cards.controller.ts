@@ -4,6 +4,7 @@ import {
   Get,
   Param,
   Post,
+  Query,
   Req,
   UseGuards,
 } from '@nestjs/common';
@@ -14,6 +15,8 @@ import { JwtAuthGuard } from 'src/guards/logto-jwt.guard';
 import { IRequest } from 'src/interfaces/general/requst.interface';
 import { User } from 'src/database/entities/user.entity';
 import { UsersService } from '../users/users.service';
+import { CollectionQueryDto } from './dto/collection-query.dto';
+import { CollectionResponseDto } from './dto/collection-response.dto';
 
 @ApiTags('cards')
 @UseGuards(JwtAuthGuard)
@@ -60,5 +63,28 @@ export class CardsController {
       status: 'success',
       message: 'Card added to collection successfully',
     };
+  }
+
+  @ApiOperation({ summary: 'Get user collection with grouping and pagination' })
+  @ApiResponse({
+    status: 200,
+    description: 'Collection retrieved successfully',
+    type: CollectionResponseDto,
+  })
+  @Get('collection/all')
+  async getCollection(
+    @Req() req: IRequest,
+    @Query() query: CollectionQueryDto,
+  ): Promise<CollectionResponseDto> {
+    const user: User = await this.usersService.getUser(req);
+    return this.cardsService.getCollection(
+      user.id,
+      query.filter,
+      query.limit,
+      query.offset,
+      query.groupBy,
+      query.orderBy,
+      query.sortType,
+    );
   }
 }

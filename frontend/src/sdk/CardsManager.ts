@@ -59,4 +59,41 @@ export default class CardsManager {
   ): Promise<void> {
     await axios.post(`${this.systemUrl}/cards`, { cardSetCode, quantity });
   }
+
+  /**
+   * Gets the user's collection with grouping, sorting, and pagination.
+   */
+  async getMyCollection(params: {
+    filter?: string;
+    limit?: number;
+    offset?: number;
+    groupBy?: string;
+    orderBy?: string;
+    sortType?: string;
+  }): Promise<{
+    groups: Array<{
+      groupKey: string;
+      totalCount: number;
+      cards: ICard[];
+    }>;
+    totalGroups: number;
+    hasMore: boolean;
+  }> {
+    const token = this.sdk.getToken();
+    const { data } = await axios.get<{
+      groups: Array<{
+        groupKey: string;
+        totalCount: number;
+        cards: ICard[];
+      }>;
+      totalGroups: number;
+      hasMore: boolean;
+    }>(`${this.systemUrl}/cards/collection/all`, {
+      params,
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    return data;
+  }
 }

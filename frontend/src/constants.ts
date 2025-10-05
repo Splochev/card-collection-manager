@@ -1,6 +1,8 @@
 import CardSearchIcon from "./components/icons/CardSearchIcon";
 import CollectionIcon from "./components/icons/CollectionIcon";
 
+const BACKEND_URL = import.meta.env.VITE_REACT_LOCAL_BACKEND_URL || "http://localhost:8080";
+
 const ROUTES_MAP = {
   CARDS: "/cards",
   COLLECTION: "/collection",
@@ -30,4 +32,4 @@ const ELEMENT_IDS = {
   CARD_FILTER_INPUT: "card-filter",
 } as const;
 
-export { ROUTES_MAP, PAGES, CARD_SET_CODE_REGEX, BREAKPOINTS, ELEMENT_IDS };
+export { BACKEND_URL, ROUTES_MAP, PAGES, CARD_SET_CODE_REGEX, BREAKPOINTS, ELEMENT_IDS };

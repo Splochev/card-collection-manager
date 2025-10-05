@@ -3,6 +3,7 @@ import Tab from "@mui/material/Tab";
 import Paper from "@mui/material/Paper";
 import { PAGES } from "../../../constants";
 import { getTabProps } from "../../../utils";
+import * as React from "react";
 
 const BottomNavigation = ({
   value,
@@ -42,6 +43,13 @@ const BottomNavigation = ({
                 {page.label}
               </div>
             }
+            component="a"
+            href={page.route}
+            onClick={(e: React.MouseEvent<HTMLAnchorElement>) => {
+              if (e.button === 0 && !e.ctrlKey && !e.metaKey) {
+                e.preventDefault();
+              }
+            }}
             {...getTabProps(page.index)}
           />
         ))}

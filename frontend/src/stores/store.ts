@@ -3,6 +3,7 @@ import themeReducer from "./themeSlice";
 import cardsReducer from "./cardSlice";
 import confirmReducer from "./confirmSlice";
 import userSlice from "./userSlice";
+import collectionReducer from "./collectionSlice";
 
 export const store = configureStore({
   reducer: {
@@ -10,6 +11,7 @@ export const store = configureStore({
     cards: cardsReducer,
     confirm: confirmReducer,
     user: userSlice,
+    collection: collectionReducer,
   },
 });
 
