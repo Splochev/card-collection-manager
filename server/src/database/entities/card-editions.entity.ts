@@ -34,4 +34,6 @@ export class CardEditions {
   @ManyToOne(() => CardEntity, { nullable: false })
   @JoinColumn({ name: 'cardId' })
   cards!: CardEntity[];
+
+  count?: number;
 }

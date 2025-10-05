@@ -4,14 +4,13 @@ import {
   Column,
   ManyToOne,
   JoinColumn,
-  Index,
   Unique,
 } from 'typeorm';
-import { CardEntity } from './card.entity';
 import { User } from './user.entity';
+import { CardEditions } from './card-editions.entity';
 
 @Entity('users-cards')
-@Unique(['cardId', 'userId'])
+@Unique(['cardEditionId', 'userId'])
 export class UserCards {
   @PrimaryGeneratedColumn()
   id!: number;
@@ -19,9 +18,9 @@ export class UserCards {
   @Column({ default: 0, nullable: false })
   count!: number;
 
-  @ManyToOne(() => CardEntity, { nullable: false })
-  @JoinColumn({ name: 'cardId' })
-  cardId!: number;
+  @ManyToOne(() => CardEditions, { nullable: false })
+  @JoinColumn({ name: 'cardEditionId' })
+  cardEditionId!: number;
 
   @ManyToOne(() => User, { nullable: false })
   @JoinColumn({ name: 'userId' })

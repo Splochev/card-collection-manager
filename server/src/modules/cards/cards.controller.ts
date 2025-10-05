@@ -52,11 +52,11 @@ export class CardsController {
   @Post()
   async addCardToCollection(
     @Req() req: IRequest,
-    @Body('cardId') cardId: number,
+    @Body('cardSetCode') cardSetCode: string,
     @Body('quantity') quantity: number,
   ): Promise<{ status: string; message: string }> {
     const user: User = await this.usersService.getUser(req);
-    await this.cardsService.addCardToCollection(cardId, quantity, user.id);
+    await this.cardsService.addCardToCollection(cardSetCode, quantity, user.id);
     return {
       status: 'success',
       message: 'Card added to collection successfully',

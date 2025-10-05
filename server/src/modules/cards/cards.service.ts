@@ -149,7 +149,7 @@ export class CardsService {
         COALESCE(uc."count", 0) AS "count"
       FROM "card-editions" ce
       LEFT JOIN "cards" c ON c."id" = ce."cardId"
-      LEFT JOIN "users-cards" uc ON uc."cardId" = c."id" AND uc."userId" = ${userId}
+      LEFT JOIN "users-cards" uc ON uc."cardEditionId" = ce."id" AND uc."userId" = ${userId}
       WHERE 
         ce."cardSetName" ILIKE '%${cardMetadata.cardSetName}%'
     `,
@@ -338,33 +338,38 @@ export class CardsService {
   }
 
   async addCardToCollection(
-    cardId: number,
+    cardSetCode: string,
     quantity: number,
     userId: number,
   ): Promise<void> {
     try {
+      const cardEdition = await this.cardEditionsRepository.findOneOrFail({
+        where: { cardNumber: cardSetCode },
+      });
+
       if (!quantity) {
-        await this.userCardsRepository.delete({ cardId, userId });
+        await this.userCardsRepository.delete({
+          cardEditionId: cardEdition.id,
+          userId,
+        });
       } else {
         await this.userCardsRepository.upsert(
           {
             count: quantity,
-            cardId,
+            cardEditionId: cardEdition.id,
             userId,
           },
-          ['cardId', 'userId'],
+          ['cardEditionId', 'userId'],
         );
       }
 
-      const card = await this.cardRepository.findOneOrFail({
-        where: { id: cardId },
-        relations: ['cardEditions'],
-      });
-
-      if (card.cardEditions && card.cardEditions.length > 0) {
-        for (const edition of card.cardEditions) {
-          const cacheKey = `card-set:${userId}:${edition.cardSetName}`;
-          await this.cacheService.del(cacheKey);
+      const cacheKey = `card-set:${userId}:${cardEdition.cardSetName}`;
+      const cachedCards = await this.cacheService.get<CardEditions[]>(cacheKey);
+      if (cachedCards) {
+        const cardInCache = cachedCards.find((c) => c.id === cardEdition.id);
+        if (cardInCache) {
+          cardInCache.count = quantity;
+          await this.cacheService.set(cacheKey, cachedCards, 300);
         }
       }
     } catch (error) {

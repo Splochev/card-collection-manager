@@ -171,16 +171,17 @@ const Cards = ({ socketId }: CardsProps) => {
     try {
       const quantityToAdd = Number(quantity);
       await sdk.cardsManager.addCardToCollection(
-        searchedCard.id,
+        searchedCard.cardNumber,
         quantityToAdd
       );
 
-      const newCount = (searchedCard.count || 0) + quantityToAdd;
-      dispatch(updateCardCount({ cardId: searchedCard.id, count: newCount }));
-      setSearchedCard({ ...searchedCard, count: newCount });
+      dispatch(
+        updateCardCount({ cardId: searchedCard.id, count: quantityToAdd })
+      );
+      setSearchedCard({ ...searchedCard, count: quantityToAdd });
 
       toast.success(
-        `Added ${quantity} x ${searchedCard.name} to your collection!`
+        `New quantity set to your collection: ${quantityToAdd} x ${searchedCard.name}`
       );
     } catch (error) {
       console.error("Error adding card to collection:", error);

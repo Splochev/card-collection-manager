@@ -50,11 +50,13 @@ export default class CardsManager {
     });
   }
 
-  
   /**
    * Adds a card to the user's collection with the specified quantity.
    */
-  async addCardToCollection(cardId: number, quantity: number): Promise<void> {
-    await axios.post(`${this.systemUrl}/cards`, { cardId, quantity })
+  async addCardToCollection(
+    cardSetCode: string,
+    quantity: number
+  ): Promise<void> {
+    await axios.post(`${this.systemUrl}/cards`, { cardSetCode, quantity });
   }
 }
