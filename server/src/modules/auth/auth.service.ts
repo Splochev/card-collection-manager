@@ -8,4 +8,8 @@ export class AuthService {
   async signup(authId: string): Promise<void> {
     await this.usersService.create(authId);
   }
+
+  async delete(authId: string): Promise<void> {
+    await this.usersService.deleteByAuthId(authId);
+  }
 }

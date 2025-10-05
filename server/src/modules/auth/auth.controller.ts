@@ -21,4 +21,16 @@ export class AuthController {
       throw error;
     }
   }
+
+  @UseGuards(LogtoWebHookGuard('LOGTO_WEBHOOK_DELETE'))
+  @Post('/delete')
+  async postDelete(@Body() body: any) {
+    try {
+      const authId = body.data.id as string;
+      await this.authService.delete(authId);
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+  }
 }

@@ -17,6 +17,7 @@ import {
   useLogto,
   useHandleSignInCallback,
 } from "@logto/react";
+import Grid from "@mui/material/Grid";
 
 const LOGTO_ENDPOINT = import.meta.env.VITE_LOGTO_ENDPOINT;
 const LOGTO_APP_ID = import.meta.env.VITE_LOGTO_APP_ID;
@@ -47,7 +48,24 @@ function CallbackPage() {
     window.location.replace("/");
   });
 
-  if (isLoading) return <AppLoadingScreen label="Redirecting..." />;
+  if (isLoading) {
+    return (
+      <Grid
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          width: "100%",
+          justifyContent: "center",
+          alignItems: "top",
+          gap: 2,
+          height: `100vh`,
+          overflowY: "auto",
+        }}
+      >
+        <AppLoadingScreen label="Redirecting..." />
+      </Grid>
+    );
+  }
   return null;
 }
 
@@ -88,10 +106,26 @@ function ProtectedApp() {
     }
   }, [accessToken]);
 
-  if (isLoading) return <AppLoadingScreen />;
-
-  if (!isAuthenticated)
-    return <AppLoadingScreen label="Redirecting to login..." />;
+  if (isLoading || !isAuthenticated) {
+    return (
+      <Grid
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          width: "100%",
+          justifyContent: "center",
+          alignItems: "top",
+          gap: 2,
+          height: `100vh`,
+          overflowY: "auto",
+        }}
+      >
+        <AppLoadingScreen
+          label={!isAuthenticated ? "Redirecting to login..." : "Loading..."}
+        />
+      </Grid>
+    );
+  }
 
   return (
     <ThemeProvider theme={theme}>

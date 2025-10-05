@@ -1,8 +1,30 @@
 version: '3.8'
 
 services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: card-collection-postgres
+    environment:
+      POSTGRES_DB: card-collection-manager
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - card-collection-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
   redis:
     image: redis:alpine
+    container_name: card-collection-redis
     ports:
       - "6379:6379"
     volumes:
@@ -10,10 +32,38 @@ services:
     command: redis-server --appendonly yes
     networks:
       - card-collection-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  # Logto Authentication
+  logto:
+    image: svhd/logto:latest
+    container_name: card-collection-logto
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "3001:3001"
+      - "3002:3002"
+    environment:
+      TRUST_PROXY_HEADER: "1"
+      DB_URL: postgres://postgres:postgres@postgres:5432/logto
+      ENDPOINT: http://localhost:3001
+      ADMIN_ENDPOINT: http://localhost:3002
+    networks:
+      - card-collection-network
+    # Enable access to host machine from container
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    entrypoint: ["sh", "-c", "npm run cli db seed -- --swe && npm start"]
 
 networks:
   card-collection-network:
     driver: bridge
 
 volumes:
+  postgres-data:
   redis-data:
