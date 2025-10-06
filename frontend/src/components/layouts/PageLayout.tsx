@@ -13,6 +13,7 @@ import AppLoadingScreen from "../organisms/shared/AppLoadingScreen";
 
 const Collection = lazy(() => import("../pages/Collection"));
 const Cards = lazy(() => import("../pages/Cards"));
+const Wishlist = lazy(() => import("../pages/Wishlist"));
 
 const VITE_REACT_LOCAL_BACKEND_URL = import.meta.env
   .VITE_REACT_LOCAL_BACKEND_URL;
@@ -133,6 +134,16 @@ export default function PageLayout() {
                 fallback={<AppLoadingScreen label="Loading collection..." />}
               >
                 <Collection />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/wishlist"
+            element={
+              <Suspense
+                fallback={<AppLoadingScreen label="Loading wishlist..." />}
+              >
+                <Wishlist />
               </Suspense>
             }
           />

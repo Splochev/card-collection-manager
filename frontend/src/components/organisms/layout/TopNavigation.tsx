@@ -2,7 +2,6 @@ import * as React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Paper from "@mui/material/Paper";
-import ThemeSwitch from "../../atoms/ThemeSwitch";
 import Logo from "../../icons/Logo";
 import Grid from "@mui/material/Grid";
 import CoreInput from "../../molecules/CoreInput";
@@ -13,6 +12,9 @@ import { PAGES, ROUTES_MAP } from "../../../constants";
 import { getTabProps } from "../../../utils";
 import { store } from "../../../stores/store";
 import { useLocation } from "react-router-dom";
+import { Box } from "@mui/material";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import UserMenu from "./UserMenu";
 
 const TopNavigation = ({
   value,
@@ -25,18 +27,22 @@ const TopNavigation = ({
 }) => {
   const location = useLocation();
   const [searchValue, setSearchValue] = React.useState("");
+  const isVeryNarrow = useMediaQuery("(max-width:500px)");
 
-  const searchCards = React.useCallback((cardNumber: string) => {
-    const upperCaseCardNumber = cardNumber.toUpperCase();
-    store.dispatch(setSelectedCardNumber(upperCaseCardNumber));
-    
-    if (location.pathname.includes(ROUTES_MAP.CARDS)) {
-      const newPath = upperCaseCardNumber 
-        ? `/cards/${upperCaseCardNumber}` 
-        : '/cards';
-      window.history.pushState({}, '', newPath);
-    }
-  }, [location.pathname]);
+  const searchCards = React.useCallback(
+    (cardNumber: string) => {
+      const upperCaseCardNumber = cardNumber.toUpperCase();
+      store.dispatch(setSelectedCardNumber(upperCaseCardNumber));
+
+      if (location.pathname.includes(ROUTES_MAP.CARDS)) {
+        const newPath = upperCaseCardNumber
+          ? `/cards/${upperCaseCardNumber}`
+          : "/cards";
+        window.history.pushState({}, "", newPath);
+      }
+    },
+    [location.pathname]
+  );
 
   const debouncedSearchCards = React.useMemo(
     () => debounce(searchCards, 400),
@@ -50,9 +56,9 @@ const TopNavigation = ({
     debouncedSearchCards(upperCaseCardSetCode);
   }, [debouncedSearchCards, location.pathname]);
 
-  const label = location.pathname.includes(ROUTES_MAP.CARDS)
-    ? "Find cards by set number"
-    : "Find cards in collection by card name, set number or set name";
+  const label =
+    PAGES.find((page) => location.pathname.includes(page.route))?.searchLabel ||
+    "Search";
 
   return (
     <Paper
@@ -109,7 +115,7 @@ const TopNavigation = ({
             startIcon={<SearchIcon />}
             responsive
           />
-          <ThemeSwitch />
+          <UserMenu />
         </>
       ) : (
         <Grid
@@ -121,11 +127,13 @@ const TopNavigation = ({
             width: "100%",
             alignItems: "center",
             flexWrap: "nowrap",
-            paddingX: 3,
-            gap: 3,
+            paddingX: isVeryNarrow ? 1 : 3,
+            gap: isVeryNarrow ? 0.5 : 1.5,
           }}
         >
-          <Logo />
+          <Box sx={{ minWidth: isVeryNarrow ? 28 : 35 }}>
+            <Logo />
+          </Box>
           <CoreInput
             label={label}
             value={searchValue}
@@ -136,6 +144,8 @@ const TopNavigation = ({
             }}
             startIcon={<SearchIcon />}
           />
+          <UserMenu />
+          {/* <ThemeSwitch /> */}
         </Grid>
       )}
     </Paper>
