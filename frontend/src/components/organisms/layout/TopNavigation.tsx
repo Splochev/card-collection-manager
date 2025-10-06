@@ -11,7 +11,7 @@ import debounce from "lodash/debounce";
 import { PAGES, ROUTES_MAP } from "../../../constants";
 import { getTabProps } from "../../../utils";
 import { store } from "../../../stores/store";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { Box } from "@mui/material";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import UserMenu from "./UserMenu";
@@ -26,6 +26,7 @@ const TopNavigation = ({
   isSmDown: boolean;
 }) => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [searchValue, setSearchValue] = React.useState("");
   const isVeryNarrow = useMediaQuery("(max-width:500px)");
 
@@ -38,10 +39,10 @@ const TopNavigation = ({
         const newPath = upperCaseCardNumber
           ? `/cards/${upperCaseCardNumber}`
           : "/cards";
-        window.history.pushState({}, "", newPath);
+        navigate(newPath, { replace: true });
       }
     },
-    [location.pathname]
+    [location.pathname, navigate]
   );
 
   const debouncedSearchCards = React.useMemo(
