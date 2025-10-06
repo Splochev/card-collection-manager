@@ -1,6 +1,7 @@
 import {
   Body,
   Controller,
+  Delete,
   Get,
   Param,
   Post,
@@ -86,5 +87,44 @@ export class CardsController {
       query.orderBy,
       query.sortType,
     );
+  }
+
+  @ApiOperation({ summary: 'Add card to wishlist' })
+  @ApiResponse({
+    status: 200,
+    description: 'Card added to wishlist successfully',
+  })
+  @ApiResponse({ status: 404, description: 'Card not found' })
+  @Post('wishlist')
+  async addCardToWishlist(
+    @Req() req: IRequest,
+    @Body('cardSetCode') cardSetCode: string,
+    @Body('quantity') quantity: number,
+  ): Promise<{ status: string; message: string }> {
+    const user: User = await this.usersService.getUser(req);
+    await this.cardsService.addCardToWishlist(cardSetCode, quantity, user.id);
+    return {
+      status: 'success',
+      message: 'Card added to wishlist successfully',
+    };
+  }
+
+  @ApiOperation({ summary: 'Remove card from wishlist' })
+  @ApiResponse({
+    status: 200,
+    description: 'Card removed from wishlist successfully',
+  })
+  @ApiResponse({ status: 404, description: 'Card not found' })
+  @Delete('wishlist')
+  async removeCardFromWishlist(
+    @Req() req: IRequest,
+    @Body('cardSetCode') cardSetCode: string,
+  ): Promise<{ status: string; message: string }> {
+    const user: User = await this.usersService.getUser(req);
+    await this.cardsService.removeCardFromWishlist(cardSetCode, user.id);
+    return {
+      status: 'success',
+      message: 'Card removed from wishlist successfully',
+    };
   }
 }

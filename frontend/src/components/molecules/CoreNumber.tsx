@@ -25,7 +25,15 @@ const buttonStyle = {
   borderRadius: 2.5,
 };
 
-const CoreNumber = ({ min, max, value, label, btnLabel, setValue, onSubmit }: CoreNumberProps) => {
+const CoreNumber = ({
+  min,
+  max,
+  value,
+  label,
+  btnLabel,
+  setValue,
+  onSubmit,
+}: CoreNumberProps) => {
   const [quantity, setQuantity] = useState<number | "">(value);
   const [lastValid, setLastValid] = useState<number | "">(value);
   const holdInterval = useRef<number | null>(null);
@@ -74,19 +82,19 @@ const CoreNumber = ({ min, max, value, label, btnLabel, setValue, onSubmit }: Co
     if (holdInterval.current) {
       clearInterval(holdInterval.current);
     }
-    
+
     holdAction.current = action;
-    
+
     action();
-    
+
     let speed = 120;
     let elapsed = 0;
-    
+
     holdInterval.current = window.setInterval(() => {
       elapsed += speed;
-      
+
       if (holdAction.current) holdAction.current();
-      
+
       if (elapsed >= 1500 && speed === 120) {
         speed = 40;
         clearInterval(holdInterval.current!);
@@ -125,11 +133,11 @@ const CoreNumber = ({ min, max, value, label, btnLabel, setValue, onSubmit }: Co
     if (debounceTimerRef.current) {
       clearTimeout(debounceTimerRef.current);
     }
-    
+
     debounceTimerRef.current = window.setTimeout(() => {
       setValue(quantity);
     }, 200);
-    
+
     return () => {
       if (debounceTimerRef.current) {
         clearTimeout(debounceTimerRef.current);
@@ -206,7 +214,11 @@ const CoreNumber = ({ min, max, value, label, btnLabel, setValue, onSubmit }: Co
           </Button>
         </Grid>
       </Grid>
-      <Button variant="contained" sx={{ marginTop: 2, width: "100%" }} onClick={onSubmit}>
+      <Button
+        variant="contained"
+        sx={{ marginTop: 2, width: "100%" }}
+        onClick={onSubmit}
+      >
         {btnLabel}
       </Button>
     </Paper>

@@ -179,6 +179,45 @@ const Cards = ({ socketId }: CardsProps) => {
     }
   };
 
+  const handleAddToWishlist = async (wishlistQuantity: number) => {
+    if (!searchedCard) return;
+    try {
+      await sdk.cardsManager.addCardToWishlist(
+        searchedCard.cardNumber,
+        wishlistQuantity
+      );
+
+      setSearchedCard({
+        ...searchedCard,
+        wishlistCount: wishlistQuantity,
+      });
+
+      toast.success(
+        `Added to wishlist: ${wishlistQuantity} x ${searchedCard.name}`
+      );
+    } catch (error) {
+      console.error("Error adding card to wishlist:", error);
+      toast.error("Failed to add card to wishlist. Please try again.");
+    }
+  };
+
+  const handleRemoveFromWishlist = async () => {
+    if (!searchedCard) return;
+    try {
+      await sdk.cardsManager.removeCardFromWishlist(searchedCard.cardNumber);
+
+      setSearchedCard({
+        ...searchedCard,
+        wishlistCount: 0,
+      });
+
+      toast.success(`Removed from wishlist: ${searchedCard.name}`);
+    } catch (error) {
+      console.error("Error removing card from wishlist:", error);
+      toast.error("Failed to remove card from wishlist. Please try again.");
+    }
+  };
+
   if (isLoading) return <CardsLoadingScreen />;
 
   if (showCardSetFetch) {
@@ -271,10 +310,10 @@ const Cards = ({ socketId }: CardsProps) => {
         flexDirection: "row",
         justifyContent: "space-around",
         width: "100%",
-        gap: 4,
+        gap: { xs: 2, sm: 4 },
         flexWrap: "wrap",
         alignItems: "flex-start",
-        padding: 2,
+        padding: { xs: 1, sm: 2 },
       }}
     >
       <CardImageAndQuantity
@@ -282,6 +321,8 @@ const Cards = ({ socketId }: CardsProps) => {
         quantity={quantity}
         setQuantity={setQuantity}
         onSubmit={onSubmit}
+        onAddToWishlist={handleAddToWishlist}
+        onRemoveFromWishlist={handleRemoveFromWishlist}
       />
       <CardFullInfo card={searchedCard} />
       <Suspense fallback={<CardListLoadingSkeleton />}>

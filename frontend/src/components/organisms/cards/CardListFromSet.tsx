@@ -3,12 +3,12 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Chips from "../../molecules/Chips";
 import Paper from "@mui/material/Paper";
-import CardWrapper from "../../atoms/CardWrapper";
 import {
   IconButton,
   useMediaQuery,
   TextField,
   InputAdornment,
+  Box,
 } from "@mui/material";
 import LaunchIcon from "@mui/icons-material/Launch";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
@@ -19,10 +19,20 @@ import { useSelector } from "react-redux";
 import type { RootState } from "../../../stores/store";
 import { BREAKPOINTS, ELEMENT_IDS } from "../../../constants";
 import { getCardmarketUrl } from "../../../utils";
+import WishlistManager from "./WishlistManager";
+import SDK from "../../../sdk/SDK";
+import { toast } from "react-toastify";
+
+const VITE_REACT_LOCAL_BACKEND_URL = import.meta.env
+  .VITE_REACT_LOCAL_BACKEND_URL;
+if (!VITE_REACT_LOCAL_BACKEND_URL)
+  throw new Error("VITE_REACT_LOCAL_BACKEND_URL is not defined");
 
 const CardListFromSet = () => {
   const cardsList = useSelector((state: RootState) => state.cards.cardsList);
   const selectedCardNumber = useSelector(
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    //@ts-ignore
     (state: RootState) => state.cards.selectedCardNumber
   );
 
@@ -86,8 +96,8 @@ const CardListFromSet = () => {
         display: "flex",
         flexDirection: "column",
         gap: 2,
-        maxWidth: "35rem",
-        minWidth: "21rem",
+        maxWidth: { xs: "100%", md: "35rem" },
+        minWidth: { xs: 0, sm: "21rem" },
         paddingBottom: 2,
         flex: { xs: "1 1 100%", md: "0 0 35rem" },
         width: { xs: "100%", md: "35rem" },
@@ -116,7 +126,7 @@ const CardListFromSet = () => {
           flexDirection: "column",
           gap: 4,
           width: "100%",
-          padding: 2,
+          padding: { xs: 0, sm: 2 },
           ...(isWideScreen && {
             overflowY: "auto",
             maxHeight: "calc(100vh - 220px)",
@@ -139,10 +149,50 @@ const CardListFromSet = () => {
 
 const CardItem = memo(({ card }: { card: ICard }) => {
   const navigate = useNavigate();
+  const sdk = SDK.getInstance(VITE_REACT_LOCAL_BACKEND_URL);
+  const [localCard, setLocalCard] = useState<ICard>(card);
+  const [showWishlistInput, setShowWishlistInput] = useState(false);
 
   const handleNavigate = (e: React.MouseEvent) => {
     e.preventDefault();
     navigate(`/cards/${card.cardNumber}`);
+  };
+
+  const handleAddToWishlist = async (wishlistQuantity: number) => {
+    try {
+      await sdk.cardsManager.addCardToWishlist(
+        localCard.cardNumber,
+        wishlistQuantity
+      );
+
+      setLocalCard({
+        ...localCard,
+        wishlistCount: wishlistQuantity,
+      });
+
+      toast.success(
+        `Added to wishlist: ${wishlistQuantity} x ${localCard.name}`
+      );
+    } catch (error) {
+      console.error("Error adding card to wishlist:", error);
+      toast.error("Failed to add card to wishlist. Please try again.");
+    }
+  };
+
+  const handleRemoveFromWishlist = async () => {
+    try {
+      await sdk.cardsManager.removeCardFromWishlist(localCard.cardNumber);
+
+      setLocalCard({
+        ...localCard,
+        wishlistCount: 0,
+      });
+
+      toast.success(`Removed from wishlist: ${localCard.name}`);
+    } catch (error) {
+      console.error("Error removing card from wishlist:", error);
+      toast.error("Failed to remove card from wishlist. Please try again.");
+    }
   };
 
   return (
@@ -168,39 +218,69 @@ const CardItem = memo(({ card }: { card: ICard }) => {
           justifyContent: "space-between",
         }}
       >
-        <CardWrapper
-          url={card?.imageUrl || undefined}
-          name={card?.name || undefined}
-          width={"6rem"}
-        />
-        <Grid sx={{ width: "100%", height: "100%" }}>
-          <Grid
-            sx={{
-              width: "100%",
-              justifyContent: "flex-end",
-              display: "flex",
-              alignItems: "baseline",
-              gap: 0.5,
+        <Box sx={{ flexShrink: 0 }}>
+          <img
+            src={card?.imageUrl}
+            alt={card?.name}
+            style={{
+              width: "6rem",
+              height: "auto",
+              borderRadius: 12,
             }}
-          >
-            <IconButton
-              component="a"
-              href={getCardmarketUrl(card.cardSetName, card.name, card.cardNumber, card.rarities)}
-              target="_blank"
-              rel="noopener noreferrer"
-              sx={{ marginTop: "-10px", marginRight: "-10px" }}
+          />
+        </Box>
+        <Grid sx={{ width: "100%", height: "100%" }}>
+          {showWishlistInput ? (
+            <WishlistManager
+              card={localCard}
+              onAddToWishlist={handleAddToWishlist}
+              onRemoveFromWishlist={handleRemoveFromWishlist}
+              variant="full"
+              isOpen={showWishlistInput}
+              onToggle={() => setShowWishlistInput(!showWishlistInput)}
+            />
+          ) : (
+            <Grid
+              sx={{
+                width: "100%",
+                justifyContent: "flex-end",
+                display: "flex",
+                alignItems: "baseline",
+                gap: 2,
+              }}
             >
-              <ShoppingCartIcon />
-            </IconButton>
-            <IconButton
-              component="a"
-              href={`/cards/${card.cardNumber}`}
-              onClick={handleNavigate}
-              sx={{ marginTop: "-10px", marginRight: "-10px" }}
-            >
-              <LaunchIcon />
-            </IconButton>
-          </Grid>
+              <IconButton
+                component="a"
+                href={getCardmarketUrl(
+                  card.cardSetName,
+                  card.name,
+                  card.cardNumber,
+                  card.rarities
+                )}
+                target="_blank"
+                rel="noopener noreferrer"
+                sx={{ marginTop: "-10px", marginRight: "-10px" }}
+              >
+                <ShoppingCartIcon />
+              </IconButton>
+              <IconButton
+                component="a"
+                href={`/cards/${card.cardNumber}`}
+                onClick={handleNavigate}
+                sx={{ marginTop: "-10px", marginRight: "-10px" }}
+              >
+                <LaunchIcon />
+              </IconButton>
+              <WishlistManager
+                card={localCard}
+                onAddToWishlist={handleAddToWishlist}
+                onRemoveFromWishlist={handleRemoveFromWishlist}
+                variant="icon-only"
+                isOpen={showWishlistInput}
+                onToggle={() => setShowWishlistInput(!showWishlistInput)}
+              />
+            </Grid>
+          )}
           <Grid
             sx={{
               display: "flex",

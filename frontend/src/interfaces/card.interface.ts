@@ -24,4 +24,5 @@ export interface ICard {
   frameType: string;
   archetype: string;
   count: number;
+  wishlistCount?: number;
 }

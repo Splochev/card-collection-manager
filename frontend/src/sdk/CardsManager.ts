@@ -57,7 +57,50 @@ export default class CardsManager {
     cardSetCode: string,
     quantity: number
   ): Promise<void> {
-    await axios.post(`${this.systemUrl}/cards`, { cardSetCode, quantity });
+    const token = this.sdk.getToken();
+    await axios.post(
+      `${this.systemUrl}/cards`,
+      { cardSetCode, quantity },
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+  }
+
+  /**
+   * Adds a card to the user's wishlist with the specified quantity.
+   */
+  async addCardToWishlist(
+    cardSetCode: string,
+    quantity: number
+  ): Promise<void> {
+    const token = this.sdk.getToken();
+    await axios.post(
+      `${this.systemUrl}/cards/wishlist`,
+      { cardSetCode, quantity },
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+  }
+
+  /**
+   * Removes a card from the user's wishlist.
+   */
+  async removeCardFromWishlist(cardSetCode: string): Promise<void> {
+    const token = this.sdk.getToken();
+    await axios({
+      method: "delete",
+      url: `${this.systemUrl}/cards/wishlist`,
+      data: { cardSetCode },
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
   }
 
   /**

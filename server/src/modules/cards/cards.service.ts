@@ -19,6 +19,7 @@ import { RARITIES } from './constants';
 import { ScrapeGateway } from '../websocket/scrape.gateway';
 import { UserCards } from 'src/database/entities/users-cards.entity';
 import { CacheService } from '../cache';
+import { Wishlist } from 'src/database/entities/wishlist.entity';
 
 @Injectable()
 export class CardsService {
@@ -27,10 +28,12 @@ export class CardsService {
     private readonly cardRepository: Repository<CardEntity>,
     @InjectRepository(CardEditions)
     private readonly cardEditionsRepository: Repository<CardEditions>,
-    private readonly httpService: HttpService,
-    private readonly scrapeGateway: ScrapeGateway,
     @InjectRepository(UserCards)
     private readonly userCardsRepository: Repository<UserCards>,
+    @InjectRepository(Wishlist)
+    private readonly wishlistRepository: Repository<Wishlist>,
+    private readonly httpService: HttpService,
+    private readonly scrapeGateway: ScrapeGateway,
     private readonly cacheService: CacheService,
   ) {}
 
@@ -146,10 +149,12 @@ export class CardsService {
         c."humanReadableCardType" as "humanReadableCardType",
         c."frameType" as "frameType",
         c."archetype" as "archetype",
-        COALESCE(uc."count", 0) AS "count"
+        COALESCE(uc."count", 0) AS "count",
+        COALESCE(w."count", 0) AS "wishlistCount"
       FROM "card-editions" ce
       LEFT JOIN "cards" c ON c."id" = ce."cardId"
       LEFT JOIN "users-cards" uc ON uc."cardEditionId" = ce."id" AND uc."userId" = ${userId}
+      LEFT JOIN "wishlist" w ON w."cardEditionId" = ce."id" AND w."userId" = ${userId}
       WHERE 
         ce."cardSetName" ILIKE '%${cardMetadata.cardSetName}%'
     `,
@@ -583,5 +588,68 @@ export class CardsService {
     await this.cacheService.set(cacheKey, result, 300);
 
     return result;
+  }
+
+  async addCardToWishlist(
+    cardSetCode: string,
+    quantity: number,
+    userId: number,
+  ): Promise<void> {
+    const cardEdition = await this.cardEditionsRepository.findOneOrFail({
+      where: { cardNumber: cardSetCode },
+    });
+    if (!cardEdition) {
+      throw new HttpException('Card not found', 404);
+    }
+
+    const existingItem = await this.wishlistRepository.findOne({
+      where: { userId, cardEditionId: cardEdition.id },
+    });
+
+    if (existingItem && quantity === 0) {
+      await this.wishlistRepository.delete({ id: existingItem.id });
+      // Clear cache
+      const cardSetCacheKey = `card-set:${userId}:${cardEdition.cardSetName}`;
+      await this.cacheService.del(cardSetCacheKey);
+      return;
+    }
+
+    if (existingItem) {
+      existingItem.count = quantity;
+      await this.wishlistRepository.save(existingItem);
+      // Clear cache
+      const cardSetCacheKey = `card-set:${userId}:${cardEdition.cardSetName}`;
+      await this.cacheService.del(cardSetCacheKey);
+      return;
+    }
+
+    const wishlistItem = this.wishlistRepository.create({
+      userId,
+      cardEditionId: cardEdition.id,
+      count: quantity,
+    });
+
+    await this.wishlistRepository.save(wishlistItem);
+
+    // Clear cache
+    const cardSetCacheKey = `card-set:${userId}:${cardEdition.cardSetName}`;
+    await this.cacheService.del(cardSetCacheKey);
+  }
+
+  async removeCardFromWishlist(
+    cardSetCode: string,
+    userId: number,
+  ): Promise<void> {
+    const cardEdition = await this.cardEditionsRepository.findOneOrFail({
+      where: { cardNumber: cardSetCode },
+    });
+    await this.wishlistRepository.delete({
+      userId,
+      cardEditionId: cardEdition.id,
+    });
+
+    // Clear cache
+    const cardSetCacheKey = `card-set:${userId}:${cardEdition.cardSetName}`;
+    await this.cacheService.del(cardSetCacheKey);
   }
 }

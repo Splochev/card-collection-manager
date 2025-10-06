@@ -15,8 +15,8 @@ const CardFullInfo = ({ card }: { card: ICard | null }) => {
         gap: 4,
         width: "100%",
         overflowY: "auto",
-        maxWidth: "35rem",
-        padding: 2,
+        maxWidth: { xs: "100%", md: "35rem" },
+        padding: { xs: 0, sm: 2 },
         flex: { xs: "1 1 100%", md: "1 1 35rem" },
         minWidth: { xs: 0, md: 300 },
       }}

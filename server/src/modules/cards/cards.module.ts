@@ -9,10 +9,17 @@ import { WebsocketModule } from '../websocket/websocket.module';
 import { UsersService } from '../users/users.service';
 import { User } from 'src/database/entities/user.entity';
 import { UserCards } from 'src/database/entities/users-cards.entity';
+import { Wishlist } from 'src/database/entities/wishlist.entity';
 
 @Module({
   imports: [
-    TypeOrmModule.forFeature([CardEditions, CardEntity, User, UserCards]),
+    TypeOrmModule.forFeature([
+      CardEditions,
+      CardEntity,
+      User,
+      UserCards,
+      Wishlist,
+    ]),
     HttpModule,
     WebsocketModule,
   ],

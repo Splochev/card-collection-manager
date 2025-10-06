@@ -91,7 +91,7 @@ export default function PageLayout() {
     <Paper
       sx={{
         height: "100vh",
-        width: "100vw",
+        width: "100%",
         borderRadius: 0,
         display: "flex",
         flexDirection: "column",
@@ -110,9 +110,10 @@ export default function PageLayout() {
           width: "100%",
           justifyContent: "center",
           alignItems: "top",
-          gap: 2,
+          gap: { xs: 0, sm: 2 },
           height: `calc(100vh - ${isSmDown ? "120px" : "60px"})`,
           overflowY: "auto",
+          overflowX: "hidden",
         }}
       >
         {!isValidRoute && <Navigate to="/cards" replace />}
