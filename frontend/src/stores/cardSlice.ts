@@ -3,13 +3,11 @@ import type { PayloadAction } from "@reduxjs/toolkit";
 import type { ICard } from "../interfaces/card.interface";
 
 interface CardsState {
-  selectedCardNumber: string | null;
   cardSetPrefix: string | null;
   cardsList: ICard[];
 }
 
 const initialState: CardsState = {
-  selectedCardNumber: null,
   cardSetPrefix: null,
   cardsList: [],
 };
@@ -18,9 +16,6 @@ const cardsSlice = createSlice({
   name: "cards",
   initialState,
   reducers: {
-    setSelectedCardNumber: (state, action: PayloadAction<string | null>) => {
-      state.selectedCardNumber = action.payload;
-    },
     setCardsData: (
       state,
       action: PayloadAction<{ cardSetPrefix: string; cardsList: ICard[] }>
@@ -44,6 +39,6 @@ const cardsSlice = createSlice({
   },
 });
 
-export const { setSelectedCardNumber, setCardsData, clearCardsData, updateCardCount } =
+export const { setCardsData, clearCardsData, updateCardCount } =
   cardsSlice.actions;
 export default cardsSlice.reducer;

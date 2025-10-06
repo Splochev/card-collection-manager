@@ -5,13 +5,11 @@ import Paper from "@mui/material/Paper";
 import Logo from "../../icons/Logo";
 import Grid from "@mui/material/Grid";
 import CoreInput from "../../molecules/CoreInput";
-import { setSelectedCardNumber } from "../../../stores/cardSlice";
 import SearchIcon from "@mui/icons-material/Search";
 import debounce from "lodash/debounce";
 import { PAGES, ROUTES_MAP } from "../../../constants";
 import { getTabProps } from "../../../utils";
-import { store } from "../../../stores/store";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import { Box } from "@mui/material";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import UserMenu from "./UserMenu";
@@ -27,35 +25,61 @@ const TopNavigation = ({
 }) => {
   const location = useLocation();
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const [searchValue, setSearchValue] = React.useState("");
   const isVeryNarrow = useMediaQuery("(max-width:500px)");
 
-  const searchCards = React.useCallback(
-    (cardNumber: string) => {
-      const upperCaseCardNumber = cardNumber.toUpperCase();
-      store.dispatch(setSelectedCardNumber(upperCaseCardNumber));
+  // Sync search input with URL
+  React.useEffect(() => {
+    if (location.pathname.includes(ROUTES_MAP.CARDS)) {
+      // For Cards page, read from URL path params
+      const cardSetCode = location.pathname.split("/cards/")[1];
+      const upperCaseCardSetCode = cardSetCode ? cardSetCode.toUpperCase() : "";
+      setSearchValue(upperCaseCardSetCode);
+    } else if (location.pathname.includes(ROUTES_MAP.COLLECTION)) {
+      // For Collection page, read from query params
+      const filter = searchParams.get("filter") || "";
+      setSearchValue(filter.toUpperCase());
+    } else {
+      // For other pages, clear search
+      setSearchValue("");
+    }
+  }, [location.pathname, searchParams]);
+
+  const handleSearch = React.useCallback(
+    (value: string) => {
+      const upperValue = value.toUpperCase();
 
       if (location.pathname.includes(ROUTES_MAP.CARDS)) {
-        const newPath = upperCaseCardNumber
-          ? `/cards/${upperCaseCardNumber}`
-          : "/cards";
-        navigate(newPath, { replace: true });
+        // For Cards page, update URL path
+        const newPath = upperValue ? `/cards/${upperValue}` : "/cards";
+        navigate(newPath);
+      } else if (location.pathname.includes(ROUTES_MAP.COLLECTION)) {
+        // For Collection page, update query params
+        const newParams = new URLSearchParams(searchParams);
+        if (upperValue) {
+          newParams.set("filter", upperValue);
+        } else {
+          newParams.delete("filter");
+        }
+        navigate(`${location.pathname}?${newParams.toString()}`, {
+          replace: true,
+        });
       }
     },
-    [location.pathname, navigate]
+    [location.pathname, navigate, searchParams]
   );
 
-  const debouncedSearchCards = React.useMemo(
-    () => debounce(searchCards, 400),
-    [searchCards]
+  const debouncedHandleSearch = React.useMemo(
+    () => debounce(handleSearch, 400),
+    [handleSearch]
   );
 
-  React.useEffect(() => {
-    const cardSetCode = location.pathname.split("/cards/")[1];
-    const upperCaseCardSetCode = cardSetCode ? cardSetCode.toUpperCase() : "";
-    setSearchValue(upperCaseCardSetCode);
-    debouncedSearchCards(upperCaseCardSetCode);
-  }, [debouncedSearchCards, location.pathname]);
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const upperValue = e.target.value.toUpperCase();
+    setSearchValue(upperValue);
+    debouncedHandleSearch(upperValue);
+  };
 
   const label =
     PAGES.find((page) => location.pathname.includes(page.route))?.searchLabel ||
@@ -108,11 +132,7 @@ const TopNavigation = ({
           <CoreInput
             label={label}
             value={searchValue}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-              const upperValue = e.target.value.toUpperCase();
-              setSearchValue(upperValue);
-              debouncedSearchCards(upperValue);
-            }}
+            onChange={handleInputChange}
             startIcon={<SearchIcon />}
             responsive
           />
@@ -138,15 +158,10 @@ const TopNavigation = ({
           <CoreInput
             label={label}
             value={searchValue}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-              const upperValue = e.target.value.toUpperCase();
-              setSearchValue(upperValue);
-              debouncedSearchCards(upperValue);
-            }}
+            onChange={handleInputChange}
             startIcon={<SearchIcon />}
           />
           <UserMenu />
-          {/* <ThemeSwitch /> */}
         </Grid>
       )}
     </Paper>

@@ -12,7 +12,6 @@ import { CARD_SET_CODE_REGEX, ELEMENT_IDS } from "../../constants";
 import {
   setCardsData,
   clearCardsData,
-  setSelectedCardNumber as setSelectedCardNumberAction,
   updateCardCount,
 } from "../../stores/cardSlice";
 import { useSelector, useDispatch } from "react-redux";
@@ -43,21 +42,12 @@ const Cards = ({ socketId }: CardsProps) => {
   const cardSetPrefixInStore = useSelector(
     (state: RootState) => state.cards.cardSetPrefix
   );
-  const selectedCardNumber = useSelector(
-    (state: RootState) => state.cards.selectedCardNumber
-  );
 
   const [searchedCard, setSearchedCard] = useState<ICard | null>(null);
   const [quantity, setQuantity] = useState<number | "">(1);
   const [cardSetName, setCardSetName] = useState<string>("");
   const [showCardSetFetch, setShowCardSetFetch] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(true);
-
-  useEffect(() => {
-    if (urlCardNumber) {
-      dispatch(setSelectedCardNumberAction(urlCardNumber));
-    }
-  }, [urlCardNumber, dispatch]);
 
   useEffect(() => {
     if (searchedCard) {
@@ -72,7 +62,7 @@ const Cards = ({ socketId }: CardsProps) => {
         await sdk.cardsManager.findCardSets(
           {
             cardSetNames: [cardSetNameValue],
-            cardSetCode: selectedCardNumber || "",
+            cardSetCode: urlCardNumber || "",
           },
           socketId
         );
@@ -84,13 +74,13 @@ const Cards = ({ socketId }: CardsProps) => {
         toast.error("Failed to start search. Please try again.");
       }
     },
-    [sdk.cardsManager, socketId, selectedCardNumber]
+    [sdk.cardsManager, socketId, urlCardNumber]
   );
 
   useEffect(() => {
     const executeSearch = async () => {
       try {
-        const cardSetCode = selectedCardNumber || urlCardNumber;
+        const cardSetCode = urlCardNumber;
         if (!cardSetCode) {
           dispatch(clearCardsData());
           setShowCardSetFetch(false);
@@ -164,7 +154,7 @@ const Cards = ({ socketId }: CardsProps) => {
 
     executeSearch();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedCardNumber, urlCardNumber]);
+  }, [urlCardNumber]);
 
   const onSubmit = async () => {
     if (!searchedCard) return;
@@ -205,7 +195,7 @@ const Cards = ({ socketId }: CardsProps) => {
       >
         <EmptyState
           title="Find Card Set"
-          description={`We couldn't find the card set you're looking for. Would you like to\n\rprovide the card set name for the card with set code: ${selectedCardNumber}?`}
+          description={`We couldn't find the card set you're looking for. Would you like to\n\rprovide the card set name for the card with set code: ${urlCardNumber}?`}
           callback={() => {
             const searchBar = document.getElementById(
               ELEMENT_IDS.CARD_SET_NAME_INPUT

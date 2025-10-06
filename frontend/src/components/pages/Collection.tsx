@@ -18,13 +18,16 @@ import CollectionCardGridItem from "../organisms/collection/CollectionCardGridIt
 import CollectionCardListItem from "../organisms/collection/CollectionCardListItem";
 import EmptyState from "../organisms/shared/EmptyState";
 import Grid from "@mui/material/Grid";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 
 const sdk = SDK.getInstance(BACKEND_URL);
 
 const Collection = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const urlFilter = searchParams.get("filter") || "";
+  
   const {
     groups,
     groupBy,
@@ -38,19 +41,15 @@ const Collection = () => {
     isLoading,
   } = useSelector((state: RootState) => state.collection);
 
-  const selectedCardNumber = useSelector(
-    (state: RootState) => state.cards.selectedCardNumber
-  );
-
   const observerTarget = useRef<HTMLDivElement>(null);
-  const hasActiveFilter = Boolean(selectedCardNumber || filter);
+  const hasActiveFilter = Boolean(urlFilter || filter);
 
   const fetchCollection = useCallback(
     async (append = false) => {
       dispatch(setIsLoading(true));
       try {
         const response = await sdk.cardsManager.getMyCollection({
-          filter: selectedCardNumber || filter,
+          filter: urlFilter || filter,
           limit,
           offset: append ? offset : 0,
           groupBy,
@@ -74,7 +73,7 @@ const Collection = () => {
     [
       dispatch,
       filter,
-      selectedCardNumber,
+      urlFilter,
       limit,
       offset,
       groupBy,
@@ -87,7 +86,7 @@ const Collection = () => {
     dispatch(resetCollection());
     fetchCollection(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [groupBy, orderBy, sortType, selectedCardNumber]);
+  }, [groupBy, orderBy, sortType, urlFilter]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -130,9 +129,8 @@ const Collection = () => {
             description="No cards in your collection match the current search criteria. Try adjusting your search or clear the filter."
             callback={() => {
               setTimeout(() => {
-                const searchInput = document.getElementById(
-                  "Find cards in collection by card name, set number or set name"
-                );
+                const searchLabel = "Find cards in collection by card name, set number or set name";
+                const searchInput = document.getElementById(searchLabel);
                 if (searchInput) {
                   searchInput.focus();
                 }
