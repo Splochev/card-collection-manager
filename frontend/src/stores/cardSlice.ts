@@ -5,11 +5,13 @@ import type { ICard } from "../interfaces/card.interface";
 interface CardsState {
   cardSetPrefix: string | null;
   cardsList: ICard[];
+  selectedCardNumber: string | null;
 }
 
 const initialState: CardsState = {
   cardSetPrefix: null,
   cardsList: [],
+  selectedCardNumber: null,
 };
 
 const cardsSlice = createSlice({
@@ -36,9 +38,26 @@ const cardsSlice = createSlice({
         card.count = action.payload.count;
       }
     },
+    updateCardWishlist: (
+      state,
+      action: PayloadAction<{ cardNumber: string; wishlistCount: number }>
+    ) => {
+      const card = state.cardsList.find(
+        (c) => c.cardNumber?.toUpperCase() === action.payload.cardNumber.toUpperCase()
+      );
+      if (card) {
+        card.wishlistCount = action.payload.wishlistCount;
+      }
+    },
+    setSelectedCardNumber: (
+      state,
+      action: PayloadAction<string | null>
+    ) => {
+      state.selectedCardNumber = action.payload;
+    },
   },
 });
 
-export const { setCardsData, clearCardsData, updateCardCount } =
+export const { setCardsData, clearCardsData, updateCardCount, updateCardWishlist, setSelectedCardNumber } =
   cardsSlice.actions;
 export default cardsSlice.reducer;

@@ -15,13 +15,14 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { useState, useMemo, useEffect, memo } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import { useNavigate } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import type { RootState } from "../../../stores/store";
 import { BREAKPOINTS, ELEMENT_IDS } from "../../../constants";
 import { getCardmarketUrl } from "../../../utils";
 import WishlistManager from "./WishlistManager";
 import SDK from "../../../sdk/SDK";
 import { toast } from "react-toastify";
+import { updateCardWishlist } from "../../../stores/cardSlice";
 
 const VITE_REACT_LOCAL_BACKEND_URL = import.meta.env
   .VITE_REACT_LOCAL_BACKEND_URL;
@@ -31,8 +32,6 @@ if (!VITE_REACT_LOCAL_BACKEND_URL)
 const CardListFromSet = () => {
   const cardsList = useSelector((state: RootState) => state.cards.cardsList);
   const selectedCardNumber = useSelector(
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    //@ts-ignore
     (state: RootState) => state.cards.selectedCardNumber
   );
 
@@ -149,9 +148,15 @@ const CardListFromSet = () => {
 
 const CardItem = memo(({ card }: { card: ICard }) => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const sdk = SDK.getInstance(VITE_REACT_LOCAL_BACKEND_URL);
   const [localCard, setLocalCard] = useState<ICard>(card);
   const [showWishlistInput, setShowWishlistInput] = useState(false);
+
+  // Sync localCard when card prop changes (e.g., from Redux updates)
+  useEffect(() => {
+    setLocalCard(card);
+  }, [card]);
 
   const handleNavigate = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -170,6 +175,11 @@ const CardItem = memo(({ card }: { card: ICard }) => {
         wishlistCount: wishlistQuantity,
       });
 
+      dispatch(updateCardWishlist({
+        cardNumber: localCard.cardNumber,
+        wishlistCount: wishlistQuantity,
+      }));
+
       toast.success(
         `Added to wishlist: ${wishlistQuantity} x ${localCard.name}`
       );
@@ -187,6 +197,11 @@ const CardItem = memo(({ card }: { card: ICard }) => {
         ...localCard,
         wishlistCount: 0,
       });
+
+      dispatch(updateCardWishlist({
+        cardNumber: localCard.cardNumber,
+        wishlistCount: 0,
+      }));
 
       toast.success(`Removed from wishlist: ${localCard.name}`);
     } catch (error) {

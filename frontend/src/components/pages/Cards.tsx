@@ -13,6 +13,8 @@ import {
   setCardsData,
   clearCardsData,
   updateCardCount,
+  updateCardWishlist,
+  setSelectedCardNumber,
 } from "../../stores/cardSlice";
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState } from "../../stores/store";
@@ -53,8 +55,23 @@ const Cards = ({ socketId }: CardsProps) => {
     if (searchedCard) {
       const newQuantity = searchedCard.count > 0 ? searchedCard.count : 1;
       setQuantity(newQuantity);
+      dispatch(setSelectedCardNumber(searchedCard.cardNumber));
+    } else {
+      dispatch(setSelectedCardNumber(null));
     }
-  }, [searchedCard]);
+  }, [searchedCard, dispatch]);
+
+  // Sync searchedCard with Redux state when wishlist changes
+  useEffect(() => {
+    if (searchedCard && cardsList.length > 0) {
+      const updatedCard = cardsList.find(
+        (c) => c.cardNumber?.toUpperCase() === searchedCard.cardNumber?.toUpperCase()
+      );
+      if (updatedCard && updatedCard.wishlistCount !== searchedCard.wishlistCount) {
+        setSearchedCard(updatedCard);
+      }
+    }
+  }, [cardsList, searchedCard]);
 
   const fetchCardSet = useCallback(
     async (cardSetNameValue: string) => {
@@ -192,6 +209,11 @@ const Cards = ({ socketId }: CardsProps) => {
         wishlistCount: wishlistQuantity,
       });
 
+      dispatch(updateCardWishlist({
+        cardNumber: searchedCard.cardNumber,
+        wishlistCount: wishlistQuantity,
+      }));
+
       toast.success(
         `Added to wishlist: ${wishlistQuantity} x ${searchedCard.name}`
       );
@@ -210,6 +232,11 @@ const Cards = ({ socketId }: CardsProps) => {
         ...searchedCard,
         wishlistCount: 0,
       });
+
+      dispatch(updateCardWishlist({
+        cardNumber: searchedCard.cardNumber,
+        wishlistCount: 0,
+      }));
 
       toast.success(`Removed from wishlist: ${searchedCard.name}`);
     } catch (error) {
