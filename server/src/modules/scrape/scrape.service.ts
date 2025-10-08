@@ -5,6 +5,11 @@ import * as cheerio from 'cheerio';
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { CardsService } from '../cards/cards.service';
 import { ScrapeCardDto } from 'src/interfaces/cards/CardApiResponse.interface';
+import {
+  sanitizeCardSetCode,
+  sanitizeCollectionName,
+  validateUrl,
+} from 'src/utils/validation.utils';
 
 const SKIP_URLS = {
   'https://yugioh.fandom.com/wiki/Hobby_League_participation_cards': 0,
@@ -109,8 +114,13 @@ export class ScrapeService {
     cardSetCode: string,
     socketId?: string,
   ): Promise<void> {
-    const urlCollectionName = collectionName.replace(/ /g, '_');
+    // Sanitize inputs
+    const sanitizedCollectionName = sanitizeCollectionName(collectionName);
+    const urlCollectionName = sanitizedCollectionName.replace(/ /g, '_');
     const url = `https://yugioh.fandom.com/wiki/${urlCollectionName}`;
+
+    // Validate URL before using it
+    validateUrl(url, 'yugioh.fandom.com');
 
     if (SKIP_URLS[url]) {
       console.log(`Skipping ${collectionName} as it is in the skip list.`);
@@ -245,14 +255,21 @@ export class ScrapeService {
 
   async getMarketplaceUrl(cardSetCode: string): Promise<string> {
     try {
+      // Sanitize card set code
+      const sanitizedCardSetCode = sanitizeCardSetCode(cardSetCode);
+
       const cardEdition =
-        await this.cardService.getCardEditionByCode(cardSetCode);
+        await this.cardService.getCardEditionByCode(sanitizedCardSetCode);
 
       if (cardEdition?.marketURL) {
         return cardEdition.marketURL;
       }
 
       const url = `https://www.cardmarket.com/en/YuGiOh`;
+
+      // Validate URL before using it
+      validateUrl(url, 'cardmarket.com');
+
       const browser = await puppeteer.launch({
         headless: true,
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
@@ -270,7 +287,7 @@ export class ScrapeService {
         timeout: 10000,
       });
 
-      await page.type('#ProductSearchInput', cardSetCode);
+      await page.type('#ProductSearchInput', sanitizedCardSetCode);
 
       const searchButton = await page.$('#search-btn');
       if (searchButton) {
@@ -287,7 +304,10 @@ export class ScrapeService {
       const currentUrl = page.url();
       await browser.close();
       const parsedURL = currentUrl + `?language=1&minCondition=4`;
-      await this.cardService.updateCardEditionMarketUrl(cardSetCode, parsedURL);
+      await this.cardService.updateCardEditionMarketUrl(
+        sanitizedCardSetCode,
+        parsedURL,
+      );
 
       return parsedURL;
     } catch (error) {

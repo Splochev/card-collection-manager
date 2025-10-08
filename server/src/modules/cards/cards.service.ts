@@ -171,11 +171,12 @@ export class CardsService {
         COALESCE(w."count", 0) AS "wishlistCount"
       FROM "card-editions" ce
       LEFT JOIN "cards" c ON c."id" = ce."cardId"
-      LEFT JOIN "users-cards" uc ON uc."cardEditionId" = ce."id" AND uc."userId" = ${userId}
-      LEFT JOIN "wishlist" w ON w."cardEditionId" = ce."id" AND w."userId" = ${userId}
+      LEFT JOIN "users-cards" uc ON uc."cardEditionId" = ce."id" AND uc."userId" = $1
+      LEFT JOIN "wishlist" w ON w."cardEditionId" = ce."id" AND w."userId" = $1
       WHERE 
-        ce."cardSetName" ILIKE '%${cardMetadata.cardSetName}%'
+        ce."cardSetName" ILIKE $2
     `,
+        [userId, `%${cardMetadata.cardSetName}%`],
       ));
 
     if (!cachedCards) {

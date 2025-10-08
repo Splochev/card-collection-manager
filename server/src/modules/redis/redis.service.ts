@@ -44,6 +44,7 @@ export class RedisService {
     }
 
     try {
+      // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion
       return JSON.parse(value as string) as T;
     } catch (error) {
       console.error(`Error parsing Redis value for key ${key}:`, error);
@@ -56,6 +57,7 @@ export class RedisService {
   }
 
   async keys(pattern: string): Promise<string[]> {
+    // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion
     return (await this.client.keys(pattern)) as string[];
   }
 
