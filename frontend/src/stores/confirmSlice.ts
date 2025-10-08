@@ -13,6 +13,8 @@ export interface ConfirmState {
   cancelText: string | null;
   dismissible: boolean;
   customKey: string | null;
+  confirmTextIsHref?: boolean;
+  confirmHref?: string;
 }
 
 const initialState: ConfirmState = {
@@ -25,6 +27,8 @@ const initialState: ConfirmState = {
   cancelText: "Cancel",
   dismissible: true,
   customKey: null,
+  confirmTextIsHref: false,
+  confirmHref: undefined,
 };
 
 const confirmSlice = createSlice({
@@ -45,6 +49,8 @@ const confirmSlice = createSlice({
       state.cancelText = payload.cancelText ?? "Cancel";
       state.dismissible = payload.dismissible ?? true;
       state.customKey = payload.customKey ?? null;
+      state.confirmTextIsHref = payload.confirmTextIsHref ?? false;
+      state.confirmHref = payload.confirmHref ?? undefined;
       try {
         if ((state as any).custom) delete (state as any).custom;
       } catch (e) {
@@ -57,6 +63,8 @@ const confirmSlice = createSlice({
       state.title = null;
       state.message = null;
       state.customKey = null;
+      state.confirmTextIsHref = false;
+      state.confirmHref = undefined;
       try {
         if ((state as any).custom) delete (state as any).custom;
       } catch (e) {

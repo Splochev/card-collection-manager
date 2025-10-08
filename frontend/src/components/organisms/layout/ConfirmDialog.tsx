@@ -71,19 +71,39 @@ const ConfirmDialog: React.FC = () => {
             {state.cancelText}
           </Button>
         )}
-        <Button
-          onClick={() => handleClose(true)}
-          color={
-            state.variant === "error"
-              ? "error"
-              : state.variant === "success"
-              ? "success"
-              : "primary"
-          }
-          variant="contained"
-        >
-          {state.confirmText}
-        </Button>
+        {state.confirmTextIsHref && state.confirmHref ? (
+          <Button
+            component="a"
+            href={state.confirmHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => handleClose(true)}
+            color={
+              state.variant === "error"
+                ? "error"
+                : state.variant === "success"
+                ? "success"
+                : "primary"
+            }
+            variant="contained"
+          >
+            {state.confirmText}
+          </Button>
+        ) : (
+          <Button
+            onClick={() => handleClose(true)}
+            color={
+              state.variant === "error"
+                ? "error"
+                : state.variant === "success"
+                ? "success"
+                : "primary"
+            }
+            variant="contained"
+          >
+            {state.confirmText}
+          </Button>
+        )}
       </DialogActions>
     </Dialog>
   );

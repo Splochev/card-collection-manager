@@ -37,6 +37,24 @@ export class CardsService {
     private readonly cacheService: CacheService,
   ) {}
 
+  async getCardEditionByCode(
+    cardSetCode: string,
+  ): Promise<CardEditions | null> {
+    return await this.cardEditionsRepository.findOne({
+      where: { cardNumber: cardSetCode },
+    });
+  }
+
+  async updateCardEditionMarketUrl(
+    cardSetCode: string,
+    marketUrl: string,
+  ): Promise<void> {
+    await this.cardEditionsRepository.update(
+      { cardNumber: cardSetCode },
+      { marketURL: marketUrl },
+    );
+  }
+
   async upsertCardsFromSet(cardSetName: string) {
     const response: AxiosResponse<CardApiResponse> =
       await this.httpService.axiosRef.get(

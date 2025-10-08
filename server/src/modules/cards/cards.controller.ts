@@ -18,6 +18,7 @@ import { User } from 'src/database/entities/user.entity';
 import { UsersService } from '../users/users.service';
 import { CollectionQueryDto } from './dto/collection-query.dto';
 import { CollectionResponseDto } from './dto/collection-response.dto';
+import { ScrapeService } from '../scrape/scrape.service';
 
 @ApiTags('cards')
 @UseGuards(JwtAuthGuard)
@@ -26,6 +27,7 @@ export class CardsController {
   constructor(
     private readonly cardsService: CardsService,
     private readonly usersService: UsersService,
+    private readonly scrapeService: ScrapeService,
   ) {}
   @ApiOperation({ summary: 'Get cards by card set code' })
   @ApiResponse({
@@ -126,5 +128,19 @@ export class CardsController {
       status: 'success',
       message: 'Card removed from wishlist successfully',
     };
+  }
+
+  @ApiOperation({ summary: `Get card's marketplace URL` })
+  @ApiResponse({
+    status: 200,
+    description: 'Marketplace URL retrieved successfully',
+    type: String,
+  })
+  @ApiResponse({ status: 404, description: 'Card not found' })
+  @Get(':cardSetCode/marketplace-url')
+  getCardMarketplaceUrl(
+    @Param('cardSetCode') cardSetCode: string,
+  ): Promise<string> {
+    return this.scrapeService.getMarketplaceUrl(cardSetCode);
   }
 }

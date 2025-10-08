@@ -1,14 +1,28 @@
-import { Box, Typography, Card as MuiCard, CardContent, Button, Paper } from "@mui/material";
-import { Add as AddIcon, Remove as RemoveIcon, Launch as LaunchIcon, ShoppingCart as ShoppingCartIcon } from "@mui/icons-material";
+import {
+  Box,
+  Typography,
+  Card as MuiCard,
+  CardContent,
+  Button,
+  Paper,
+  CircularProgress,
+} from "@mui/material";
+import {
+  Add as AddIcon,
+  Remove as RemoveIcon,
+  Launch as LaunchIcon,
+  ShoppingCart as ShoppingCartIcon,
+} from "@mui/icons-material";
 import type { ICard } from "../../../interfaces/card.interface";
 import SDK from "../../../sdk/SDK";
 import { BACKEND_URL } from "../../../constants";
 import { toast } from "react-toastify";
 import { useState, useRef, useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { updateCardCount } from "../../../stores/collectionSlice";
 import { useNavigate } from "react-router-dom";
-import { getCardmarketUrl } from "../../../utils";
+import { handleCardmarketUrl } from "../../../utils";
+import type { RootState } from "../../../stores/store";
 
 interface CollectionCardGridItemProps {
   card: ICard;
@@ -27,7 +41,11 @@ const buttonStyle = {
 const CollectionCardGridItem = ({ card }: CollectionCardGridItemProps) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const dontAskCardmarket = useSelector(
+    (state: RootState) => state.user.dontAskCardmarket
+  );
   const [localCount, setLocalCount] = useState(card.count);
+  const [loadingCardmarket, setLoadingCardmarket] = useState(false);
   const holdInterval = useRef<number | null>(null);
   const holdAction = useRef<(() => void) | null>(null);
   const debounceTimerRef = useRef<number | null>(null);
@@ -35,6 +53,24 @@ const CollectionCardGridItem = ({ card }: CollectionCardGridItemProps) => {
   const handleNavigate = (e: React.MouseEvent) => {
     e.preventDefault();
     navigate(`/cards/${card.cardNumber}`);
+  };
+
+  const handleCardmarketClick = async (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (!card?.cardNumber) return;
+
+    setLoadingCardmarket(true);
+    try {
+      await handleCardmarketUrl(
+        card.cardNumber,
+        sdk,
+        dispatch,
+        dontAskCardmarket
+      );
+    } finally {
+      setLoadingCardmarket(false);
+    }
   };
 
   const handleDecrement = () => {
@@ -49,18 +85,18 @@ const CollectionCardGridItem = ({ card }: CollectionCardGridItemProps) => {
     if (holdInterval.current) {
       clearInterval(holdInterval.current);
     }
-    
+
     holdAction.current = action;
     action();
-    
+
     let speed = 120;
     let elapsed = 0;
-    
+
     holdInterval.current = window.setInterval(() => {
       elapsed += speed;
-      
+
       if (holdAction.current) holdAction.current();
-      
+
       if (elapsed >= 1500 && speed === 120) {
         speed = 40;
         clearInterval(holdInterval.current!);
@@ -87,13 +123,22 @@ const CollectionCardGridItem = ({ card }: CollectionCardGridItemProps) => {
     if (debounceTimerRef.current) {
       clearTimeout(debounceTimerRef.current);
     }
-    
+
     debounceTimerRef.current = window.setTimeout(async () => {
       if (localCount !== card.count) {
         try {
-          await sdk.cardsManager.addCardToCollection(card.cardNumber, localCount);
-          dispatch(updateCardCount({ cardId: card.id, cardNumber: card.cardNumber, newCount: localCount }));
-          
+          await sdk.cardsManager.addCardToCollection(
+            card.cardNumber,
+            localCount
+          );
+          dispatch(
+            updateCardCount({
+              cardId: card.id,
+              cardNumber: card.cardNumber,
+              newCount: localCount,
+            })
+          );
+
           if (localCount === 0) {
             toast.info(`Removed ${card.name} from collection`);
           } else {
@@ -106,7 +151,7 @@ const CollectionCardGridItem = ({ card }: CollectionCardGridItemProps) => {
         }
       }
     }, 500);
-    
+
     return () => {
       if (debounceTimerRef.current) {
         clearTimeout(debounceTimerRef.current);
@@ -253,13 +298,15 @@ const CollectionCardGridItem = ({ card }: CollectionCardGridItemProps) => {
           <Box sx={{ display: "flex", gap: 1 }}>
             <Button
               sx={buttonStyle}
-              component="a"
-              href={getCardmarketUrl(card.cardSetName, card.name, card.cardNumber, card.rarities)}
-              target="_blank"
-              rel="noopener noreferrer"
+              onClick={(e) => handleCardmarketClick(e)}
+              disabled={loadingCardmarket}
             >
               <Paper elevation={4} sx={{ padding: 0.5, borderRadius: 1.5 }}>
-                <ShoppingCartIcon fontSize="small" />
+                {loadingCardmarket ? (
+                  <CircularProgress size={16} />
+                ) : (
+                  <ShoppingCartIcon fontSize="small" />
+                )}
               </Paper>
             </Button>
             <Button

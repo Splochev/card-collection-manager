@@ -9,6 +9,7 @@ import {
   TextField,
   InputAdornment,
   Box,
+  CircularProgress,
 } from "@mui/material";
 import LaunchIcon from "@mui/icons-material/Launch";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
@@ -18,7 +19,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState } from "../../../stores/store";
 import { BREAKPOINTS, ELEMENT_IDS } from "../../../constants";
-import { getCardmarketUrl } from "../../../utils";
+import { handleCardmarketUrl } from "../../../utils";
 import WishlistManager from "./WishlistManager";
 import SDK from "../../../sdk/SDK";
 import { toast } from "react-toastify";
@@ -150,8 +151,12 @@ const CardItem = memo(({ card }: { card: ICard }) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const sdk = SDK.getInstance(VITE_REACT_LOCAL_BACKEND_URL);
+  const dontAskCardmarket = useSelector(
+    (state: RootState) => state.user.dontAskCardmarket
+  );
   const [localCard, setLocalCard] = useState<ICard>(card);
   const [showWishlistInput, setShowWishlistInput] = useState(false);
+  const [loadingCardmarket, setLoadingCardmarket] = useState(false);
 
   // Sync localCard when card prop changes (e.g., from Redux updates)
   useEffect(() => {
@@ -161,6 +166,24 @@ const CardItem = memo(({ card }: { card: ICard }) => {
   const handleNavigate = (e: React.MouseEvent) => {
     e.preventDefault();
     navigate(`/cards/${card.cardNumber}`);
+  };
+
+  const handleCardmarketClick = async (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (!card?.cardNumber) return;
+
+    setLoadingCardmarket(true);
+    try {
+      await handleCardmarketUrl(
+        card.cardNumber,
+        sdk,
+        dispatch,
+        dontAskCardmarket
+      );
+    } finally {
+      setLoadingCardmarket(false);
+    }
   };
 
   const handleAddToWishlist = async (wishlistQuantity: number) => {
@@ -175,10 +198,12 @@ const CardItem = memo(({ card }: { card: ICard }) => {
         wishlistCount: wishlistQuantity,
       });
 
-      dispatch(updateCardWishlist({
-        cardNumber: localCard.cardNumber,
-        wishlistCount: wishlistQuantity,
-      }));
+      dispatch(
+        updateCardWishlist({
+          cardNumber: localCard.cardNumber,
+          wishlistCount: wishlistQuantity,
+        })
+      );
 
       toast.success(
         `Added to wishlist: ${wishlistQuantity} x ${localCard.name}`
@@ -198,10 +223,12 @@ const CardItem = memo(({ card }: { card: ICard }) => {
         wishlistCount: 0,
       });
 
-      dispatch(updateCardWishlist({
-        cardNumber: localCard.cardNumber,
-        wishlistCount: 0,
-      }));
+      dispatch(
+        updateCardWishlist({
+          cardNumber: localCard.cardNumber,
+          wishlistCount: 0,
+        })
+      );
 
       toast.success(`Removed from wishlist: ${localCard.name}`);
     } catch (error) {
@@ -265,18 +292,15 @@ const CardItem = memo(({ card }: { card: ICard }) => {
               }}
             >
               <IconButton
-                component="a"
-                href={getCardmarketUrl(
-                  card.cardSetName,
-                  card.name,
-                  card.cardNumber,
-                  card.rarities
-                )}
-                target="_blank"
-                rel="noopener noreferrer"
+                onClick={(e) => handleCardmarketClick(e)}
+                disabled={loadingCardmarket}
                 sx={{ marginTop: "-10px", marginRight: "-10px" }}
               >
-                <ShoppingCartIcon />
+                {loadingCardmarket ? (
+                  <CircularProgress size={24} />
+                ) : (
+                  <ShoppingCartIcon />
+                )}
               </IconButton>
               <IconButton
                 component="a"

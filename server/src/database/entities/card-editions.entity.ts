@@ -28,6 +28,9 @@ export class CardEditions {
   @Column('text', { array: true, default: [] })
   rarities?: string[];
 
+  @Column({ nullable: true, type: 'text', default: null })
+  marketURL!: string;
+
   @Column()
   cardId!: number;
 

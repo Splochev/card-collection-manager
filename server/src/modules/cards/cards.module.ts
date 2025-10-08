@@ -10,6 +10,7 @@ import { UsersService } from '../users/users.service';
 import { User } from 'src/database/entities/user.entity';
 import { UserCards } from 'src/database/entities/users-cards.entity';
 import { Wishlist } from 'src/database/entities/wishlist.entity';
+import { ScrapeService } from '../scrape/scrape.service';
 
 @Module({
   imports: [
@@ -24,7 +25,7 @@ import { Wishlist } from 'src/database/entities/wishlist.entity';
     WebsocketModule,
   ],
   controllers: [CardsController],
-  providers: [CardsService, UsersService],
+  providers: [CardsService, UsersService, ScrapeService],
   exports: [CardsService],
 })
 export class CardsModule {}

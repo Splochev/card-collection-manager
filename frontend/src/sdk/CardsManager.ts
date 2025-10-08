@@ -139,4 +139,26 @@ export default class CardsManager {
     });
     return data;
   }
+
+  /**
+   * Gets the marketplace URL for a specific card set code.
+   * @param cardSetCode - The card set code to retrieve the marketplace URL for.
+   * @returns The marketplace URL for the specified card set code.
+   * 
+   * @example
+   * const url = await cardsManager.getCardMarketplaceUrl('RA04-EN016');
+   * url ---> https://www.cardmarket.com/en/YuGiOh/Products/Singles/Quarter-Century-Stampede/Black-Metal-Dragon-V1-Super-Rare?language=1&minCondition=4
+   */
+  async getCardMarketplaceUrl(cardSetCode: string): Promise<string> {
+    const token = this.sdk.getToken();
+    const { data } = await axios.get<string>(
+      `${this.systemUrl}/cards/${cardSetCode}/marketplace-url`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+    return data;
+  }
 }

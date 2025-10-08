@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as cheerio from 'cheerio';
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { CardsService } from '../cards/cards.service';
 import { ScrapeCardDto } from 'src/interfaces/cards/CardApiResponse.interface';
 
@@ -240,6 +240,59 @@ export class ScrapeService {
         JSON.stringify(failedExtractions, null, 2),
       );
       console.log('Scrape completed...');
+    }
+  }
+
+  async getMarketplaceUrl(cardSetCode: string): Promise<string> {
+    try {
+      const cardEdition =
+        await this.cardService.getCardEditionByCode(cardSetCode);
+
+      if (cardEdition?.marketURL) {
+        return cardEdition.marketURL;
+      }
+
+      const url = `https://www.cardmarket.com/en/YuGiOh`;
+      const browser = await puppeteer.launch({
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      });
+      const page = await browser.newPage();
+
+      await page.setUserAgent(
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+      );
+
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 180000 });
+
+      await page.waitForSelector('#ProductSearchInput', {
+        visible: true,
+        timeout: 10000,
+      });
+
+      await page.type('#ProductSearchInput', cardSetCode);
+
+      const searchButton = await page.$('#search-btn');
+      if (searchButton) {
+        await searchButton.click();
+      } else {
+        await page.keyboard.press('Enter');
+      }
+
+      await page.waitForNavigation({
+        waitUntil: 'networkidle2',
+        timeout: 30000,
+      });
+
+      const currentUrl = page.url();
+      await browser.close();
+      const parsedURL = currentUrl + `?language=1&minCondition=4`;
+      await this.cardService.updateCardEditionMarketUrl(cardSetCode, parsedURL);
+
+      return parsedURL;
+    } catch (error) {
+      console.error('Error getting marketplace URL:', error);
+      throw new NotFoundException(`Card not found: ${error.message}`);
     }
   }
 }
