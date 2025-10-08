@@ -13,6 +13,7 @@ import {
   SwapVert as SwapVertIcon,
   ViewList as ViewListIcon,
   GridView as GridViewIcon,
+  Refresh as RefreshIcon,
 } from "@mui/icons-material";
 import { useDispatch, useSelector } from "react-redux";
 import type { RootState } from "../../../stores/store";
@@ -26,7 +27,11 @@ import {
   type ViewMode,
 } from "../../../stores/collectionSlice";
 
-const CollectionToolbar = () => {
+interface CollectionToolbarProps {
+  onRefresh?: () => void;
+}
+
+const CollectionToolbar = ({ onRefresh }: CollectionToolbarProps) => {
   const dispatch = useDispatch();
   const { groupBy, orderBy, sortType, viewMode } = useSelector(
     (state: RootState) => state.collection
@@ -120,7 +125,17 @@ const CollectionToolbar = () => {
       </Box>
 
       {/* Right Side */}
-      <Box sx={{ alignSelf: { xs: "flex-end", sm: "auto" } }}>
+      <Box sx={{ alignSelf: { xs: "flex-end", sm: "auto" }, display: "flex", alignItems: "center", gap: 1 }}>
+        {onRefresh && (
+          <IconButton
+            onClick={onRefresh}
+            color="primary"
+            size="small"
+            aria-label="refresh collection"
+          >
+            <RefreshIcon />
+          </IconButton>
+        )}
         <ToggleButtonGroup
           value={viewMode}
           exclusive

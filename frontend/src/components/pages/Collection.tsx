@@ -82,6 +82,11 @@ const Collection = () => {
     ]
   );
 
+  const handleRefresh = useCallback(() => {
+    dispatch(resetCollection());
+    fetchCollection(false);
+  }, [dispatch, fetchCollection]);
+
   useEffect(() => {
     dispatch(resetCollection());
     fetchCollection(false);
@@ -160,7 +165,7 @@ const Collection = () => {
         justifyContent: "flex-start",
       }}
     >
-      <CollectionToolbar />
+      <CollectionToolbar onRefresh={handleRefresh} />
       <Box
         sx={{
           paddingX: { xs: 1, sm: 2 },
