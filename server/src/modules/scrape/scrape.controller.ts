@@ -5,16 +5,19 @@ import {
   Post,
   UseGuards,
   Headers,
+  Get,
 } from '@nestjs/common';
 import { ScrapeService } from './scrape.service';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { JwtAuthGuard } from 'src/guards/logto-jwt.guard';
+import { Public } from 'src/decorators/public.decorator';
+import { SuperAdminPasswordGuard } from 'src/guards/super-admin-password.guard';
 
-@UseGuards(JwtAuthGuard)
 @Controller('scrape')
 export class ScrapeController {
   constructor(private readonly scrapeService: ScrapeService) {}
 
+  @UseGuards(JwtAuthGuard)
   @ApiOperation({ summary: 'Create a new scrape job for cards' })
   @ApiResponse({ status: 201, description: 'Scrape job created successfully' })
   @ApiResponse({ status: 400, description: 'Invalid data' })
@@ -32,5 +35,13 @@ export class ScrapeController {
       message: 'Scrape job started successfully',
       status: 201,
     });
+  }
+
+  @Public()
+  @UseGuards(SuperAdminPasswordGuard)
+  @Get('/migrate-market-urls')
+  migrateMarketURLs(): { message: string } {
+    void this.scrapeService.migrateMarketURLs();
+    return { message: 'Migration job started successfully' };
   }
 }

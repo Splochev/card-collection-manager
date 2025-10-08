@@ -10,6 +10,7 @@ import {
   sanitizeCollectionName,
   validateUrl,
 } from 'src/utils/validation.utils';
+import { CardEditions } from 'src/database/entities/card-editions.entity';
 
 const SKIP_URLS = {
   'https://yugioh.fandom.com/wiki/Hobby_League_participation_cards': 0,
@@ -258,8 +259,11 @@ export class ScrapeService {
       // Sanitize card set code
       const sanitizedCardSetCode = sanitizeCardSetCode(cardSetCode);
 
-      const cardEdition =
-        await this.cardService.getCardEditionByCode(sanitizedCardSetCode);
+      const cardEdition = (
+        await this.cardService.getAllCardEditions({
+          cardSetCode: sanitizedCardSetCode,
+        })
+      )[0];
 
       if (cardEdition?.marketURL) {
         return cardEdition.marketURL;
@@ -313,6 +317,28 @@ export class ScrapeService {
     } catch (error) {
       console.error('Error getting marketplace URL:', error);
       throw new NotFoundException(`Card not found: ${error.message}`);
+    }
+  }
+
+  async migrateMarketURLs(): Promise<void> {
+    const allCardEditions = await this.cardService.getAllCardEditions({
+      marketUrlFilter: 'without',
+    });
+
+    for (const edition of allCardEditions) {
+      if (!edition.marketURL && edition.cardNumber) {
+        try {
+          const marketURL = await this.getMarketplaceUrl(edition.cardNumber);
+          console.log(
+            `Updated market URL for ${edition.cardNumber}: ${marketURL}`,
+          );
+        } catch (error) {
+          console.error(
+            `Failed to update market URL for ${edition.cardNumber}:`,
+            error,
+          );
+        }
+      }
     }
   }
 }

@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { In, Not, Repository } from 'typeorm';
+import { In, IsNull, Not, Repository } from 'typeorm';
 import { HttpException } from '@nestjs/common';
 import { AxiosResponse } from 'axios';
 import { HttpService } from '@nestjs/axios';
@@ -37,11 +37,22 @@ export class CardsService {
     private readonly cacheService: CacheService,
   ) {}
 
-  async getCardEditionByCode(
-    cardSetCode: string,
-  ): Promise<CardEditions | null> {
-    return await this.cardEditionsRepository.findOne({
-      where: { cardNumber: cardSetCode },
+  async getAllCardEditions({
+    cardSetCode,
+    marketUrlFilter,
+  }: {
+    cardSetCode?: string;
+    marketUrlFilter?: 'with' | 'without' | 'all';
+  } = {}): Promise<CardEditions[]> {
+    return await this.cardEditionsRepository.find({
+      where: {
+        ...(cardSetCode ? { cardNumber: cardSetCode } : {}),
+        ...(marketUrlFilter === 'with' && { marketURL: Not(IsNull()) }),
+        ...(marketUrlFilter === 'without' && { marketURL: IsNull() }),
+        ...(marketUrlFilter === 'all' && {
+          marketURL: In([null, Not(null)]),
+        }),
+      },
     });
   }
 
