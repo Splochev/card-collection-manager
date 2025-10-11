@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer';
+import puppeteer, { Browser } from 'puppeteer';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as cheerio from 'cheerio';
@@ -254,7 +254,13 @@ export class ScrapeService {
     }
   }
 
-  async getMarketplaceUrl(cardSetCode: string): Promise<string> {
+  async getMarketplaceUrl(
+    cardSetCode: string,
+    browser?: Browser,
+  ): Promise<string> {
+    const shouldCloseBrowser = !browser;
+    let page;
+
     try {
       // Sanitize card set code
       const sanitizedCardSetCode = sanitizeCardSetCode(cardSetCode);
@@ -274,39 +280,66 @@ export class ScrapeService {
       // Validate URL before using it
       validateUrl(url, 'cardmarket.com');
 
-      const browser = await puppeteer.launch({
-        headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
-      });
-      const page = await browser.newPage();
+      // Use provided browser or create new one
+      if (!browser) {
+        browser = await puppeteer.launch({
+          headless: true,
+          args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        });
+      }
+
+      page = await browser.newPage();
+
+      // Set a timeout for the entire page to prevent hanging
+      await page.setDefaultTimeout(30000);
+      await page.setDefaultNavigationTimeout(30000);
 
       await page.setUserAgent(
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
       );
 
-      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 180000 });
-
-      await page.waitForSelector('#ProductSearchInput', {
-        visible: true,
-        timeout: 10000,
-      });
-
-      await page.type('#ProductSearchInput', sanitizedCardSetCode);
-
-      const searchButton = await page.$('#search-btn');
-      if (searchButton) {
-        await searchButton.click();
-      } else {
-        await page.keyboard.press('Enter');
-      }
-
-      await page.waitForNavigation({
-        waitUntil: 'networkidle2',
+      await page.goto(url, {
+        waitUntil: 'domcontentloaded',
         timeout: 30000,
       });
 
+      // Increased delay to ensure page is fully stable
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      await page.waitForSelector('#ProductSearchInput', {
+        visible: true,
+        timeout: 20000,
+      });
+
+      await page.type('#ProductSearchInput', sanitizedCardSetCode, {
+        delay: 50, // Add delay between keystrokes to prevent issues
+      });
+
+      // Increased delay before clicking/submitting
+      await new Promise((resolve) => setTimeout(resolve, 500));
+
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+      const searchButton = await page.$('#search-btn');
+      if (searchButton) {
+        await Promise.all([
+          page.waitForNavigation({
+            waitUntil: 'domcontentloaded',
+            timeout: 30000,
+          }),
+          searchButton.click(),
+        ]);
+      } else {
+        await Promise.all([
+          page.waitForNavigation({
+            waitUntil: 'domcontentloaded',
+            timeout: 30000,
+          }),
+          page.keyboard.press('Enter'),
+        ]);
+      }
+
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
       const currentUrl = page.url();
-      await browser.close();
       const parsedURL = currentUrl + `?language=1&minCondition=4`;
       await this.cardService.updateCardEditionMarketUrl(
         sanitizedCardSetCode,
@@ -315,8 +348,28 @@ export class ScrapeService {
 
       return parsedURL;
     } catch (error) {
-      console.error('Error getting marketplace URL:', error);
+      console.error(
+        `Error getting marketplace URL for ${cardSetCode}:`,
+        error.message,
+      );
       throw new NotFoundException(`Card not found: ${error.message}`);
+    } finally {
+      // Always close the page if it was created
+      if (page) {
+        try {
+          await page.close();
+        } catch (closeError) {
+          // Ignore errors when closing page
+        }
+      }
+
+      if (shouldCloseBrowser && browser) {
+        try {
+          await browser.close();
+        } catch (closeError) {
+          // Ignore errors when closing browser
+        }
+      }
     }
   }
 
@@ -325,20 +378,111 @@ export class ScrapeService {
       marketUrlFilter: 'without',
     });
 
-    for (const edition of allCardEditions) {
-      if (!edition.marketURL && edition.cardNumber) {
-        try {
-          const marketURL = await this.getMarketplaceUrl(edition.cardNumber);
-          console.log(
-            `Updated market URL for ${edition.cardNumber}: ${marketURL}`,
-          );
-        } catch (error) {
-          console.error(
-            `Failed to update market URL for ${edition.cardNumber}:`,
-            error,
-          );
+    console.log(`Processing ${allCardEditions.length} card editions...`);
+
+    // Launch a single browser instance for all operations
+    const browser = await puppeteer.launch({
+      headless: true,
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage', // Overcome limited resource problems
+        '--disable-accelerated-2d-canvas',
+        '--disable-gpu',
+      ],
+    });
+
+    try {
+      const skips = ['RIRA'];
+      // Optimized batch size for stability
+      const BATCH_SIZE = 3; // Process 3 cards concurrently (balanced speed/stability)
+      const MAX_RETRIES = 2; // Reduced retries to fail faster
+      const editionsToProcess = allCardEditions.filter(
+        (edition) =>
+          !edition.marketURL &&
+          edition.cardNumber &&
+          !skips.includes(edition.cardNumber.split('-')[0]),
+      );
+
+      let successCount = 0;
+      let failureCount = 0;
+      const failedCards: string[] = [];
+
+      for (let i = 0; i < editionsToProcess.length; i += BATCH_SIZE) {
+        const batch = editionsToProcess.slice(i, i + BATCH_SIZE);
+        console.log(
+          `Processing batch ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(editionsToProcess.length / BATCH_SIZE)} (${i + 1}-${Math.min(i + BATCH_SIZE, editionsToProcess.length)} of ${editionsToProcess.length}) | Success: ${successCount} | Failed: ${failureCount}`,
+        );
+
+        // Process batch concurrently with retry logic
+        const results = await Promise.allSettled(
+          batch.map(async (edition) => {
+            let lastError: unknown;
+
+            // Retry logic for failed requests
+            for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+              try {
+                const marketURL = await this.getMarketplaceUrl(
+                  edition.cardNumber,
+                  browser,
+                );
+                console.log(`✓ Updated market URL for ${edition.cardNumber}`);
+                return { success: true, cardNumber: edition.cardNumber };
+              } catch (error) {
+                lastError = error;
+
+                if (attempt < MAX_RETRIES) {
+                  console.log(
+                    `⚠ Retry ${attempt}/${MAX_RETRIES} for ${edition.cardNumber}...`,
+                  );
+                  // Wait before retrying with longer backoff
+                  await new Promise((resolve) =>
+                    setTimeout(resolve, 2000 * attempt),
+                  );
+                }
+              }
+            }
+
+            // All retries failed
+            const errorMessage =
+              lastError instanceof Error
+                ? lastError.message
+                : String(lastError);
+            console.error(
+              `✗ Failed to update market URL for ${edition.cardNumber} after ${MAX_RETRIES} attempts:`,
+              errorMessage,
+            );
+            failedCards.push(edition.cardNumber);
+            return { success: false, cardNumber: edition.cardNumber };
+          }),
+        );
+
+        // Count successes and failures
+        results.forEach((result) => {
+          if (result.status === 'fulfilled' && result.value.success) {
+            successCount++;
+          } else {
+            failureCount++;
+          }
+        });
+
+        // Longer delay between batches to prevent rate limiting and allow browser to recover
+        if (i + BATCH_SIZE < editionsToProcess.length) {
+          await new Promise((resolve) => setTimeout(resolve, 3000));
         }
       }
+
+      console.log(
+        `\n=== Migration completed! ===\nTotal: ${editionsToProcess.length} | Success: ${successCount} | Failed: ${failureCount}`,
+      );
+
+      if (failedCards.length > 0) {
+        console.log(
+          `\nFailed cards (${failedCards.length}): ${failedCards.slice(0, 20).join(', ')}${failedCards.length > 20 ? '...' : ''}`,
+        );
+      }
+    } finally {
+      await browser.close();
     }
   }
 }
