@@ -1,0 +1,25 @@
+@use "../../../globals.scss" as *;
+
+.button {
+  padding: 0.5em 1.2em;
+  border: none;
+  border-radius: 0.5em;
+  background: var(--color-primary-main);
+  color: var(--color-primary-contrast);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+
+  &:hover {
+    background: var(--color-primary-dark);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    transform: translateY(-2px) scale(1.03);
+  }
+
+  &:active {
+    background: var(--color-primary-light);
+    transform: scale(0.98);
+  }
+}

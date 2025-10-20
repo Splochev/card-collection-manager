@@ -1,0 +1,57 @@
+@use "../../../globals.scss" as *;
+
+.floating-label-input {
+  position: relative;
+  width: 100%;
+
+  .input {
+    width: 100%;
+    padding: 0.9em 0.9em 0.5em 0.9em;
+    border: 2px solid var(--color-primary-main);
+    border-radius: 0.5em;
+    background: var(--color-background-paper);
+    color: var(--color-text-primary);
+    font-size: 0.95rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+
+    &::placeholder {
+      color: transparent;
+    }
+
+    &:focus {
+      outline: none;
+      border-color: var(--color-primary-dark);
+      box-shadow: 0 0 0 2px rgba(197, 157, 57, 0.15);
+    }
+
+    &:disabled {
+      background: var(--color-divider);
+      color: var(--color-text-disabled);
+      cursor: not-allowed;
+      border-color: var(--color-divider);
+    }
+  }
+
+  label {
+    position: absolute;
+    left: 0.9em;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-text-disabled);
+    background: var(--color-background-paper);
+    padding: 0 0.2em;
+    font-size: 0.95rem;
+    pointer-events: none;
+    transition: 0.2s cubic-bezier(0.4,0,0.2,1);
+  }
+
+  .input:focus + label,
+  .input:not(:placeholder-shown) + label {
+    top: -0.7em;
+    left: 0.7em;
+    font-size: 0.8em;
+    color: var(--color-primary-main);
+    background: linear-gradient(to bottom, var(--color-background-default) 50%, var(--color-background-paper) 50%);
+    transform: none;
+  }
+}
