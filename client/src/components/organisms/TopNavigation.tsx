@@ -1,10 +1,10 @@
 "use client";
-import "@/app/styles/components/organisms/topNavigation.scss";
+import "../../styles/components/organisms/topNavigation.scss";
 import NavItem from "../atoms/NavItem";
 import CoreInput from "../atoms/CoreInput";
-import ThemeSwitcher from "./ThemeSwitcher";
+import UserMenu from "./UserMenu";
 import { useRouter } from "next/navigation";
-import { useCallback, useState } from "react";
+import { useMemo, useEffect, useState } from "react";
 import debounce from "lodash/debounce";
 
 const ROUTES_MAP = {
@@ -39,15 +39,22 @@ const TopNavigation = () => {
   const [search, setSearch] = useState("");
 
   // Debounced redirect function
-  const debouncedRedirect = useCallback(
-    debounce((value: string) => {
-      const paredValue = value.trim().toUpperCase();
-      if (paredValue) {
-        router.push(`/cards/${paredValue}`);
-      }
-    }, 500),
+  const debouncedRedirect = useMemo(
+    () =>
+      debounce((value: string) => {
+        const paredValue = value.trim().toUpperCase();
+        if (paredValue) {
+          router.push(`/cards/${paredValue}`);
+        }
+      }, 500),
     [router]
   );
+
+  useEffect(() => {
+    return () => {
+      debouncedRedirect.cancel();
+    };
+  }, [debouncedRedirect]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
@@ -73,10 +80,7 @@ const TopNavigation = () => {
           onChange={handleInputChange}
         />
       </div>
-      <div className="user-info">
-        <ThemeSwitcher />
-        <button className="button">Logout</button>
-      </div>
+      <UserMenu />
     </nav>
   );
 };

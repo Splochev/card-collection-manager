@@ -1,4 +1,4 @@
-import "@/app/styles/components/atoms/input.scss";
+import "../../styles/components/atoms/input.scss";
 import { useId } from "react";
 
 interface CoreInputProps {

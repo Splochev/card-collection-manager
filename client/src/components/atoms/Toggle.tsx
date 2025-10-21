@@ -1,5 +1,5 @@
 "use client";
-import '@/app/styles/components/atoms/toggle.scss';
+import '../../styles/components/atoms/toggle.scss';
 import { ReactNode } from "react";
 
 interface ToggleProps {

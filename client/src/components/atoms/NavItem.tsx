@@ -1,5 +1,5 @@
 "use client";
-import "@/app/styles/components/atoms/navItem.scss";
+import "../../styles/components/atoms/navItem.scss";
 import { usePathname } from "next/navigation";
 
 interface NavItemProps {

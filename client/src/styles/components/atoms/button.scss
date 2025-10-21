@@ -1,4 +1,4 @@
-@use "../../../globals.scss" as *;
+@use "../../../app/globals.scss" as *;
 
 .button {
   padding: 0.5em 1.2em;
@@ -20,6 +20,25 @@
 
   &:active {
     background: var(--color-primary-light);
+    transform: scale(0.98);
+  }
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+
+
+  &:hover {
+    transform: translateY(-2px) scale(1.03);
+  }
+
+  &:active {
     transform: scale(0.98);
   }
 }

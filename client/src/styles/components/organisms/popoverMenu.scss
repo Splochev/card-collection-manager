@@ -1,0 +1,10 @@
+@use "../../../app/globals.scss" as *;
+
+.popover-menu-item {
+  transition: background 0.18s;
+}
+
+.popover-menu-item:hover {
+  background: var(--color-background-paper, #f8f4e8);
+  box-shadow: 0 2px 8px rgba(197,157,57,0.08);
+}

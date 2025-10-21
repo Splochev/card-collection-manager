@@ -1,4 +1,4 @@
-@use "../../../globals.scss" as *;
+@use "../../../app/globals.scss" as *;
 
 .top-navigation {
   height: 60px;
@@ -24,10 +24,4 @@
   flex: 1;
   display: flex;
   justify-content: center;
-}
-
-.user-info {
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
