@@ -1,5 +1,10 @@
+"use client";
+import { useParams } from "next/navigation";
+
 const Card = () => {
-  return <div>Card Set Page</div>;
+  const { cardsetcode } = useParams();
+
+  return <div>Card Set Page: {cardsetcode}</div>;
 };
 
 export default Card;

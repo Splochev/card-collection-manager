@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "../../styles/authenticated/layout.scss";
-import TopNavigation from "../../components/organisms/TopNavigation";
+import Navigation from "../../components/organisms/Navigation";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -9,11 +9,10 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <main>
-      <TopNavigation />
-      <section>
-        {children}
-      </section>
+    <main className="layout">
+      <Navigation position="top" />
+      <section className="content-area">{children}</section>
+      <Navigation position="bottom" />
     </main>
   );
 }

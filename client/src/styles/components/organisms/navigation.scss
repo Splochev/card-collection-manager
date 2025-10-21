@@ -1,6 +1,6 @@
 @use "../../../app/globals.scss" as *;
 
-.top-navigation {
+.navigation {
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -9,6 +9,7 @@
   background: var(--color-background-paper);
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   border-bottom: 1px solid var(--color-divider);
+  gap: 16px;
 }
 
 .nav-links {
@@ -20,8 +21,11 @@
 }
 
 .search {
-  max-width: 400px;
   flex: 1;
   display: flex;
   justify-content: center;
+}
+
+.search-max-width {
+  max-width: 400px;
 }
