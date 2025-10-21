@@ -18,7 +18,8 @@ const Navigation = ({ position = "top" }: { position?: "top" | "bottom" }) => {
       debounce((value: string) => {
         const paredValue = value.trim().toUpperCase();
         if (paredValue) {
-          router.push(`/cards/${paredValue}`);
+          const currentPath = window.location.pathname;
+          router.push(`${currentPath}/${paredValue}`);
         }
       }, 500),
     [router]
