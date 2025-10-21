@@ -51,13 +51,12 @@ const PopoverMenu: React.FC<PopoverMenuProps> = ({ trigger, items, className = "
   }, [open]);
 
   return (
-    <div className={`popover-menu ${className}`} ref={menuRef} style={{ position: "relative", display: "inline-block" }}>
+    <div className={className} ref={menuRef} style={{ position: "relative", display: "inline-block" }}>
       <span ref={triggerRef} onClick={() => setOpen((v) => !v)} style={{ cursor: "pointer" }}>
         {trigger}
       </span>
       {open && menuPosition && createPortal(
         <div
-          className="popover-menu-list"
           ref={menuRef}
           style={{
             position: "fixed",
