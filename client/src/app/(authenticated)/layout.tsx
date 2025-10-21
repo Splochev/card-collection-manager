@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "@/app/styles/authenticated/layout.scss";
-import TopNavigation from "../components/organisms/TopNavigation";
+import TopNavigation from "../../components/organisms/TopNavigation";
 
 export const metadata: Metadata = {
   title: "Create Next App",
