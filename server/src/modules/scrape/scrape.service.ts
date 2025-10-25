@@ -393,7 +393,7 @@ export class ScrapeService {
     });
 
     try {
-      const skips = ['RIRA'];
+      const skips: string[] = [];
       // Optimized batch size for stability
       const BATCH_SIZE = 3; // Process 3 cards concurrently (balanced speed/stability)
       const MAX_RETRIES = 2; // Reduced retries to fail faster
